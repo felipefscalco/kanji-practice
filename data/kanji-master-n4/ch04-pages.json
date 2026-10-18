@@ -1,0 +1,140 @@
+{
+  "chapterId": "ch-04",
+  "pages": [
+    {
+      "id": "ch04-p01",
+      "file": "/kanji-master-n4/ch04/page-01.jpeg",
+      "bookPage": 87,
+      "sectionId": "ch-04-s01",
+      "titleJa": "4章-1 デート",
+      "kind": "lesson",
+      "kanji": ["毎", "週"]
+    },
+    {
+      "id": "ch04-p02",
+      "file": "/kanji-master-n4/ch04/page-02.jpeg",
+      "bookPage": 88,
+      "sectionId": "ch-04-s02",
+      "titleJa": "4章-1 デート",
+      "kind": "lesson",
+      "kanji": ["映", "画"]
+    },
+    {
+      "id": "ch04-p03",
+      "file": "/kanji-master-n4/ch04/page-03.jpeg",
+      "bookPage": 89,
+      "sectionId": "ch-04-s02",
+      "titleJa": "4章-1 デート",
+      "kind": "lesson",
+      "kanji": ["館"]
+    },
+    {
+      "id": "ch04-p04",
+      "file": "/kanji-master-n4/ch04/page-04.jpeg",
+      "bookPage": 90,
+      "sectionId": "ch-04-s03",
+      "titleJa": "4章-1 デート",
+      "kind": "lesson",
+      "kanji": ["公", "園"]
+    },
+    {
+      "id": "ch04-p05",
+      "file": "/kanji-master-n4/ch04/page-05.jpeg",
+      "bookPage": 91,
+      "sectionId": "ch-04-s01",
+      "titleJa": "ふくしゅう 4-1",
+      "kind": "review",
+      "kanji": []
+    },
+    {
+      "id": "ch04-p06",
+      "file": "/kanji-master-n4/ch04/page-06.jpeg",
+      "bookPage": 93,
+      "sectionId": "ch-04-s04",
+      "titleJa": "4章-2 けっこんきねんび",
+      "kind": "lesson",
+      "kanji": ["夫", "妻"]
+    },
+    {
+      "id": "ch04-p07",
+      "file": "/kanji-master-n4/ch04/page-07.jpeg",
+      "bookPage": 94,
+      "sectionId": "ch-04-s05",
+      "titleJa": "4章-2 けっこんきねんび",
+      "kind": "lesson",
+      "kanji": ["特", "思"]
+    },
+    {
+      "id": "ch04-p08",
+      "file": "/kanji-master-n4/ch04/page-08.jpeg",
+      "bookPage": 95,
+      "sectionId": "ch-04-s06",
+      "titleJa": "4章-2 けっこんきねんび",
+      "kind": "lesson",
+      "kanji": ["料", "理"]
+    },
+    {
+      "id": "ch04-p09",
+      "file": "/kanji-master-n4/ch04/page-09.jpeg",
+      "bookPage": 96,
+      "sectionId": "ch-04-s06",
+      "titleJa": "4章-2 けっこんきねんび",
+      "kind": "lesson",
+      "kanji": ["有"]
+    },
+    {
+      "id": "ch04-p10",
+      "file": "/kanji-master-n4/ch04/page-10.jpeg",
+      "bookPage": 97,
+      "sectionId": "ch-04-s04",
+      "titleJa": "ふくしゅう 4-2",
+      "kind": "review",
+      "kanji": []
+    },
+    {
+      "id": "ch04-p11",
+      "file": "/kanji-master-n4/ch04/page-11.jpeg",
+      "bookPage": 99,
+      "sectionId": "ch-04-s07",
+      "titleJa": "4章-3 しごと",
+      "kind": "lesson",
+      "kanji": ["会", "社"]
+    },
+    {
+      "id": "ch04-p12",
+      "file": "/kanji-master-n4/ch04/page-12.jpeg",
+      "bookPage": 100,
+      "sectionId": "ch-04-s08",
+      "titleJa": "4章-3 しごと",
+      "kind": "lesson",
+      "kanji": ["働", "作"]
+    },
+    {
+      "id": "ch04-p13",
+      "file": "/kanji-master-n4/ch04/page-13.jpeg",
+      "bookPage": 101,
+      "sectionId": "ch-04-s09",
+      "titleJa": "4章-3 しごと",
+      "kind": "lesson",
+      "kanji": ["工", "場"]
+    },
+    {
+      "id": "ch04-p14",
+      "file": "/kanji-master-n4/ch04/page-14.jpeg",
+      "bookPage": 102,
+      "sectionId": "ch-04-s09",
+      "titleJa": "4章-3 しごと",
+      "kind": "lesson",
+      "kanji": ["始", "終"]
+    },
+    {
+      "id": "ch04-p15",
+      "file": "/kanji-master-n4/ch04/page-15.jpeg",
+      "bookPage": 103,
+      "sectionId": "ch-04-s07",
+      "titleJa": "ふくしゅう 4-3",
+      "kind": "review",
+      "kanji": []
+    }
+  ]
+}

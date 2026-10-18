@@ -1,0 +1,485 @@
+[
+  {
+    "id": "km-n4-映",
+    "character": "映",
+    "meaningsPt": [
+      "refletir",
+      "projetar"
+    ],
+    "meaningsEn": [
+      "reflect",
+      "reflection",
+      "projection"
+    ],
+    "onReadings": [
+      "エイ"
+    ],
+    "kunReadings": [
+      "うつ",
+      "うつ",
+      "は",
+      "-ば"
+    ],
+    "strokeCount": 9,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-園",
+    "character": "園",
+    "meaningsPt": [
+      "jardim",
+      "parque"
+    ],
+    "meaningsEn": [
+      "park",
+      "garden",
+      "yard",
+      "farm"
+    ],
+    "onReadings": [
+      "エン"
+    ],
+    "kunReadings": [
+      "その"
+    ],
+    "strokeCount": 13,
+    "jlpt": 3
+  },
+  {
+    "id": "km-n4-画",
+    "character": "画",
+    "meaningsPt": [
+      "desenho",
+      "quadro"
+    ],
+    "meaningsEn": [
+      "brush-stroke",
+      "picture"
+    ],
+    "onReadings": [
+      "ガ",
+      "カク",
+      "エ",
+      "カイ"
+    ],
+    "kunReadings": [
+      "えが",
+      "かく",
+      "かぎ",
+      "はかりごと",
+      "はか"
+    ],
+    "strokeCount": 8,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-会",
+    "character": "会",
+    "meaningsPt": [
+      "encontro",
+      "reunião"
+    ],
+    "meaningsEn": [
+      "meeting",
+      "meet",
+      "party",
+      "association",
+      "interview",
+      "join"
+    ],
+    "onReadings": [
+      "カイ",
+      "エ"
+    ],
+    "kunReadings": [
+      "あ",
+      "あ",
+      "あつ"
+    ],
+    "strokeCount": 6,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-館",
+    "character": "館",
+    "meaningsPt": [
+      "edifício",
+      "pavilhão"
+    ],
+    "meaningsEn": [
+      "building",
+      "mansion",
+      "large building",
+      "palace"
+    ],
+    "onReadings": [
+      "カン"
+    ],
+    "kunReadings": [
+      "やかた",
+      "たて"
+    ],
+    "strokeCount": 16,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-公",
+    "character": "公",
+    "meaningsPt": [
+      "público",
+      "oficial"
+    ],
+    "meaningsEn": [
+      "public",
+      "prince",
+      "official",
+      "governmental"
+    ],
+    "onReadings": [
+      "コウ",
+      "ク"
+    ],
+    "kunReadings": [
+      "おおやけ"
+    ],
+    "strokeCount": 4,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-工",
+    "character": "工",
+    "meaningsPt": [
+      "obra",
+      "construção",
+      "indústria"
+    ],
+    "meaningsEn": [
+      "craft",
+      "construction",
+      "katakana e radical (no. 48)"
+    ],
+    "onReadings": [
+      "コウ",
+      "ク",
+      "グ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 3,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-妻",
+    "character": "妻",
+    "meaningsPt": [
+      "esposa"
+    ],
+    "meaningsEn": [
+      "wife",
+      "spouse"
+    ],
+    "onReadings": [
+      "サイ"
+    ],
+    "kunReadings": [
+      "つま"
+    ],
+    "strokeCount": 8,
+    "jlpt": 3
+  },
+  {
+    "id": "km-n4-作",
+    "character": "作",
+    "meaningsPt": [
+      "fazer",
+      "criar"
+    ],
+    "meaningsEn": [
+      "make",
+      "production",
+      "prepare",
+      "build"
+    ],
+    "onReadings": [
+      "サク",
+      "サ"
+    ],
+    "kunReadings": [
+      "つく",
+      "つく",
+      "-づく"
+    ],
+    "strokeCount": 7,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-始",
+    "character": "始",
+    "meaningsPt": [
+      "começar"
+    ],
+    "meaningsEn": [
+      "commence",
+      "begin"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "はじ",
+      "-はじ",
+      "はじ"
+    ],
+    "strokeCount": 8,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-思",
+    "character": "思",
+    "meaningsPt": [
+      "pensar",
+      "sentir"
+    ],
+    "meaningsEn": [
+      "think"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "おも",
+      "おもえら",
+      "おぼ"
+    ],
+    "strokeCount": 9,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-社",
+    "character": "社",
+    "meaningsPt": [
+      "empresa",
+      "sociedade"
+    ],
+    "meaningsEn": [
+      "company",
+      "firm",
+      "office",
+      "association",
+      "shrine"
+    ],
+    "onReadings": [
+      "シャ"
+    ],
+    "kunReadings": [
+      "やしろ"
+    ],
+    "strokeCount": 7,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-終",
+    "character": "終",
+    "meaningsPt": [
+      "terminar",
+      "fim"
+    ],
+    "meaningsEn": [
+      "end",
+      "finish"
+    ],
+    "onReadings": [
+      "シュウ"
+    ],
+    "kunReadings": [
+      "お",
+      "-お",
+      "おわ",
+      "お",
+      "つい",
+      "つい"
+    ],
+    "strokeCount": 11,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-週",
+    "character": "週",
+    "meaningsPt": [
+      "semana"
+    ],
+    "meaningsEn": [
+      "week"
+    ],
+    "onReadings": [
+      "シュウ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 11,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-場",
+    "character": "場",
+    "meaningsPt": [
+      "lugar",
+      "local"
+    ],
+    "meaningsEn": [
+      "location",
+      "place"
+    ],
+    "onReadings": [
+      "ジョウ",
+      "チョウ"
+    ],
+    "kunReadings": [
+      "ば"
+    ],
+    "strokeCount": 12,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-働",
+    "character": "働",
+    "meaningsPt": [
+      "trabalhar"
+    ],
+    "meaningsEn": [
+      "work",
+      "(kokuji)"
+    ],
+    "onReadings": [
+      "ドウ"
+    ],
+    "kunReadings": [
+      "はたら"
+    ],
+    "strokeCount": 13,
+    "jlpt": 3
+  },
+  {
+    "id": "km-n4-特",
+    "character": "特",
+    "meaningsPt": [
+      "especial"
+    ],
+    "meaningsEn": [
+      "special"
+    ],
+    "onReadings": [
+      "トク"
+    ],
+    "kunReadings": [],
+    "strokeCount": 10,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-夫",
+    "character": "夫",
+    "meaningsPt": [
+      "marido"
+    ],
+    "meaningsEn": [
+      "husband",
+      "man"
+    ],
+    "onReadings": [
+      "フ",
+      "フウ",
+      "ブ"
+    ],
+    "kunReadings": [
+      "おっと",
+      "それ"
+    ],
+    "strokeCount": 4,
+    "jlpt": 3
+  },
+  {
+    "id": "km-n4-毎",
+    "character": "毎",
+    "meaningsPt": [
+      "cada",
+      "todo"
+    ],
+    "meaningsEn": [
+      "every"
+    ],
+    "onReadings": [
+      "マイ"
+    ],
+    "kunReadings": [
+      "ごと",
+      "-ごと"
+    ],
+    "strokeCount": 6,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n4-有",
+    "character": "有",
+    "meaningsPt": [
+      "existir",
+      "ter"
+    ],
+    "meaningsEn": [
+      "possess",
+      "have",
+      "exist",
+      "happen",
+      "occur",
+      "approx"
+    ],
+    "onReadings": [
+      "ユウ",
+      "ウ"
+    ],
+    "kunReadings": [
+      "あ"
+    ],
+    "strokeCount": 6,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-理",
+    "character": "理",
+    "meaningsPt": [
+      "razão",
+      "lógica"
+    ],
+    "meaningsEn": [
+      "logic",
+      "arrangement",
+      "reason",
+      "justice",
+      "truth"
+    ],
+    "onReadings": [
+      "リ"
+    ],
+    "kunReadings": [
+      "ことわり"
+    ],
+    "strokeCount": 11,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-料",
+    "character": "料",
+    "meaningsPt": [
+      "taxa",
+      "material",
+      "ingrediente"
+    ],
+    "meaningsEn": [
+      "fee",
+      "materials"
+    ],
+    "onReadings": [
+      "リョウ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 10,
+    "jlpt": 4
+  }
+]

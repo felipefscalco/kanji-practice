@@ -1,0 +1,42 @@
+"use client";
+
+import { PracticeCycleRing, useStudyStats } from "@/components/due-count";
+import { SiteShell } from "@/components/site-shell";
+import { WkPrimaryButton, WkSecondaryButton } from "@/components/wk-button";
+
+export default function HomePage() {
+  const { kanjiCount, promptCount } = useStudyStats();
+
+  return (
+    <SiteShell hideTitle>
+      <div className="flex flex-1 flex-col gap-10">
+        <section className="text-center">
+          <h1 className="mb-2 text-xl font-semibold">Pronto para estudar?</h1>
+          <p className="text-sm text-[var(--wk-text-muted)]">
+            Capítulo 4 · {kanjiCount} kanji · {promptCount} perguntas no ciclo
+          </p>
+        </section>
+
+        <PracticeCycleRing count={promptCount} />
+
+        <div className="grid gap-3 sm:grid-cols-2">
+          <WkPrimaryButton href="/practice" disabled={kanjiCount === 0}>
+            {kanjiCount > 0 ? "Iniciar prática" : "Escolha seções primeiro"}
+          </WkPrimaryButton>
+          <WkSecondaryButton href="/lessons">Ver lições do livro</WkSecondaryButton>
+        </div>
+
+        <section className="rounded-xl border border-[var(--wk-border)] bg-[var(--wk-surface)] p-5">
+          <h2 className="mb-2 text-sm font-semibold text-[var(--km-green)]">
+            Currículo do livro
+          </h2>
+          <p className="mb-4 text-sm text-[var(--wk-text-muted)]">
+            Cada ciclo cobre kanji e palavras compostas do livro (significado, leitura e escrita).
+            Repita quantas vezes quiser.
+          </p>
+          <WkSecondaryButton href="/study">Escolher seções</WkSecondaryButton>
+        </section>
+      </div>
+    </SiteShell>
+  );
+}

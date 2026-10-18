@@ -1,0 +1,11 @@
+import { describe, expect, it } from "vitest";
+
+import { getBookPageForKanji, getBookPageImageUrl } from "@/lib/book-pages";
+
+describe("book pages", () => {
+  it("maps kanji to book scan", () => {
+    const page = getBookPageForKanji("毎");
+    expect(page?.bookPage).toBe(87);
+    expect(getBookPageImageUrl("毎")).toBe("/kanji-master-n4/ch04/page-01.jpeg");
+  });
+});

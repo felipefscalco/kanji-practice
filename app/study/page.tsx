@@ -1,0 +1,19 @@
+import { SectionPicker } from "@/components/section-picker";
+import { SiteShell } from "@/components/site-shell";
+import { WkPrimaryButton } from "@/components/wk-button";
+import { getChapters } from "@/lib/curriculum";
+
+export default function StudyPage() {
+  const chapters = getChapters();
+  return (
+    <SiteShell title="Currículo · 漢字マスター" fullWidth>
+      <p className="-mt-4 mb-6 text-sm text-[var(--wk-text-muted)]">
+        Marque as subseções do capítulo que você está estudando na escola.
+      </p>
+      <SectionPicker chapters={chapters} />
+      <div className="mt-8">
+        <WkPrimaryButton href="/practice">Começar prática</WkPrimaryButton>
+      </div>
+    </SiteShell>
+  );
+}

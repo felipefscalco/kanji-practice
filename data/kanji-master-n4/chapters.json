@@ -1,0 +1,67 @@
+{
+  "book": "kanji-master-n4",
+  "chapters": [
+    {
+      "id": "ch-04",
+      "number": 4,
+      "titleJa": "スケジュール",
+      "titlePt": "Capítulo 4 (livro: デート · 結婚記念日 · 仕事)",
+      "sections": [
+        {
+          "id": "ch-04-s01",
+          "titleJa": "4-1 デート",
+          "titlePt": "毎 · 週",
+          "kanjiIds": ["km-n4-毎", "km-n4-週"]
+        },
+        {
+          "id": "ch-04-s02",
+          "titleJa": "4-1 デート",
+          "titlePt": "映 · 画 · 館",
+          "kanjiIds": ["km-n4-映", "km-n4-画", "km-n4-館"]
+        },
+        {
+          "id": "ch-04-s03",
+          "titleJa": "4-1 デート",
+          "titlePt": "公 · 園",
+          "kanjiIds": ["km-n4-公", "km-n4-園"]
+        },
+        {
+          "id": "ch-04-s04",
+          "titleJa": "4-2 けっこんきねんび",
+          "titlePt": "夫 · 妻",
+          "kanjiIds": ["km-n4-夫", "km-n4-妻"]
+        },
+        {
+          "id": "ch-04-s05",
+          "titleJa": "4-2 けっこんきねんび",
+          "titlePt": "特 · 思",
+          "kanjiIds": ["km-n4-特", "km-n4-思"]
+        },
+        {
+          "id": "ch-04-s06",
+          "titleJa": "4-2 けっこんきねんび",
+          "titlePt": "料 · 理 · 有",
+          "kanjiIds": ["km-n4-料", "km-n4-理", "km-n4-有"]
+        },
+        {
+          "id": "ch-04-s07",
+          "titleJa": "4-3 しごと",
+          "titlePt": "会 · 社",
+          "kanjiIds": ["km-n4-会", "km-n4-社"]
+        },
+        {
+          "id": "ch-04-s08",
+          "titleJa": "4-3 しごと",
+          "titlePt": "働 · 作",
+          "kanjiIds": ["km-n4-働", "km-n4-作"]
+        },
+        {
+          "id": "ch-04-s09",
+          "titleJa": "4-3 しごと",
+          "titlePt": "工 · 場 · 始 · 終",
+          "kanjiIds": ["km-n4-工", "km-n4-場", "km-n4-始", "km-n4-終"]
+        }
+      ]
+    }
+  ]
+}
