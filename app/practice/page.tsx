@@ -7,6 +7,7 @@ import { SessionProgress } from "@/components/session-progress";
 import { SiteShell } from "@/components/site-shell";
 import { WkPrimaryButton, WkSecondaryButton } from "@/components/wk-button";
 import { getChapters } from "@/lib/curriculum";
+import type { ReviewPromptResult } from "@/components/review-prompt";
 import { buildPracticeQueue, type ReviewItem } from "@/lib/practice";
 import { getActiveKanjiIds } from "@/lib/study-selection";
 
@@ -24,7 +25,13 @@ export default function PracticePage() {
   const finished = ready && (queue.length === 0 || cursor >= queue.length);
   const chapter = getChapters()[0];
 
-  function handleResult() {
+  function handleResult({ correct }: ReviewPromptResult) {
+    if (!correct) {
+      setQueue((q) => {
+        const current = q[cursor];
+        return current ? [...q, current] : q;
+      });
+    }
     setCursor((c) => c + 1);
   }
 

@@ -67,12 +67,14 @@ function gradeVocabAnswer(vocab: VocabularyEntry, kind: ReviewKind, value: strin
   return gradeReading(value, [vocab.reading]);
 }
 
+export type ReviewPromptResult = { correct: boolean };
+
 export function ReviewPrompt({
   item,
   onResult,
 }: {
   item: ReviewItem;
-  onResult: () => void;
+  onResult: (result: ReviewPromptResult) => void;
 }) {
   const [value, setValue] = useState("");
   const [feedback, setFeedback] = useState<"idle" | "ok" | "fail">("idle");
@@ -98,14 +100,18 @@ export function ReviewPrompt({
       }
       e.preventDefault();
       e.stopPropagation();
-      onResult();
+      finishItem();
     }
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [feedback, onResult]);
 
+  function finishItem() {
+    onResult({ correct: feedback === "ok" });
+  }
+
   function continueToNext() {
-    onResult();
+    finishItem();
   }
 
   function checkAnswer() {

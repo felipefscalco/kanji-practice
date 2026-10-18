@@ -70,7 +70,9 @@ export function WkAnswerBar({
         onClick={() => onContinue?.()}
       >
         <p>{revealedAnswer}</p>
-        <p className="mt-2 text-sm font-normal opacity-90">Enter para continuar</p>
+        <p className="mt-2 text-sm font-normal opacity-90">
+          {state === "fail" ? "Repetir no ciclo · Enter para continuar" : "Enter para continuar"}
+        </p>
       </div>
     );
   }

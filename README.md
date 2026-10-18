@@ -1,6 +1,10 @@
-# Oyster
+# Kanji Practice
 
 SRS estilo WaniKani para estudar kanji do **漢字マスターN4**, começando pelo **Capítulo 4 · スケジュール**.
+
+**Produção:** [https://kanji-practice-jet.vercel.app/](https://kanji-practice-jet.vercel.app/)
+
+Repositório: [github.com/felipefscalco/kanji-practice](https://github.com/felipefscalco/kanji-practice)
 
 ## Requisitos
 
@@ -21,11 +25,11 @@ Abra [http://localhost:3001](http://localhost:3001) (a porta 3000 costuma estar 
 
 ## Fluxo
 
-1. **Estudar** — escolha subseções do capítulo 4.
-2. **Lições** — aprenda lotes de kanji novos.
-3. **Revisões** — digite significado (PT) e leitura (hiragana).
+1. **Currículo** — escolha subseções do capítulo 4.
+2. **Lições** — cartões com kanji e palavras do livro.
+3. **Prática** — significado, leitura e escrita (kanji e vocabulário); erros repetem no mesmo ciclo.
 
-Progresso salvo em `localStorage` (sem login).
+Seleção de seções em `sessionStorage` (por aba); sem login.
 
 ## Ajustar kanji do livro
 
