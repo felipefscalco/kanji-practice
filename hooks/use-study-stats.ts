@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 import { countPracticePrompts } from "@/lib/practice";
-import { getActiveKanjiIds } from "@/lib/study-selection";
+import { getActiveKanjiIds, getActiveReviewKinds } from "@/lib/study-selection";
 
 export function useStudyStats() {
   const [kanjiCount, setKanjiCount] = useState(0);
@@ -13,7 +13,7 @@ export function useStudyStats() {
     const refresh = () => {
       const ids = getActiveKanjiIds();
       setKanjiCount(ids.length);
-      setPromptCount(countPracticePrompts(ids));
+      setPromptCount(countPracticePrompts(ids, getActiveReviewKinds()));
     };
     refresh();
     window.addEventListener("storage", refresh);

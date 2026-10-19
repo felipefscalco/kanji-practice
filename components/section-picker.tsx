@@ -5,7 +5,9 @@ import { useEffect, useState } from "react";
 import type { Chapter } from "@/lib/kanji-types";
 import { resolveKanjiIds } from "@/lib/curriculum";
 import { notifySelectionChanged } from "@/components/due-count";
+import { countPracticePrompts } from "@/lib/practice";
 import {
+  getActiveReviewKinds,
   getActiveSectionIds,
   setActiveSectionIds,
 } from "@/lib/study-selection";
@@ -13,14 +15,21 @@ import {
 export function SectionPicker({ chapters }: { chapters: Chapter[] }) {
   const [selected, setSelected] = useState<string[]>([]);
   const [total, setTotal] = useState(0);
+  const [promptCount, setPromptCount] = useState(0);
 
   useEffect(() => {
     setSelected(getActiveSectionIds());
   }, []);
 
   useEffect(() => {
-    const ids = resolveKanjiIds(selected);
-    setTotal(ids.length);
+    const refresh = () => {
+      const ids = resolveKanjiIds(selected);
+      setTotal(ids.length);
+      setPromptCount(countPracticePrompts(ids, getActiveReviewKinds()));
+    };
+    refresh();
+    window.addEventListener("oyster-selection", refresh);
+    return () => window.removeEventListener("oyster-selection", refresh);
   }, [selected]);
 
   function toggle(sectionId: string) {
@@ -77,7 +86,7 @@ export function SectionPicker({ chapters }: { chapters: Chapter[] }) {
         </section>
       ))}
       <p className="text-sm text-[var(--wk-text-muted)]">
-        Na prática: <strong className="text-[var(--wk-text)]">{total * 3}</strong> perguntas por
+        Na prática: <strong className="text-[var(--wk-text)]">{promptCount}</strong> perguntas por
         ciclo completo ({total} kanji)
       </p>
     </div>

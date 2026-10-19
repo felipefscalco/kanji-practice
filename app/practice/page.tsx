@@ -9,7 +9,7 @@ import { WkPrimaryButton, WkSecondaryButton } from "@/components/wk-button";
 import { getChapters } from "@/lib/curriculum";
 import type { ReviewPromptResult } from "@/components/review-prompt";
 import { buildPracticeQueue, type ReviewItem } from "@/lib/practice";
-import { getActiveKanjiIds } from "@/lib/study-selection";
+import { getActiveKanjiIds, getActiveReviewKinds } from "@/lib/study-selection";
 
 export default function PracticePage() {
   const [cursor, setCursor] = useState(0);
@@ -17,7 +17,7 @@ export default function PracticePage() {
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    setQueue(buildPracticeQueue(getActiveKanjiIds()));
+    setQueue(buildPracticeQueue(getActiveKanjiIds(), getActiveReviewKinds()));
     setReady(true);
   }, []);
 
@@ -37,7 +37,7 @@ export default function PracticePage() {
 
   function restart() {
     setCursor(0);
-    setQueue(buildPracticeQueue(getActiveKanjiIds()));
+    setQueue(buildPracticeQueue(getActiveKanjiIds(), getActiveReviewKinds()));
   }
 
   if (!ready) {

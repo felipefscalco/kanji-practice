@@ -14,21 +14,24 @@ function shuffle<T>(items: T[]): T[] {
   return out;
 }
 
-/** WaniKani-style: meaning, reading, and writing for each kanji and vocab item. */
+const ALL_KINDS: ReviewKind[] = ["meaning", "reading", "writing"];
+
+/** WaniKani-style: one prompt per kind (meaning, reading, writing) for each kanji and vocab item. */
 export function buildInterleavedReviewQueue(
   kanjiList: KanjiEntry[],
   vocabList: VocabularyEntry[] = [],
+  kinds: ReviewKind[] = ALL_KINDS,
 ): ReviewItem[] {
   const items: ReviewItem[] = [];
   for (const kanji of kanjiList) {
-    items.push({ type: "kanji", kanji, kind: "meaning" });
-    items.push({ type: "kanji", kanji, kind: "reading" });
-    items.push({ type: "kanji", kanji, kind: "writing" });
+    for (const kind of kinds) {
+      items.push({ type: "kanji", kanji, kind });
+    }
   }
   for (const vocab of vocabList) {
-    items.push({ type: "vocab", vocab, kind: "meaning" });
-    items.push({ type: "vocab", vocab, kind: "reading" });
-    items.push({ type: "vocab", vocab, kind: "writing" });
+    for (const kind of kinds) {
+      items.push({ type: "vocab", vocab, kind });
+    }
   }
   return shuffle(items);
 }

@@ -1,7 +1,11 @@
+import type { ReviewKind } from "@/components/review-prompt";
 import { resolveKanjiIds } from "@/lib/curriculum";
 import type { KanjiId } from "@/lib/kanji-types";
 
 export const ACTIVE_SECTIONS_KEY = "oyster-active-sections";
+export const ACTIVE_KINDS_KEY = "oyster-active-kinds";
+
+export const ALL_REVIEW_KINDS: ReviewKind[] = ["meaning", "reading", "writing"];
 
 export function getActiveSectionIds(): string[] {
   if (typeof window === "undefined") {
@@ -42,4 +46,26 @@ export function getActiveKanjiIds(): KanjiId[] {
     return resolveKanjiIds(defaultSectionIds());
   }
   return resolveKanjiIds(sectionIds);
+}
+
+/** Which question types (significado, leitura, escrita) the practice cycle asks. */
+export function getActiveReviewKinds(): ReviewKind[] {
+  if (typeof window === "undefined") {
+    return ALL_REVIEW_KINDS;
+  }
+  try {
+    const raw = window.sessionStorage.getItem(ACTIVE_KINDS_KEY);
+    if (!raw) {
+      return ALL_REVIEW_KINDS;
+    }
+    const stored = JSON.parse(raw) as string[];
+    const kinds = ALL_REVIEW_KINDS.filter((k) => stored.includes(k));
+    return kinds.length > 0 ? kinds : ALL_REVIEW_KINDS;
+  } catch {
+    return ALL_REVIEW_KINDS;
+  }
+}
+
+export function setActiveReviewKinds(kinds: ReviewKind[]): void {
+  window.sessionStorage.setItem(ACTIVE_KINDS_KEY, JSON.stringify(kinds));
 }

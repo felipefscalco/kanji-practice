@@ -1,6 +1,7 @@
 "use client";
 
 import { PracticeCycleRing, useStudyStats } from "@/components/due-count";
+import { ReviewKindPicker } from "@/components/review-kind-picker";
 import { SiteShell } from "@/components/site-shell";
 import { WkPrimaryButton, WkSecondaryButton } from "@/components/wk-button";
 
@@ -19,6 +20,8 @@ export default function HomePage() {
 
         <PracticeCycleRing count={promptCount} />
 
+        <ReviewKindPicker />
+
         <div className="grid gap-3 sm:grid-cols-2">
           <WkPrimaryButton href="/practice" disabled={kanjiCount === 0}>
             {kanjiCount > 0 ? "Iniciar prática" : "Escolha seções primeiro"}
@@ -31,7 +34,7 @@ export default function HomePage() {
             Currículo do livro
           </h2>
           <p className="mb-4 text-sm text-[var(--wk-text-muted)]">
-            Cada ciclo cobre kanji e palavras compostas do livro (significado, leitura e escrita).
+            Cada ciclo cobre kanji e palavras compostas do livro, nos tipos de pergunta escolhidos (significado, leitura e/ou escrita).
             Repita quantas vezes quiser.
           </p>
           <WkSecondaryButton href="/study">Escolher seções</WkSecondaryButton>
