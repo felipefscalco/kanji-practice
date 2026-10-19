@@ -42,21 +42,6 @@
 
 @keyframes oy-fade { from { opacity: 0 } to { opacity: 1 } }
 
-/* TODO(design): temporary bridge so screens not yet redesigned render in the
-   Sumi & Shu palette. Remove each alias once no component uses it. */
-:root {
-  --wk-bg: var(--color-bg);
-  --wk-surface: var(--color-surface-1);
-  --wk-surface-raised: var(--color-surface-3);
-  --wk-border: var(--color-line);
-  --wk-text: var(--color-text);
-  --wk-text-muted: var(--color-text-2);
-  --wk-pink: var(--color-kanji);
-  --wk-pink-hover: var(--color-kanji);
-  --km-green: var(--color-text);
-  --km-green-dark: var(--color-on-primary);
-}
-
 @layer base {
   body {
     background: var(--color-bg);

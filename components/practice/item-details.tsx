@@ -2,6 +2,7 @@
 
 import type { ReactNode } from "react";
 
+import { MnemonicField } from "@/components/mnemonic-field";
 import { Accordion } from "@/components/ui/accordion";
 import { Tabs } from "@/components/ui/tabs";
 import { useMediaQuery } from "@/hooks/use-client-env";
@@ -96,24 +97,6 @@ function WordList({ words }: { words: VocabularyEntry[] }) {
   );
 }
 
-function Mnemonic() {
-  // TODO(design): persist the learner's mnemonic with the item once there is per-item storage.
-  return (
-    <div className="flex flex-col gap-2">
-      <label className="eyebrow" htmlFor="mnemonic">
-        Seu mnemônico
-      </label>
-      <textarea
-        id="mnemonic"
-        rows={3}
-        placeholder="Uma imagem ou história que ajude a lembrar…"
-        className="w-full resize-y rounded-md border border-line-strong bg-surface-2 p-3 text-base text-text placeholder:text-text-3"
-      />
-      <span className="text-[12.5px] text-text-3">Ainda não fica salvo entre sessões.</span>
-    </div>
-  );
-}
-
 function sections(item: ReviewItem): Array<{ id: string; title: string; content: ReactNode }> {
   if (item.type === "vocab") {
     const chars = [...item.vocab.expression].filter((ch) => /\p{Script=Han}/u.test(ch));
@@ -162,7 +145,7 @@ function sections(item: ReviewItem): Array<{ id: string; title: string; content:
           </div>
         ),
       },
-      { id: "mnemonic", title: "Meu mnemônico", content: <Mnemonic /> },
+      { id: "mnemonic", title: "Meu mnemônico", content: <MnemonicField /> },
     ];
   }
   const words = getVocabularyForKanji(item.kanji.id);
@@ -178,7 +161,7 @@ function sections(item: ReviewItem): Array<{ id: string; title: string; content:
       ),
     },
     { id: "words", title: `Palavras (${words.length})`, content: <WordList words={words} /> },
-    { id: "mnemonic", title: "Meu mnemônico", content: <Mnemonic /> },
+    { id: "mnemonic", title: "Meu mnemônico", content: <MnemonicField /> },
   ];
 }
 

@@ -8,7 +8,8 @@ import { ButtonLink } from "@/components/ui/button";
 import { useIsClient } from "@/hooks/use-client-env";
 import { buildPracticeQueue, type ReviewItem } from "@/lib/practice";
 import { currentStreak, recordStudyDay } from "@/lib/activity";
-import { getChapters } from "@/lib/curriculum";
+import { getChapters, getKanjiById } from "@/lib/curriculum";
+import type { KanjiId } from "@/lib/kanji-types";
 import {
   SESSION_SIZE,
   summarize,
@@ -18,8 +19,18 @@ import {
 } from "@/lib/session";
 import { getActiveKanjiIds, getActiveReviewKinds } from "@/lib/study-selection";
 
+/** Kanji of a post-lesson quiz (`/practice?quiz=id,id`), limited to the curriculum. */
+function quizKanjiIds(): KanjiId[] | null {
+  const raw = new URLSearchParams(window.location.search).get("quiz");
+  if (!raw) {
+    return null;
+  }
+  const ids = raw.split(",").filter((id): id is KanjiId => getKanjiById(id) !== undefined);
+  return ids.length > 0 ? ids : null;
+}
+
 function buildCycle(): ReviewItem[] {
-  return buildPracticeQueue(getActiveKanjiIds(), getActiveReviewKinds());
+  return buildPracticeQueue(quizKanjiIds() ?? getActiveKanjiIds(), getActiveReviewKinds());
 }
 
 export default function PracticePage() {
