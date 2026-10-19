@@ -1,5 +1,6 @@
 import type { KanjiEntry, VocabularyEntry } from "@/lib/kanji-types";
-import type { ReviewKind } from "@/components/review-prompt";
+
+export type ReviewKind = "meaning" | "reading" | "writing";
 
 export type ReviewItem =
   | { type: "kanji"; kanji: KanjiEntry; kind: ReviewKind }

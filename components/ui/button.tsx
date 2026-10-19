@@ -7,7 +7,7 @@ import { Kbd } from "@/components/ui/kbd";
 export type ButtonVariant = "primary" | "secondary" | "ghost";
 
 const base =
-  "inline-flex min-h-[52px] items-center justify-center gap-2.5 whitespace-nowrap rounded-md border px-5 font-ui text-base font-semibold leading-none no-underline transition-colors duration-[var(--dur-fast)] sm:min-h-12";
+  "inline-flex min-h-[52px] items-center justify-center gap-2.5 whitespace-nowrap rounded-md border px-3.5 font-ui text-[15px] font-semibold leading-none sm:px-5 sm:text-base no-underline transition-colors duration-[var(--dur-fast)] sm:min-h-12";
 
 const variants: Record<ButtonVariant, string> = {
   primary: "border-transparent bg-primary text-on-primary hover:opacity-90",

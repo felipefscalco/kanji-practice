@@ -91,7 +91,10 @@
   color-scheme: light;
 }
 
-:focus-visible { outline: 2px solid var(--color-text); outline-offset: 3px; }
+/* In the base layer so a component can swap the ring for another visible focus style. */
+@layer base {
+  :focus-visible { outline: 2px solid var(--color-text); outline-offset: 3px; }
+}
 
 @keyframes oy-shake { 0%,100%{transform:translateX(0)} 20%,60%{transform:translateX(-6px)} 40%,80%{transform:translateX(6px)} }
 @keyframes oy-stamp { 0%{transform:scale(1.15) rotate(-4deg);opacity:0} 100%{transform:scale(1) rotate(-4deg);opacity:1} }

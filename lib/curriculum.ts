@@ -6,6 +6,7 @@ import type {
   ChaptersFile,
   KanjiEntry,
   KanjiId,
+  Section,
 } from "@/lib/kanji-types";
 
 const chaptersFile = chaptersData as ChaptersFile;
@@ -53,4 +54,29 @@ export function getKanjiById(id: KanjiId | string): KanjiEntry | undefined {
 
 export function getKanjiCatalog(): KanjiEntry[] {
   return enriched;
+}
+
+export function getSectionById(id: string): Section | undefined {
+  for (const chapter of getChapters()) {
+    const section = chapter.sections.find((s) => s.id === id);
+    if (section) {
+      return section;
+    }
+  }
+  return undefined;
+}
+
+/** First subsection of the book that teaches this kanji. */
+export function getSectionForKanji(id: KanjiId): Section | undefined {
+  for (const chapter of getChapters()) {
+    const section = chapter.sections.find((s) => s.kanjiIds.includes(id));
+    if (section) {
+      return section;
+    }
+  }
+  return undefined;
+}
+
+export function getKanjiByCharacter(character: string): KanjiEntry | undefined {
+  return enriched.find((k) => k.character === character);
 }

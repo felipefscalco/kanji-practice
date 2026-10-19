@@ -1,4 +1,4 @@
-import type { ReviewKind } from "@/components/review-prompt";
+import type { ReviewKind } from "@/lib/review-session";
 
 /** WaniKani: kanji reviews use pink; reading uses the same item color with a different prompt. */
 export function WkHero({

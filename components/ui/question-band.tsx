@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-import type { ReviewKind } from "@/components/review-prompt";
+import type { ReviewKind } from "@/lib/review-session";
 import { cx } from "@/components/ui/cx";
 
 type BandMeta = {

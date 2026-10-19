@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 import { notifySelectionChanged } from "@/components/due-count";
-import type { ReviewKind } from "@/components/review-prompt";
+import type { ReviewKind } from "@/lib/review-session";
 import {
   ALL_REVIEW_KINDS,
   getActiveReviewKinds,

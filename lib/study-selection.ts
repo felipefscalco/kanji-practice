@@ -1,4 +1,4 @@
-import type { ReviewKind } from "@/components/review-prompt";
+import type { ReviewKind } from "@/lib/review-session";
 import { resolveKanjiIds } from "@/lib/curriculum";
 import type { KanjiId } from "@/lib/kanji-types";
 

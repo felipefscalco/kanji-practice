@@ -1,99 +1,81 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-import { ReviewPrompt } from "@/components/review-prompt";
-import { SessionProgress } from "@/components/ui/session-progress";
-import { SiteShell } from "@/components/site-shell";
+import { PracticeSession } from "@/components/practice/practice-session";
 import { Button, ButtonLink } from "@/components/ui/button";
-import { getChapters } from "@/lib/curriculum";
-import type { ReviewPromptResult } from "@/components/review-prompt";
+import { Hanko } from "@/components/ui/hanko";
+import { useIsClient } from "@/hooks/use-client-env";
 import { buildPracticeQueue, type ReviewItem } from "@/lib/practice";
+import { counts, takeBatch, type SessionState } from "@/lib/session";
 import { getActiveKanjiIds, getActiveReviewKinds } from "@/lib/study-selection";
 
+function buildCycle(): ReviewItem[] {
+  return buildPracticeQueue(getActiveKanjiIds(), getActiveReviewKinds());
+}
+
 export default function PracticePage() {
-  const [cursor, setCursor] = useState(0);
-  const [queue, setQueue] = useState<ReviewItem[]>([]);
-  const [ready, setReady] = useState(false);
+  // The cycle comes from sessionStorage, so it only exists in the browser.
+  const isClient = useIsClient();
+  if (!isClient) {
+    return <div className="min-h-dvh" aria-busy="true" />;
+  }
+  return <PracticeRunner />;
+}
 
-  useEffect(() => {
-    setQueue(buildPracticeQueue(getActiveKanjiIds(), getActiveReviewKinds()));
-    setReady(true);
-  }, []);
+type Batch = { items: ReviewItem[]; nextOffset: number; id: number };
 
-  const item = queue[cursor];
-  const finished = ready && (queue.length === 0 || cursor >= queue.length);
-  const chapter = getChapters()[0];
+function PracticeRunner() {
+  const [cycle, setCycle] = useState(buildCycle);
+  const [batch, setBatch] = useState<Batch>(() => ({ ...takeBatch(cycle, 0), id: 0 }));
+  const [finished, setFinished] = useState<SessionState | null>(null);
 
-  function handleResult({ correct }: ReviewPromptResult) {
-    if (!correct) {
-      setQueue((q) => {
-        const current = q[cursor];
-        return current ? [...q, current] : q;
-      });
+  function nextSession() {
+    let source = cycle;
+    let offset = batch.nextOffset;
+    if (offset >= source.length) {
+      // Cycle done: start a new shuffled one.
+      source = buildCycle();
+      offset = 0;
+      setCycle(source);
     }
-    setCursor((c) => c + 1);
+    setBatch({ ...takeBatch(source, offset), id: batch.id + 1 });
+    setFinished(null);
   }
 
-  function restart() {
-    setCursor(0);
-    setQueue(buildPracticeQueue(getActiveKanjiIds(), getActiveReviewKinds()));
-  }
-
-  if (!ready) {
+  if (cycle.length === 0) {
+    // TODO(design): Phase 7 empty state (Estados.html).
     return (
-      <SiteShell title="Prática">
-        <p className="text-[var(--wk-text-muted)]">Carregando…</p>
-      </SiteShell>
-    );
-  }
-
-  if (queue.length === 0) {
-    return (
-      <SiteShell title="Prática" fullWidth>
-        <div className="rounded-xl border border-[var(--wk-border)] bg-[var(--wk-surface)] p-8 text-center">
-          <p className="mb-6 text-[var(--wk-text-muted)]">
-            Nenhum kanji na seleção. Marque as subseções do capítulo 4 em Currículo.
-          </p>
-          <ButtonLink variant="primary" className="w-full" href="/study">Escolher seções</ButtonLink>
-        </div>
-      </SiteShell>
+      <main className="mx-auto flex min-h-dvh max-w-md flex-col items-center justify-center gap-6 px-4 text-center">
+        <p className="text-text-2">
+          Nenhum kanji na seleção. Marque as subseções do capítulo 4 em Currículo.
+        </p>
+        <ButtonLink variant="primary" href="/study">
+          Escolher seções
+        </ButtonLink>
+      </main>
     );
   }
 
   if (finished) {
+    // TODO(design): Phase 3 replaces this with the session summary (Resumo-*.html).
+    const { ok, err } = counts(finished);
     return (
-      <SiteShell title="Prática" fullWidth>
-        <div className="rounded-xl border border-[var(--wk-border)] bg-[var(--wk-surface)] p-8 text-center">
-          <p className="mb-2 text-lg font-semibold text-[var(--km-green)]">
-            Ciclo completo!
-          </p>
-          <p className="mb-6 text-[var(--wk-text-muted)]">
-            Você terminou um ciclo do{" "}
-            <strong className="text-[var(--wk-text)]">
-              Capítulo {chapter?.number} · {chapter?.titleJa}
-            </strong>{" "}
-            ({queue.length} perguntas: kanji e palavras do livro). お疲れ様!
-          </p>
-          <div className="grid gap-3">
-            <Button variant="primary" className="w-full" onClick={restart}>Praticar de novo</Button>
-            <ButtonLink variant="secondary" className="w-full" href="/">Voltar ao início</ButtonLink>
-          </div>
+      <main className="mx-auto flex min-h-dvh max-w-md flex-col items-center justify-center gap-6 px-4 text-center">
+        <Hanko glyph="完" variant="stamp" />
+        <h1 className="m-0 text-[34px] font-bold tracking-[-0.02em]">Sessão concluída</h1>
+        <p className="m-0 text-text-2">
+          {ok} corretas · {err} para reforçar
+        </p>
+        <div className="grid w-full gap-3">
+          <Button variant="primary" onClick={nextSession}>
+            Próxima sessão
+          </Button>
+          <ButtonLink href="/">Voltar ao início</ButtonLink>
         </div>
-      </SiteShell>
+      </main>
     );
   }
 
-  return (
-    <SiteShell hideTitle fullWidth>
-      <SessionProgress current={cursor} total={queue.length} />
-      <div className="mt-6 flex flex-1 flex-col">
-        <ReviewPrompt
-          key={`${item!.type}-${item!.type === "kanji" ? item.kanji.id : item.vocab.id}-${item.kind}-${cursor}`}
-          item={item!}
-          onResult={handleResult}
-        />
-      </div>
-    </SiteShell>
-  );
+  return <PracticeSession key={batch.id} items={batch.items} onFinish={setFinished} />;
 }
