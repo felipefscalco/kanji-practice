@@ -31,4 +31,11 @@ describe("grading", () => {
     expect(gradeReading("ジ", ["じ"])).toBe(true);
     expect(gradeReading("とき", ["とき", "じ"])).toBe(true);
   });
+
+  it("grades reading ending in a romaji n", () => {
+    expect(gradeReading("こうえn", ["こうえん"])).toBe(true);
+    expect(gradeReading("kouen", ["こうえん"])).toBe(true);
+    expect(gradeReading("kouenn", ["こうえん"])).toBe(true);
+    expect(gradeReading("こうえん", ["こうえん"])).toBe(true);
+  });
 });

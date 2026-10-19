@@ -67,9 +67,17 @@ export function gradeKanjiWriting(
   return false;
 }
 
+/**
+ * IME mode keeps a trailing "n" as romaji while typing (it could still become な, に…).
+ * When the answer is final, convert it to ん: "kouen" / "こうえn" → "こうえん".
+ */
+export function finalizeKana(input: string): string {
+  return wanakana.toHiragana(wanakana.toHiragana(input, { IMEMode: true }));
+}
+
 export function gradeReading(input: string, accepted: string[]): boolean {
   const raw = input.trim().normalize("NFKC").replace(/\s+/g, "");
-  const hiragana = wanakana.toHiragana(raw, { IMEMode: true });
+  const hiragana = finalizeKana(raw);
   if (!hiragana) {
     return false;
   }

@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import * as wanakana from "wanakana";
 
 import type { ReviewKind } from "@/components/review-prompt";
+import { finalizeKana } from "@/lib/srs/grade";
 
 type BarState = "idle" | "ok" | "fail";
 
@@ -106,6 +107,9 @@ export function WkAnswerBar({
           }
           e.preventDefault();
           e.stopPropagation();
+          if (answerKind === "reading" || answerKind === "writing") {
+            onChange(finalizeKana(value));
+          }
           onSubmit();
         }}
         placeholder={
