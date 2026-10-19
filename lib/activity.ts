@@ -1,5 +1,7 @@
 /** Days the learner finished a practice session, as local YYYY-MM-DD dates. */
 export const ACTIVITY_STORAGE_KEY = "oyster-activity-v1";
+/** Fired on window when a study day is recorded in this tab. */
+export const ACTIVITY_EVENT = "oyster-activity";
 
 export function toDayKey(date: Date): string {
   const y = date.getFullYear();
@@ -61,6 +63,7 @@ export function recordStudyDay(now: Date = new Date()): string[] {
   const next = [...days, key].sort().slice(-366);
   try {
     window.localStorage.setItem(ACTIVITY_STORAGE_KEY, JSON.stringify(next));
+    window.dispatchEvent(new Event(ACTIVITY_EVENT));
   } catch {
     // Storage full or blocked: the streak just won't advance.
   }

@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 
 import type { Chapter } from "@/lib/kanji-types";
 import { resolveKanjiIds } from "@/lib/curriculum";
-import { notifySelectionChanged } from "@/components/due-count";
 import { countPracticePrompts } from "@/lib/practice";
 import {
   getActiveReviewKinds,
@@ -38,7 +37,6 @@ export function SectionPicker({ chapters }: { chapters: Chapter[] }) {
         ? prev.filter((id) => id !== sectionId)
         : [...prev, sectionId];
       setActiveSectionIds(next);
-      notifySelectionChanged();
       return next;
     });
   }

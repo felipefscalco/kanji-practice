@@ -4,6 +4,8 @@ import type { KanjiId } from "@/lib/kanji-types";
 
 export const ACTIVE_SECTIONS_KEY = "oyster-active-sections";
 export const ACTIVE_KINDS_KEY = "oyster-active-kinds";
+/** Fired on window when the selection changes in this tab (storage events cover other tabs). */
+export const SELECTION_EVENT = "oyster-selection";
 
 export const ALL_REVIEW_KINDS: ReviewKind[] = ["meaning", "reading", "writing"];
 
@@ -24,6 +26,7 @@ export function getActiveSectionIds(): string[] {
 
 export function setActiveSectionIds(sectionIds: string[]): void {
   window.sessionStorage.setItem(ACTIVE_SECTIONS_KEY, JSON.stringify(sectionIds));
+  window.dispatchEvent(new Event(SELECTION_EVENT));
 }
 
 export function defaultSectionIds(): string[] {
@@ -68,4 +71,5 @@ export function getActiveReviewKinds(): ReviewKind[] {
 
 export function setActiveReviewKinds(kinds: ReviewKind[]): void {
   window.sessionStorage.setItem(ACTIVE_KINDS_KEY, JSON.stringify(kinds));
+  window.dispatchEvent(new Event(SELECTION_EVENT));
 }

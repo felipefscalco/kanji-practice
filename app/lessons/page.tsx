@@ -4,12 +4,11 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 
 import { KanjiCard } from "@/components/kanji-card";
-import { SiteShell } from "@/components/site-shell";
+import { AppShell } from "@/components/app-shell";
 import { Button, ButtonLink } from "@/components/ui/button";
+import { LESSON_BATCH } from "@/lib/lessons";
 import { kanjiEntriesFromIds } from "@/lib/practice";
 import { getActiveKanjiIds } from "@/lib/study-selection";
-
-const LESSON_BATCH = 5;
 
 export default function LessonsPage() {
   const [index, setIndex] = useState(0);
@@ -31,30 +30,30 @@ export default function LessonsPage() {
 
   if (queue.length === 0) {
     return (
-      <SiteShell title="Lições" fullWidth>
+      <AppShell>
         <p className="mb-6 text-[var(--wk-text-muted)]">
           Nenhum kanji na seleção. Ajuste o currículo em Estudar.
         </p>
         <ButtonLink variant="primary" className="w-full" href="/study">Escolher seções</ButtonLink>
-      </SiteShell>
+      </AppShell>
     );
   }
 
   if (done) {
     return (
-      <SiteShell title="Lições" fullWidth>
+      <AppShell>
         <div className="rounded-xl border border-[var(--wk-border)] bg-[var(--wk-surface)] p-8 text-center">
           <p className="mb-6 text-[var(--wk-text-muted)]">
             Lote de {queue.length} kanji concluído. Use Prática para significado, leitura e escrita.
           </p>
           <ButtonLink variant="primary" className="w-full" href="/practice">Ir para prática</ButtonLink>
         </div>
-      </SiteShell>
+      </AppShell>
     );
   }
 
   return (
-    <SiteShell title="Lições" hideTitle fullWidth>
+    <AppShell>
       <KanjiCard kanji={current!} index={index} total={queue.length} />
       <Button variant="primary" className="w-full" onClick={next}>Próximo kanji</Button>
       <Link
@@ -63,6 +62,6 @@ export default function LessonsPage() {
       >
         Sair das lições
       </Link>
-    </SiteShell>
+    </AppShell>
   );
 }

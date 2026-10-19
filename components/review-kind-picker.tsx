@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 
-import { notifySelectionChanged } from "@/components/due-count";
 import type { ReviewKind } from "@/lib/review-session";
 import {
   ALL_REVIEW_KINDS,
@@ -32,7 +31,6 @@ export function ReviewKindPicker() {
     }
     setSelected(next);
     setActiveReviewKinds(next);
-    notifySelectionChanged();
   }
 
   return (
