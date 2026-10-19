@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prática — resposta incorreta</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&amp;family=Schibsted+Grotesk:wght@400;500;600;700&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0;background:#0F0E0D}
+.oy{--bg:#0F0E0D;--s1:#181614;--s2:#201E1B;--s3:#2A2723;--line:#34302B;--line2:#4A453E;--tx:#EFEAE0;--tx2:#B9B1A4;--tx3:#968E82;--shu:#E0532F;--shuf:#C2401F;--kan:#3B54A8;--kani:#A3B3F2;--voc:#7B4A9C;--voci:#D2AEEC;--qm:#E0A93B;--qr:#EFEADF;--qw:#0B0A09;--ok:#3FB57C;--okb:#11301F;--oki:#86E0AE;--er:#E5534B;--erb:#3A1513;--eri:#FFA39B;--pri:#EFEAE0;--onpri:#141210;font-family:'Schibsted Grotesk','Zen Kaku Gothic New',system-ui,sans-serif;color:var(--tx);background:var(--bg);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.jp{font-family:'Zen Kaku Gothic New',sans-serif}
+.kj{font-family:'Klee One','Zen Kaku Gothic New',serif;font-weight:600}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 20px;border-radius:12px;border:1px solid transparent;font:600 16px/1 'Schibsted Grotesk',sans-serif;cursor:pointer;text-decoration:none;white-space:nowrap}
+.btn-p{background:var(--pri);color:var(--onpri)}
+.btn-s{background:var(--s3);color:var(--tx);border-color:var(--line2)}
+.btn-g{background:transparent;color:var(--tx2)}
+.btn:focus-visible,input:focus-visible,a:focus-visible,button:focus-visible{outline:2px solid var(--tx);outline-offset:3px}
+.kbd{display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:22px;padding:0 6px;border-radius:6px;border:1px solid currentColor;font:500 12px/1 'Schibsted Grotesk',sans-serif;opacity:.8;box-sizing:border-box}
+.eyebrow{font:600 12px/1.2 'Schibsted Grotesk',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--tx3)}
+.tag{display:inline-flex;align-items:center;gap:6px;height:26px;padding:0 10px;border-radius:999px;font:600 12px/1 'Schibsted Grotesk',sans-serif;letter-spacing:.06em;text-transform:uppercase}
+.seg{flex:1;height:6px;border-radius:99px;background:var(--s3)}
+.seg.d{background:var(--tx2)}
+.seg.x{background:var(--er)}
+.tab{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 4px;background:none;border:0;border-bottom:2px solid transparent;color:var(--tx2);font:600 15px/1 'Schibsted Grotesk',sans-serif}
+.tab[aria-selected="true"]{color:var(--tx);border-bottom-color:var(--tx)}
+</style>
+<div class="oy" style="min-height: 1050px; display: flex; flex-direction: column">
+
+<header style="height: 64px; box-sizing: border-box; padding: 0 24px; display: flex; align-items: center; gap: 24px; border-bottom: 1px solid var(--line)">
+<a class="btn btn-g" href="Dashboard-Desktop.html" style="min-height: 44px; padding: 0 12px; gap: 8px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>Sair <span class="kbd">Esc</span></a>
+<div style="flex: 1; display: flex; flex-direction: column; gap: 8px; max-width: 560px; margin: 0 auto">
+<div style="display: flex; justify-content: space-between; font-size: 13px; color: var(--tx2)"><span>Sessão de revisão · <strong style="color: var(--tx)">8 de 20</strong></span><span>~4 min restantes</span></div>
+<div role="progressbar" aria-label="Progresso da sessão" aria-valuenow="8" aria-valuemin="0" aria-valuemax="20" style="display: flex; gap: 3px">
+<i class="seg d"></i><i class="seg d"></i><i class="seg x"></i><i class="seg d"></i><i class="seg d"></i><i class="seg d"></i><i class="seg d"></i><i class="seg x"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i>
+</div>
+</div>
+<div style="display: flex; gap: 16px; font-size: 15px; font-variant-numeric: tabular-nums">
+<span style="display: flex; align-items: center; gap: 6px; color: var(--oki)" aria-label="6 corretas"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>6</span>
+<span style="display: flex; align-items: center; gap: 6px; color: var(--eri)" aria-label="2 incorretas"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>2</span>
+</div>
+</header>
+
+<main style="flex: 1; display: flex; flex-direction: column; align-items: center; padding: 40px 24px 48px; gap: 20px">
+<div style="width: 100%; max-width: 720px; border-radius: 24px; overflow: hidden; border: 1px solid var(--line); background: var(--s1); box-shadow: 0 24px 56px rgba(0,0,0,.5)">
+
+<div style="position: relative; height: 200px; background: var(--voc); color: #fff; display: flex; align-items: center; justify-content: center">
+<div style="position: absolute; top: 20px; left: 20px; right: 20px; display: flex; justify-content: space-between; align-items: center">
+<span class="tag" style="background: rgba(255,255,255,.16); color: #fff">Vocabulário</span>
+<span class="jp" style="font-size: 14px; color: rgba(255,255,255,.88)">4-3 しごと</span>
+</div>
+<span style="font-size: 60px; font-weight: 600; letter-spacing: -.01em">artificial</span>
+</div>
+
+<div style="height: 60px; box-sizing: border-box; padding: 0 20px; background: var(--qw); color: var(--tx); border-bottom: 1px solid var(--line); display: flex; align-items: center; gap: 14px">
+<span class="kj" aria-hidden="true" style="width: 36px; height: 36px; border-radius: 9px; background: rgba(239,234,224,.1); display: flex; align-items: center; justify-content: center; font-size: 20px">筆</span>
+<div style="display: flex; align-items: baseline; gap: 10px"><strong style="font-size: 19px">Escrita</strong><span style="font-size: 15px; color: var(--tx2)">escreva a palavra em kanji</span></div>
+</div>
+
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 16px">
+<div role="status" style="position: relative; height: 76px; box-sizing: border-box; border-radius: 14px; background: var(--erb); border: 2px solid var(--er); display: flex; align-items: center; justify-content: center">
+<span style="position: absolute; left: 14px; display: flex; align-items: center; gap: 8px; height: 34px; padding: 0 12px; border-radius: 8px; background: var(--er); color: #1A0605; font-weight: 700; font-size: 14px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>Incorreto</span>
+<span class="kj" lang="ja" style="font-size: 34px; color: var(--eri); letter-spacing: .06em">人口</span>
+</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px">
+<div style="border-radius: 14px; border: 1px solid var(--line2); padding: 16px 18px; display: flex; flex-direction: column; gap: 6px">
+<span class="eyebrow">Você escreveu</span>
+<div style="display: flex; align-items: baseline; gap: 12px"><span class="kj" lang="ja" style="font-size: 40px; line-height: 1.1">人<span style="text-decoration: underline wavy var(--er) 2px; text-underline-offset: 8px">口</span></span><span class="jp" style="font-size: 18px; color: var(--tx2)">じんこう</span></div>
+<span style="color: var(--tx2); font-size: 15px">população</span>
+</div>
+<div style="border-radius: 14px; border: 2px solid #2B6B47; background: var(--okb); padding: 15px 17px; display: flex; flex-direction: column; gap: 6px">
+<span class="eyebrow" style="color: var(--oki); display: flex; align-items: center; gap: 6px"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Resposta correta</span>
+<div style="display: flex; align-items: baseline; gap: 12px"><span class="kj" lang="ja" style="font-size: 40px; line-height: 1.1">人<span style="text-decoration: underline var(--ok) 3px; text-underline-offset: 8px">工</span></span><span class="jp" style="font-size: 18px; color: var(--tx2)">じんこう</span></div>
+<span style="color: var(--tx); font-size: 15px">artificial</span>
+</div>
+</div>
+
+<div style="display: flex; align-items: center; gap: 12px; padding: 14px 16px; border-radius: 12px; background: var(--s2)">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--qm)" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="flex: none"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.4 1 1.1 1 1.8V16h5v-.3c0-.7.4-1.4 1-1.8A6 6 0 0 0 12 3z"/></svg>
+<span style="font-size: 15px; color: var(--tx2)">Mesma leitura, kanji diferente: <span class="kj" lang="ja" style="color: var(--tx)">工</span> obra, construção (4-3) ≠ <span class="kj" lang="ja" style="color: var(--tx)">口</span> boca.</span>
+</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr 1.4fr; gap: 10px">
+<button class="btn btn-g" style="border: 1px solid var(--line2)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 14L4 9l5-5"/><path d="M4 9h11a5 5 0 0 1 0 10h-3"/></svg>Foi erro de digitação</button>
+<button class="btn btn-s" aria-pressed="true" aria-controls="det">Detalhes<span class="kbd">/</span></button>
+<button class="btn btn-p">Continuar<span class="kbd">Enter</span></button>
+</div>
+<p style="margin: 0; font-size: 13px; color: var(--tx3); text-align: center">Este item volta no fim desta sessão · estágio: Broto → Semente</p>
+</div>
+
+<div id="det" style="border-top: 1px solid var(--line)">
+<div role="tablist" aria-label="Detalhes do item" style="display: flex; gap: 28px; padding: 0 20px; border-bottom: 1px solid var(--line)">
+<button class="tab" role="tab" aria-selected="true">Palavra</button>
+<button class="tab" role="tab" aria-selected="false">Kanji (2)</button>
+<button class="tab" role="tab" aria-selected="false">Meu mnemônico</button>
+</div>
+<div role="tabpanel" style="padding: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span class="eyebrow">Significado</span>
+<strong style="font-size: 20px">artificial</strong>
+<span style="font-size: 14px; color: var(--tx2)">Também aceito: feito pelo homem · EN artificial, man-made</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<span class="eyebrow">Kanji desta palavra</span>
+<div style="display: flex; gap: 8px">
+<div style="flex: 1; display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: 12px; background: var(--s2)"><span class="kj" lang="ja" style="font-size: 30px">人</span><span style="font-size: 13px; color: var(--tx2); line-height: 1.3">pessoa<br><span style="color: var(--tx3)">fora do cap. 4</span></span></div>
+<div style="flex: 1; display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: 12px; background: var(--s2)"><span class="kj" lang="ja" style="font-size: 30px; color: var(--kani)">工</span><span style="font-size: 13px; color: var(--tx2); line-height: 1.3">obra<br><span style="color: var(--tx3)">4-3 · Broto</span></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</body>
+</html>

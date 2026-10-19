@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Início — dashboard</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&amp;family=Schibsted+Grotesk:wght@400;500;600;700&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0;background:#0F0E0D}
+.oy{--bg:#0F0E0D;--s1:#181614;--s2:#201E1B;--s3:#2A2723;--line:#34302B;--line2:#4A453E;--tx:#EFEAE0;--tx2:#B9B1A4;--tx3:#968E82;--shu:#E0532F;--shuf:#C2401F;--kan:#3B54A8;--kani:#A3B3F2;--voc:#7B4A9C;--voci:#D2AEEC;--ok:#3FB57C;--oki:#86E0AE;--eri:#FFA39B;--pri:#EFEAE0;--onpri:#141210;font-family:'Schibsted Grotesk','Zen Kaku Gothic New',system-ui,sans-serif;color:var(--tx);background:var(--bg);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.jp{font-family:'Zen Kaku Gothic New',sans-serif}
+.kj{font-family:'Klee One','Zen Kaku Gothic New',serif;font-weight:600}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 22px;border-radius:12px;border:1px solid transparent;font:600 16px/1 'Schibsted Grotesk',sans-serif;cursor:pointer;text-decoration:none;white-space:nowrap}
+.btn-p{background:var(--pri);color:var(--onpri)}
+.btn-s{background:var(--s3);color:var(--tx);border-color:var(--line2)}
+.btn:focus-visible,a:focus-visible,button:focus-visible{outline:2px solid var(--tx);outline-offset:3px}
+.card{background:var(--s1);border:1px solid var(--line);border-radius:18px}
+.eyebrow{font:600 12px/1.2 'Schibsted Grotesk',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--tx3)}
+.seal{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:9px;background:var(--shuf);color:#FFF6EE;font-family:'Klee One',serif;font-weight:600;font-size:24px;box-shadow:inset 0 0 0 2px rgba(255,240,230,.35);flex:none}
+.nav{display:inline-flex;align-items:center;gap:8px;height:64px;padding:0 4px;color:var(--tx2);text-decoration:none;font-weight:600;font-size:15px;border-bottom:2px solid transparent;box-sizing:border-box}
+.nav[aria-current="page"]{color:var(--tx);border-bottom-color:var(--shu)}
+.badge{display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:22px;padding:0 7px;border-radius:99px;background:var(--s3);color:var(--tx);font-size:12px;font-weight:700;box-sizing:border-box}
+.mini{display:inline-flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:12px;background:var(--s2);border:1px solid var(--line);font-family:'Klee One',serif;font-weight:600;font-size:28px}
+.bar{height:8px;border-radius:99px;background:var(--s3);overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--tx2);border-radius:99px}
+</style>
+<div class="oy" style="min-height: 1100px">
+<header style="border-bottom: 1px solid var(--line)">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; gap: 32px; flex-wrap: wrap">
+<a href="Dashboard-Desktop.html" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--tx)"><span class="seal">字</span><span style="display: flex; flex-direction: column; line-height: 1.2"><strong style="font-size: 17px">Oyster</strong><span style="font-size: 13px; color: var(--tx2)">漢字マスター N4</span></span></a>
+<nav aria-label="Principal" style="display: flex; gap: 28px">
+<a class="nav" href="Dashboard-Desktop.html" aria-current="page">Início</a>
+<a class="nav" href="Licao-Desktop.html">Lições <span class="badge">5</span></a>
+<a class="nav" href="Pratica-Desktop.html">Revisões <span class="badge" style="background: var(--tx); color: var(--bg)">20</span></a>
+<a class="nav" href="Curriculo-Desktop.html">Currículo</a>
+</nav>
+<div style="margin-left: auto; display: flex; align-items: center; gap: 16px">
+<span style="display: flex; align-items: center; gap: 6px; font-weight: 600; color: var(--shu)" aria-label="Sequência de 12 dias"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c1 3.5 5 5.5 5 10a5 5 0 0 1-10 0c0-2.2 1-3.6 2-4.6.3 1.6 1 2.6 2 3.1-.3-3 0-5.7 1-8.5z"/></svg>12</span>
+<button aria-label="Conta e configurações" style="width: 40px; height: 40px; border-radius: 99px; border: 1px solid var(--line2); background: var(--s2); color: var(--tx); font-weight: 700">F</button>
+</div>
+</div>
+</header>
+
+<main style="max-width: 1120px; margin: 0 auto; padding: 40px 24px 64px; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 4px">
+<h1 style="margin: 0; font-size: 34px; letter-spacing: -.02em">Boa noite, Felipe</h1>
+<p style="margin: 0; color: var(--tx2)"><span class="jp">第4章 スケジュール</span> · você está em <span class="jp">4-3 しごと</span></p>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 16px">
+<section class="card" style="padding: 28px; display: flex; flex-direction: column; gap: 18px; background: linear-gradient(180deg, #1D1B18, #181614); border-color: var(--line2)">
+<div style="display: flex; justify-content: space-between; align-items: center"><span class="eyebrow" style="color: var(--tx)">Agora · revisões</span><span style="font-size: 13px; color: var(--tx2)">faça primeiro</span></div>
+<div style="display: flex; align-items: baseline; gap: 12px"><strong style="font-size: 64px; line-height: 1; font-variant-numeric: tabular-nums">20</strong><span style="font-size: 18px; color: var(--tx2)">itens prontos · ~6 min</span></div>
+<div style="display: flex; gap: 8px; font-size: 14px; color: var(--tx2); flex-wrap: wrap"><span style="display: inline-flex; align-items: center; gap: 6px"><i style="width: 10px; height: 10px; border-radius: 3px; background: var(--kan)"></i>12 kanji</span><span style="display: inline-flex; align-items: center; gap: 6px"><i style="width: 10px; height: 10px; border-radius: 3px; background: var(--voc)"></i>8 vocabulário</span></div>
+<a class="btn btn-p" href="Pratica-Desktop.html" style="align-self: flex-start">Revisar 20 itens<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</section>
+
+<section class="card" style="padding: 28px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; justify-content: space-between; align-items: center"><span class="eyebrow">Novos · lições</span><span class="jp" style="font-size: 13px; color: var(--tx2)">4-3 しごと</span></div>
+<div style="display: flex; gap: 8px" lang="ja"><span class="mini" style="color: var(--kani)">働</span><span class="mini" style="color: var(--kani)">作</span><span class="mini" style="color: var(--kani)">工</span><span class="mini" style="color: var(--kani)">場</span><span class="mini" style="color: var(--kani)">始</span></div>
+<p style="margin: 0; color: var(--tx2); font-size: 15px">5 kanji novos esperando. Depois das lições eles entram nas revisões.</p>
+<a class="btn btn-s" href="Licao-Desktop.html" style="align-self: flex-start">Fazer 5 lições</a>
+</section>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 16px">
+<section class="card" style="padding: 24px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; justify-content: space-between; align-items: baseline"><h2 style="margin: 0; font-size: 18px">Capítulo 4</h2><span style="font-size: 14px; color: var(--tx2)"><strong style="color: var(--tx)">17</strong> de 22 kanji</span></div>
+<div style="display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; flex-direction: column; gap: 6px"><div style="display: flex; justify-content: space-between; font-size: 14px"><span class="jp">4-1 デート</span><span style="color: var(--tx2)">7/7</span></div><div class="bar"><i style="width: 100%"></i></div></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><div style="display: flex; justify-content: space-between; font-size: 14px"><span class="jp">4-2 けっこんきねんび</span><span style="color: var(--tx2)">7/7</span></div><div class="bar"><i style="width: 100%"></i></div></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><div style="display: flex; justify-content: space-between; font-size: 14px"><span class="jp">4-3 しごと</span><span style="color: var(--tx2)">3/8 · 5 lições</span></div><div class="bar"><i style="width: 37.5%"></i></div></div>
+</div>
+<a href="Curriculo-Desktop.html" style="color: var(--tx2); font-size: 14px; font-weight: 600">Abrir currículo</a>
+</section>
+
+<section class="card" style="padding: 24px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; justify-content: space-between; align-items: baseline"><h2 style="margin: 0; font-size: 18px">Estágios SRS</h2><span style="font-size: 14px; color: var(--tx2)">17 itens kanji</span></div>
+<div role="img" aria-label="Semente 5, Broto 6, Folha 4, Flor 2, Fruto 0" style="display: flex; height: 14px; border-radius: 99px; overflow: hidden; gap: 2px"><i style="flex: 5; background: #8A5E4E"></i><i style="flex: 6; background: #A9563C"></i><i style="flex: 4; background: #C9532F"></i><i style="flex: 2; background: #E86A3E"></i></div>
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; text-align: center">
+<div style="display: flex; flex-direction: column; gap: 2px; align-items: center"><span class="kj" style="font-size: 20px">種</span><strong style="font-size: 20px">5</strong><span style="font-size: 12.5px; color: var(--tx3)">Semente</span></div>
+<div style="display: flex; flex-direction: column; gap: 2px; align-items: center"><span class="kj" style="font-size: 20px">芽</span><strong style="font-size: 20px">6</strong><span style="font-size: 12.5px; color: var(--tx3)">Broto</span></div>
+<div style="display: flex; flex-direction: column; gap: 2px; align-items: center"><span class="kj" style="font-size: 20px">葉</span><strong style="font-size: 20px">4</strong><span style="font-size: 12.5px; color: var(--tx3)">Folha</span></div>
+<div style="display: flex; flex-direction: column; gap: 2px; align-items: center"><span class="kj" style="font-size: 20px">花</span><strong style="font-size: 20px">2</strong><span style="font-size: 12.5px; color: var(--tx3)">Flor</span></div>
+<div style="display: flex; flex-direction: column; gap: 2px; align-items: center"><span class="kj" style="font-size: 20px; color: var(--tx3)">実</span><strong style="font-size: 20px; color: var(--tx3)">0</strong><span style="font-size: 12.5px; color: var(--tx3)">Fruto</span></div>
+</div>
+</section>
+
+<section class="card" style="padding: 24px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; justify-content: space-between; align-items: baseline"><h2 style="margin: 0; font-size: 18px">Sequência</h2><strong style="font-size: 18px; color: var(--shu)">12 dias</strong></div>
+<div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; text-align: center; font-size: 12.5px; color: var(--tx3)">
+<div style="display: flex; flex-direction: column; gap: 6px; align-items: center"><span style="width: 32px; height: 32px; border-radius: 8px; background: var(--shuf)" aria-label="segunda: feito"></span>S</div>
+<div style="display: flex; flex-direction: column; gap: 6px; align-items: center"><span style="width: 32px; height: 32px; border-radius: 8px; background: var(--shuf)" aria-label="terça: feito"></span>T</div>
+<div style="display: flex; flex-direction: column; gap: 6px; align-items: center"><span style="width: 32px; height: 32px; border-radius: 8px; background: var(--shuf)" aria-label="quarta: feito"></span>Q</div>
+<div style="display: flex; flex-direction: column; gap: 6px; align-items: center"><span style="width: 32px; height: 32px; border-radius: 8px; background: var(--shuf)" aria-label="quinta: feito"></span>Q</div>
+<div style="display: flex; flex-direction: column; gap: 6px; align-items: center"><span style="width: 32px; height: 32px; border-radius: 8px; background: var(--shuf)" aria-label="sexta: feito"></span>S</div>
+<div style="display: flex; flex-direction: column; gap: 6px; align-items: center"><span style="width: 32px; height: 32px; border-radius: 8px; background: var(--shuf)" aria-label="sábado: feito"></span>S</div>
+<div style="display: flex; flex-direction: column; gap: 6px; align-items: center; color: var(--tx)"><span style="width: 30px; height: 30px; border-radius: 8px; border: 1px dashed var(--shu)" aria-label="hoje: pendente"></span>Hoje</div>
+</div>
+<p style="margin: 0; font-size: 14px; color: var(--tx2)">Próximas: <strong style="color: var(--tx)">+6</strong> às 21h · <strong style="color: var(--tx)">+14</strong> amanhã 9h</p>
+</section>
+</div>
+</main>
+</div>
+</body>
+</html>

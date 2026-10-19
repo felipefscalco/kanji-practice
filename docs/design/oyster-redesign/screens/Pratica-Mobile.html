@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prática mobile — pergunta</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&amp;family=Schibsted+Grotesk:wght@400;500;600;700&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0;background:#0F0E0D}
+.oy{--bg:#0F0E0D;--s1:#181614;--s2:#201E1B;--s3:#2A2723;--line:#34302B;--line2:#4A453E;--tx:#EFEAE0;--tx2:#B9B1A4;--tx3:#968E82;--kan:#3B54A8;--voc:#7B4A9C;--qm:#E0A93B;--qr:#EFEADF;--qw:#0B0A09;--ok:#3FB57C;--okb:#11301F;--oki:#86E0AE;--er:#E5534B;--erb:#3A1513;--eri:#FFA39B;--pri:#EFEAE0;--onpri:#141210;font-family:'Schibsted Grotesk','Zen Kaku Gothic New',system-ui,sans-serif;color:var(--tx);background:var(--bg);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.jp{font-family:'Zen Kaku Gothic New',sans-serif}
+.kj{font-family:'Klee One','Zen Kaku Gothic New',serif;font-weight:600}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:0 14px;border-radius:12px;border:1px solid transparent;font:600 15px/1 'Schibsted Grotesk',sans-serif;white-space:nowrap}
+.btn-p{background:var(--pri);color:var(--onpri)}
+.btn-s{background:var(--s3);color:var(--tx);border-color:var(--line2)}
+.ib{width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;border-radius:12px;background:transparent;border:0;color:var(--tx2)}
+.tag{display:inline-flex;align-items:center;height:24px;padding:0 9px;border-radius:999px;font:600 11.5px/1 'Schibsted Grotesk',sans-serif;letter-spacing:.06em;text-transform:uppercase}
+.ans{width:100%;box-sizing:border-box;height:64px;border-radius:14px;background:var(--s2);border:2px solid var(--tx);color:var(--tx);font:500 26px/1 'Zen Kaku Gothic New',sans-serif;text-align:center;letter-spacing:.06em;padding:0 84px}
+</style>
+<div class="oy" style="width: 390px; height: 844px; box-sizing: border-box; display: flex; flex-direction: column; overflow: hidden">
+<header style="height: 56px; box-sizing: border-box; padding: 0 8px 0 4px; display: flex; align-items: center; gap: 8px">
+<button class="ib" aria-label="Sair da sessão"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+<div role="progressbar" aria-label="Progresso da sessão" aria-valuenow="7" aria-valuemin="0" aria-valuemax="20" style="flex: 1; height: 6px; border-radius: 99px; background: var(--s3); overflow: hidden"><i style="display: block; width: 35%; height: 100%; background: var(--tx); border-radius: 99px"></i></div>
+<span style="font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; min-width: 40px; text-align: right">7/20</span>
+<span style="display: flex; gap: 8px; font-size: 13px; font-variant-numeric: tabular-nums; padding-right: 4px"><span style="color: var(--oki)" aria-label="5 corretas">✓5</span><span style="color: var(--eri)" aria-label="1 incorreta">✕1</span></span>
+</header>
+
+<div style="margin: 4px 16px 0; border-radius: 20px; overflow: hidden; border: 1px solid var(--line); background: var(--s1)">
+<div style="position: relative; height: 196px; background: var(--kan); color: #fff; display: flex; align-items: center; justify-content: center">
+<span class="tag" style="position: absolute; top: 14px; left: 14px; background: rgba(255,255,255,.16)">Kanji</span>
+<span class="jp" style="position: absolute; top: 16px; right: 16px; font-size: 13px; color: rgba(255,255,255,.88)">4-1 デート</span>
+<span class="kj" lang="ja" style="font-size: 120px; line-height: 1">週</span>
+</div>
+<div style="height: 52px; box-sizing: border-box; padding: 0 14px; background: var(--qr); color: #141210; display: flex; align-items: center; gap: 10px">
+<span class="jp" aria-hidden="true" style="width: 30px; height: 30px; border-radius: 8px; background: rgba(20,18,16,.1); display: flex; align-items: center; justify-content: center; font-weight: 700">あ</span>
+<strong style="font-size: 17px">Leitura</strong><span style="font-size: 14px; color: #3D3830">em hiragana</span>
+</div>
+<div style="padding: 14px; display: flex; flex-direction: column; gap: 10px">
+<div style="position: relative">
+<input class="ans" lang="ja" aria-label="Sua resposta: leitura em hiragana" placeholder="しゅう" value="しゅ" autocomplete="off">
+<span style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); height: 28px; padding: 0 8px; border-radius: 7px; background: var(--s3); color: var(--tx2); font-size: 12.5px; font-weight: 600; display: flex; align-items: center; gap: 4px">a→<span class="jp">あ</span></span>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr 1.5fr; gap: 8px">
+<button class="btn btn-s" aria-pressed="true"><span class="jp" style="font-weight: 700">あ</span>Kana</button>
+<button class="btn btn-s">Não sei</button>
+<button class="btn btn-p">Verificar</button>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

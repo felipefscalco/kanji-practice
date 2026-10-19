@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Componentes</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&amp;family=Schibsted+Grotesk:wght@400;500;600;700&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0;background:#0F0E0D}
+.oy{--bg:#0F0E0D;--s1:#181614;--s2:#201E1B;--s3:#2A2723;--line:#34302B;--line2:#4A453E;--tx:#EFEAE0;--tx2:#B9B1A4;--tx3:#968E82;--shu:#E0532F;--shuf:#C2401F;--kan:#3B54A8;--kani:#A3B3F2;--voc:#7B4A9C;--voci:#D2AEEC;--qm:#E0A93B;--qr:#EFEADF;--qw:#0B0A09;--ok:#3FB57C;--okb:#11301F;--oki:#86E0AE;--er:#E5534B;--erb:#3A1513;--eri:#FFA39B;--pri:#EFEAE0;--onpri:#141210;font-family:'Schibsted Grotesk','Zen Kaku Gothic New',system-ui,sans-serif;color:var(--tx);background:var(--bg);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.jp{font-family:'Zen Kaku Gothic New',sans-serif}
+.kj{font-family:'Klee One','Zen Kaku Gothic New',serif;font-weight:600}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 20px;border-radius:12px;border:1px solid transparent;font:600 16px/1 'Schibsted Grotesk',sans-serif;white-space:nowrap}
+.btn-p{background:var(--pri);color:var(--onpri)}
+.btn-s{background:var(--s3);color:var(--tx);border-color:var(--line2)}
+.btn-g{background:transparent;color:var(--tx2)}
+.btn[disabled]{color:var(--tx3);border:1px dashed var(--line2);background:transparent}
+.focus{outline:2px solid var(--tx);outline-offset:3px}
+.kbd{display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:22px;padding:0 6px;border-radius:6px;border:1px solid currentColor;font:500 12px/1 'Schibsted Grotesk',sans-serif;opacity:.8;box-sizing:border-box}
+.eyebrow{font:600 12px/1.2 'Schibsted Grotesk',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--tx3)}
+.cc{background:var(--s1);border:1px solid var(--line);border-radius:18px;padding:24px;display:flex;flex-direction:column;gap:16px;min-width:0}
+.cc h2{margin:0;font-size:18px}
+.lbl{font-size:12.5px;color:var(--tx3)}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.chip{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:0 16px 0 8px;border-radius:999px;border:1px solid var(--line2);background:transparent;color:var(--tx2);font:600 15px/1 'Schibsted Grotesk',sans-serif}
+.chip[aria-pressed="true"]{background:var(--tx);color:var(--bg);border-color:var(--tx)}
+.chip i{width:28px;height:28px;border-radius:99px;display:inline-flex;align-items:center;justify-content:center;font-style:normal;font-size:13px;font-weight:700}
+.tile{position:relative;width:104px;height:116px;box-sizing:border-box;border-radius:14px;border:1px solid var(--line2);background:var(--s2);color:var(--tx);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:8px;font-family:inherit}
+.tile[aria-pressed="true"]{border:2px solid var(--kani);background:#1B2036}
+.tile .k{font-family:'Klee One',serif;font-weight:600;font-size:44px;line-height:1.05}
+.tile .r{font-family:'Zen Kaku Gothic New',sans-serif;font-size:13px;color:var(--tx2)}
+.tile .m{font-size:12.5px;color:var(--tx3)}
+.tile .ck{position:absolute;top:7px;right:7px;width:20px;height:20px;border-radius:99px;background:var(--kani);color:#0F1530;display:flex;align-items:center;justify-content:center}
+.tile .nw{position:absolute;top:7px;left:7px;height:18px;padding:0 6px;border-radius:99px;background:var(--shuf);color:#FFF6EE;font-size:10.5px;font-weight:700;letter-spacing:.04em;display:flex;align-items:center;text-transform:uppercase}
+.inp{position:relative;height:64px;box-sizing:border-box;border-radius:14px;background:var(--s2);border:2px solid var(--line2);display:flex;align-items:center;justify-content:center;font-size:24px}
+.pill{position:absolute;left:10px;height:30px;padding:0 9px;border-radius:8px;background:var(--s3);color:var(--tx2);font-size:12.5px;font-weight:600;display:flex;align-items:center;gap:5px}
+.band{height:52px;box-sizing:border-box;padding:0 14px;border-radius:12px;display:flex;align-items:center;gap:10px}
+.band span:first-child{width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:700}
+.tab{display:inline-flex;align-items:center;min-height:48px;padding:0 4px;background:none;border:0;border-bottom:2px solid transparent;color:var(--tx2);font:600 15px/1 'Schibsted Grotesk',sans-serif}
+.tab[aria-selected="true"]{color:var(--tx);border-bottom-color:var(--tx)}
+.acc{width:100%;display:flex;align-items:center;justify-content:space-between;min-height:52px;padding:0 16px;background:none;border:0;color:var(--tx);font:600 16px/1 'Schibsted Grotesk',sans-serif}
+.toast{display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:14px;background:var(--s2);box-shadow:0 1px 0 rgba(255,255,255,.06) inset,0 16px 40px rgba(0,0,0,.55)}
+.nav{display:inline-flex;align-items:center;gap:8px;height:56px;padding:0 4px;color:var(--tx2);text-decoration:none;font-weight:600;font-size:15px;border-bottom:2px solid transparent;box-sizing:border-box}
+.nav[aria-current="page"]{color:var(--tx);border-bottom-color:var(--shu)}
+.badge{display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:22px;padding:0 7px;border-radius:99px;background:var(--s3);color:var(--tx);font-size:12px;font-weight:700;box-sizing:border-box}
+.tb{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-height:56px;color:var(--tx3);text-decoration:none;font-size:12px;font-weight:600}
+.tb[aria-current="page"]{color:var(--tx)}
+.seg{flex:1;height:6px;border-radius:99px;background:var(--s3)}
+.seg.d{background:var(--tx2)}.seg.x{background:var(--er)}
+.seg.c{background:var(--tx);box-shadow:0 0 0 2px var(--s1),0 0 0 3px var(--tx)}
+</style>
+<div class="oy" style="min-height: 1750px; box-sizing: border-box; padding: 56px 24px 80px">
+<div style="max-width: 1280px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px">
+<h1 style="margin: 0; font-size: 36px; letter-spacing: -.02em">Componentes</h1>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr)); gap: 20px">
+
+<section class="cc">
+<h2>Botões</h2>
+<div class="row"><button class="btn btn-p">Verificar<span class="kbd">Enter</span></button><button class="btn btn-s">Detalhes<span class="kbd">/</span></button><button class="btn btn-g">Pular</button></div>
+<div class="row"><button class="btn btn-s"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg>Ouvir</button><button class="btn" disabled>Verificar</button><button class="btn btn-p focus">Foco teclado</button></div>
+<span class="lbl">Primário = washi sobre sumi (1 por tela) · secundário = superfície 3 · desabilitado = tracejado · altura 48 desktop / 52 mobile · ícone sempre com rótulo (ou aria-label + tooltip)</span>
+</section>
+
+<section class="cc">
+<h2>Chips de filtro (toggle)</h2>
+<div class="row">
+<button class="chip" aria-pressed="true"><i style="background: var(--qm); color: #141210">Aa</i>Significado<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></button>
+<button class="chip" aria-pressed="false"><i class="kj" style="background: var(--s3); color: var(--tx2)">筆</i>Escrita</button>
+<button class="chip focus" aria-pressed="false"><i class="jp" style="background: var(--s3); color: var(--tx2)">あ</i>Leitura</button>
+</div>
+<span class="lbl">Ligado: preenchido + ✓ · desligado: contorno, ícone neutro · aria-pressed · ao menos 1 tipo sempre ligado</span>
+</section>
+
+<section class="cc">
+<h2>Tile de kanji</h2>
+<div class="row">
+<button class="tile" aria-pressed="true"><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">毎</span><span class="r">まい</span><span class="m">cada</span></button>
+<button class="tile" aria-pressed="false"><span class="k" lang="ja" style="color: var(--tx2)">終</span><span class="r">しゅう</span><span class="m">terminar</span></button>
+<button class="tile" aria-pressed="false"><span class="nw">novo</span><span class="k" lang="ja" style="color: var(--tx2)">働</span><span class="r">どう</span><span class="m">trabalhar</span></button>
+<button class="tile focus" aria-pressed="false"><span class="k" lang="ja" style="color: var(--tx2)">場</span><span class="r">じょう</span><span class="m">lugar</span></button>
+</div>
+<span class="lbl">Selecionado · não selecionado · novo (lição pendente) · foco</span>
+</section>
+
+<section class="cc">
+<h2>Input de resposta</h2>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div class="inp" style="color: var(--tx3); font-size: 18px">Significado em português</div>
+<div class="inp jp" style="border-color: var(--tx)"><span class="pill">shu→<span class="jp">かな</span></span><span lang="ja" style="letter-spacing: .06em">しゅ<span style="border-bottom: 2px solid var(--tx2)">u</span></span></div>
+<div class="inp" style="background: var(--okb); border-color: var(--ok); color: var(--oki)"><span class="pill" style="background: var(--ok); color: #06180E">✓ Correto</span>público</div>
+<div class="inp" style="background: var(--erb); border-color: var(--er); color: var(--eri)"><span class="pill" style="background: var(--er); color: #1A0605">✕ Incorreto</span><span class="kj" lang="ja">人口</span></div>
+<div class="inp" style="border-color: var(--qm)"><span class="pill" style="background: rgba(224,169,59,.18); color: var(--qm)">! Quase</span><span style="font-size: 20px">publico</span></div>
+</div>
+<span class="lbl">Vazio · digitando (romaji convertido ao vivo, sufixo pendente sublinhado) · correto · incorreto (shake 280ms) · quase (erro de digitação aceito, aviso amarelo sem penalidade) · aria-live="polite" anuncia o resultado</span>
+</section>
+
+<section class="cc">
+<h2>Faixa de pergunta + tags</h2>
+<div class="band" style="background: var(--qm); color: #141210"><span style="background: rgba(20,18,16,.12); font-size: 14px">Aa</span><strong>Significado</strong><span style="font-size: 14px">em português</span></div>
+<div class="band" style="background: var(--qr); color: #141210"><span class="jp" style="background: rgba(20,18,16,.1)">あ</span><strong>Leitura</strong><span style="font-size: 14px">em hiragana</span></div>
+<div class="band" style="background: var(--qw); color: var(--tx); border: 1px solid var(--line2)"><span class="kj" style="background: rgba(239,234,224,.1); font-weight: 600">筆</span><strong>Escrita</strong><span style="font-size: 14px; color: var(--tx2)">em kanji</span></div>
+<div class="row"><span style="height: 26px; padding: 0 10px; border-radius: 99px; background: var(--kan); color: #fff; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; display: inline-flex; align-items: center">Kanji</span><span style="height: 26px; padding: 0 10px; border-radius: 99px; background: var(--voc); color: #fff; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; display: inline-flex; align-items: center">Vocabulário</span></div>
+</section>
+
+<section class="cc">
+<h2>Progresso</h2>
+<span class="lbl">Sessão (segmentos = itens; erro marcado; atual com anel)</span>
+<div style="display: flex; gap: 3px"><i class="seg d"></i><i class="seg d"></i><i class="seg x"></i><i class="seg d"></i><i class="seg c"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i></div>
+<span class="lbl">Capítulo / subseção</span>
+<div style="height: 8px; border-radius: 99px; background: var(--s3)"><i style="display: block; width: 62%; height: 100%; border-radius: 99px; background: var(--tx2)"></i></div>
+<span class="lbl">Distribuição SRS</span>
+<div style="display: flex; height: 14px; border-radius: 99px; overflow: hidden; gap: 2px"><i style="flex: 5; background: #8A5E4E"></i><i style="flex: 6; background: #A9563C"></i><i style="flex: 4; background: #C9532F"></i><i style="flex: 2; background: #E86A3E"></i><i style="flex: 1; background: #F7A47C"></i></div>
+</section>
+
+<section class="cc">
+<h2>Abas e acordeão</h2>
+<div role="tablist" style="display: flex; gap: 28px; border-bottom: 1px solid var(--line)"><button class="tab" role="tab" aria-selected="true">Palavra</button><button class="tab" role="tab" aria-selected="false">Kanji (2)</button><button class="tab" role="tab" aria-selected="false">Mnemônico</button></div>
+<div style="border: 1px solid var(--line); border-radius: 14px; overflow: hidden">
+<button class="acc" aria-expanded="true">Significado<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg></button>
+<div style="padding: 0 16px 16px; color: var(--tx2)">artificial · feito pelo homem</div>
+<button class="acc" aria-expanded="false" style="border-top: 1px solid var(--line)">Frase de exemplo<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+</div>
+<span class="lbl">Abas na lição e no painel de detalhes (desktop); acordeão só no mobile, 1º aberto, demais fechados</span>
+</section>
+
+<section class="cc">
+<h2>Toasts</h2>
+<div class="toast" role="status"><span class="kj" style="width: 32px; height: 32px; border-radius: 8px; background: #C9532F; color: #fff; display: flex; align-items: center; justify-content: center">葉</span><span style="display: flex; flex-direction: column; line-height: 1.3"><strong style="font-size: 15px"><span class="kj">公</span> subiu para Folha</strong><span style="font-size: 13px; color: var(--tx2)">Próxima revisão em 1 semana</span></span></div>
+<div class="toast" role="status"><span style="width: 32px; height: 32px; border-radius: 8px; background: var(--erb); color: var(--eri); display: flex; align-items: center; justify-content: center; font-weight: 700">✕</span><span style="display: flex; flex-direction: column; line-height: 1.3"><strong style="font-size: 15px">Volta no fim da sessão</strong><span style="font-size: 13px; color: var(--tx2)"><span class="kj">人工</span> · Broto → Semente</span></span></div>
+<div class="toast" role="status"><span style="width: 32px; height: 32px; border-radius: 8px; background: var(--s3); color: var(--tx2); display: flex; align-items: center; justify-content: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.3-5.7M20 4v4h-4"/></svg></span><span style="display: flex; flex-direction: column; line-height: 1.3"><strong style="font-size: 15px">Sem conexão — salvando localmente</strong><span style="font-size: 13px; color: var(--tx2)">Sincroniza quando voltar</span></span><button class="btn btn-g" style="margin-left: auto; min-height: 44px; padding: 0 10px">Desfazer</button></div>
+</section>
+
+<section class="cc">
+<h2>Navegação</h2>
+<span class="lbl">Desktop · aba ativa com sublinhado shu + aria-current</span>
+<nav style="display: flex; gap: 24px; border-bottom: 1px solid var(--line)"><a class="nav" href="#" aria-current="page">Início</a><a class="nav" href="#">Lições <span class="badge">5</span></a><a class="nav" href="#">Revisões <span class="badge" style="background: var(--tx); color: var(--bg)">20</span></a><a class="nav" href="#">Currículo</a></nav>
+<span class="lbl">Mobile · tab bar inferior 72px (some no modo foco)</span>
+<nav style="display: flex; border: 1px solid var(--line); border-radius: 14px; background: #181614; padding: 4px">
+<a class="tb" href="#" aria-current="page"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M4 10.5L12 4l8 6.5V20h-5v-6H9v6H4z"/></svg>Início</a>
+<a class="tb" href="#"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h6a2 2 0 0 1 2 2v13a2 2 0 0 0-2-2H4zM20 5h-6a2 2 0 0 0-2 2v13a2 2 0 0 1 2-2h6z"/></svg>Lições</a>
+<a class="tb" href="#"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.3-5.7M20 4v4h-4"/></svg>Revisões</a>
+<a class="tb" href="#"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg>Currículo</a>
+</nav>
+</section>
+
+<section class="cc">
+<h2>Atalhos de teclado</h2>
+<div style="display: grid; grid-template-columns: auto 1fr; gap: 10px 16px; align-items: center; font-size: 15px">
+<span class="kbd">Enter</span><span>Verificar · continuar</span>
+<span class="kbd">/</span><span>Abrir/fechar detalhes após responder</span>
+<span class="kbd">⌃K</span><span>Alternar romaji→kana</span>
+<span class="kbd">⌫</span><span>"Foi erro de digitação" (só após erro)</span>
+<span class="kbd">← →</span><span>Navegar passos da lição</span>
+<span class="kbd">Esc</span><span>Sair (progresso salvo)</span>
+</div>
+<span class="lbl">Mostrados como keycaps discretos nos próprios botões; ocultos em touch</span>
+</section>
+
+</div>
+</div>
+</div>
+</body>
+</html>

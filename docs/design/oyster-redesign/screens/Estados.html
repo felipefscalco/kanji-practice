@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estados</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&amp;family=Schibsted+Grotesk:wght@400;500;600;700&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0;background:#0F0E0D}
+.oy{--bg:#0F0E0D;--s1:#181614;--s2:#201E1B;--s3:#2A2723;--line:#34302B;--line2:#4A453E;--tx:#EFEAE0;--tx2:#B9B1A4;--tx3:#968E82;--shu:#E0532F;--shuf:#C2401F;--kan:#3B54A8;--kani:#A3B3F2;--er:#E5534B;--erb:#3A1513;--eri:#FFA39B;--pri:#EFEAE0;--onpri:#141210;font-family:'Schibsted Grotesk','Zen Kaku Gothic New',system-ui,sans-serif;color:var(--tx);background:var(--bg);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.jp{font-family:'Zen Kaku Gothic New',sans-serif}
+.kj{font-family:'Klee One','Zen Kaku Gothic New',serif;font-weight:600}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 20px;border-radius:12px;border:1px solid transparent;font:600 16px/1 'Schibsted Grotesk',sans-serif;white-space:nowrap}
+.btn-p{background:var(--pri);color:var(--onpri)}
+.btn-s{background:var(--s3);color:var(--tx);border-color:var(--line2)}
+.btn-g{background:transparent;color:var(--tx2)}
+.btn[disabled]{color:var(--tx3);border:1px dashed var(--line2);background:transparent}
+.eyebrow{font:600 12px/1.2 'Schibsted Grotesk',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--tx3)}
+.st{background:var(--s1);border:1px solid var(--line);border-radius:20px;padding:32px;min-height:380px;box-sizing:border-box;display:flex;flex-direction:column;gap:18px;min-width:0}
+.hk{width:72px;height:72px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-family:'Klee One',serif;font-weight:600;font-size:44px;transform:rotate(-4deg)}
+.sk{background:var(--s3);border-radius:10px}
+.ghost{width:72px;height:80px;border-radius:12px;border:1.5px dashed var(--line2)}
+</style>
+<div class="oy" style="min-height: 1050px; box-sizing: border-box; padding: 56px 24px 64px">
+<div style="max-width: 1280px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px">
+<h1 style="margin: 0; font-size: 36px; letter-spacing: -.02em">Estados</h1>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(380px, 100%), 1fr)); gap: 20px">
+
+<section class="st" aria-labelledby="e1">
+<span class="eyebrow">Vazio · currículo</span>
+<div style="display: flex; gap: 8px" aria-hidden="true"><span class="ghost"></span><span class="ghost"></span><span class="ghost"></span><span class="ghost"></span></div>
+<h2 id="e1" style="margin: 0; font-size: 22px">Nenhuma subseção selecionada</h2>
+<p style="margin: 0; color: var(--tx2)">Marque o que a aula já cobriu para montar suas revisões.</p>
+<div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: auto"><button class="btn btn-p">Selecionar <span class="jp">4-1 デート</span></button><button class="btn" disabled>Começar prática</button></div>
+</section>
+
+<section class="st" aria-labelledby="e2">
+<span class="eyebrow">Vazio · nada para revisar</span>
+<div class="hk" aria-hidden="true" style="background: var(--s3); color: var(--tx); box-shadow: inset 0 0 0 3px var(--line2)">休</div>
+<h2 id="e2" style="margin: 0; font-size: 22px">Tudo em dia</h2>
+<p style="margin: 0; color: var(--tx2)">Próximas revisões: <strong style="color: var(--tx)">6 itens às 21h</strong> (em 2h 14min). Sua sequência de hoje já está garantida.</p>
+<div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: auto"><button class="btn btn-p">Fazer 5 lições</button><button class="btn btn-s">Praticar extra</button></div>
+<span style="font-size: 13px; color: var(--tx3)">Prática extra não altera estágios SRS.</span>
+</section>
+
+<section class="st" aria-labelledby="e3" aria-busy="true">
+<span class="eyebrow" id="e3">Carregando · prática</span>
+<div style="border-radius: 18px; overflow: hidden; border: 1px solid var(--line)">
+<div class="sk" style="height: 150px; border-radius: 0; background: linear-gradient(90deg, #2A2723, #322E29, #2A2723)"></div>
+<div style="height: 48px; background: var(--s2)"></div>
+<div style="padding: 14px; display: flex; flex-direction: column; gap: 10px"><div class="sk" style="height: 56px"></div><div style="display: grid; grid-template-columns: 1fr 1fr 1.4fr; gap: 8px"><div class="sk" style="height: 44px"></div><div class="sk" style="height: 44px"></div><div class="sk" style="height: 44px"></div></div></div>
+</div>
+<span style="font-size: 13px; color: var(--tx3)">Skeleton com a mesma geometria do card (sem salto de layout). Brilho de 1.2s; com prefers-reduced-motion fica estático. Leitor de tela: "Carregando revisões".</span>
+</section>
+
+<section class="st" aria-labelledby="e4">
+<span class="eyebrow">Erro · rede</span>
+<div style="width: 56px; height: 56px; border-radius: 14px; background: var(--erb); color: var(--eri); display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 9v4M12 17h.01M10.3 3.9L1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg></div>
+<h2 id="e4" style="margin: 0; font-size: 22px">Não foi possível carregar suas revisões</h2>
+<p style="margin: 0; color: var(--tx2)">Verifique sua conexão. As respostas desta sessão estão salvas neste aparelho e serão enviadas depois.</p>
+<div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: auto"><button class="btn btn-p">Tentar novamente</button><button class="btn btn-g">Voltar ao início</button></div>
+</section>
+
+<section class="st" aria-labelledby="e5">
+<span class="eyebrow">Concluído · lições</span>
+<div class="hk" aria-hidden="true" style="background: var(--shuf); color: #FFF6EE; box-shadow: inset 0 0 0 3px rgba(255,240,230,.35)">済</div>
+<h2 id="e5" style="margin: 0; font-size: 22px">5 kanji novos aprendidos</h2>
+<div style="display: flex; gap: 8px" lang="ja"><span class="kj" style="font-size: 30px; color: var(--kani)">働</span><span class="kj" style="font-size: 30px; color: var(--kani)">作</span><span class="kj" style="font-size: 30px; color: var(--kani)">工</span><span class="kj" style="font-size: 30px; color: var(--kani)">場</span><span class="kj" style="font-size: 30px; color: var(--kani)">始</span></div>
+<p style="margin: 0; color: var(--tx2)">Faça um quiz rápido agora para plantá-los como Semente.</p>
+<div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: auto"><button class="btn btn-p">Começar quiz (10)</button><button class="btn btn-g">Rever lições</button></div>
+</section>
+
+<section class="st" aria-labelledby="e6">
+<span class="eyebrow">Concluído · sessão de revisão</span>
+<div class="hk" aria-hidden="true" style="background: var(--shuf); color: #FFF6EE; box-shadow: inset 0 0 0 3px rgba(255,240,230,.35)">完</div>
+<h2 id="e6" style="margin: 0; font-size: 22px">Sessão concluída</h2>
+<p style="margin: 0; color: var(--tx2)">O carimbo aparece com animação de "stamp" (escala 1.15 → 1, 320ms) e vibração curta no mobile. Em reduced-motion: só fade.</p>
+<div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: auto"><a class="btn btn-s" href="Resumo-Desktop.html" style="text-decoration: none">Ver resumo completo</a></div>
+</section>
+
+</div>
+</div>
+</div>
+</body>
+</html>

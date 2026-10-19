@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Currículo — capítulo 4</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&amp;family=Schibsted+Grotesk:wght@400;500;600;700&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0;background:#0F0E0D}
+.oy{--bg:#0F0E0D;--s1:#181614;--s2:#201E1B;--s3:#2A2723;--line:#34302B;--line2:#4A453E;--tx:#EFEAE0;--tx2:#B9B1A4;--tx3:#968E82;--shu:#E0532F;--shuf:#C2401F;--kan:#3B54A8;--kani:#A3B3F2;--qm:#E0A93B;--qr:#EFEADF;--pri:#EFEAE0;--onpri:#141210;font-family:'Schibsted Grotesk','Zen Kaku Gothic New',system-ui,sans-serif;color:var(--tx);background:var(--bg);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.jp{font-family:'Zen Kaku Gothic New',sans-serif}
+.kj{font-family:'Klee One','Zen Kaku Gothic New',serif;font-weight:600}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border-radius:12px;border:1px solid transparent;font:600 16px/1 'Schibsted Grotesk',sans-serif;cursor:pointer;text-decoration:none;white-space:nowrap}
+.btn-p{background:var(--pri);color:var(--onpri)}
+.btn-g{background:transparent;color:var(--tx2);min-height:44px;padding:0 12px;font-size:14px}
+.btn:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--tx);outline-offset:3px}
+.eyebrow{font:600 12px/1.2 'Schibsted Grotesk',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--tx3)}
+.seal{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:9px;background:var(--shuf);color:#FFF6EE;font-family:'Klee One',serif;font-weight:600;font-size:24px;box-shadow:inset 0 0 0 2px rgba(255,240,230,.35);flex:none}
+.nav{display:inline-flex;align-items:center;gap:8px;height:64px;padding:0 4px;color:var(--tx2);text-decoration:none;font-weight:600;font-size:15px;border-bottom:2px solid transparent;box-sizing:border-box}
+.nav[aria-current="page"]{color:var(--tx);border-bottom-color:var(--shu)}
+.badge{display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:22px;padding:0 7px;border-radius:99px;background:var(--s3);color:var(--tx);font-size:12px;font-weight:700;box-sizing:border-box}
+.chip{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:0 16px 0 8px;border-radius:999px;border:1px solid var(--line2);background:transparent;color:var(--tx2);font:600 15px/1 'Schibsted Grotesk',sans-serif}
+.chip[aria-pressed="true"]{background:var(--tx);color:var(--bg);border-color:var(--tx)}
+.chip i{width:28px;height:28px;border-radius:99px;display:inline-flex;align-items:center;justify-content:center;font-style:normal;font-size:13px;font-weight:700}
+.seg{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:10px;border:0;background:transparent;color:var(--tx2);font:600 15px/1 'Schibsted Grotesk',sans-serif}
+.seg[aria-selected="true"]{background:var(--s3);color:var(--tx)}
+.grp{background:var(--s1);border:1px solid var(--line);border-radius:18px;padding:20px 24px 24px;display:flex;flex-direction:column;gap:16px}
+.cb{width:24px;height:24px;border-radius:7px;border:2px solid var(--line2);display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;flex:none}
+.cb.on{background:var(--tx);border-color:var(--tx);color:var(--bg)}
+.cb.mix{background:var(--s3);border-color:var(--tx);color:var(--tx)}
+.words{display:flex;gap:24px;flex-wrap:wrap}
+.word{display:flex;flex-direction:column;gap:8px}
+.word>span{font-size:13px;color:var(--tx3)}
+.tiles{display:flex;gap:8px}
+.tile{position:relative;width:104px;height:116px;box-sizing:border-box;border-radius:14px;border:1px solid var(--line2);background:var(--s2);color:var(--tx);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:8px;font-family:inherit;cursor:pointer}
+.tile[aria-pressed="true"]{border:2px solid var(--kani);background:#1B2036}
+.tile .k{font-family:'Klee One',serif;font-weight:600;font-size:44px;line-height:1.05}
+.tile .r{font-family:'Zen Kaku Gothic New',sans-serif;font-size:13px;color:var(--tx2)}
+.tile .m{font-size:12.5px;color:var(--tx3)}
+.tile .ck{position:absolute;top:7px;right:7px;width:20px;height:20px;border-radius:99px;background:var(--kani);color:#0F1530;display:flex;align-items:center;justify-content:center}
+.tile .sg{position:absolute;top:7px;left:8px;font-family:'Klee One',serif;font-size:13px;color:var(--tx3)}
+.tile .nw{position:absolute;top:7px;left:7px;height:18px;padding:0 6px;border-radius:99px;background:var(--shuf);color:#FFF6EE;font-size:10.5px;font-weight:700;letter-spacing:.04em;display:flex;align-items:center;text-transform:uppercase}
+</style>
+<div class="oy" style="min-height: 1300px; position: relative">
+<header style="border-bottom: 1px solid var(--line)">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; gap: 32px; flex-wrap: wrap">
+<a href="Dashboard-Desktop.html" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--tx)"><span class="seal">字</span><span style="display: flex; flex-direction: column; line-height: 1.2"><strong style="font-size: 17px">Oyster</strong><span style="font-size: 13px; color: var(--tx2)">漢字マスター N4</span></span></a>
+<nav aria-label="Principal" style="display: flex; gap: 28px">
+<a class="nav" href="Dashboard-Desktop.html">Início</a>
+<a class="nav" href="Licao-Desktop.html">Lições <span class="badge">5</span></a>
+<a class="nav" href="Pratica-Desktop.html">Revisões <span class="badge" style="background: var(--tx); color: var(--bg)">20</span></a>
+<a class="nav" href="Curriculo-Desktop.html" aria-current="page">Currículo</a>
+</nav>
+</div>
+</header>
+
+<main style="max-width: 1120px; margin: 0 auto; padding: 40px 24px 140px; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<h1 style="margin: 0; font-size: 34px; letter-spacing: -.02em">Currículo</h1>
+<p style="margin: 0; color: var(--tx2)">Escolha o que entra nas suas revisões — acompanhe o que a aula já cobriu.</p>
+</div>
+<div role="tablist" aria-label="Capítulo" style="display: flex; gap: 4px; padding: 4px; border-radius: 14px; background: var(--s1); border: 1px solid var(--line)">
+<button class="seg" role="tab" aria-selected="false"><span class="jp">第3章</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-label="concluído" role="img"><path d="M5 12.5l4.5 4.5L19 7"/></svg></button>
+<button class="seg" role="tab" aria-selected="true"><span class="jp">第4章 スケジュール</span></button>
+<button class="seg" role="tab" aria-selected="false"><span class="jp">第5章</span></button>
+</div>
+</div>
+
+<div style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap; padding-bottom: 4px">
+<span class="eyebrow" id="qt">Tipos de pergunta</span>
+<div role="group" aria-labelledby="qt" style="display: flex; gap: 8px; flex-wrap: wrap">
+<button class="chip" aria-pressed="true"><i style="background: var(--qm); color: #141210">Aa</i>Significado<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></button>
+<button class="chip" aria-pressed="true"><i class="jp" style="background: var(--qr); color: #141210; box-shadow: 0 0 0 1px rgba(20,18,16,.25)">あ</i>Leitura<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></button>
+<button class="chip" aria-pressed="false"><i class="kj" style="background: var(--s3); color: var(--tx2)">筆</i>Escrita</button>
+</div>
+<div style="margin-left: auto; display: flex; gap: 4px">
+<button class="btn btn-g">Selecionar capítulo</button>
+<button class="btn btn-g">Só o que já aprendi</button>
+<button class="btn btn-g">Limpar</button>
+</div>
+</div>
+
+<section class="grp" aria-labelledby="g1">
+<div style="display: flex; align-items: center; gap: 14px">
+<span class="cb on" role="checkbox" aria-checked="true" aria-labelledby="g1" tabindex="0"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
+<h2 id="g1" style="margin: 0; font-size: 20px; display: flex; align-items: baseline; gap: 10px"><span class="jp">4-1 デート</span><span style="font-size: 15px; font-weight: 500; color: var(--tx2)">Encontro</span></h2>
+<span style="margin-left: auto; font-size: 14px; color: var(--tx2)">7 de 7 selecionados</span>
+</div>
+<div class="words">
+<div class="word"><span class="jp" lang="ja">毎週 まいしゅう</span><div class="tiles">
+<button class="tile" aria-pressed="true"><span class="sg">葉</span><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">毎</span><span class="r">まい</span><span class="m">cada</span></button>
+<button class="tile" aria-pressed="true"><span class="sg">芽</span><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">週</span><span class="r">しゅう</span><span class="m">semana</span></button>
+</div></div>
+<div class="word"><span class="jp" lang="ja">映画館 えいがかん</span><div class="tiles">
+<button class="tile" aria-pressed="true"><span class="sg">芽</span><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">映</span><span class="r">えい</span><span class="m">projetar</span></button>
+<button class="tile" aria-pressed="true"><span class="sg">芽</span><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">画</span><span class="r">が・かく</span><span class="m">imagem</span></button>
+<button class="tile" aria-pressed="true"><span class="sg">種</span><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">館</span><span class="r">かん</span><span class="m">edifício</span></button>
+</div></div>
+<div class="word"><span class="jp" lang="ja">公園 こうえん</span><div class="tiles">
+<button class="tile" aria-pressed="true"><span class="sg">葉</span><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">公</span><span class="r">こう</span><span class="m">público</span></button>
+<button class="tile" aria-pressed="true"><span class="sg">芽</span><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">園</span><span class="r">えん</span><span class="m">jardim</span></button>
+</div></div>
+</div>
+</section>
+
+<section class="grp" aria-labelledby="g2">
+<div style="display: flex; align-items: center; gap: 14px">
+<span class="cb on" role="checkbox" aria-checked="true" aria-labelledby="g2" tabindex="0"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
+<h2 id="g2" style="margin: 0; font-size: 20px; display: flex; align-items: baseline; gap: 10px"><span class="jp">4-2 けっこんきねんび</span><span style="font-size: 15px; font-weight: 500; color: var(--tx2)">Aniversário de casamento</span></h2>
+<span style="margin-left: auto; font-size: 14px; color: var(--tx2)">7 de 7 selecionados</span>
+</div>
+<div class="words">
+<div class="word"><span class="jp" lang="ja">夫妻 ふさい</span><div class="tiles">
+<button class="tile" aria-pressed="true"><span class="sg">芽</span><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">夫</span><span class="r">ふ・おっと</span><span class="m">marido</span></button>
+<button class="tile" aria-pressed="true"><span class="sg">芽</span><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">妻</span><span class="r">さい・つま</span><span class="m">esposa</span></button>
+</div></div>
+<div class="word"><span class="jp" lang="ja">特に・思い出</span><div class="tiles">
+<button class="tile" aria-pressed="true"><span class="sg">花</span><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">特</span><span class="r">とく</span><span class="m">especial</span></button>
+<button class="tile" aria-pressed="true"><span class="sg">花</span><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">思</span><span class="r">し・おも</span><span class="m">pensar</span></button>
+</div></div>
+<div class="word"><span class="jp" lang="ja">料理・有名</span><div class="tiles">
+<button class="tile" aria-pressed="true"><span class="sg">種</span><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">料</span><span class="r">りょう</span><span class="m">material</span></button>
+<button class="tile" aria-pressed="true"><span class="sg">種</span><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">理</span><span class="r">り</span><span class="m">razão</span></button>
+<button class="tile" aria-pressed="true"><span class="sg">種</span><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">有</span><span class="r">ゆう・あ</span><span class="m">ter, existir</span></button>
+</div></div>
+</div>
+</section>
+
+<section class="grp" aria-labelledby="g3">
+<div style="display: flex; align-items: center; gap: 14px">
+<span class="cb mix" role="checkbox" aria-checked="mixed" aria-labelledby="g3" tabindex="0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" aria-hidden="true"><path d="M6 12h12"/></svg></span>
+<h2 id="g3" style="margin: 0; font-size: 20px; display: flex; align-items: baseline; gap: 10px"><span class="jp">4-3 しごと</span><span style="font-size: 15px; font-weight: 500; color: var(--tx2)">Trabalho</span></h2>
+<span style="margin-left: auto; font-size: 14px; color: var(--tx2)">2 de 8 · <a href="Licao-Desktop.html" style="color: var(--tx); font-weight: 600">5 lições pendentes</a></span>
+</div>
+<div class="words">
+<div class="word"><span class="jp" lang="ja">会社 かいしゃ</span><div class="tiles">
+<button class="tile" aria-pressed="true"><span class="sg">種</span><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">会</span><span class="r">かい・あ</span><span class="m">encontrar</span></button>
+<button class="tile" aria-pressed="true"><span class="sg">種</span><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span class="k" lang="ja">社</span><span class="r">しゃ</span><span class="m">empresa</span></button>
+</div></div>
+<div class="word"><span class="jp" lang="ja">働く・作る</span><div class="tiles">
+<button class="tile" aria-pressed="false"><span class="nw">novo</span><span class="k" lang="ja" style="color: var(--tx2)">働</span><span class="r">どう・はたら</span><span class="m">trabalhar</span></button>
+<button class="tile" aria-pressed="false"><span class="nw">novo</span><span class="k" lang="ja" style="color: var(--tx2)">作</span><span class="r">さく・つく</span><span class="m">fazer</span></button>
+</div></div>
+<div class="word"><span class="jp" lang="ja">工場・始まる・終わる</span><div class="tiles">
+<button class="tile" aria-pressed="false"><span class="nw">novo</span><span class="k" lang="ja" style="color: var(--tx2)">工</span><span class="r">こう</span><span class="m">obra</span></button>
+<button class="tile" aria-pressed="false"><span class="nw">novo</span><span class="k" lang="ja" style="color: var(--tx2)">場</span><span class="r">じょう・ば</span><span class="m">lugar</span></button>
+<button class="tile" aria-pressed="false"><span class="nw">novo</span><span class="k" lang="ja" style="color: var(--tx2)">始</span><span class="r">し・はじ</span><span class="m">começar</span></button>
+<button class="tile" aria-pressed="false"><span class="sg">種</span><span class="k" lang="ja" style="color: var(--tx2)">終</span><span class="r">しゅう・お</span><span class="m">terminar</span></button>
+</div></div>
+</div>
+</section>
+</main>
+
+<div style="position: absolute; left: 0; right: 0; bottom: 0; border-top: 1px solid var(--line2); background: rgba(24,22,20,.97)">
+<div style="max-width: 1120px; margin: 0 auto; padding: 16px 24px; display: flex; align-items: center; gap: 24px; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; line-height: 1.35">
+<strong style="font-size: 17px">16 kanji · Significado + Leitura</strong>
+<span style="font-size: 14px; color: var(--tx2)">≈ 210 perguntas no ciclo · sessões de 20 · 20 prontas agora</span>
+</div>
+<a class="btn btn-p" href="Pratica-Desktop.html" style="margin-left: auto">Começar prática<span class="kbd" style="display: inline-flex; align-items: center; justify-content: center; min-width: 22px; height: 22px; padding: 0 6px; border-radius: 6px; border: 1px solid currentColor; font-size: 12px; font-weight: 500; opacity: .8; box-sizing: border-box">Enter</span></a>
+</div>
+</div>
+</div>
+</body>
+</html>

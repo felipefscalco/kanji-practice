@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sistema visual Sumi &amp; Shu</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&amp;family=Schibsted+Grotesk:wght@400;500;600;700&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0;background:#0F0E0D}
+.oy{--bg:#0F0E0D;--s1:#181614;--s2:#201E1B;--s3:#2A2723;--line:#34302B;--line2:#4A453E;--tx:#EFEAE0;--tx2:#B9B1A4;--tx3:#968E82;--shu:#E0532F;--shuf:#C2401F;--kan:#3B54A8;--kani:#A3B3F2;--voc:#7B4A9C;--voci:#D2AEEC;--qm:#E0A93B;--qr:#EFEADF;--qw:#0B0A09;--ok:#3FB57C;--okb:#11301F;--oki:#86E0AE;--er:#E5534B;--erb:#3A1513;--eri:#FFA39B;--pri:#EFEAE0;--onpri:#141210;font-family:'Schibsted Grotesk','Zen Kaku Gothic New',system-ui,sans-serif;color:var(--tx);background:var(--bg);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.oy.light{--bg:#F4EFE5;--s1:#FBF8F2;--s2:#EFE9DD;--s3:#E5DDCE;--line:#DCD3C3;--line2:#C3B8A5;--tx:#1A1714;--tx2:#4F483F;--tx3:#6B6358;--kani:#2E4592;--voci:#6A3A8C;--oki:#1C6E45;--okb:#E1F2E7;--eri:#A8261F;--erb:#FBE4E1;--pri:#1A1714;--onpri:#F4EFE5}
+.jp{font-family:'Zen Kaku Gothic New',sans-serif}
+.kj{font-family:'Klee One','Zen Kaku Gothic New',serif;font-weight:600}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 20px;border-radius:12px;border:1px solid transparent;font:600 16px/1 'Schibsted Grotesk',sans-serif;cursor:pointer;text-decoration:none;white-space:nowrap}
+.btn-p{background:var(--pri);color:var(--onpri)}
+.btn-s{background:var(--s3);color:var(--tx);border-color:var(--line2)}
+.btn-g{background:transparent;color:var(--tx2)}
+.btn:focus-visible,.chip:focus-visible,input:focus-visible,a:focus-visible,button:focus-visible{outline:2px solid var(--tx);outline-offset:3px}
+.kbd{display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:22px;padding:0 6px;border-radius:6px;border:1px solid currentColor;font:500 12px/1 'Schibsted Grotesk',sans-serif;opacity:.8;box-sizing:border-box}
+.chip{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid var(--line2);background:transparent;color:var(--tx2);font:500 15px/1 'Schibsted Grotesk',sans-serif}
+.chip.on{background:var(--tx);color:var(--bg);border-color:var(--tx)}
+.card{background:var(--s1);border:1px solid var(--line);border-radius:16px}
+.eyebrow{font:600 12px/1.2 'Schibsted Grotesk',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--tx3)}
+.seal{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:9px;background:var(--shuf);color:#FFF6EE;font-family:'Klee One',serif;font-weight:600;font-size:24px;box-shadow:inset 0 0 0 2px rgba(255,240,230,.35);flex:none}
+.tag{display:inline-flex;align-items:center;gap:6px;height:24px;padding:0 10px;border-radius:999px;font:600 12px/1 'Schibsted Grotesk',sans-serif;letter-spacing:.06em;text-transform:uppercase}
+.bar{height:6px;border-radius:99px;background:var(--s3);overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--tx);border-radius:99px}
+.sw{display:flex;flex-direction:column;gap:8px;min-width:0}
+.sw>b{display:block;height:72px;border-radius:12px;border:1px solid rgba(255,255,255,.08)}
+.sw small{font-size:12.5px;color:var(--tx3);line-height:1.35}
+.sw strong{font-size:14px;font-weight:600}
+.mono{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:12.5px}
+h2.sec{margin:0;font-size:24px;font-weight:700;letter-spacing:-.01em}
+</style>
+<div class="oy" style="min-height: 2250px; box-sizing: border-box; padding: 72px 24px 96px">
+<div style="max-width: 1280px; margin: 0 auto; display: flex; flex-direction: column; gap: 72px">
+
+<header style="display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-end; justify-content: space-between">
+<div style="display: flex; flex-direction: column; gap: 20px; max-width: 760px">
+<div style="display: flex; align-items: center; gap: 14px"><span class="seal" style="width: 56px; height: 56px; font-size: 34px; border-radius: 12px">字</span><span style="font-size: 22px; font-weight: 700">Oyster</span><span class="eyebrow">Kanji Master N4</span></div>
+<h1 style="margin: 0; font-size: 64px; line-height: 1.02; letter-spacing: -.025em; font-weight: 700">Sumi &amp; Shu <span class="jp" style="font-weight: 500; color: var(--tx2)">墨と朱</span></h1>
+<p style="margin: 0; font-size: 19px; color: var(--tx2); max-width: 640px; text-wrap: pretty">Tinta sumi como fundo, papel washi como texto e ação, o carimbo shu como assinatura. A cor existe só para dizer <em>o que</em> é o item e <em>o que</em> você deve responder.</p>
+</div>
+<div style="display: flex; gap: 16px; align-items: flex-end">
+<div class="kj" style="width: 200px; height: 200px; border-radius: 20px; background: var(--kan); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 136px; line-height: 1">週</div>
+<div style="display: flex; flex-direction: column; gap: 8px; width: 160px">
+<div style="height: 44px; border-radius: 10px; background: var(--qm); color: #141210; display: flex; align-items: center; gap: 8px; padding: 0 12px; font-weight: 600; font-size: 14px"><span style="font-weight: 700">Aa</span> Significado</div>
+<div style="height: 44px; border-radius: 10px; background: var(--qr); color: #141210; display: flex; align-items: center; gap: 8px; padding: 0 12px; font-weight: 600; font-size: 14px"><span class="jp" style="font-weight: 700">あ</span> Leitura</div>
+<div style="height: 44px; border-radius: 10px; background: var(--qw); color: var(--tx); border: 1px solid var(--line2); display: flex; align-items: center; gap: 8px; padding: 0 12px; font-weight: 600; font-size: 14px"><span class="kj">筆</span> Escrita</div>
+</div>
+</div>
+</header>
+
+<section style="display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 12px"><h2 class="sec">Paleta base · dark (padrão)</h2><span class="mono" style="color: var(--tx3)">.oy  — tokens em :root</span></div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr)); gap: 20px">
+<div class="sw"><b style="background: #0F0E0D"></b><strong>bg · 墨</strong><small class="mono">#0F0E0D</small><small>Fundo da página</small></div>
+<div class="sw"><b style="background: #181614"></b><strong>surface-1</strong><small class="mono">#181614</small><small>Cards, painéis</small></div>
+<div class="sw"><b style="background: #201E1B"></b><strong>surface-2</strong><small class="mono">#201E1B</small><small>Hover, inputs</small></div>
+<div class="sw"><b style="background: #2A2723"></b><strong>surface-3</strong><small class="mono">#2A2723</small><small>Botão secundário, trilhos</small></div>
+<div class="sw"><b style="background: #34302B"></b><strong>line</strong><small class="mono">#34302B</small><small>Divisores (1px)</small></div>
+<div class="sw"><b style="background: #EFEAE0"></b><strong>text · 白練</strong><small class="mono">#EFEAE0</small><small>Texto e botão primário</small></div>
+<div class="sw"><b style="background: #B9B1A4"></b><strong>text-2</strong><small class="mono">#B9B1A4</small><small>Leituras, apoio · 8.4:1</small></div>
+<div class="sw"><b style="background: #968E82"></b><strong>text-3</strong><small class="mono">#968E82</small><small>Legendas · 5.6:1</small></div>
+<div class="sw"><b style="background: #C2401F"></b><strong>shu · 朱</strong><small class="mono">#C2401F / #E0532F</small><small>Marca: hanko, streak, Fruto</small></div>
+</div>
+</section>
+
+<section class="oy light" style="display: flex; flex-direction: column; gap: 24px; padding: 32px; border-radius: 20px">
+<div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 12px"><h2 class="sec">Paleta base · light (washi)</h2><span class="mono" style="color: var(--tx3)">.oy.light — mesmos nomes de token</span></div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr)); gap: 20px">
+<div class="sw"><b style="background: #F4EFE5; border-color: #DCD3C3"></b><strong>bg · 和紙</strong><small class="mono">#F4EFE5</small><small>Fundo</small></div>
+<div class="sw"><b style="background: #FBF8F2; border-color: #DCD3C3"></b><strong>surface-1</strong><small class="mono">#FBF8F2</small><small>Cards</small></div>
+<div class="sw"><b style="background: #EFE9DD; border-color: #DCD3C3"></b><strong>surface-2</strong><small class="mono">#EFE9DD</small><small>Inputs</small></div>
+<div class="sw"><b style="background: #E5DDCE"></b><strong>surface-3</strong><small class="mono">#E5DDCE</small><small>Secundário</small></div>
+<div class="sw"><b style="background: #DCD3C3"></b><strong>line</strong><small class="mono">#DCD3C3</small><small>Divisores</small></div>
+<div class="sw"><b style="background: #1A1714"></b><strong>text · 墨</strong><small class="mono">#1A1714</small><small>Texto e primário</small></div>
+<div class="sw"><b style="background: #4F483F"></b><strong>text-2</strong><small class="mono">#4F483F</small><small>Apoio · 8.1:1</small></div>
+<div class="sw"><b style="background: #6B6358"></b><strong>text-3</strong><small class="mono">#6B6358</small><small>Legendas · 5.2:1</small></div>
+<div class="sw"><b style="background: #C2401F"></b><strong>shu · 朱</strong><small class="mono">#C2401F</small><small>Marca (igual)</small></div>
+</div>
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 28px">
+<h2 class="sec">Cores semânticas</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(380px, 100%), 1fr)); gap: 24px">
+
+<div class="card" style="padding: 28px; display: flex; flex-direction: column; gap: 20px">
+<div class="eyebrow">Tipo de item — cor do card do prompt</div>
+<div style="display: flex; gap: 16px">
+<div style="flex: 1; display: flex; flex-direction: column; gap: 10px"><div class="kj" style="height: 120px; border-radius: 14px; background: var(--kan); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 72px">工</div><strong>Kanji · 藍 Ai</strong><small class="mono" style="color: var(--tx3)">#3B54A8 · branco 6.9:1</small></div>
+<div style="flex: 1; display: flex; flex-direction: column; gap: 10px"><div class="kj" style="height: 120px; border-radius: 14px; background: var(--voc); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 52px">人工</div><strong>Vocabulário · 紫 Murasaki</strong><small class="mono" style="color: var(--tx3)">#7B4A9C · branco 6.3:1</small></div>
+</div>
+<p style="margin: 0; color: var(--tx2); font-size: 14px">Sempre acompanhado da tag textual "Kanji" / "Vocabulário" no card.</p>
+</div>
+
+<div class="card" style="padding: 28px; display: flex; flex-direction: column; gap: 16px">
+<div class="eyebrow">Tipo de pergunta — faixa "o que responder"</div>
+<div style="display: flex; align-items: center; gap: 14px; height: 56px; padding: 0 16px; border-radius: 12px; background: var(--qm); color: #141210"><span style="width: 32px; height: 32px; border-radius: 8px; background: rgba(20,18,16,.12); display: flex; align-items: center; justify-content: center; font-weight: 700">Aa</span><strong>Significado</strong><span style="font-size: 14px">em português</span><span class="mono" style="margin-left: auto">山吹 #E0A93B</span></div>
+<div style="display: flex; align-items: center; gap: 14px; height: 56px; padding: 0 16px; border-radius: 12px; background: var(--qr); color: #141210"><span class="jp" style="width: 32px; height: 32px; border-radius: 8px; background: rgba(20,18,16,.1); display: flex; align-items: center; justify-content: center; font-weight: 700">あ</span><strong>Leitura</strong><span style="font-size: 14px">em hiragana</span><span class="mono" style="margin-left: auto">白練 #EFEADF</span></div>
+<div style="display: flex; align-items: center; gap: 14px; height: 56px; padding: 0 16px; border-radius: 12px; background: var(--qw); color: var(--tx); border: 1px solid var(--line2)"><span class="kj" style="width: 32px; height: 32px; border-radius: 8px; background: rgba(239,234,224,.1); display: flex; align-items: center; justify-content: center">筆</span><strong>Escrita</strong><span style="font-size: 14px; color: var(--tx2)">em kanji</span><span class="mono" style="margin-left: auto; color: var(--tx3)">墨 #0B0A09</span></div>
+<p style="margin: 0; color: var(--tx2); font-size: 14px">Três luminosidades bem distintas (claro-médio / claríssimo / escuro) + ícone + rótulo: nunca só matiz.</p>
+</div>
+
+<div class="card" style="padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<div class="eyebrow">Estados de resposta</div>
+<div style="display: flex; align-items: center; gap: 12px; min-height: 52px; padding: 0 16px; border-radius: 12px; background: var(--okb); color: var(--oki); border: 1px solid #2B6B47"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg><strong>Correto</strong><span class="mono" style="margin-left: auto">ok #3FB57C · bg #11301F</span></div>
+<div style="display: flex; align-items: center; gap: 12px; min-height: 52px; padding: 0 16px; border-radius: 12px; background: var(--erb); color: var(--eri); border: 1px solid #7A2A24"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><strong>Incorreto</strong><span class="mono" style="margin-left: auto">err #E5534B · bg #3A1513</span></div>
+<div style="display: flex; align-items: center; gap: 12px; min-height: 52px; padding: 0 16px; border-radius: 12px; background: var(--s2); color: var(--tx); border: 1px solid var(--line2)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v5M12 16h.01"/></svg><strong>Neutro / quase</strong><span style="font-size: 14px; color: var(--tx2)">"Confira a ortografia"</span></div>
+<div style="display: flex; align-items: center; gap: 12px; min-height: 52px; padding: 0 16px; border-radius: 12px; background: transparent; color: var(--tx3); border: 1px dashed var(--line2)"><strong>Desabilitado</strong><span style="font-size: 14px">contorno tracejado, sem preenchimento</span></div>
+</div>
+
+<div class="card" style="padding: 28px; display: flex; flex-direction: column; gap: 18px">
+<div class="eyebrow">Estágios SRS — do plantio ao fruto</div>
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px">
+<div style="display: flex; flex-direction: column; gap: 8px; align-items: center"><div class="kj" style="width: 100%; height: 64px; border-radius: 10px; background: #8A5E4E; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 28px">種</div><strong style="font-size: 14px">Semente</strong><small style="color: var(--tx3); font-size: 12.5px">4h · 8h</small></div>
+<div style="display: flex; flex-direction: column; gap: 8px; align-items: center"><div class="kj" style="width: 100%; height: 64px; border-radius: 10px; background: #A9563C; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 28px">芽</div><strong style="font-size: 14px">Broto</strong><small style="color: var(--tx3); font-size: 12.5px">1d · 2d</small></div>
+<div style="display: flex; flex-direction: column; gap: 8px; align-items: center"><div class="kj" style="width: 100%; height: 64px; border-radius: 10px; background: #C9532F; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 28px">葉</div><strong style="font-size: 14px">Folha</strong><small style="color: var(--tx3); font-size: 12.5px">1 sem</small></div>
+<div style="display: flex; flex-direction: column; gap: 8px; align-items: center"><div class="kj" style="width: 100%; height: 64px; border-radius: 10px; background: #E86A3E; color: #141210; display: flex; align-items: center; justify-content: center; font-size: 28px">花</div><strong style="font-size: 14px">Flor</strong><small style="color: var(--tx3); font-size: 12.5px">2 sem · 1 mês</small></div>
+<div style="display: flex; flex-direction: column; gap: 8px; align-items: center"><div class="kj" style="width: 100%; height: 64px; border-radius: 10px; background: #F7A47C; color: #141210; display: flex; align-items: center; justify-content: center; font-size: 28px">実</div><strong style="font-size: 14px">Fruto</strong><small style="color: var(--tx3); font-size: 12.5px">4 meses</small></div>
+</div>
+<p style="margin: 0; color: var(--tx2); font-size: 14px">Rampa sequencial de shu (escuro → claro): mais claro = mais consolidado. Cada estágio tem glifo próprio, legível sem cor.</p>
+</div>
+</div>
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 28px">
+<h2 class="sec">Tipografia</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap: 24px">
+<div class="card" style="padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<div class="eyebrow">Kanji de estudo · Klee One 600</div>
+<div class="kj" style="font-size: 144px; line-height: 1.05">毎週</div>
+<p style="margin: 0; color: var(--tx2); font-size: 14px">Traço de livro didático (教科書体): mostra hane, tome e harai como o professor escreve na lousa. Usado em prompts, tiles e lições.</p>
+</div>
+<div class="card" style="padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<div class="eyebrow">Leituras e JP de UI · Zen Kaku Gothic New</div>
+<div class="jp" style="font-size: 44px; font-weight: 500; letter-spacing: .06em">まいしゅう</div>
+<div class="jp" style="font-size: 22px; color: var(--tx2); letter-spacing: .04em">第4章 スケジュール · 4-1 デート</div>
+<p style="margin: 0; color: var(--tx2); font-size: 14px">Kana com tracking +0.04–0.06em para separar mora; sempre text-2 (8:1), nunca cinza claro.</p>
+</div>
+<div class="card" style="padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<div class="eyebrow">Interface latina · Schibsted Grotesk</div>
+<div style="font-size: 40px; font-weight: 700; letter-spacing: -.02em; line-height: 1.1">Revisar 20 itens</div>
+<div style="font-size: 17px; color: var(--tx2)">Grotesca com personagem, números tabulares para contadores.</div>
+</div>
+</div>
+<div class="card" style="padding: 8px 28px">
+<div style="display: grid; grid-template-columns: 180px 1fr 220px; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); align-items: baseline"><span class="mono" style="color: var(--tx3)">kanji-hero</span><span class="kj" style="font-size: 40px">週</span><span class="mono" style="color: var(--tx3)">160 / 1.0 · mob 120</span></div>
+<div style="display: grid; grid-template-columns: 180px 1fr 220px; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); align-items: baseline"><span class="mono" style="color: var(--tx3)">prompt-word</span><span style="font-size: 32px; font-weight: 600">artificial</span><span class="mono" style="color: var(--tx3)">64 / 1.1 · mob 44</span></div>
+<div style="display: grid; grid-template-columns: 180px 1fr 220px; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); align-items: baseline"><span class="mono" style="color: var(--tx3)">display</span><span style="font-size: 28px; font-weight: 700">Sessão concluída</span><span class="mono" style="color: var(--tx3)">40 / 1.1 · 700</span></div>
+<div style="display: grid; grid-template-columns: 180px 1fr 220px; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); align-items: baseline"><span class="mono" style="color: var(--tx3)">h2</span><span style="font-size: 22px; font-weight: 700">Revisões pendentes</span><span class="mono" style="color: var(--tx3)">22 / 1.25 · 700</span></div>
+<div style="display: grid; grid-template-columns: 180px 1fr 220px; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); align-items: baseline"><span class="mono" style="color: var(--tx3)">answer-input</span><span class="jp" style="font-size: 26px; font-weight: 500">しゅう</span><span class="mono" style="color: var(--tx3)">28 / 1.2 · 500</span></div>
+<div style="display: grid; grid-template-columns: 180px 1fr 220px; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); align-items: baseline"><span class="mono" style="color: var(--tx3)">body</span><span style="font-size: 16px">Qualquer leitura listada é aceita.</span><span class="mono" style="color: var(--tx3)">16 / 1.5 · 400</span></div>
+<div style="display: grid; grid-template-columns: 180px 1fr 220px; gap: 16px; padding: 14px 0; align-items: baseline"><span class="mono" style="color: var(--tx3)">caption / eyebrow</span><span class="eyebrow">Kanji · 4-1 デート</span><span class="mono" style="color: var(--tx3)">12.5 · 600 · +0.08em</span></div>
+</div>
+</section>
+
+<section style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 24px">
+<div class="card" style="padding: 28px; display: flex; flex-direction: column; gap: 16px">
+<div class="eyebrow">Espaçamento · base 4</div>
+<div style="display: flex; align-items: flex-end; gap: 10px; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><b style="width: 4px; height: 4px; background: var(--shu)"></b><small class="mono">4</small></div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><b style="width: 8px; height: 8px; background: var(--shu)"></b><small class="mono">8</small></div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><b style="width: 12px; height: 12px; background: var(--shu)"></b><small class="mono">12</small></div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><b style="width: 16px; height: 16px; background: var(--shu)"></b><small class="mono">16</small></div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><b style="width: 24px; height: 24px; background: var(--shu)"></b><small class="mono">24</small></div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><b style="width: 32px; height: 32px; background: var(--shu)"></b><small class="mono">32</small></div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><b style="width: 48px; height: 48px; background: var(--shu)"></b><small class="mono">48</small></div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><b style="width: 64px; height: 64px; background: var(--shu)"></b><small class="mono">64</small></div>
+</div>
+<small style="color: var(--tx3)">Gutter mobile 16 · desktop 24 · coluna de prática máx. 720</small>
+</div>
+<div class="card" style="padding: 28px; display: flex; flex-direction: column; gap: 16px">
+<div class="eyebrow">Raios</div>
+<div style="display: flex; gap: 14px; flex-wrap: wrap; align-items: flex-end">
+<div style="display: flex; flex-direction: column; gap: 6px; align-items: center"><b style="width: 52px; height: 52px; border: 2px solid var(--tx2); border-radius: 6px"></b><small class="mono">sm 6</small></div>
+<div style="display: flex; flex-direction: column; gap: 6px; align-items: center"><b style="width: 52px; height: 52px; border: 2px solid var(--tx2); border-radius: 12px"></b><small class="mono">md 12</small></div>
+<div style="display: flex; flex-direction: column; gap: 6px; align-items: center"><b style="width: 52px; height: 52px; border: 2px solid var(--tx2); border-radius: 16px"></b><small class="mono">lg 16</small></div>
+<div style="display: flex; flex-direction: column; gap: 6px; align-items: center"><b style="width: 52px; height: 52px; border: 2px solid var(--tx2); border-radius: 24px"></b><small class="mono">xl 24</small></div>
+<div style="display: flex; flex-direction: column; gap: 6px; align-items: center"><b style="width: 72px; height: 36px; border: 2px solid var(--tx2); border-radius: 99px"></b><small class="mono">pill</small></div>
+</div>
+<small style="color: var(--tx3)">Hanko: 9–12 (quadrado suave, como carimbo)</small>
+</div>
+<div class="card" style="padding: 28px; display: flex; flex-direction: column; gap: 16px">
+<div class="eyebrow">Elevação</div>
+<div style="display: flex; gap: 16px">
+<div style="flex: 1; height: 72px; border-radius: 12px; background: var(--s1); border: 1px solid var(--line); display: flex; align-items: center; justify-content: center"><small class="mono">e0 · borda</small></div>
+<div style="flex: 1; height: 72px; border-radius: 12px; background: var(--s2); box-shadow: 0 1px 0 rgba(255,255,255,.05) inset, 0 8px 24px rgba(0,0,0,.45); display: flex; align-items: center; justify-content: center"><small class="mono">e1 · card</small></div>
+<div style="flex: 1; height: 72px; border-radius: 12px; background: var(--s2); box-shadow: 0 1px 0 rgba(255,255,255,.06) inset, 0 24px 56px rgba(0,0,0,.6); display: flex; align-items: center; justify-content: center"><small class="mono">e2 · toast</small></div>
+</div>
+<small style="color: var(--tx3)">No dark, profundidade vem de superfícies mais claras; sombra só reforça.</small>
+</div>
+<div class="card" style="padding: 28px; display: flex; flex-direction: column; gap: 10px">
+<div class="eyebrow">Movimento</div>
+<div class="mono" style="color: var(--tx2); line-height: 1.8">fast 120ms · ease-out<br>base 200ms · cubic(.2,.8,.2,1)<br>stamp 320ms · cubic(.3,1.4,.5,1)<br>shake 280ms · ±6px ×3 (erro)</div>
+<small style="color: var(--tx3)">prefers-reduced-motion: tudo vira fade de 120ms; sem shake, sem escala.</small>
+</div>
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 20px">
+<h2 class="sec">Contraste (WCAG AA)</h2>
+<div class="card" style="padding: 8px 28px">
+<div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line)"><span class="eyebrow">Par</span><span class="eyebrow">Razão</span><span class="eyebrow">Uso</span></div>
+<div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line)"><span>text-3 #968E82 sobre surface-1</span><span class="mono">5.6 : 1 ✓</span><span style="color: var(--tx2)">legendas 12.5px</span></div>
+<div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line)"><span>Branco sobre Kanji #3B54A8</span><span class="mono">6.9 : 1 ✓</span><span style="color: var(--tx2)">prompt, tag</span></div>
+<div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line)"><span>Branco sobre Vocab #7B4A9C</span><span class="mono">6.3 : 1 ✓</span><span style="color: var(--tx2)">prompt, tag</span></div>
+<div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line)"><span>Tinta #141210 sobre Significado #E0A93B</span><span class="mono">9.0 : 1 ✓</span><span style="color: var(--tx2)">faixa</span></div>
+<div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line)"><span>Branco sobre Shu #C2401F</span><span class="mono">5.2 : 1 ✓</span><span style="color: var(--tx2)">hanko</span></div>
+<div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 16px; padding: 12px 0"><span>Rosa atual #FF0066 com branco (antes)</span><span class="mono" style="color: var(--eri)">3.9 : 1 ✕</span><span style="color: var(--tx2)">substituído</span></div>
+</div>
+</section>
+
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+/* Tailwind v4: importe depois de tokens.css
+   @import "tailwindcss"; @import "./tokens.css"; @import "./tailwind-v4-theme.css"; */
+@theme inline {
+  --color-bg: var(--color-bg);
+  --color-surface-1: var(--color-surface-1);
+  --color-surface-2: var(--color-surface-2);
+  --color-surface-3: var(--color-surface-3);
+  --color-line: var(--color-line);
+  --color-line-strong: var(--color-line-strong);
+  --color-text: var(--color-text);
+  --color-text-2: var(--color-text-2);
+  --color-text-3: var(--color-text-3);
+  --color-primary: var(--color-primary);
+  --color-on-primary: var(--color-on-primary);
+  --color-shu: var(--color-shu);
+  --color-shu-fill: var(--color-shu-fill);
+  --color-kanji: var(--color-kanji);
+  --color-kanji-ink: var(--color-kanji-ink);
+  --color-vocab: var(--color-vocab);
+  --color-vocab-ink: var(--color-vocab-ink);
+  --color-q-meaning: var(--color-q-meaning);
+  --color-q-reading: var(--color-q-reading);
+  --color-q-writing: var(--color-q-writing);
+  --color-ok: var(--color-ok); --color-ok-bg: var(--color-ok-bg); --color-ok-ink: var(--color-ok-ink);
+  --color-err: var(--color-err); --color-err-bg: var(--color-err-bg); --color-err-ink: var(--color-err-ink);
+  --color-srs-1: var(--color-srs-1); --color-srs-2: var(--color-srs-2); --color-srs-3: var(--color-srs-3);
+  --color-srs-4: var(--color-srs-4); --color-srs-5: var(--color-srs-5);
+  --font-ui: var(--font-ui); --font-jp: var(--font-jp); --font-kanji: var(--font-kanji);
+  --radius-sm: 6px; --radius-md: 12px; --radius-lg: 16px; --radius-xl: 24px;
+  --shadow-card: var(--shadow-1); --shadow-toast: var(--shadow-2);
+}
