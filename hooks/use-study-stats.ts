@@ -43,14 +43,32 @@ export interface StudyStats {
   lessonKanji: KanjiEntry[];
 }
 
-/** Practice selection and what it adds up to. `null` until it can be read in the browser. */
-export function useStudyStats(): StudyStats | null {
+export interface Selection {
+  /** Subsections exactly as chosen (may be empty). */
+  sectionIds: string[];
+  kinds: ReviewKind[];
+}
+
+/** The stored practice selection, live. `null` until it can be read in the browser. */
+export function useSelection(): Selection | null {
   const raw = useSyncExternalStore(subscribe, snapshot, () => null);
   return useMemo(() => {
     if (raw === null) {
       return null;
     }
-    const [stored, kinds] = JSON.parse(raw) as [string[], ReviewKind[]];
+    const [sectionIds, kinds] = JSON.parse(raw) as [string[], ReviewKind[]];
+    return { sectionIds, kinds };
+  }, [raw]);
+}
+
+/** Practice selection and what it adds up to. `null` until it can be read in the browser. */
+export function useStudyStats(): StudyStats | null {
+  const selection = useSelection();
+  return useMemo(() => {
+    if (selection === null) {
+      return null;
+    }
+    const { sectionIds: stored, kinds } = selection;
     // An emptied selection falls back to the whole chapter, like the practice queue does.
     const sectionIds = stored.length > 0 ? stored : defaultSectionIds();
     const kanjiIds = resolveKanjiIds(sectionIds);
@@ -64,5 +82,5 @@ export function useStudyStats(): StudyStats | null {
       sessionCount: Math.min(SESSION_SIZE, promptCount),
       lessonKanji: kanjiEntriesFromIds(kanjiIds).slice(0, LESSON_BATCH),
     };
-  }, [raw]);
+  }, [selection]);
 }
