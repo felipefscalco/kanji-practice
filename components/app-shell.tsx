@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { ReactNode } from "react";
 
+import { SettingsMenu } from "@/components/settings-menu";
 import { cx } from "@/components/ui/cx";
 import { Hanko } from "@/components/ui/hanko";
 import { BookIcon, FlameIcon, HomeIcon, ListIcon, RefreshIcon } from "@/components/ui/icons";
@@ -105,8 +106,9 @@ export function AppHeader({ items }: { items: NavItem[] }) {
             );
           })}
         </nav>
-        <div className="ml-auto flex items-center gap-4">
+        <div className="ml-auto flex items-center gap-2 sm:gap-4">
           <Streak />
+          <SettingsMenu />
         </div>
       </div>
     </header>

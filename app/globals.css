@@ -66,3 +66,21 @@
     color: var(--color-text-3);
   }
 }
+
+@keyframes oy-shimmer { from { background-position: 100% 0 } to { background-position: -100% 0 } }
+
+@layer components {
+  /* Loading placeholder; shimmer 1.2s, static with reduced motion. */
+  .skeleton {
+    background: linear-gradient(90deg, var(--color-surface-3) 30%, color-mix(in srgb, var(--color-surface-3) 70%, var(--color-text-3)) 50%, var(--color-surface-3) 70%);
+    background-size: 200% 100%;
+    animation: oy-shimmer 1.2s linear infinite;
+  }
+}
+
+/* DESIGN.md §2: with reduced motion everything becomes a 120ms fade — no shake, no scale. */
+@media (prefers-reduced-motion: reduce) {
+  .animate-shake { animation-name: none !important; }
+  .animate-stamp { animation-name: oy-fade !important; animation-duration: var(--dur-fast) !important; }
+  .skeleton { animation: none !important; }
+}

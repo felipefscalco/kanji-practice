@@ -4,6 +4,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 
 import { AppShell } from "@/components/app-shell";
+import { PageSkeleton } from "@/components/skeletons";
 import { ButtonLink } from "@/components/ui/button";
 import { cx } from "@/components/ui/cx";
 import { ArrowRightIcon } from "@/components/ui/icons";
@@ -29,7 +30,7 @@ function Card({ children, className }: { children: ReactNode; className?: string
 
 export default function HomePage() {
   const stats = useStudyStats();
-  return <AppShell className="gap-3.5 sm:gap-6">{stats ? <Dashboard stats={stats} /> : null}</AppShell>;
+  return <AppShell className="gap-3.5 sm:gap-6">{stats ? <Dashboard stats={stats} /> : <PageSkeleton label="Carregando início" />}</AppShell>;
 }
 
 function Dashboard({ stats }: { stats: StudyStats }) {
@@ -67,7 +68,7 @@ function Dashboard({ stats }: { stats: StudyStats }) {
       </div>
 
       <div className="grid gap-3.5 sm:grid-cols-[repeat(auto-fit,minmax(min(420px,100%),1fr))] sm:gap-4">
-        <Card className="gap-3.5 border-line-strong bg-[linear-gradient(180deg,#1D1B18,#181614)] p-5 sm:gap-[18px] sm:p-7 [[data-theme=light]_&]:bg-none">
+        <Card className="gap-3.5 border-line-strong bg-[linear-gradient(180deg,color-mix(in_srgb,var(--color-surface-2)_60%,var(--color-surface-1)),var(--color-surface-1))] p-5 sm:gap-[18px] sm:p-7">
           <div className="flex items-center justify-between">
             <span className="eyebrow text-text">Agora · revisões</span>
             <span className="hidden text-[13px] text-text-2 sm:inline">faça primeiro</span>
@@ -153,7 +154,7 @@ function Dashboard({ stats }: { stats: StudyStats }) {
                 </div>
               ))}
             </div>
-            <Link href="/study" className="hidden text-sm font-semibold text-text-2 underline hover:text-text sm:inline">
+            <Link href="/study" className="hidden min-h-11 items-center self-start text-sm font-semibold text-text-2 underline hover:text-text sm:inline-flex">
               Abrir currículo
             </Link>
           </Card>

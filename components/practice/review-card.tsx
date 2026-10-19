@@ -161,7 +161,7 @@ export function ReviewCard({
     <article
       ref={rootRef}
       aria-label="Pergunta"
-      className="w-full max-w-[720px] overflow-hidden rounded-[20px] border border-line bg-surface-1 sm:rounded-xl sm:shadow-[0_24px_56px_rgba(0,0,0,.5)]"
+      className="w-full max-w-[720px] overflow-hidden rounded-[20px] border border-line bg-surface-1 sm:rounded-xl sm:shadow-toast"
     >
       <PromptHero item={item} compact={outcome === "err"} />
       <QuestionBand kind={kind} hint={hints.hint} shortHint={hints.shortHint} aside={aside} />

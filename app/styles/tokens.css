@@ -82,12 +82,14 @@
   --color-text-3: #6B6358;
   --color-primary: #1A1714;
   --color-on-primary: #F4EFE5;
+  --color-shu: #B33A1C; /* added: #E0532F is 3.4:1 on washi; this is 5.2:1 for shu text */
   --color-kanji-ink: #2E4592;
   --color-vocab-ink: #6A3A8C;
   --color-q-writing: #1A1714;
   --color-ok-bg: #E1F2E7; --color-ok-ink: #1C6E45;
   --color-err-bg: #FBE4E1; --color-err-ink: #A8261F;
   --shadow-1: 0 12px 32px rgba(60,45,20,.12);
+  --shadow-2: 0 16px 40px rgba(60,45,20,.16); /* added: the dark value is too heavy on paper */
   color-scheme: light;
 }
 

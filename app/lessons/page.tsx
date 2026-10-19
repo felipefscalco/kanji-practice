@@ -3,9 +3,11 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useId, useState } from "react";
 
+import { EmptySelection } from "@/components/empty-selection";
 import { LessonHeader } from "@/components/lesson/lesson-header";
 import { LessonKanji } from "@/components/lesson/lesson-kanji";
 import { LESSON_STEPS, StepPanel, StepTabs } from "@/components/lesson/lesson-steps";
+import { PageSkeleton } from "@/components/skeletons";
 import { Button, ButtonLink } from "@/components/ui/button";
 import { Hanko } from "@/components/ui/hanko";
 import { ArrowLeftIcon } from "@/components/ui/icons";
@@ -19,18 +21,14 @@ const LAST_STEP = LESSON_STEPS.length - 1;
 export default function LessonsPage() {
   const stats = useStudyStats();
   if (!stats) {
-    return <div className="min-h-dvh" aria-busy="true" />;
-  }
-  if (stats.lessonKanji.length === 0) {
-    // TODO(design): Phase 7 empty state (Estados.html).
     return (
-      <main className="mx-auto flex min-h-dvh max-w-md flex-col items-center justify-center gap-6 px-4 text-center">
-        <p className="text-text-2">Nenhum kanji na seleção. Escolha as subseções em Currículo.</p>
-        <ButtonLink variant="primary" href="/study">
-          Escolher seções
-        </ButtonLink>
+      <main className="mx-auto w-full max-w-[1120px] px-4 pt-[72px] sm:px-6 sm:pt-[112px]">
+        <PageSkeleton label="Carregando lições" />
       </main>
     );
+  }
+  if (stats.lessonKanji.length === 0) {
+    return <EmptySelection />;
   }
   return <LessonRunner queue={stats.lessonKanji} kinds={stats.kinds} />;
 }

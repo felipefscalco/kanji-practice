@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
 import { AppShell } from "@/components/app-shell";
+import { PageSkeleton } from "@/components/skeletons";
 import { LessonCard } from "@/components/curriculum/lesson-card";
 import { QuestionKindChips } from "@/components/curriculum/question-kind-chips";
 import { Button, ButtonLink } from "@/components/ui/button";
@@ -28,7 +29,7 @@ export default function StudyPage() {
         </div>
         <ChapterTabs />
       </div>
-      {selection ? <Curriculum selection={selection} /> : null}
+      {selection ? <Curriculum selection={selection} /> : <PageSkeleton cards={3} label="Carregando currículo" />}
     </AppShell>
   );
 }

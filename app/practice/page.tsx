@@ -4,7 +4,8 @@ import { useState } from "react";
 
 import { PracticeSession } from "@/components/practice/practice-session";
 import { SessionSummaryView } from "@/components/practice/session-summary";
-import { ButtonLink } from "@/components/ui/button";
+import { EmptySelection } from "@/components/empty-selection";
+import { PracticeSkeleton } from "@/components/skeletons";
 import { useIsClient } from "@/hooks/use-client-env";
 import { buildPracticeQueue, type ReviewItem } from "@/lib/practice";
 import { currentStreak, recordStudyDay } from "@/lib/activity";
@@ -37,7 +38,7 @@ export default function PracticePage() {
   // The cycle comes from sessionStorage, so it only exists in the browser.
   const isClient = useIsClient();
   if (!isClient) {
-    return <div className="min-h-dvh" aria-busy="true" />;
+    return <PracticeSkeleton />;
   }
   return <PracticeRunner />;
 }
@@ -88,16 +89,14 @@ function PracticeRunner() {
   }
 
   if (cycle.length === 0) {
-    // TODO(design): Phase 7 empty state (Estados.html).
     return (
-      <main className="mx-auto flex min-h-dvh max-w-md flex-col items-center justify-center gap-6 px-4 text-center">
-        <p className="text-text-2">
-          Nenhum kanji na seleção. Marque as subseções do capítulo 4 em Currículo.
-        </p>
-        <ButtonLink variant="primary" href="/study">
-          Escolher seções
-        </ButtonLink>
-      </main>
+      <EmptySelection
+        onSelected={() => {
+          const next = buildCycle();
+          setCycle(next);
+          setBatch({ ...takeBatch(next, 0), id: batch.id + 1 });
+        }}
+      />
     );
   }
 

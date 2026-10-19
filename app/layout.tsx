@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Klee_One, Schibsted_Grotesk, Zen_Kaku_Gothic_New } from "next/font/google";
+import { THEME_INIT_SCRIPT } from "@/lib/theme";
+
 import "./globals.css";
 
 const kleeOne = Klee_One({
@@ -34,7 +36,10 @@ export const viewport: Viewport = {
   initialScale: 1,
   // Keep the answer field above the virtual keyboard on mobile.
   interactiveWidget: "resizes-content",
-  themeColor: "#0F0E0D",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#F4EFE5" },
+    { media: "(prefers-color-scheme: dark)", color: "#0F0E0D" },
+  ],
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -42,7 +47,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="pt-BR"
       className={`${kleeOne.variable} ${zenKaku.variable} ${schibsted.variable} h-full`}
+      // The init script sets data-theme before React hydrates.
+      suppressHydrationWarning
     >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
+      </head>
       <body className="flex min-h-full flex-col bg-bg text-text">{children}</body>
     </html>
   );
