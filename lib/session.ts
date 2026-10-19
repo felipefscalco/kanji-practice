@@ -158,3 +158,47 @@ export function minutesRemaining(state: SessionState): number {
     answered > 0 ? (state.lastAnsweredAt - state.startedAt) / answered : DEFAULT_MS_PER_ITEM;
   return Math.max(1, Math.ceil((left * perItem) / 60_000));
 }
+
+export interface MissedItem {
+  item: ReviewItem;
+  /** First wrong answer given in the session ("" when skipped). */
+  typed: string;
+}
+
+export interface SessionSummary {
+  /** Distinct questions in the batch. */
+  total: number;
+  /** Questions answered right on the first try. */
+  firstTry: ReviewItem[];
+  missed: MissedItem[];
+  /** Percent right on the first try, 0–100. */
+  accuracy: number;
+  durationMs: number;
+}
+
+/** Summary of a finished batch, by first attempt per question. */
+export function summarize(state: SessionState): SessionSummary {
+  const seen = new Set<string>();
+  const firstTry: ReviewItem[] = [];
+  const missed: MissedItem[] = [];
+  for (const a of state.answers) {
+    const key = itemKey(a.item);
+    if (seen.has(key)) {
+      continue;
+    }
+    seen.add(key);
+    if (a.outcome === "ok") {
+      firstTry.push(a.item);
+    } else {
+      missed.push({ item: a.item, typed: a.typed });
+    }
+  }
+  const total = seen.size;
+  return {
+    total,
+    firstTry,
+    missed,
+    accuracy: total > 0 ? Math.round((firstTry.length / total) * 100) : 0,
+    durationMs: Math.max(0, state.lastAnsweredAt - state.startedAt),
+  };
+}

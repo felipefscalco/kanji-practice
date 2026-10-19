@@ -3,11 +3,19 @@
 import { useState } from "react";
 
 import { PracticeSession } from "@/components/practice/practice-session";
-import { Button, ButtonLink } from "@/components/ui/button";
-import { Hanko } from "@/components/ui/hanko";
+import { SessionSummaryView } from "@/components/practice/session-summary";
+import { ButtonLink } from "@/components/ui/button";
 import { useIsClient } from "@/hooks/use-client-env";
 import { buildPracticeQueue, type ReviewItem } from "@/lib/practice";
-import { counts, takeBatch, type SessionState } from "@/lib/session";
+import { currentStreak, recordStudyDay } from "@/lib/activity";
+import { getChapters } from "@/lib/curriculum";
+import {
+  SESSION_SIZE,
+  summarize,
+  takeBatch,
+  type SessionState,
+  type SessionSummary,
+} from "@/lib/session";
 import { getActiveKanjiIds, getActiveReviewKinds } from "@/lib/study-selection";
 
 function buildCycle(): ReviewItem[] {
@@ -23,12 +31,28 @@ export default function PracticePage() {
   return <PracticeRunner />;
 }
 
-type Batch = { items: ReviewItem[]; nextOffset: number; id: number };
+type Batch = {
+  items: ReviewItem[];
+  /** Where the next regular batch starts in the cycle. */
+  nextOffset: number;
+  id: number;
+};
+
+type Finished = { summary: SessionSummary; streak: number };
 
 function PracticeRunner() {
   const [cycle, setCycle] = useState(buildCycle);
   const [batch, setBatch] = useState<Batch>(() => ({ ...takeBatch(cycle, 0), id: 0 }));
-  const [finished, setFinished] = useState<SessionState | null>(null);
+  const [finished, setFinished] = useState<Finished | null>(null);
+  const chapter = getChapters()[0];
+
+  const cycleDone = batch.nextOffset >= cycle.length;
+  const nextCount = cycleDone ? Math.min(SESSION_SIZE, cycle.length) : takeBatch(cycle, batch.nextOffset).items.length;
+
+  function finish(state: SessionState) {
+    const days = recordStudyDay();
+    setFinished({ summary: summarize(state), streak: currentStreak(days, new Date()) });
+  }
 
   function nextSession() {
     let source = cycle;
@@ -40,6 +64,15 @@ function PracticeRunner() {
       setCycle(source);
     }
     setBatch({ ...takeBatch(source, offset), id: batch.id + 1 });
+    setFinished(null);
+  }
+
+  function reviewMissed() {
+    if (!finished) {
+      return;
+    }
+    // A short extra batch with the misses; the cycle position stays put.
+    setBatch({ items: finished.summary.missed.map((m) => m.item), nextOffset: batch.nextOffset, id: batch.id + 1 });
     setFinished(null);
   }
 
@@ -58,24 +91,17 @@ function PracticeRunner() {
   }
 
   if (finished) {
-    // TODO(design): Phase 3 replaces this with the session summary (Resumo-*.html).
-    const { ok, err } = counts(finished);
     return (
-      <main className="mx-auto flex min-h-dvh max-w-md flex-col items-center justify-center gap-6 px-4 text-center">
-        <Hanko glyph="完" variant="stamp" />
-        <h1 className="m-0 text-[34px] font-bold tracking-[-0.02em]">Sessão concluída</h1>
-        <p className="m-0 text-text-2">
-          {ok} corretas · {err} para reforçar
-        </p>
-        <div className="grid w-full gap-3">
-          <Button variant="primary" onClick={nextSession}>
-            Próxima sessão
-          </Button>
-          <ButtonLink href="/">Voltar ao início</ButtonLink>
-        </div>
-      </main>
+      <SessionSummaryView
+        summary={finished.summary}
+        streak={finished.streak}
+        chapterLabel={chapter ? `第${chapter.number}章 ${chapter.titleJa}` : ""}
+        nextCount={nextCount}
+        onNext={nextSession}
+        onReviewMissed={reviewMissed}
+      />
     );
   }
 
-  return <PracticeSession key={batch.id} items={batch.items} onFinish={setFinished} />;
+  return <PracticeSession key={batch.id} items={batch.items} onFinish={finish} />;
 }

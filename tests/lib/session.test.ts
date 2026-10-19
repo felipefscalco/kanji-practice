@@ -11,6 +11,7 @@ import {
   currentEntry,
   isFinished,
   minutesRemaining,
+  summarize,
   takeBatch,
   undoError,
 } from "@/lib/session";
@@ -81,5 +82,21 @@ describe("session", () => {
     expect(minutesRemaining(s)).toBe(2); // 4 × 18 s
     s = advance(answer(s, "ok", "x", 60_000));
     expect(minutesRemaining(s)).toBe(3);
+  });
+});
+
+describe("summarize", () => {
+  it("counts each question once, by its first attempt", () => {
+    let s = createSession([item("a"), item("b"), item("c")], 0);
+    s = advance(answer(s, "ok", "x", 1000));
+    s = advance(answer(s, "err", "wrong", 2000));
+    s = advance(answer(s, "ok", "x", 3000));
+    s = advance(answer(s, "ok", "x", 4000)); // retry of "b"
+    const summary = summarize(s);
+    expect(summary.total).toBe(3);
+    expect(summary.firstTry).toHaveLength(2);
+    expect(summary.missed).toEqual([{ item: item("b"), typed: "wrong" }]);
+    expect(summary.accuracy).toBe(67);
+    expect(summary.durationMs).toBe(4000);
   });
 });
