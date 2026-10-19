@@ -20,6 +20,13 @@ describe("grading", () => {
     expect(normalizeAnswer("ação")).toBe("acao");
   });
 
+  it("accepts meanings without the parenthetical note", () => {
+    expect(gradeMeaning("comecar", ["começar (intransitivo)"])).toBe(true);
+    expect(gradeMeaning("começar (transitivo)", ["começar (transitivo)"])).toBe(true);
+    expect(gradeMeaning("esposa", ["esposa (de outra pessoa, formal)"])).toBe(true);
+    expect(gradeMeaning("intransitivo", ["começar (intransitivo)"])).toBe(false);
+  });
+
   it("grades reading with katakana input", () => {
     expect(gradeReading("ジ", ["じ"])).toBe(true);
     expect(gradeReading("とき", ["とき", "じ"])).toBe(true);

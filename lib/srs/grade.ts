@@ -11,7 +11,16 @@ export function gradeMeaning(input: string, accepted: string[]): boolean {
   if (!normalized) {
     return false;
   }
-  return accepted.some((a) => normalizeAnswer(a) === normalized);
+  return accepted.some(
+    (a) =>
+      normalizeAnswer(a) === normalized ||
+      normalizeAnswer(stripParentheticals(a)) === normalized,
+  );
+}
+
+/** "começar (transitivo)" → "começar": the note in parentheses is optional. */
+function stripParentheticals(text: string): string {
+  return text.replace(/\([^)]*\)/g, " ").replace(/\s+/g, " ").trim();
 }
 
 export function gradeVocabWriting(
