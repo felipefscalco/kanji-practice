@@ -3,9 +3,9 @@
 import { useEffect, useState } from "react";
 
 import { ReviewPrompt } from "@/components/review-prompt";
-import { SessionProgress } from "@/components/session-progress";
+import { SessionProgress } from "@/components/ui/session-progress";
 import { SiteShell } from "@/components/site-shell";
-import { WkPrimaryButton, WkSecondaryButton } from "@/components/wk-button";
+import { Button, ButtonLink } from "@/components/ui/button";
 import { getChapters } from "@/lib/curriculum";
 import type { ReviewPromptResult } from "@/components/review-prompt";
 import { buildPracticeQueue, type ReviewItem } from "@/lib/practice";
@@ -55,7 +55,7 @@ export default function PracticePage() {
           <p className="mb-6 text-[var(--wk-text-muted)]">
             Nenhum kanji na seleção. Marque as subseções do capítulo 4 em Currículo.
           </p>
-          <WkPrimaryButton href="/study">Escolher seções</WkPrimaryButton>
+          <ButtonLink variant="primary" className="w-full" href="/study">Escolher seções</ButtonLink>
         </div>
       </SiteShell>
     );
@@ -76,8 +76,8 @@ export default function PracticePage() {
             ({queue.length} perguntas: kanji e palavras do livro). お疲れ様!
           </p>
           <div className="grid gap-3">
-            <WkPrimaryButton onClick={restart}>Praticar de novo</WkPrimaryButton>
-            <WkSecondaryButton href="/">Voltar ao início</WkSecondaryButton>
+            <Button variant="primary" className="w-full" onClick={restart}>Praticar de novo</Button>
+            <ButtonLink variant="secondary" className="w-full" href="/">Voltar ao início</ButtonLink>
           </div>
         </div>
       </SiteShell>
@@ -86,7 +86,7 @@ export default function PracticePage() {
 
   return (
     <SiteShell hideTitle fullWidth>
-      <SessionProgress current={cursor + 1} total={queue.length} label="Prática" />
+      <SessionProgress current={cursor} total={queue.length} />
       <div className="mt-6 flex flex-1 flex-col">
         <ReviewPrompt
           key={`${item!.type}-${item!.type === "kanji" ? item.kanji.id : item.vocab.id}-${item.kind}-${cursor}`}

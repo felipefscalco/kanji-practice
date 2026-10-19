@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 
-import { BookBadge } from "@/components/book-badge";
+import { Hanko } from "@/components/ui/hanko";
 
 const navLink =
   "rounded-md px-3 py-2 text-sm font-medium text-[var(--wk-text-muted)] transition-colors hover:bg-[var(--wk-surface)] hover:text-[var(--wk-text)]";
@@ -21,8 +21,12 @@ export function SiteShell({
     <div className="flex min-h-full flex-col">
       <header className="border-b border-[var(--wk-border)] bg-[var(--wk-surface)]">
         <div className="mx-auto flex max-w-3xl flex-wrap items-center justify-between gap-4 px-4 py-4">
-          <Link href="/" className="hover:opacity-90">
-            <BookBadge chapter="第4章 スケジュール" />
+          <Link href="/" className="flex items-center gap-3 text-text no-underline">
+            <Hanko glyph="字" />
+            <span className="flex flex-col leading-[1.2]">
+              <strong className="text-[17px]">Oyster</strong>
+              <span lang="ja" className="text-[13px] text-text-2">漢字マスター N4</span>
+            </span>
           </Link>
           <nav className="flex gap-1">
             <Link href="/" className={navLink}>Início</Link>

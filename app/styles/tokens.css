@@ -1,0 +1,105 @@
+/* Oyster — Sumi & Shu (墨と朱) design tokens
+   Source: docs/design/oyster-redesign/tokens/tokens.css (fonts wired to next/font).
+   Dark é o padrão. Light: <html data-theme="light">. */
+:root {
+  /* superfícies */
+  --color-bg: #0F0E0D;
+  --color-surface-1: #181614;
+  --color-surface-2: #201E1B;
+  --color-surface-3: #2A2723;
+  --color-line: #34302B;
+  --color-line-strong: #4A453E;
+  /* texto */
+  --color-text: #EFEAE0;
+  --color-text-2: #B9B1A4;   /* 8.4:1 em surface-1 */
+  --color-text-3: #968E82;   /* 5.6:1 em surface-1 — mínimo para legendas */
+  /* ação primária = papel washi */
+  --color-primary: #EFEAE0;
+  --color-on-primary: #141210;
+  /* marca (hanko, streak) — nunca na área de resposta */
+  --color-shu: #E0532F;
+  --color-shu-fill: #C2401F;  /* branco 5.2:1 */
+  /* tipo de item (fundo do card do prompt, texto branco) */
+  --color-kanji: #3B54A8;      /* 藍 — branco 6.9:1 */
+  --color-kanji-ink: #A3B3F2;  /* kanji como texto sobre fundo escuro */
+  --color-vocab: #7B4A9C;      /* 紫 — branco 6.3:1 */
+  --color-vocab-ink: #D2AEEC;
+  /* tipo de pergunta (faixa) — luminosidades distintas */
+  --color-q-meaning: #E0A93B;  /* 山吹, texto #141210 */
+  --color-q-reading: #EFEADF;  /* 白練, texto #141210 */
+  --color-q-writing: #0B0A09;  /* 墨, texto --color-text + borda line-strong */
+  /* estados */
+  --color-ok: #3FB57C;   --color-ok-bg: #11301F;  --color-ok-ink: #86E0AE;  --color-ok-border: #2B6B47;
+  --color-err: #E5534B;  --color-err-bg: #3A1513; --color-err-ink: #FFA39B; --color-err-border: #7A2A24;
+  /* estágios SRS (rampa sequencial; sempre com glifo) */
+  --color-srs-1: #8A5E4E; /* 種 Semente */
+  --color-srs-2: #A9563C; /* 芽 Broto */
+  --color-srs-3: #C9532F; /* 葉 Folha */
+  --color-srs-4: #E86A3E; /* 花 Flor  — texto escuro */
+  --color-srs-5: #F7A47C; /* 実 Fruto — texto escuro */
+
+  /* tipografia */
+  --font-ui: var(--font-schibsted), var(--font-zen-kaku), system-ui, sans-serif;
+  --font-jp: var(--font-zen-kaku), 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  --font-kanji: var(--font-klee-one), var(--font-zen-kaku), serif; /* peso 600 */
+  --text-kanji-hero: 160px;  --text-kanji-hero-mobile: 120px;
+  --text-prompt: 64px;       --text-prompt-mobile: 44px;
+  --text-display: 40px; --text-h1: 34px; --text-h2: 22px;
+  --text-answer: 28px; --text-body: 16px; --text-small: 14px; --text-caption: 12.5px;
+  --tracking-kana: 0.06em; --tracking-eyebrow: 0.08em;
+
+  /* espaçamento (base 4) */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-6: 24px; --space-8: 32px; --space-12: 48px; --space-16: 64px;
+  --gutter-mobile: 16px; --gutter-desktop: 24px; --practice-max: 720px; --content-max: 1120px;
+
+  /* raios */
+  --radius-sm: 6px; --radius-md: 12px; --radius-lg: 16px; --radius-xl: 24px; --radius-pill: 999px;
+  --radius-hanko: 10px;
+
+  /* elevação */
+  --shadow-1: 0 1px 0 rgba(255,255,255,.05) inset, 0 8px 24px rgba(0,0,0,.45);
+  --shadow-2: 0 1px 0 rgba(255,255,255,.06) inset, 0 24px 56px rgba(0,0,0,.6);
+
+  /* movimento */
+  --dur-fast: 120ms; --dur-base: 200ms; --dur-stamp: 320ms; --dur-shake: 280ms;
+  --ease-out: cubic-bezier(.2,.8,.2,1); --ease-stamp: cubic-bezier(.3,1.4,.5,1);
+
+  /* alvos */
+  --tap-min: 44px; --btn-h: 48px; --btn-h-mobile: 52px;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --color-bg: #F4EFE5;
+  --color-surface-1: #FBF8F2;
+  --color-surface-2: #EFE9DD;
+  --color-surface-3: #E5DDCE;
+  --color-line: #DCD3C3;
+  --color-line-strong: #C3B8A5;
+  --color-text: #1A1714;
+  --color-text-2: #4F483F;
+  --color-text-3: #6B6358;
+  --color-primary: #1A1714;
+  --color-on-primary: #F4EFE5;
+  --color-kanji-ink: #2E4592;
+  --color-vocab-ink: #6A3A8C;
+  --color-q-writing: #1A1714;
+  --color-ok-bg: #E1F2E7; --color-ok-ink: #1C6E45;
+  --color-err-bg: #FBE4E1; --color-err-ink: #A8261F;
+  --shadow-1: 0 12px 32px rgba(60,45,20,.12);
+  color-scheme: light;
+}
+
+:focus-visible { outline: 2px solid var(--color-text); outline-offset: 3px; }
+
+@keyframes oy-shake { 0%,100%{transform:translateX(0)} 20%,60%{transform:translateX(-6px)} 40%,80%{transform:translateX(6px)} }
+@keyframes oy-stamp { 0%{transform:scale(1.15) rotate(-4deg);opacity:0} 100%{transform:scale(1) rotate(-4deg);opacity:1} }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 1ms !important; animation-iteration-count: 1 !important; transition-duration: var(--dur-fast) !important; }
+}
+
+/* Added for the app: text on the 墨 writing band stays light in both themes. */
+:root { --color-on-q-writing: #EFEAE0; }
+:root[data-theme="light"] { --color-on-q-writing: #F4EFE5; }

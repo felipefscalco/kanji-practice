@@ -1,7 +1,7 @@
 import { ReviewKindPicker } from "@/components/review-kind-picker";
 import { SectionPicker } from "@/components/section-picker";
 import { SiteShell } from "@/components/site-shell";
-import { WkPrimaryButton } from "@/components/wk-button";
+import { ButtonLink } from "@/components/ui/button";
 import { getChapters } from "@/lib/curriculum";
 
 export default function StudyPage() {
@@ -16,7 +16,7 @@ export default function StudyPage() {
       </div>
       <SectionPicker chapters={chapters} />
       <div className="mt-8">
-        <WkPrimaryButton href="/practice">Começar prática</WkPrimaryButton>
+        <ButtonLink variant="primary" className="w-full" href="/practice">Começar prática</ButtonLink>
       </div>
     </SiteShell>
   );

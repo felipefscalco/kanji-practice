@@ -3,7 +3,7 @@
 import { PracticeCycleRing, useStudyStats } from "@/components/due-count";
 import { ReviewKindPicker } from "@/components/review-kind-picker";
 import { SiteShell } from "@/components/site-shell";
-import { WkPrimaryButton, WkSecondaryButton } from "@/components/wk-button";
+import { ButtonLink } from "@/components/ui/button";
 
 export default function HomePage() {
   const { kanjiCount, promptCount } = useStudyStats();
@@ -23,10 +23,10 @@ export default function HomePage() {
         <ReviewKindPicker />
 
         <div className="grid gap-3 sm:grid-cols-2">
-          <WkPrimaryButton href="/practice" disabled={kanjiCount === 0}>
+          <ButtonLink variant="primary" className="w-full" href="/practice" disabled={kanjiCount === 0}>
             {kanjiCount > 0 ? "Iniciar prática" : "Escolha seções primeiro"}
-          </WkPrimaryButton>
-          <WkSecondaryButton href="/lessons">Ver lições do livro</WkSecondaryButton>
+          </ButtonLink>
+          <ButtonLink variant="secondary" className="w-full" href="/lessons">Ver lições do livro</ButtonLink>
         </div>
 
         <section className="rounded-xl border border-[var(--wk-border)] bg-[var(--wk-surface)] p-5">
@@ -37,7 +37,7 @@ export default function HomePage() {
             Cada ciclo cobre kanji e palavras compostas do livro, nos tipos de pergunta escolhidos (significado, leitura e/ou escrita).
             Repita quantas vezes quiser.
           </p>
-          <WkSecondaryButton href="/study">Escolher seções</WkSecondaryButton>
+          <ButtonLink variant="secondary" className="w-full" href="/study">Escolher seções</ButtonLink>
         </section>
       </div>
     </SiteShell>

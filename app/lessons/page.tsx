@@ -5,7 +5,7 @@ import { useMemo, useState } from "react";
 
 import { KanjiCard } from "@/components/kanji-card";
 import { SiteShell } from "@/components/site-shell";
-import { WkPrimaryButton } from "@/components/wk-button";
+import { Button, ButtonLink } from "@/components/ui/button";
 import { kanjiEntriesFromIds } from "@/lib/practice";
 import { getActiveKanjiIds } from "@/lib/study-selection";
 
@@ -35,7 +35,7 @@ export default function LessonsPage() {
         <p className="mb-6 text-[var(--wk-text-muted)]">
           Nenhum kanji na seleção. Ajuste o currículo em Estudar.
         </p>
-        <WkPrimaryButton href="/study">Escolher seções</WkPrimaryButton>
+        <ButtonLink variant="primary" className="w-full" href="/study">Escolher seções</ButtonLink>
       </SiteShell>
     );
   }
@@ -47,7 +47,7 @@ export default function LessonsPage() {
           <p className="mb-6 text-[var(--wk-text-muted)]">
             Lote de {queue.length} kanji concluído. Use Prática para significado, leitura e escrita.
           </p>
-          <WkPrimaryButton href="/practice">Ir para prática</WkPrimaryButton>
+          <ButtonLink variant="primary" className="w-full" href="/practice">Ir para prática</ButtonLink>
         </div>
       </SiteShell>
     );
@@ -56,7 +56,7 @@ export default function LessonsPage() {
   return (
     <SiteShell title="Lições" hideTitle fullWidth>
       <KanjiCard kanji={current!} index={index} total={queue.length} />
-      <WkPrimaryButton onClick={next}>Próximo kanji</WkPrimaryButton>
+      <Button variant="primary" className="w-full" onClick={next}>Próximo kanji</Button>
       <Link
         href="/"
         className="mt-4 block text-center text-sm text-[var(--wk-text-muted)] hover:text-[var(--wk-text)]"

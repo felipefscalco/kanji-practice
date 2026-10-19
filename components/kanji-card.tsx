@@ -1,6 +1,6 @@
 import type { KanjiEntry } from "@/lib/kanji-types";
 import { KanjiDetailSections } from "@/components/kanji-detail-sections";
-import { SessionProgress } from "@/components/session-progress";
+import { SessionProgress } from "@/components/ui/session-progress";
 import { WkHero, WkTypeBar } from "@/components/wk/wk-hero";
 import { WkSessionCard } from "@/components/wk/wk-session-card";
 
@@ -15,7 +15,7 @@ export function KanjiCard({
 }) {
   return (
     <article className="flex flex-1 flex-col gap-6">
-      <SessionProgress current={index + 1} total={total} label="Lição" />
+      <SessionProgress current={index} total={total} label="Progresso da lição" />
       <WkSessionCard>
         <WkHero character={kanji.character} mode="lesson" />
         <WkTypeBar mode="lesson" />

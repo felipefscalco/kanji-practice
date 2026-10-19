@@ -1,41 +1,83 @@
 @import "tailwindcss";
+@import "./styles/tokens.css";
 
-:root {
-  --wk-bg: #0c0c0c;
-  --wk-surface: #181818;
-  --wk-surface-raised: #222222;
-  --wk-border: #333333;
-  --wk-text: #f5f5f5;
-  --wk-text-muted: #a3a3a3;
-  --wk-pink: #ff006f;
-  --wk-pink-hover: #e60064;
-  --wk-kanji-blue: #0099dd;
-  --wk-vocab-purple: #9e38ff;
-  --wk-success: #4ade80;
-  --wk-error: #f87171;
-  --km-green: #8bc34a;
-  --km-green-dark: #558b2f;
-  --background: var(--wk-bg);
-  --foreground: var(--wk-text);
-}
+/* Keycaps only on devices with a real keyboard and pointer. */
+@custom-variant pointer-fine (@media (hover: hover) and (pointer: fine));
 
+/* Tailwind v4 mapping — docs/design/oyster-redesign/tokens/tailwind-v4-theme.css */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-wk-pink: var(--wk-pink);
-  --color-wk-surface: var(--wk-surface);
-  --color-wk-border: var(--wk-border);
-  --color-km-green: var(--km-green);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--color-bg);
+  --color-surface-1: var(--color-surface-1);
+  --color-surface-2: var(--color-surface-2);
+  --color-surface-3: var(--color-surface-3);
+  --color-line: var(--color-line);
+  --color-line-strong: var(--color-line-strong);
+  --color-text: var(--color-text);
+  --color-text-2: var(--color-text-2);
+  --color-text-3: var(--color-text-3);
+  --color-primary: var(--color-primary);
+  --color-on-primary: var(--color-on-primary);
+  --color-shu: var(--color-shu);
+  --color-shu-fill: var(--color-shu-fill);
+  --color-kanji: var(--color-kanji);
+  --color-kanji-ink: var(--color-kanji-ink);
+  --color-vocab: var(--color-vocab);
+  --color-vocab-ink: var(--color-vocab-ink);
+  --color-q-meaning: var(--color-q-meaning);
+  --color-q-reading: var(--color-q-reading);
+  --color-q-writing: var(--color-q-writing);
+  --color-on-q-writing: var(--color-on-q-writing);
+  --color-ok: var(--color-ok); --color-ok-bg: var(--color-ok-bg); --color-ok-ink: var(--color-ok-ink); --color-ok-border: var(--color-ok-border);
+  --color-err: var(--color-err); --color-err-bg: var(--color-err-bg); --color-err-ink: var(--color-err-ink); --color-err-border: var(--color-err-border);
+  --color-srs-1: var(--color-srs-1); --color-srs-2: var(--color-srs-2); --color-srs-3: var(--color-srs-3);
+  --color-srs-4: var(--color-srs-4); --color-srs-5: var(--color-srs-5);
+  --font-ui: var(--font-ui); --font-jp: var(--font-jp); --font-kanji: var(--font-kanji);
+  --font-sans: var(--font-ui);
+  --radius-sm: 6px; --radius-md: 12px; --radius-lg: 16px; --radius-xl: 24px;
+  --shadow-card: var(--shadow-1); --shadow-toast: var(--shadow-2);
+  --animate-shake: oy-shake var(--dur-shake) var(--ease-out);
+  --animate-stamp: oy-stamp var(--dur-stamp) var(--ease-stamp) both;
+  --animate-fade: oy-fade var(--dur-base) var(--ease-out) both;
 }
 
-html {
-  color-scheme: dark;
+@keyframes oy-fade { from { opacity: 0 } to { opacity: 1 } }
+
+/* TODO(design): temporary bridge so screens not yet redesigned render in the
+   Sumi & Shu palette. Remove each alias once no component uses it. */
+:root {
+  --wk-bg: var(--color-bg);
+  --wk-surface: var(--color-surface-1);
+  --wk-surface-raised: var(--color-surface-3);
+  --wk-border: var(--color-line);
+  --wk-text: var(--color-text);
+  --wk-text-muted: var(--color-text-2);
+  --wk-pink: var(--color-kanji);
+  --wk-pink-hover: var(--color-kanji);
+  --km-green: var(--color-text);
+  --km-green-dark: var(--color-on-primary);
 }
 
-body {
-  background: var(--wk-bg);
-  color: var(--wk-text);
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
+@layer base {
+  body {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-ui);
+    font-size: var(--text-body);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Japanese study content and labels. */
+  :lang(ja) {
+    font-family: var(--font-jp);
+  }
+}
+
+@layer components {
+  .eyebrow {
+    font: 600 12px/1.2 var(--font-ui);
+    letter-spacing: var(--tracking-eyebrow);
+    text-transform: uppercase;
+    color: var(--color-text-3);
+  }
 }
