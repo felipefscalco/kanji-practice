@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useSyncExternalStore } from "react";
+import { useEffect, useLayoutEffect, useState, useSyncExternalStore } from "react";
 
 const noopSubscribe = () => () => {};
 
@@ -52,4 +52,17 @@ export function useKeepFocusedInView(ref: React.RefObject<HTMLElement | null>): 
     vv.addEventListener("resize", onResize);
     return () => vv.removeEventListener("resize", onResize);
   }, [ref]);
+}
+
+/**
+ * Changes every time the route is hidden. With cacheComponents, Next.js keeps
+ * visited routes mounted in a hidden <Activity>; use this as a `key` on
+ * screens that must start fresh on each visit (e.g. a practice session built
+ * from the current selection). The layout-effect cleanup runs when the route
+ * is hidden, before it can be shown again with stale state.
+ */
+export function useVisitKey(): number {
+  const [visit, setVisit] = useState(0);
+  useLayoutEffect(() => () => setVisit((v) => v + 1), []);
+  return visit;
 }

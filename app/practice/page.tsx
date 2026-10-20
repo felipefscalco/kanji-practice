@@ -6,7 +6,7 @@ import { PracticeSession } from "@/components/practice/practice-session";
 import { SessionSummaryView } from "@/components/practice/session-summary";
 import { EmptySelection } from "@/components/empty-selection";
 import { PracticeSkeleton } from "@/components/skeletons";
-import { useIsClient } from "@/hooks/use-client-env";
+import { useIsClient, useVisitKey } from "@/hooks/use-client-env";
 import { buildPracticeQueue, type ReviewItem } from "@/lib/practice";
 import { currentStreak, recordStudyDay } from "@/lib/activity";
 import { getChapters, getKanjiById } from "@/lib/curriculum";
@@ -37,10 +37,12 @@ function buildCycle(): ReviewItem[] {
 export default function PracticePage() {
   // The cycle comes from sessionStorage, so it only exists in the browser.
   const isClient = useIsClient();
+  // Each visit builds a new cycle from the current selection.
+  const visit = useVisitKey();
   if (!isClient) {
     return <PracticeSkeleton />;
   }
-  return <PracticeRunner />;
+  return <PracticeRunner key={visit} />;
 }
 
 type Batch = {

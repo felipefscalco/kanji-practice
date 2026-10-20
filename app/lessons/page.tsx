@@ -11,6 +11,7 @@ import { PageSkeleton } from "@/components/skeletons";
 import { Button, ButtonLink } from "@/components/ui/button";
 import { Hanko } from "@/components/ui/hanko";
 import { ArrowLeftIcon } from "@/components/ui/icons";
+import { useVisitKey } from "@/hooks/use-client-env";
 import { useStudyStats } from "@/hooks/use-study-stats";
 import type { KanjiEntry } from "@/lib/kanji-types";
 import { countPracticePrompts } from "@/lib/practice";
@@ -20,6 +21,8 @@ const LAST_STEP = LESSON_STEPS.length - 1;
 
 export default function LessonsPage() {
   const stats = useStudyStats();
+  // Each visit starts the round over with the current selection.
+  const visit = useVisitKey();
   if (!stats) {
     return (
       <main className="mx-auto w-full max-w-[1120px] px-4 pt-[72px] sm:px-6 sm:pt-[112px]">
@@ -30,7 +33,7 @@ export default function LessonsPage() {
   if (stats.lessonKanji.length === 0) {
     return <EmptySelection />;
   }
-  return <LessonRunner queue={stats.lessonKanji} kinds={stats.kinds} />;
+  return <LessonRunner key={visit} queue={stats.lessonKanji} kinds={stats.kinds} />;
 }
 
 function isTypingTarget(target: EventTarget | null): boolean {
