@@ -84,8 +84,8 @@ export function ReviewCard({
   const kind = item.kind;
   const correct = correctAnswer(item);
   const isAnswered = outcome !== null;
-  // Open by default after a mistake on wide screens; the learner's toggle wins.
-  const detailsOpen = isAnswered && (detailsPref ?? (wide && outcome === "err"));
+  // Open by default after answering (right or wrong) on wide screens; the learner's toggle wins.
+  const detailsOpen = isAnswered && (detailsPref ?? wide);
   const state: AnswerState = isAnswered
     ? outcome === "ok"
       ? "correct"
