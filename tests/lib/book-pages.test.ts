@@ -8,4 +8,9 @@ describe("book pages", () => {
     expect(page?.bookPage).toBe(87);
     expect(getBookPageImageUrl("毎")).toBe("/kanji-master-n4/ch04/page-01.jpeg");
   });
+
+  it("maps chapter 5 kanji to book scan", () => {
+    expect(getBookPageImageUrl("駅")).toBe("/kanji-master-n4/ch05/page-01.jpeg");
+    expect(getBookPageForKanji("開")?.bookPage).toBe(113);
+  });
 });

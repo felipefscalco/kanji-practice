@@ -20,5 +20,11 @@
   "工": ["obra", "construção", "indústria"],
   "場": ["lugar", "local"],
   "始": ["começar"],
-  "終": ["terminar", "fim"]
+  "終": ["terminar", "fim"],
+  "駅": ["estação"],
+  "鉄": ["ferro"],
+  "乗": ["embarcar", "subir (veículo)"],
+  "降": ["descer", "cair (chuva)"],
+  "開": ["abrir"],
+  "閉": ["fechar"]
 }

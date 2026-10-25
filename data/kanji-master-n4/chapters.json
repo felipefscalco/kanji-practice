@@ -62,6 +62,32 @@
           "kanjiIds": ["km-n4-工", "km-n4-場", "km-n4-始", "km-n4-終"]
         }
       ]
+    },
+    {
+      "id": "ch-05",
+      "number": 5,
+      "titleJa": "交通",
+      "titlePt": "Capítulo 5 (livro: えき)",
+      "sections": [
+        {
+          "id": "ch-05-s01",
+          "titleJa": "5-1 えき",
+          "titlePt": "駅 · 鉄",
+          "kanjiIds": ["km-n4-駅", "km-n4-鉄"]
+        },
+        {
+          "id": "ch-05-s02",
+          "titleJa": "5-1 えき",
+          "titlePt": "乗 · 降",
+          "kanjiIds": ["km-n4-乗", "km-n4-降"]
+        },
+        {
+          "id": "ch-05-s03",
+          "titleJa": "5-1 えき",
+          "titlePt": "開 · 閉",
+          "kanjiIds": ["km-n4-開", "km-n4-閉"]
+        }
+      ]
     }
   ]
 }

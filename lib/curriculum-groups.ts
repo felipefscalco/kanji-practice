@@ -10,6 +10,7 @@ const LESSON_TITLE_PT: Record<string, string> = {
   "4-1 デート": "Encontro",
   "4-2 けっこんきねんび": "Aniversário de casamento",
   "4-3 しごと": "Trabalho",
+  "5-1 えき": "Estação",
 };
 
 export interface BookLesson {

@@ -31,7 +31,7 @@ export interface KanjiEntry {
   jlpt?: number;
 }
 
-export type VocabularyId = `v-ch04-${string}`;
+export type VocabularyId = `v-ch${string}`;
 
 export interface VocabularyEntry {
   id: VocabularyId;

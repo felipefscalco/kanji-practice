@@ -15,4 +15,11 @@ describe("curriculum", () => {
     expect(ids).toContain("km-n4-毎");
     expect(ids.length).toBe(2);
   });
+
+  it("includes chapter 5 transportation", () => {
+    const ch = getChapters().find((c) => c.id === "ch-05");
+    expect(ch).toBeDefined();
+    expect(ch?.titleJa).toBe("交通");
+    expect(ch?.sections.length).toBe(3);
+  });
 });

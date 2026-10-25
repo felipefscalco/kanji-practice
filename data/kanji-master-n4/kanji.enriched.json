@@ -24,6 +24,22 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-駅",
+    "character": "駅",
+    "meaningsPt": [
+      "estação"
+    ],
+    "meaningsEn": [
+      "station"
+    ],
+    "onReadings": [
+      "エキ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 14,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-園",
     "character": "園",
     "meaningsPt": [
@@ -100,6 +116,31 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-開",
+    "character": "開",
+    "meaningsPt": [
+      "abrir"
+    ],
+    "meaningsEn": [
+      "open",
+      "unfold",
+      "unseal"
+    ],
+    "onReadings": [
+      "カイ"
+    ],
+    "kunReadings": [
+      "ひら",
+      "ひら",
+      "-びら",
+      "ひら",
+      "あ",
+      "あ"
+    ],
+    "strokeCount": 12,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-館",
     "character": "館",
     "meaningsPt": [
@@ -166,6 +207,34 @@
     "kunReadings": [],
     "strokeCount": 3,
     "jlpt": 4
+  },
+  {
+    "id": "km-n4-降",
+    "character": "降",
+    "meaningsPt": [
+      "descer",
+      "cair (chuva)"
+    ],
+    "meaningsEn": [
+      "descend",
+      "precipitate",
+      "fall",
+      "surrender"
+    ],
+    "onReadings": [
+      "コウ",
+      "ゴ"
+    ],
+    "kunReadings": [
+      "お",
+      "お",
+      "ふ",
+      "ふ",
+      "くだ",
+      "くだ"
+    ],
+    "strokeCount": 10,
+    "jlpt": 3
   },
   {
     "id": "km-n4-妻",
@@ -318,6 +387,35 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-乗",
+    "character": "乗",
+    "meaningsPt": [
+      "embarcar",
+      "subir (veículo)"
+    ],
+    "meaningsEn": [
+      "ride",
+      "power",
+      "multiplication",
+      "record",
+      "counter for vehicles",
+      "board",
+      "mount",
+      "join"
+    ],
+    "onReadings": [
+      "ジョウ",
+      "ショウ"
+    ],
+    "kunReadings": [
+      "の",
+      "-の",
+      "の"
+    ],
+    "strokeCount": 9,
+    "jlpt": 3
+  },
+  {
     "id": "km-n4-場",
     "character": "場",
     "meaningsPt": [
@@ -337,6 +435,24 @@
     ],
     "strokeCount": 12,
     "jlpt": 4
+  },
+  {
+    "id": "km-n4-鉄",
+    "character": "鉄",
+    "meaningsPt": [
+      "ferro"
+    ],
+    "meaningsEn": [
+      "iron"
+    ],
+    "onReadings": [
+      "テツ"
+    ],
+    "kunReadings": [
+      "くろがね"
+    ],
+    "strokeCount": 13,
+    "jlpt": 2
   },
   {
     "id": "km-n4-働",
@@ -393,6 +509,29 @@
       "それ"
     ],
     "strokeCount": 4,
+    "jlpt": 3
+  },
+  {
+    "id": "km-n4-閉",
+    "character": "閉",
+    "meaningsPt": [
+      "fechar"
+    ],
+    "meaningsEn": [
+      "closed",
+      "shut"
+    ],
+    "onReadings": [
+      "ヘイ"
+    ],
+    "kunReadings": [
+      "と",
+      "と",
+      "し",
+      "し",
+      "た"
+    ],
+    "strokeCount": 11,
     "jlpt": 3
   },
   {

@@ -3,7 +3,7 @@ import { describe, expect, it } from "vitest";
 import { getChapters } from "@/lib/curriculum";
 import { chapterProgress, currentLesson, greeting } from "@/lib/dashboard";
 
-const chapter = getChapters()[0];
+const chapter = getChapters().find((c) => c.id === "ch-04")!;
 
 describe("chapterProgress", () => {
   it("groups subsections by book lesson", () => {

@@ -1,0 +1,32 @@
+{
+  "chapterId": "ch-05",
+  "pages": [
+    {
+      "id": "ch05-p01",
+      "file": "/kanji-master-n4/ch05/page-01.jpeg",
+      "bookPage": 111,
+      "sectionId": "ch-05-s01",
+      "titleJa": "5章-1 えき",
+      "kind": "lesson",
+      "kanji": ["駅", "鉄"]
+    },
+    {
+      "id": "ch05-p02",
+      "file": "/kanji-master-n4/ch05/page-02.jpeg",
+      "bookPage": 112,
+      "sectionId": "ch-05-s02",
+      "titleJa": "5章-1 えき",
+      "kind": "lesson",
+      "kanji": ["乗", "降"]
+    },
+    {
+      "id": "ch05-p03",
+      "file": "/kanji-master-n4/ch05/page-03.jpeg",
+      "bookPage": 113,
+      "sectionId": "ch-05-s03",
+      "titleJa": "5章-1 えき",
+      "kind": "lesson",
+      "kanji": ["開", "閉"]
+    }
+  ]
+}

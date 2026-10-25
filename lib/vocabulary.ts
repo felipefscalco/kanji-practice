@@ -1,8 +1,9 @@
 import vocabCh04 from "@/data/kanji-master-n4/vocabulary.ch04.json";
+import vocabCh05 from "@/data/kanji-master-n4/vocabulary.ch05.json";
 
 import type { KanjiId, VocabularyEntry, VocabularyFile } from "@/lib/kanji-types";
 
-const files: VocabularyFile[] = [vocabCh04 as VocabularyFile];
+const files: VocabularyFile[] = [vocabCh04 as VocabularyFile, vocabCh05 as VocabularyFile];
 
 const allItems = files.flatMap((f) => f.items);
 

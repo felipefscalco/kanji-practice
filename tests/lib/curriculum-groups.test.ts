@@ -9,7 +9,7 @@ import {
   toggleSection,
 } from "@/lib/curriculum-groups";
 
-const chapter = getChapters()[0];
+const chapter = getChapters().find((c) => c.id === "ch-04")!;
 
 describe("bookLessons", () => {
   it("groups subsections by book lesson", () => {

@@ -1,4 +1,5 @@
-import pagesData from "@/data/kanji-master-n4/ch04-pages.json";
+import pagesCh04 from "@/data/kanji-master-n4/ch04-pages.json";
+import pagesCh05 from "@/data/kanji-master-n4/ch05-pages.json";
 
 export interface BookPage {
   id: string;
@@ -10,7 +11,10 @@ export interface BookPage {
   kanji: string[];
 }
 
-const pages = (pagesData as { pages: BookPage[] }).pages;
+const pages = [
+  ...(pagesCh04 as { pages: BookPage[] }).pages,
+  ...(pagesCh05 as { pages: BookPage[] }).pages,
+];
 
 const primaryPageByKanji = new Map<string, BookPage>();
 for (const page of pages) {

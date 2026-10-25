@@ -1,0 +1,31 @@
+{
+  "chapterId": "ch-05",
+  "items": [
+    { "id": "v-ch05-eki", "expression": "駅", "reading": "えき", "meaningsPt": ["estação"], "sectionId": "ch-05-s01", "kanjiIds": ["km-n4-駅"] },
+    { "id": "v-ch05-ekiin", "expression": "駅員", "reading": "えきいん", "meaningsPt": ["funcionário da estação"], "sectionId": "ch-05-s01", "kanjiIds": ["km-n4-駅"] },
+    { "id": "v-ch05-ekichou", "expression": "駅長", "reading": "えきちょう", "meaningsPt": ["chefe da estação"], "sectionId": "ch-05-s01", "kanjiIds": ["km-n4-駅"] },
+    { "id": "v-ch05-futatsumenoeeki", "expression": "二つ目の駅", "reading": "ふたつめのえき", "meaningsPt": ["a segunda estação"], "sectionId": "ch-05-s01", "kanjiIds": ["km-n4-駅"] },
+    { "id": "v-ch05-tetsu", "expression": "鉄", "reading": "てつ", "meaningsPt": ["ferro"], "sectionId": "ch-05-s01", "kanjiIds": ["km-n4-鉄"] },
+    { "id": "v-ch05-chikatetsu", "expression": "地下鉄", "reading": "ちかてつ", "meaningsPt": ["metrô", "subterrâneo"], "sectionId": "ch-05-s01", "kanjiIds": ["km-n4-鉄"] },
+    { "id": "v-ch05-tetsudou", "expression": "鉄道", "reading": "てつどう", "meaningsPt": ["ferrovia"], "sectionId": "ch-05-s01", "kanjiIds": ["km-n4-鉄"] },
+    { "id": "v-ch05-tetsubun", "expression": "鉄分", "reading": "てつぶん", "meaningsPt": ["ferro (nutriente)"], "sectionId": "ch-05-s01", "kanjiIds": ["km-n4-鉄"] },
+
+    { "id": "v-ch05-noru", "expression": "乗る", "reading": "のる", "meaningsPt": ["embarcar", "subir (veículo)"], "sectionId": "ch-05-s02", "kanjiIds": ["km-n4-乗"] },
+    { "id": "v-ch05-noseru", "expression": "乗せる", "reading": "のせる", "meaningsPt": ["colocar embarcado", "dar carona"], "sectionId": "ch-05-s02", "kanjiIds": ["km-n4-乗"] },
+    { "id": "v-ch05-noriba", "expression": "乗り場", "reading": "のりば", "meaningsPt": ["ponto de embarque"], "sectionId": "ch-05-s02", "kanjiIds": ["km-n4-乗"] },
+    { "id": "v-ch05-joukyaku", "expression": "乗客", "reading": "じょうきゃく", "meaningsPt": ["passageiro"], "sectionId": "ch-05-s02", "kanjiIds": ["km-n4-乗"] },
+    { "id": "v-ch05-oriru", "expression": "降りる", "reading": "おりる", "meaningsPt": ["descer (veículo)"], "sectionId": "ch-05-s02", "kanjiIds": ["km-n4-降"] },
+    { "id": "v-ch05-orosu", "expression": "降ろす", "reading": "おろす", "meaningsPt": ["descer (algo/alguém)"], "sectionId": "ch-05-s02", "kanjiIds": ["km-n4-降"] },
+    { "id": "v-ch05-furu", "expression": "降る", "reading": "ふる", "meaningsPt": ["cair (chuva, neve)"], "sectionId": "ch-05-s02", "kanjiIds": ["km-n4-降"] },
+    { "id": "v-ch05-kousuiryou", "expression": "降水量", "reading": "こうすいりょう", "meaningsPt": ["precipitação", "volume de chuva"], "sectionId": "ch-05-s02", "kanjiIds": ["km-n4-降"] },
+
+    { "id": "v-ch05-aku", "expression": "開く", "reading": "あく", "meaningsPt": ["abrir (porta, etc.)"], "sectionId": "ch-05-s03", "kanjiIds": ["km-n4-開"] },
+    { "id": "v-ch05-hiraku", "expression": "開く", "reading": "ひらく", "meaningsPt": ["abrir (loja, negócio)"], "sectionId": "ch-05-s03", "kanjiIds": ["km-n4-開"] },
+    { "id": "v-ch05-kaihei", "expression": "開閉", "reading": "かいへい", "meaningsPt": ["abertura e fechamento"], "sectionId": "ch-05-s03", "kanjiIds": ["km-n4-開", "km-n4-閉"] },
+    { "id": "v-ch05-kaien", "expression": "開演", "reading": "かいえん", "meaningsPt": ["início do espetáculo"], "sectionId": "ch-05-s03", "kanjiIds": ["km-n4-開"] },
+    { "id": "v-ch05-koukai", "expression": "公開", "reading": "こうかい", "meaningsPt": ["estreia", "tornar público"], "sectionId": "ch-05-s03", "kanjiIds": ["km-n4-開"] },
+    { "id": "v-ch05-kaijou", "expression": "開場時間", "reading": "かいじょうじかん", "meaningsPt": ["horário de abertura (do local)"], "sectionId": "ch-05-s03", "kanjiIds": ["km-n4-開"] },
+    { "id": "v-ch05-tojiru", "expression": "閉じる", "reading": "とじる", "meaningsPt": ["fechar"], "sectionId": "ch-05-s03", "kanjiIds": ["km-n4-閉"] },
+    { "id": "v-ch05-heiten", "expression": "閉店", "reading": "へいてん", "meaningsPt": ["fechamento da loja"], "sectionId": "ch-05-s03", "kanjiIds": ["km-n4-閉"] }
+  ]
+}

@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import { AppShell } from "@/components/app-shell";
 import { PageSkeleton } from "@/components/skeletons";
@@ -10,7 +10,8 @@ import { QuestionKindChips } from "@/components/curriculum/question-kind-chips";
 import { Button, ButtonLink } from "@/components/ui/button";
 import { QUESTION_KIND } from "@/components/ui/question-band";
 import { useSelection, type Selection } from "@/hooks/use-study-stats";
-import { getChapters, resolveKanjiIds } from "@/lib/curriculum";
+import { getChapterById, getChapters, resolveKanjiIds } from "@/lib/curriculum";
+import type { Chapter } from "@/lib/kanji-types";
 import { bookLessons } from "@/lib/curriculum-groups";
 import { countPracticePrompts } from "@/lib/practice";
 import { SESSION_SIZE } from "@/lib/session";
@@ -18,6 +19,10 @@ import { setActiveSectionIds } from "@/lib/study-selection";
 
 export default function StudyPage() {
   const selection = useSelection();
+  const chapters = getChapters();
+  const [chapterId, setChapterId] = useState(chapters.at(-1)?.id ?? chapters[0]?.id ?? "");
+  const chapter = getChapterById(chapterId);
+
   return (
     <AppShell className="gap-5 pb-[220px]! sm:gap-7 sm:pb-[140px]!">
       <div className="flex flex-wrap items-end justify-between gap-4 sm:gap-6">
@@ -27,37 +32,47 @@ export default function StudyPage() {
             Escolha o que entra nas suas revisões — acompanhe o que a aula já cobriu.
           </p>
         </div>
-        <ChapterTabs />
+        <ChapterTabs activeId={chapterId} onChange={setChapterId} />
       </div>
-      {selection ? <Curriculum selection={selection} /> : <PageSkeleton cards={3} label="Carregando currículo" />}
+      {selection && chapter ? (
+        <Curriculum selection={selection} chapter={chapter} />
+      ) : (
+        <PageSkeleton cards={3} label="Carregando currículo" />
+      )}
     </AppShell>
   );
 }
 
-function ChapterTabs() {
-  // Only chapter 4 exists in the data so far.
+function ChapterTabs({ activeId, onChange }: { activeId: string; onChange: (id: string) => void }) {
   return (
     <div role="tablist" aria-label="Capítulo" className="flex w-full gap-1 rounded-[14px] border border-line bg-surface-1 p-1 sm:w-auto">
-      {getChapters().map((chapter) => (
-        <button
-          key={chapter.id}
-          type="button"
-          role="tab"
-          aria-selected
-          className="inline-flex min-h-11 items-center gap-2 rounded-[10px] bg-surface-3 px-4 text-[15px] font-semibold text-text"
-        >
-          <span lang="ja">
-            第{chapter.number}章 {chapter.titleJa}
-          </span>
-        </button>
-      ))}
+      {getChapters().map((chapter) => {
+        const selected = chapter.id === activeId;
+        return (
+          <button
+            key={chapter.id}
+            type="button"
+            role="tab"
+            aria-selected={selected}
+            onClick={() => onChange(chapter.id)}
+            className={
+              selected
+                ? "inline-flex min-h-11 items-center gap-2 rounded-[10px] bg-surface-3 px-4 text-[15px] font-semibold text-text"
+                : "inline-flex min-h-11 items-center gap-2 rounded-[10px] px-4 text-[15px] font-semibold text-text-2 hover:text-text"
+            }
+          >
+            <span lang="ja">
+              第{chapter.number}章 {chapter.titleJa}
+            </span>
+          </button>
+        );
+      })}
     </div>
   );
 }
 
-function Curriculum({ selection }: { selection: Selection }) {
+function Curriculum({ selection, chapter }: { selection: Selection; chapter: Chapter }) {
   const router = useRouter();
-  const chapter = getChapters()[0];
   const lessons = chapter ? bookLessons(chapter) : [];
   const allIds = chapter ? chapter.sections.map((s) => s.id) : [];
   const selected = selection.sectionIds;
