@@ -62,6 +62,26 @@
     "jlpt": 3
   },
   {
+    "id": "km-n4-黄",
+    "character": "黄",
+    "meaningsPt": [
+      "amarelo"
+    ],
+    "meaningsEn": [
+      "yellow"
+    ],
+    "onReadings": [
+      "コウ",
+      "オウ"
+    ],
+    "kunReadings": [
+      "き",
+      "こ-"
+    ],
+    "strokeCount": 11,
+    "jlpt": 2
+  },
+  {
     "id": "km-n4-画",
     "character": "画",
     "meaningsPt": [
@@ -162,6 +182,38 @@
     ],
     "strokeCount": 16,
     "jlpt": 4
+  },
+  {
+    "id": "km-n4-交",
+    "character": "交",
+    "meaningsPt": [
+      "cruzar",
+      "misturar",
+      "trocar"
+    ],
+    "meaningsEn": [
+      "mingle",
+      "mixing",
+      "association",
+      "coming & going"
+    ],
+    "onReadings": [
+      "コウ"
+    ],
+    "kunReadings": [
+      "まじ",
+      "まじ",
+      "ま",
+      "まじ",
+      "ま",
+      "ま",
+      "-か",
+      "か",
+      "かわ",
+      "こもごも"
+    ],
+    "strokeCount": 6,
+    "jlpt": 3
   },
   {
     "id": "km-n4-公",
@@ -323,6 +375,38 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-止",
+    "character": "止",
+    "meaningsPt": [
+      "parar"
+    ],
+    "meaningsEn": [
+      "stop",
+      "halt"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "と",
+      "-ど",
+      "と",
+      "-と",
+      "-ど",
+      "とど",
+      "とど",
+      "とど",
+      "や",
+      "や",
+      "-や",
+      "よ",
+      "-さ",
+      "-さ"
+    ],
+    "strokeCount": 4,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-社",
     "character": "社",
     "meaningsPt": [
@@ -434,6 +518,126 @@
       "ば"
     ],
     "strokeCount": 12,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-色",
+    "character": "色",
+    "meaningsPt": [
+      "cor"
+    ],
+    "meaningsEn": [
+      "color"
+    ],
+    "onReadings": [
+      "ショク",
+      "シキ"
+    ],
+    "kunReadings": [
+      "いろ"
+    ],
+    "strokeCount": 6,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-青",
+    "character": "青",
+    "meaningsPt": [
+      "azul",
+      "verde (sinal)"
+    ],
+    "meaningsEn": [
+      "blue",
+      "green"
+    ],
+    "onReadings": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunReadings": [
+      "あお",
+      "あお-",
+      "あお"
+    ],
+    "strokeCount": 8,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-赤",
+    "character": "赤",
+    "meaningsPt": [
+      "vermelho"
+    ],
+    "meaningsEn": [
+      "red"
+    ],
+    "onReadings": [
+      "セキ",
+      "シャク"
+    ],
+    "kunReadings": [
+      "あか",
+      "あか-",
+      "あか",
+      "あか",
+      "あか"
+    ],
+    "strokeCount": 7,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-台",
+    "character": "台",
+    "meaningsPt": [
+      "pedestal",
+      "contador de máquinas"
+    ],
+    "meaningsEn": [
+      "pedestal",
+      "a stand",
+      "counter for machines and vehicles"
+    ],
+    "onReadings": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunReadings": [
+      "うてな",
+      "われ",
+      "つかさ"
+    ],
+    "strokeCount": 5,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-通",
+    "character": "通",
+    "meaningsPt": [
+      "passar",
+      "frequentar"
+    ],
+    "meaningsEn": [
+      "traffic",
+      "pass through",
+      "avenue",
+      "commute",
+      "counter for letters, notes, documents, etc."
+    ],
+    "onReadings": [
+      "ツウ",
+      "ツ"
+    ],
+    "kunReadings": [
+      "とお",
+      "とお",
+      "-とお",
+      "-どお",
+      "とお",
+      "とお",
+      "-どお",
+      "かよ"
+    ],
+    "strokeCount": 10,
     "jlpt": 4
   },
   {

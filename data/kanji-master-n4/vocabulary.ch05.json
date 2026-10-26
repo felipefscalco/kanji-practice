@@ -26,6 +26,42 @@
     { "id": "v-ch05-koukai", "expression": "公開", "reading": "こうかい", "meaningsPt": ["estreia", "tornar público"], "sectionId": "ch-05-s03", "kanjiIds": ["km-n4-開"] },
     { "id": "v-ch05-kaijou", "expression": "開場時間", "reading": "かいじょうじかん", "meaningsPt": ["horário de abertura (do local)"], "sectionId": "ch-05-s03", "kanjiIds": ["km-n4-開"] },
     { "id": "v-ch05-tojiru", "expression": "閉じる", "reading": "とじる", "meaningsPt": ["fechar"], "sectionId": "ch-05-s03", "kanjiIds": ["km-n4-閉"] },
-    { "id": "v-ch05-heiten", "expression": "閉店", "reading": "へいてん", "meaningsPt": ["fechamento da loja"], "sectionId": "ch-05-s03", "kanjiIds": ["km-n4-閉"] }
+    { "id": "v-ch05-heiten", "expression": "閉店", "reading": "へいてん", "meaningsPt": ["fechamento da loja"], "sectionId": "ch-05-s03", "kanjiIds": ["km-n4-閉"] },
+
+    { "id": "v-ch05-majiwaru", "expression": "交わる", "reading": "まじわる", "meaningsPt": ["cruzar-se", "intersectar"], "sectionId": "ch-05-s04", "kanjiIds": ["km-n4-交"] },
+    { "id": "v-ch05-mazeru", "expression": "交ぜる", "reading": "まぜる", "meaningsPt": ["misturar"], "sectionId": "ch-05-s04", "kanjiIds": ["km-n4-交"] },
+    { "id": "v-ch05-kousaten", "expression": "交差点", "reading": "こうさてん", "meaningsPt": ["cruzamento", "interseção"], "sectionId": "ch-05-s04", "kanjiIds": ["km-n4-交"] },
+    { "id": "v-ch05-kouryuu", "expression": "交流", "reading": "こうりゅう", "meaningsPt": ["intercâmbio", "troca"], "sectionId": "ch-05-s04", "kanjiIds": ["km-n4-交"] },
+    { "id": "v-ch05-tooru", "expression": "通る", "reading": "とおる", "meaningsPt": ["passar", "atravessar"], "sectionId": "ch-05-s04", "kanjiIds": ["km-n4-通"] },
+    { "id": "v-ch05-oodoori", "expression": "大通り", "reading": "おおどおり", "meaningsPt": ["avenida principal"], "sectionId": "ch-05-s04", "kanjiIds": ["km-n4-通"] },
+    { "id": "v-ch05-tsuukin", "expression": "通勤", "reading": "つうきん", "meaningsPt": ["ir ao trabalho (deslocamento)"], "sectionId": "ch-05-s04", "kanjiIds": ["km-n4-通"] },
+    { "id": "v-ch05-tsuugaku", "expression": "通学", "reading": "つうがく", "meaningsPt": ["ir à escola (deslocamento)"], "sectionId": "ch-05-s04", "kanjiIds": ["km-n4-通"] },
+    { "id": "v-ch05-ippoutsuukou", "expression": "一方通行", "reading": "いっぽうつうこう", "meaningsPt": ["mão única"], "sectionId": "ch-05-s04", "kanjiIds": ["km-n4-通"] },
+
+    { "id": "v-ch05-sandai", "expression": "三台", "reading": "さんだい", "meaningsPt": ["três (veículos/máquinas)"], "sectionId": "ch-05-s05", "kanjiIds": ["km-n4-台"] },
+    { "id": "v-ch05-daidokoro", "expression": "台所", "reading": "だいどころ", "meaningsPt": ["cozinha"], "sectionId": "ch-05-s05", "kanjiIds": ["km-n4-台"] },
+    { "id": "v-ch05-takadai", "expression": "高台", "reading": "たかだい", "meaningsPt": ["terreno elevado"], "sectionId": "ch-05-s05", "kanjiIds": ["km-n4-台"] },
+    { "id": "v-ch05-taifuu", "expression": "台風", "reading": "たいふう", "meaningsPt": ["tufão"], "sectionId": "ch-05-s05", "kanjiIds": ["km-n4-台"] },
+    { "id": "v-ch05-tomaru", "expression": "止まる", "reading": "とまる", "meaningsPt": ["parar"], "sectionId": "ch-05-s05", "kanjiIds": ["km-n4-止"] },
+    { "id": "v-ch05-tomeru", "expression": "止める", "reading": "とめる", "meaningsPt": ["parar (algo)"], "sectionId": "ch-05-s05", "kanjiIds": ["km-n4-止"] },
+    { "id": "v-ch05-kinshi", "expression": "禁止", "reading": "きんし", "meaningsPt": ["proibido"], "sectionId": "ch-05-s05", "kanjiIds": ["km-n4-止"] },
+
+    { "id": "v-ch05-nanairo", "expression": "七色", "reading": "なないろ", "meaningsPt": ["sete cores"], "sectionId": "ch-05-s06", "kanjiIds": ["km-n4-色"] },
+    { "id": "v-ch05-irogami", "expression": "色紙", "reading": "いろがみ", "meaningsPt": ["papel colorido"], "sectionId": "ch-05-s06", "kanjiIds": ["km-n4-色"] },
+    { "id": "v-ch05-tokushoku", "expression": "特色", "reading": "とくしょく", "meaningsPt": ["característica marcante"], "sectionId": "ch-05-s06", "kanjiIds": ["km-n4-色"] },
+    { "id": "v-ch05-akai", "expression": "赤い", "reading": "あかい", "meaningsPt": ["vermelho"], "sectionId": "ch-05-s06", "kanjiIds": ["km-n4-赤"] },
+    { "id": "v-ch05-akapen", "expression": "赤ペン", "reading": "あかペン", "meaningsPt": ["caneta vermelha"], "sectionId": "ch-05-s06", "kanjiIds": ["km-n4-赤"] },
+    { "id": "v-ch05-akashingou", "expression": "赤信号", "reading": "あかしんごう", "meaningsPt": ["sinal vermelho"], "sectionId": "ch-05-s06", "kanjiIds": ["km-n4-赤"] },
+    { "id": "v-ch05-sekidou", "expression": "赤道", "reading": "せきどう", "meaningsPt": ["equador"], "sectionId": "ch-05-s06", "kanjiIds": ["km-n4-赤"] },
+    { "id": "v-ch05-sekihan", "expression": "赤飯", "reading": "せきはん", "meaningsPt": ["arroz com feijão azuki"], "sectionId": "ch-05-s06", "kanjiIds": ["km-n4-赤"] },
+
+    { "id": "v-ch05-kiiro", "expression": "黄色", "reading": "きいろ", "meaningsPt": ["amarelo"], "sectionId": "ch-05-s07", "kanjiIds": ["km-n4-黄"] },
+    { "id": "v-ch05-ougon", "expression": "黄金", "reading": "おうごん", "meaningsPt": ["ouro"], "sectionId": "ch-05-s07", "kanjiIds": ["km-n4-黄"] },
+    { "id": "v-ch05-ranou", "expression": "卵黄", "reading": "らんおう", "meaningsPt": ["gema do ovo"], "sectionId": "ch-05-s07", "kanjiIds": ["km-n4-黄"] },
+    { "id": "v-ch05-aoiumi", "expression": "青い海", "reading": "あおいうみ", "meaningsPt": ["mar azul"], "sectionId": "ch-05-s07", "kanjiIds": ["km-n4-青"] },
+    { "id": "v-ch05-aoshingou", "expression": "青信号", "reading": "あおしんごう", "meaningsPt": ["sinal verde"], "sectionId": "ch-05-s07", "kanjiIds": ["km-n4-青"] },
+    { "id": "v-ch05-aozora", "expression": "青空", "reading": "あおぞら", "meaningsPt": ["céu azul"], "sectionId": "ch-05-s07", "kanjiIds": ["km-n4-青"] },
+    { "id": "v-ch05-seinen", "expression": "青年", "reading": "せいねん", "meaningsPt": ["jovem", "rapaz"], "sectionId": "ch-05-s07", "kanjiIds": ["km-n4-青"] },
+    { "id": "v-ch05-seishun", "expression": "青春", "reading": "せいしゅん", "meaningsPt": ["juventude"], "sectionId": "ch-05-s07", "kanjiIds": ["km-n4-青"] }
   ]
 }

@@ -27,6 +27,69 @@
       "titleJa": "5章-1 えき",
       "kind": "lesson",
       "kanji": ["開", "閉"]
+    },
+    {
+      "id": "ch05-p04",
+      "file": "/kanji-master-n4/ch05/page-04.jpeg",
+      "bookPage": 115,
+      "sectionId": "ch-05-s01",
+      "titleJa": "ふくしゅう 5-1",
+      "kind": "review",
+      "kanji": []
+    },
+    {
+      "id": "ch05-p05",
+      "file": "/kanji-master-n4/ch05/page-05.jpeg",
+      "bookPage": 116,
+      "sectionId": "ch-05-s04",
+      "titleJa": "5章-2 こうさてん",
+      "kind": "lesson",
+      "kanji": []
+    },
+    {
+      "id": "ch05-p06",
+      "file": "/kanji-master-n4/ch05/page-06.jpeg",
+      "bookPage": 117,
+      "sectionId": "ch-05-s04",
+      "titleJa": "5章-2 こうさてん",
+      "kind": "lesson",
+      "kanji": ["交", "通"]
+    },
+    {
+      "id": "ch05-p07",
+      "file": "/kanji-master-n4/ch05/page-07.jpeg",
+      "bookPage": 118,
+      "sectionId": "ch-05-s05",
+      "titleJa": "5章-2 こうさてん",
+      "kind": "lesson",
+      "kanji": ["台", "止"]
+    },
+    {
+      "id": "ch05-p08",
+      "file": "/kanji-master-n4/ch05/page-08.jpeg",
+      "bookPage": 119,
+      "sectionId": "ch-05-s06",
+      "titleJa": "5章-2 こうさてん",
+      "kind": "lesson",
+      "kanji": ["色", "赤"]
+    },
+    {
+      "id": "ch05-p09",
+      "file": "/kanji-master-n4/ch05/page-09.jpeg",
+      "bookPage": 120,
+      "sectionId": "ch-05-s07",
+      "titleJa": "5章-2 こうさてん",
+      "kind": "lesson",
+      "kanji": ["黄", "青"]
+    },
+    {
+      "id": "ch05-p10",
+      "file": "/kanji-master-n4/ch05/page-10.jpeg",
+      "bookPage": 121,
+      "sectionId": "ch-05-s04",
+      "titleJa": "ふくしゅう 5-2",
+      "kind": "review",
+      "kanji": []
     }
   ]
 }

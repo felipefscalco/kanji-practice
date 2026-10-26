@@ -12,5 +12,7 @@ describe("book pages", () => {
   it("maps chapter 5 kanji to book scan", () => {
     expect(getBookPageImageUrl("駅")).toBe("/kanji-master-n4/ch05/page-01.jpeg");
     expect(getBookPageForKanji("開")?.bookPage).toBe(113);
+    expect(getBookPageImageUrl("交")).toBe("/kanji-master-n4/ch05/page-06.jpeg");
+    expect(getBookPageForKanji("青")?.bookPage).toBe(120);
   });
 });

@@ -26,5 +26,13 @@
   "乗": ["embarcar", "subir (veículo)"],
   "降": ["descer", "cair (chuva)"],
   "開": ["abrir"],
-  "閉": ["fechar"]
+  "閉": ["fechar"],
+  "交": ["cruzar", "misturar", "trocar"],
+  "通": ["passar", "frequentar"],
+  "台": ["pedestal", "contador de máquinas"],
+  "止": ["parar"],
+  "色": ["cor"],
+  "赤": ["vermelho"],
+  "黄": ["amarelo"],
+  "青": ["azul", "verde (sinal)"]
 }

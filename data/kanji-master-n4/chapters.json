@@ -67,7 +67,7 @@
       "id": "ch-05",
       "number": 5,
       "titleJa": "交通",
-      "titlePt": "Capítulo 5 (livro: えき)",
+      "titlePt": "Capítulo 5 (livro: えき · こうさてん)",
       "sections": [
         {
           "id": "ch-05-s01",
@@ -86,6 +86,30 @@
           "titleJa": "5-1 えき",
           "titlePt": "開 · 閉",
           "kanjiIds": ["km-n4-開", "km-n4-閉"]
+        },
+        {
+          "id": "ch-05-s04",
+          "titleJa": "5-2 こうさてん",
+          "titlePt": "交 · 通",
+          "kanjiIds": ["km-n4-交", "km-n4-通"]
+        },
+        {
+          "id": "ch-05-s05",
+          "titleJa": "5-2 こうさてん",
+          "titlePt": "台 · 止",
+          "kanjiIds": ["km-n4-台", "km-n4-止"]
+        },
+        {
+          "id": "ch-05-s06",
+          "titleJa": "5-2 こうさてん",
+          "titlePt": "色 · 赤",
+          "kanjiIds": ["km-n4-色", "km-n4-赤"]
+        },
+        {
+          "id": "ch-05-s07",
+          "titleJa": "5-2 こうさてん",
+          "titlePt": "黄 · 青",
+          "kanjiIds": ["km-n4-黄", "km-n4-青"]
         }
       ]
     }
