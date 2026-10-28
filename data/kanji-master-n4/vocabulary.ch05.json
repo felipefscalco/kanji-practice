@@ -28,6 +28,17 @@
     { "id": "v-ch05-tojiru", "expression": "閉じる", "reading": "とじる", "meaningsPt": ["fechar"], "sectionId": "ch-05-s03", "kanjiIds": ["km-n4-閉"] },
     { "id": "v-ch05-heiten", "expression": "閉店", "reading": "へいてん", "meaningsPt": ["fechamento da loja"], "sectionId": "ch-05-s03", "kanjiIds": ["km-n4-閉"] },
 
+    { "id": "v-ch05-hatsumei", "expression": "発明", "reading": "はつめい", "meaningsPt": ["invenção"], "sectionId": "ch-05-s12", "kanjiIds": ["km-n4-発"] },
+    { "id": "v-ch05-kaihatsu", "expression": "開発", "reading": "かいはつ", "meaningsPt": ["desenvolvimento"], "sectionId": "ch-05-s12", "kanjiIds": ["km-n4-発"] },
+    { "id": "v-ch05-hatsuon", "expression": "発音", "reading": "はつおん", "meaningsPt": ["pronúncia"], "sectionId": "ch-05-s12", "kanjiIds": ["km-n4-発"] },
+    { "id": "v-ch05-hassha", "expression": "発車", "reading": "はっしゃ", "meaningsPt": ["partida (trem, ônibus)"], "sectionId": "ch-05-s12", "kanjiIds": ["km-n4-発"] },
+    { "id": "v-ch05-kiru", "expression": "着る", "reading": "きる", "meaningsPt": ["vestir"], "sectionId": "ch-05-s12", "kanjiIds": ["km-n4-着"] },
+    { "id": "v-ch05-kimono", "expression": "着物", "reading": "きもの", "meaningsPt": ["quimono"], "sectionId": "ch-05-s12", "kanjiIds": ["km-n4-着"] },
+    { "id": "v-ch05-chakuchi", "expression": "着地", "reading": "ちゃくち", "meaningsPt": ["aterrissagem"], "sectionId": "ch-05-s12", "kanjiIds": ["km-n4-着"] },
+    { "id": "v-ch05-icchaku", "expression": "一着", "reading": "いっちゃく", "meaningsPt": ["primeiro lugar", "uma peça (de roupa)"], "sectionId": "ch-05-s12", "kanjiIds": ["km-n4-着"] },
+    { "id": "v-ch05-uwagi", "expression": "上着", "reading": "うわぎ", "meaningsPt": ["casaco", "jaqueta"], "sectionId": "ch-05-s12", "kanjiIds": ["km-n4-着"] },
+    { "id": "v-ch05-shitagi", "expression": "下着", "reading": "したぎ", "meaningsPt": ["roupa íntima"], "sectionId": "ch-05-s12", "kanjiIds": ["km-n4-着"] },
+
     { "id": "v-ch05-majiwaru", "expression": "交わる", "reading": "まじわる", "meaningsPt": ["cruzar-se", "intersectar"], "sectionId": "ch-05-s04", "kanjiIds": ["km-n4-交"] },
     { "id": "v-ch05-mazeru", "expression": "交ぜる", "reading": "まぜる", "meaningsPt": ["misturar"], "sectionId": "ch-05-s04", "kanjiIds": ["km-n4-交"] },
     { "id": "v-ch05-kousaten", "expression": "交差点", "reading": "こうさてん", "meaningsPt": ["cruzamento", "interseção"], "sectionId": "ch-05-s04", "kanjiIds": ["km-n4-交"] },

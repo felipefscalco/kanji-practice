@@ -749,6 +749,32 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-着",
+    "character": "着",
+    "meaningsPt": [
+      "vestir",
+      "chegar"
+    ],
+    "meaningsEn": [
+      "don",
+      "arrive",
+      "wear",
+      "counter for suits of clothing"
+    ],
+    "onReadings": [
+      "チャク",
+      "ジャク"
+    ],
+    "kunReadings": [
+      "き",
+      "き",
+      "つ",
+      "つ"
+    ],
+    "strokeCount": 12,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-通",
     "character": "通",
     "meaningsPt": [
@@ -830,6 +856,37 @@
     ],
     "kunReadings": [],
     "strokeCount": 10,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-発",
+    "character": "発",
+    "meaningsPt": [
+      "partir",
+      "emitir",
+      "começar"
+    ],
+    "meaningsEn": [
+      "departure",
+      "discharge",
+      "publish",
+      "emit",
+      "start from",
+      "disclose",
+      "counter for gunshots"
+    ],
+    "onReadings": [
+      "ハツ",
+      "ホツ"
+    ],
+    "kunReadings": [
+      "た",
+      "あば",
+      "おこ",
+      "つか",
+      "はな"
+    ],
+    "strokeCount": 9,
     "jlpt": 4
   },
   {

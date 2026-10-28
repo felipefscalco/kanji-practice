@@ -1,5 +1,6 @@
 import pagesCh04 from "@/data/kanji-master-n4/ch04-pages.json";
 import pagesCh05 from "@/data/kanji-master-n4/ch05-pages.json";
+import { getSectionById } from "@/lib/curriculum";
 
 export interface BookPage {
   id: string;
@@ -37,7 +38,15 @@ export function getBookPageImageUrl(character: string): string | undefined {
 }
 
 export function getReviewPagesForSection(sectionId: string): BookPage[] {
-  return pages.filter((p) => p.kind === "review" && p.sectionId === sectionId);
+  const direct = pages.filter((p) => p.kind === "review" && p.sectionId === sectionId);
+  if (direct.length > 0) {
+    return direct;
+  }
+  const lessonKey = getSectionById(sectionId)?.titleJa.match(/^(\d+-\d+)/)?.[1];
+  if (!lessonKey) {
+    return [];
+  }
+  return pages.filter((p) => p.kind === "review" && p.titleJa === `ふくしゅう ${lessonKey}`);
 }
 
 export function getChapterBookPages(): BookPage[] {

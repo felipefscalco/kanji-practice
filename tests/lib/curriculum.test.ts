@@ -20,7 +20,9 @@ describe("curriculum", () => {
     const ch = getChapters().find((c) => c.id === "ch-05");
     expect(ch).toBeDefined();
     expect(ch?.titleJa).toBe("交通");
-    expect(ch?.sections.length).toBe(11);
+    expect(ch?.sections.length).toBe(12);
+    const lesson51 = ch?.sections.filter((s) => s.titleJa === "5-1 えき");
+    expect(lesson51?.map((s) => s.titlePt)).toEqual(["駅 · 鉄", "乗 · 降", "開 · 閉", "発 · 着"]);
     const lesson52 = ch?.sections.filter((s) => s.titleJa === "5-2 こうさてん");
     expect(lesson52?.map((s) => s.titlePt)).toEqual(["交 · 通", "台 · 止", "色 · 赤", "黄 · 青"]);
     const lesson53 = ch?.sections.filter((s) => s.titleJa === "5-3 びょういん");

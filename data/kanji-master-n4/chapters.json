@@ -88,6 +88,12 @@
           "kanjiIds": ["km-n4-開", "km-n4-閉"]
         },
         {
+          "id": "ch-05-s12",
+          "titleJa": "5-1 えき",
+          "titlePt": "発 · 着",
+          "kanjiIds": ["km-n4-発", "km-n4-着"]
+        },
+        {
           "id": "ch-05-s04",
           "titleJa": "5-2 こうさてん",
           "titlePt": "交 · 通",
