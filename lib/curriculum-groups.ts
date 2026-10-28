@@ -12,6 +12,7 @@ const LESSON_TITLE_PT: Record<string, string> = {
   "4-3 しごと": "Trabalho",
   "5-1 えき": "Estação",
   "5-2 こうさてん": "Cruzamento",
+  "5-3 びょういん": "Hospital",
 };
 
 export interface BookLesson {

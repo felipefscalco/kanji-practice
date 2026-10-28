@@ -67,7 +67,7 @@
       "id": "ch-05",
       "number": 5,
       "titleJa": "交通",
-      "titlePt": "Capítulo 5 (livro: えき · こうさてん)",
+      "titlePt": "Capítulo 5 (livro: えき · こうさてん · びょういん)",
       "sections": [
         {
           "id": "ch-05-s01",
@@ -110,6 +110,30 @@
           "titleJa": "5-2 こうさてん",
           "titlePt": "黄 · 青",
           "kanjiIds": ["km-n4-黄", "km-n4-青"]
+        },
+        {
+          "id": "ch-05-s08",
+          "titleJa": "5-3 びょういん",
+          "titlePt": "病 · 院",
+          "kanjiIds": ["km-n4-病", "km-n4-院"]
+        },
+        {
+          "id": "ch-05-s09",
+          "titleJa": "5-3 びょういん",
+          "titlePt": "医 · 科",
+          "kanjiIds": ["km-n4-医", "km-n4-科"]
+        },
+        {
+          "id": "ch-05-s10",
+          "titleJa": "5-3 びょういん",
+          "titlePt": "薬 · 待",
+          "kanjiIds": ["km-n4-薬", "km-n4-待"]
+        },
+        {
+          "id": "ch-05-s11",
+          "titleJa": "5-3 びょういん",
+          "titlePt": "合 · 計",
+          "kanjiIds": ["km-n4-合", "km-n4-計"]
         }
       ]
     }

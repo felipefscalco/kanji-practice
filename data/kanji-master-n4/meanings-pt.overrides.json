@@ -34,5 +34,13 @@
   "色": ["cor"],
   "赤": ["vermelho"],
   "黄": ["amarelo"],
-  "青": ["azul", "verde (sinal)"]
+  "青": ["azul", "verde (sinal)"],
+  "病": ["doença"],
+  "院": ["instituição", "edifício (hospital, etc.)"],
+  "医": ["medicina", "médico"],
+  "科": ["matéria", "seção", "departamento"],
+  "薬": ["remédio"],
+  "待": ["esperar"],
+  "合": ["combinar", "encaixar"],
+  "計": ["medir", "calcular", "plano"]
 }

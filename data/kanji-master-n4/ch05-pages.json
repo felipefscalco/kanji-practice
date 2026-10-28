@@ -90,6 +90,60 @@
       "titleJa": "ふくしゅう 5-2",
       "kind": "review",
       "kanji": []
+    },
+    {
+      "id": "ch05-p11",
+      "file": "/kanji-master-n4/ch05/page-11.jpeg",
+      "bookPage": 122,
+      "sectionId": "ch-05-s08",
+      "titleJa": "5章-3 びょういん",
+      "kind": "lesson",
+      "kanji": []
+    },
+    {
+      "id": "ch05-p12",
+      "file": "/kanji-master-n4/ch05/page-12.jpeg",
+      "bookPage": 123,
+      "sectionId": "ch-05-s08",
+      "titleJa": "5章-3 びょういん",
+      "kind": "lesson",
+      "kanji": ["病", "院"]
+    },
+    {
+      "id": "ch05-p13",
+      "file": "/kanji-master-n4/ch05/page-13.jpeg",
+      "bookPage": 124,
+      "sectionId": "ch-05-s09",
+      "titleJa": "5章-3 びょういん",
+      "kind": "lesson",
+      "kanji": ["医", "科"]
+    },
+    {
+      "id": "ch05-p14",
+      "file": "/kanji-master-n4/ch05/page-14.jpeg",
+      "bookPage": 125,
+      "sectionId": "ch-05-s10",
+      "titleJa": "5章-3 びょういん",
+      "kind": "lesson",
+      "kanji": ["薬", "待"]
+    },
+    {
+      "id": "ch05-p15",
+      "file": "/kanji-master-n4/ch05/page-15.jpeg",
+      "bookPage": 126,
+      "sectionId": "ch-05-s11",
+      "titleJa": "5章-3 びょういん",
+      "kind": "lesson",
+      "kanji": ["合", "計"]
+    },
+    {
+      "id": "ch05-p16",
+      "file": "/kanji-master-n4/ch05/page-16.jpeg",
+      "bookPage": 127,
+      "sectionId": "ch-05-s08",
+      "titleJa": "ふくしゅう 5-3",
+      "kind": "review",
+      "kanji": []
     }
   ]
 }

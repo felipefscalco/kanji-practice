@@ -14,5 +14,7 @@ describe("book pages", () => {
     expect(getBookPageForKanji("開")?.bookPage).toBe(113);
     expect(getBookPageImageUrl("交")).toBe("/kanji-master-n4/ch05/page-06.jpeg");
     expect(getBookPageForKanji("青")?.bookPage).toBe(120);
+    expect(getBookPageImageUrl("病")).toBe("/kanji-master-n4/ch05/page-12.jpeg");
+    expect(getBookPageForKanji("計")?.bookPage).toBe(126);
   });
 });

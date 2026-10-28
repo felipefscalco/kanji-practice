@@ -20,8 +20,10 @@ describe("curriculum", () => {
     const ch = getChapters().find((c) => c.id === "ch-05");
     expect(ch).toBeDefined();
     expect(ch?.titleJa).toBe("交通");
-    expect(ch?.sections.length).toBe(7);
+    expect(ch?.sections.length).toBe(11);
     const lesson52 = ch?.sections.filter((s) => s.titleJa === "5-2 こうさてん");
     expect(lesson52?.map((s) => s.titlePt)).toEqual(["交 · 通", "台 · 止", "色 · 赤", "黄 · 青"]);
+    const lesson53 = ch?.sections.filter((s) => s.titleJa === "5-3 びょういん");
+    expect(lesson53?.map((s) => s.titlePt)).toEqual(["病 · 院", "医 · 科", "薬 · 待", "合 · 計"]);
   });
 });

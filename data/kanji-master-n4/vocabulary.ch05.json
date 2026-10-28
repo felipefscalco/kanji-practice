@@ -62,6 +62,42 @@
     { "id": "v-ch05-aoshingou", "expression": "青信号", "reading": "あおしんごう", "meaningsPt": ["sinal verde"], "sectionId": "ch-05-s07", "kanjiIds": ["km-n4-青"] },
     { "id": "v-ch05-aozora", "expression": "青空", "reading": "あおぞら", "meaningsPt": ["céu azul"], "sectionId": "ch-05-s07", "kanjiIds": ["km-n4-青"] },
     { "id": "v-ch05-seinen", "expression": "青年", "reading": "せいねん", "meaningsPt": ["jovem", "rapaz"], "sectionId": "ch-05-s07", "kanjiIds": ["km-n4-青"] },
-    { "id": "v-ch05-seishun", "expression": "青春", "reading": "せいしゅん", "meaningsPt": ["juventude"], "sectionId": "ch-05-s07", "kanjiIds": ["km-n4-青"] }
+    { "id": "v-ch05-seishun", "expression": "青春", "reading": "せいしゅん", "meaningsPt": ["juventude"], "sectionId": "ch-05-s07", "kanjiIds": ["km-n4-青"] },
+
+    { "id": "v-ch05-byouki", "expression": "病気", "reading": "びょうき", "meaningsPt": ["doença"], "sectionId": "ch-05-s08", "kanjiIds": ["km-n4-病"] },
+    { "id": "v-ch05-byouin", "expression": "病院", "reading": "びょういん", "meaningsPt": ["hospital"], "sectionId": "ch-05-s08", "kanjiIds": ["km-n4-病", "km-n4-院"] },
+    { "id": "v-ch05-nyuuin", "expression": "入院", "reading": "にゅういん", "meaningsPt": ["internação"], "sectionId": "ch-05-s08", "kanjiIds": ["km-n4-院"] },
+    { "id": "v-ch05-taiin", "expression": "退院", "reading": "たいいん", "meaningsPt": ["alta hospitalar"], "sectionId": "ch-05-s08", "kanjiIds": ["km-n4-院"] },
+    { "id": "v-ch05-inchou", "expression": "院長", "reading": "いんちょう", "meaningsPt": ["diretor (de hospital)"], "sectionId": "ch-05-s08", "kanjiIds": ["km-n4-院"] },
+    { "id": "v-ch05-tsuuin", "expression": "通院", "reading": "つういん", "meaningsPt": ["consultas regulares no hospital"], "sectionId": "ch-05-s08", "kanjiIds": ["km-n4-院", "km-n4-通"] },
+    { "id": "v-ch05-daigakuinsei", "expression": "大学院生", "reading": "だいがくいんせい", "meaningsPt": ["estudante de pós-graduação"], "sectionId": "ch-05-s08", "kanjiIds": ["km-n4-院"] },
+    { "id": "v-ch05-jiin", "expression": "寺院", "reading": "じいん", "meaningsPt": ["templo budista"], "sectionId": "ch-05-s08", "kanjiIds": ["km-n4-院"] },
+
+    { "id": "v-ch05-isha", "expression": "医者", "reading": "いしゃ", "meaningsPt": ["médico"], "sectionId": "ch-05-s09", "kanjiIds": ["km-n4-医"] },
+    { "id": "v-ch05-igaku", "expression": "医学", "reading": "いがく", "meaningsPt": ["medicina (ciência)"], "sectionId": "ch-05-s09", "kanjiIds": ["km-n4-医"] },
+    { "id": "v-ch05-kamoku", "expression": "科目", "reading": "かもく", "meaningsPt": ["matéria", "disciplina"], "sectionId": "ch-05-s09", "kanjiIds": ["km-n4-科"] },
+    { "id": "v-ch05-rika", "expression": "理科", "reading": "りか", "meaningsPt": ["ciências (matéria escolar)"], "sectionId": "ch-05-s09", "kanjiIds": ["km-n4-科"] },
+    { "id": "v-ch05-kagaku", "expression": "科学", "reading": "かがく", "meaningsPt": ["ciência"], "sectionId": "ch-05-s09", "kanjiIds": ["km-n4-科"] },
+    { "id": "v-ch05-gakka", "expression": "学科", "reading": "がっか", "meaningsPt": ["curso", "departamento acadêmico"], "sectionId": "ch-05-s09", "kanjiIds": ["km-n4-科"] },
+    { "id": "v-ch05-naika", "expression": "内科", "reading": "ないか", "meaningsPt": ["clínica geral", "medicina interna"], "sectionId": "ch-05-s09", "kanjiIds": ["km-n4-科"] },
+    { "id": "v-ch05-geka", "expression": "外科", "reading": "げか", "meaningsPt": ["cirurgia"], "sectionId": "ch-05-s09", "kanjiIds": ["km-n4-科"] },
+
+    { "id": "v-ch05-kusurionomu", "expression": "薬を飲む", "reading": "くすりをのむ", "meaningsPt": ["tomar remédio"], "sectionId": "ch-05-s10", "kanjiIds": ["km-n4-薬"] },
+    { "id": "v-ch05-kazegusuri", "expression": "かぜ薬", "reading": "かぜぐすり", "meaningsPt": ["remédio para gripe"], "sectionId": "ch-05-s10", "kanjiIds": ["km-n4-薬"] },
+    { "id": "v-ch05-yakkyoku", "expression": "薬局", "reading": "やっきょく", "meaningsPt": ["farmácia"], "sectionId": "ch-05-s10", "kanjiIds": ["km-n4-薬"] },
+    { "id": "v-ch05-zutsuuyaku", "expression": "頭痛薬", "reading": "ずつうやく", "meaningsPt": ["remédio para dor de cabeça"], "sectionId": "ch-05-s10", "kanjiIds": ["km-n4-薬"] },
+    { "id": "v-ch05-megusuri", "expression": "目薬", "reading": "めぐすり", "meaningsPt": ["colírio"], "sectionId": "ch-05-s10", "kanjiIds": ["km-n4-薬"] },
+    { "id": "v-ch05-basuomatsu", "expression": "バスを待つ", "reading": "バスをまつ", "meaningsPt": ["esperar o ônibus"], "sectionId": "ch-05-s10", "kanjiIds": ["km-n4-待"] },
+    { "id": "v-ch05-machijikan", "expression": "待ち時間", "reading": "まちじかん", "meaningsPt": ["tempo de espera"], "sectionId": "ch-05-s10", "kanjiIds": ["km-n4-待"] },
+    { "id": "v-ch05-kitai", "expression": "期待", "reading": "きたい", "meaningsPt": ["expectativa"], "sectionId": "ch-05-s10", "kanjiIds": ["km-n4-待"] },
+
+    { "id": "v-ch05-gasshou", "expression": "合唱", "reading": "がっしょう", "meaningsPt": ["coral", "canto em coro"], "sectionId": "ch-05-s11", "kanjiIds": ["km-n4-合"] },
+    { "id": "v-ch05-kotaeawase", "expression": "答え合わせ", "reading": "こたえあわせ", "meaningsPt": ["correção de respostas"], "sectionId": "ch-05-s11", "kanjiIds": ["km-n4-合"] },
+    { "id": "v-ch05-goukaku", "expression": "合格", "reading": "ごうかく", "meaningsPt": ["aprovado (exame)"], "sectionId": "ch-05-s11", "kanjiIds": ["km-n4-合"] },
+    { "id": "v-ch05-machiaishitsu", "expression": "待ち合い室", "reading": "まちあいしつ", "meaningsPt": ["sala de espera"], "sectionId": "ch-05-s11", "kanjiIds": ["km-n4-合", "km-n4-待"] },
+    { "id": "v-ch05-kaikei", "expression": "会計", "reading": "かいけい", "meaningsPt": ["conta", "pagamento"], "sectionId": "ch-05-s11", "kanjiIds": ["km-n4-計", "km-n4-会"] },
+    { "id": "v-ch05-goukei", "expression": "合計", "reading": "ごうけい", "meaningsPt": ["total"], "sectionId": "ch-05-s11", "kanjiIds": ["km-n4-合", "km-n4-計"] },
+    { "id": "v-ch05-keisan", "expression": "計算", "reading": "けいさん", "meaningsPt": ["cálculo"], "sectionId": "ch-05-s11", "kanjiIds": ["km-n4-計"] },
+    { "id": "v-ch05-tokei", "expression": "時計", "reading": "とけい", "meaningsPt": ["relógio"], "sectionId": "ch-05-s11", "kanjiIds": ["km-n4-計"] }
   ]
 }

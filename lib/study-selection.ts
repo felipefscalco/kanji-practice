@@ -47,6 +47,10 @@ export function defaultSectionIds(): string[] {
     "ch-05-s05",
     "ch-05-s06",
     "ch-05-s07",
+    "ch-05-s08",
+    "ch-05-s09",
+    "ch-05-s10",
+    "ch-05-s11",
   ];
 }
 

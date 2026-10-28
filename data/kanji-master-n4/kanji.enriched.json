@@ -1,5 +1,48 @@
 [
   {
+    "id": "km-n4-医",
+    "character": "医",
+    "meaningsPt": [
+      "medicina",
+      "médico"
+    ],
+    "meaningsEn": [
+      "doctor",
+      "medicine"
+    ],
+    "onReadings": [
+      "イ"
+    ],
+    "kunReadings": [
+      "い",
+      "い",
+      "くすし"
+    ],
+    "strokeCount": 7,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-院",
+    "character": "院",
+    "meaningsPt": [
+      "instituição",
+      "edifício (hospital, etc.)"
+    ],
+    "meaningsEn": [
+      "Inst.",
+      "institution",
+      "temple",
+      "mansion",
+      "school"
+    ],
+    "onReadings": [
+      "イン"
+    ],
+    "kunReadings": [],
+    "strokeCount": 10,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-映",
     "character": "映",
     "meaningsPt": [
@@ -80,6 +123,26 @@
     ],
     "strokeCount": 11,
     "jlpt": 2
+  },
+  {
+    "id": "km-n4-科",
+    "character": "科",
+    "meaningsPt": [
+      "matéria",
+      "seção",
+      "departamento"
+    ],
+    "meaningsEn": [
+      "department",
+      "course",
+      "section"
+    ],
+    "onReadings": [
+      "カ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 9,
+    "jlpt": 3
   },
   {
     "id": "km-n4-画",
@@ -181,6 +244,30 @@
       "たて"
     ],
     "strokeCount": 16,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-計",
+    "character": "計",
+    "meaningsPt": [
+      "medir",
+      "calcular",
+      "plano"
+    ],
+    "meaningsEn": [
+      "plot",
+      "plan",
+      "scheme",
+      "measure"
+    ],
+    "onReadings": [
+      "ケイ"
+    ],
+    "kunReadings": [
+      "はか",
+      "はか"
+    ],
+    "strokeCount": 9,
     "jlpt": 4
   },
   {
@@ -286,6 +373,38 @@
       "くだ"
     ],
     "strokeCount": 10,
+    "jlpt": 3
+  },
+  {
+    "id": "km-n4-合",
+    "character": "合",
+    "meaningsPt": [
+      "combinar",
+      "encaixar"
+    ],
+    "meaningsEn": [
+      "fit",
+      "suit",
+      "join",
+      "0.1"
+    ],
+    "onReadings": [
+      "ゴウ",
+      "ガッ",
+      "カッ"
+    ],
+    "kunReadings": [
+      "あ",
+      "-あ",
+      "あ",
+      "あい-",
+      "-あ",
+      "-あい",
+      "あ",
+      "あ",
+      "-あ"
+    ],
+    "strokeCount": 6,
     "jlpt": 3
   },
   {
@@ -586,6 +705,26 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-待",
+    "character": "待",
+    "meaningsPt": [
+      "esperar"
+    ],
+    "meaningsEn": [
+      "wait",
+      "depend on"
+    ],
+    "onReadings": [
+      "タイ"
+    ],
+    "kunReadings": [
+      "ま",
+      "-ま"
+    ],
+    "strokeCount": 9,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-台",
     "character": "台",
     "meaningsPt": [
@@ -694,6 +833,28 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-病",
+    "character": "病",
+    "meaningsPt": [
+      "doença"
+    ],
+    "meaningsEn": [
+      "ill",
+      "sick"
+    ],
+    "onReadings": [
+      "ビョウ",
+      "ヘイ"
+    ],
+    "kunReadings": [
+      "や",
+      "-や",
+      "やまい"
+    ],
+    "strokeCount": 10,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-夫",
     "character": "夫",
     "meaningsPt": [
@@ -757,6 +918,28 @@
     ],
     "strokeCount": 6,
     "jlpt": 5
+  },
+  {
+    "id": "km-n4-薬",
+    "character": "薬",
+    "meaningsPt": [
+      "remédio"
+    ],
+    "meaningsEn": [
+      "medicine",
+      "chemical",
+      "enamel",
+      "gunpowder",
+      "benefit"
+    ],
+    "onReadings": [
+      "ヤク"
+    ],
+    "kunReadings": [
+      "くすり"
+    ],
+    "strokeCount": 16,
+    "jlpt": 3
   },
   {
     "id": "km-n4-有",
