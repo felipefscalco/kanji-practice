@@ -3,6 +3,7 @@
 import type { ReactNode } from "react";
 
 import { MnemonicField } from "@/components/mnemonic-field";
+import { KanjiStrokeAnimation } from "@/components/kanji-stroke-animation";
 import { Accordion } from "@/components/ui/accordion";
 import { Tabs } from "@/components/ui/tabs";
 import { useMediaQuery } from "@/hooks/use-client-env";
@@ -154,9 +155,16 @@ function sections(item: ReviewItem): Array<{ id: string; title: string; content:
       id: "kanji",
       title: "Kanji",
       content: (
-        <div className="grid gap-6 sm:grid-cols-2">
-          <Meanings meanings={item.kanji.meaningsPt} en={item.kanji.meaningsEn} />
-          <Readings kanji={item.kanji} />
+        <div className="flex flex-col gap-6">
+          <div className="grid gap-6 sm:grid-cols-2">
+            <Meanings meanings={item.kanji.meaningsPt} en={item.kanji.meaningsEn} />
+            <Readings kanji={item.kanji} />
+          </div>
+          <KanjiStrokeAnimation
+            character={item.kanji.character}
+            strokeCount={item.kanji.strokeCount}
+            className="flex max-w-sm flex-col gap-3 rounded-lg border border-line bg-surface-2 p-4"
+          />
         </div>
       ),
     },
