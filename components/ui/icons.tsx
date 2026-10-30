@@ -118,3 +118,11 @@ export function FlameIcon(props: IconProps) {
     </Svg>
   );
 }
+
+export function TestIcon(props: IconProps) {
+  return (
+    <Svg size={22} {...props}>
+      <path d="M9 4h6v3H9zM9 5.5H6.5A1.5 1.5 0 0 0 5 7v12.5A1.5 1.5 0 0 0 6.5 21h11a1.5 1.5 0 0 0 1.5-1.5V7a1.5 1.5 0 0 0-1.5-1.5H15M8.5 13l2.2 2.2L15.5 10.5" />
+    </Svg>
+  );
+}

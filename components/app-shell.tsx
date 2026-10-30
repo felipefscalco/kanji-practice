@@ -7,7 +7,7 @@ import type { ReactNode } from "react";
 import { SettingsMenu } from "@/components/settings-menu";
 import { cx } from "@/components/ui/cx";
 import { Hanko } from "@/components/ui/hanko";
-import { BookIcon, FlameIcon, HomeIcon, ListIcon, RefreshIcon } from "@/components/ui/icons";
+import { BookIcon, FlameIcon, HomeIcon, ListIcon, RefreshIcon, TestIcon } from "@/components/ui/icons";
 import { useStudyDays } from "@/hooks/use-activity";
 import { useStudyStats } from "@/hooks/use-study-stats";
 import { currentStreak } from "@/lib/activity";
@@ -30,6 +30,7 @@ function useNavItems(): NavItem[] {
     { href: "/lessons", label: "Lições", icon: <BookIcon />, badge: stats?.lessonKanji.length },
     { href: "/practice", label: "Revisões", icon: <RefreshIcon size={22} />, badge: stats?.sessionCount, badgeStrong: true },
     { href: "/study", label: "Currículo", icon: <ListIcon /> },
+    { href: "/tests", label: "Testes", icon: <TestIcon /> },
   ];
 }
 
