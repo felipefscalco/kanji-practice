@@ -1,5 +1,6 @@
 import pagesCh04 from "@/data/kanji-master-n4/ch04-pages.json";
 import pagesCh05 from "@/data/kanji-master-n4/ch05-pages.json";
+import pagesCh06 from "@/data/kanji-master-n4/ch06-pages.json";
 import { getSectionById } from "@/lib/curriculum";
 
 export interface BookPage {
@@ -15,6 +16,7 @@ export interface BookPage {
 const pages = [
   ...(pagesCh04 as { pages: BookPage[] }).pages,
   ...(pagesCh05 as { pages: BookPage[] }).pages,
+  ...(pagesCh06 as { pages: BookPage[] }).pages,
 ];
 
 const primaryPageByKanji = new Map<string, BookPage>();

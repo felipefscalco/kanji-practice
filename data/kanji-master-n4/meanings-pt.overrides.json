@@ -44,5 +44,13 @@
   "薬": ["remédio"],
   "待": ["esperar"],
   "合": ["combinar", "encaixar"],
-  "計": ["medir", "calcular", "plano"]
+  "計": ["medir", "calcular", "plano"],
+  "研": ["polir", "pesquisar"],
+  "究": ["investigar a fundo"],
+  "語": ["palavra", "idioma", "contar"],
+  "文": ["frase", "texto", "escrita"],
+  "英": ["inglês", "Inglaterra", "talento"],
+  "化": ["transformar", "mudar"],
+  "数": ["número", "contar"],
+  "心": ["coração", "mente"]
 }

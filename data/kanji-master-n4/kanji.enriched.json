@@ -67,6 +67,30 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-英",
+    "character": "英",
+    "meaningsPt": [
+      "inglês",
+      "Inglaterra",
+      "talento"
+    ],
+    "meaningsEn": [
+      "England",
+      "English",
+      "hero",
+      "outstanding",
+      "calyx"
+    ],
+    "onReadings": [
+      "エイ"
+    ],
+    "kunReadings": [
+      "はなぶさ"
+    ],
+    "strokeCount": 8,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-駅",
     "character": "駅",
     "meaningsPt": [
@@ -123,6 +147,34 @@
     ],
     "strokeCount": 11,
     "jlpt": 2
+  },
+  {
+    "id": "km-n4-化",
+    "character": "化",
+    "meaningsPt": [
+      "transformar",
+      "mudar"
+    ],
+    "meaningsEn": [
+      "change",
+      "take the form of",
+      "influence",
+      "enchant",
+      "delude",
+      "-ization"
+    ],
+    "onReadings": [
+      "カ",
+      "ケ"
+    ],
+    "kunReadings": [
+      "ば",
+      "ば",
+      "ふ",
+      "け"
+    ],
+    "strokeCount": 4,
+    "jlpt": 3
   },
   {
     "id": "km-n4-科",
@@ -247,6 +299,26 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-究",
+    "character": "究",
+    "meaningsPt": [
+      "investigar a fundo"
+    ],
+    "meaningsEn": [
+      "research",
+      "study"
+    ],
+    "onReadings": [
+      "キュウ",
+      "ク"
+    ],
+    "kunReadings": [
+      "きわ"
+    ],
+    "strokeCount": 7,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-計",
     "character": "計",
     "meaningsPt": [
@@ -269,6 +341,50 @@
     ],
     "strokeCount": 9,
     "jlpt": 4
+  },
+  {
+    "id": "km-n4-研",
+    "character": "研",
+    "meaningsPt": [
+      "polir",
+      "pesquisar"
+    ],
+    "meaningsEn": [
+      "polish",
+      "study of",
+      "sharpen"
+    ],
+    "onReadings": [
+      "ケン"
+    ],
+    "kunReadings": [
+      "と"
+    ],
+    "strokeCount": 9,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-語",
+    "character": "語",
+    "meaningsPt": [
+      "palavra",
+      "idioma",
+      "contar"
+    ],
+    "meaningsEn": [
+      "word",
+      "speech",
+      "language"
+    ],
+    "onReadings": [
+      "ゴ"
+    ],
+    "kunReadings": [
+      "かた",
+      "かた"
+    ],
+    "strokeCount": 14,
+    "jlpt": 5
   },
   {
     "id": "km-n4-交",
@@ -659,6 +775,60 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-心",
+    "character": "心",
+    "meaningsPt": [
+      "coração",
+      "mente"
+    ],
+    "meaningsEn": [
+      "heart",
+      "mind",
+      "spirit",
+      "heart radical (no. 61)"
+    ],
+    "onReadings": [
+      "シン"
+    ],
+    "kunReadings": [
+      "こころ",
+      "-ごころ"
+    ],
+    "strokeCount": 4,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-数",
+    "character": "数",
+    "meaningsPt": [
+      "número",
+      "contar"
+    ],
+    "meaningsEn": [
+      "number",
+      "strength",
+      "fate",
+      "law",
+      "figures"
+    ],
+    "onReadings": [
+      "スウ",
+      "ス",
+      "サク",
+      "ソク",
+      "シュ"
+    ],
+    "kunReadings": [
+      "かず",
+      "かぞ",
+      "しばしば",
+      "せ",
+      "わずらわ"
+    ],
+    "strokeCount": 13,
+    "jlpt": 3
+  },
+  {
     "id": "km-n4-青",
     "character": "青",
     "meaningsPt": [
@@ -932,6 +1102,35 @@
     ],
     "strokeCount": 4,
     "jlpt": 3
+  },
+  {
+    "id": "km-n4-文",
+    "character": "文",
+    "meaningsPt": [
+      "frase",
+      "texto",
+      "escrita"
+    ],
+    "meaningsEn": [
+      "sentence",
+      "literature",
+      "style",
+      "art",
+      "decoration",
+      "figures",
+      "plan",
+      "literary radical (no. 67)"
+    ],
+    "onReadings": [
+      "ブン",
+      "モン"
+    ],
+    "kunReadings": [
+      "ふみ",
+      "あや"
+    ],
+    "strokeCount": 4,
+    "jlpt": 4
   },
   {
     "id": "km-n4-閉",

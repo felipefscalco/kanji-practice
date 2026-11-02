@@ -28,4 +28,11 @@ describe("curriculum", () => {
     const lesson53 = ch?.sections.filter((s) => s.titleJa === "5-3 びょういん");
     expect(lesson53?.map((s) => s.titlePt)).toEqual(["病 · 院", "医 · 科", "薬 · 待", "合 · 計"]);
   });
+
+  it("includes chapter 6 lesson 6-1 けんきゅう", () => {
+    const ch = getChapters().find((c) => c.id === "ch-06");
+    expect(ch?.titleJa).toBe("学生");
+    expect(ch?.sections.map((s) => s.titlePt)).toEqual(["研 · 究", "語 · 文", "英 · 化", "数 · 心"]);
+    expect(resolveKanjiIds(["ch-06-s04"])).toEqual(["km-n4-数", "km-n4-心"]);
+  });
 });

@@ -1,0 +1,59 @@
+{
+  "chapterId": "ch-06",
+  "pages": [
+    {
+      "id": "ch06-p01",
+      "file": "/kanji-master-n4/ch06/page-01.jpeg",
+      "bookPage": 132,
+      "sectionId": "ch-06-s01",
+      "titleJa": "6章-1 けんきゅう",
+      "kind": "lesson",
+      "kanji": []
+    },
+    {
+      "id": "ch06-p02",
+      "file": "/kanji-master-n4/ch06/page-02.jpeg",
+      "bookPage": 133,
+      "sectionId": "ch-06-s01",
+      "titleJa": "6章-1 けんきゅう",
+      "kind": "lesson",
+      "kanji": ["研", "究"]
+    },
+    {
+      "id": "ch06-p03",
+      "file": "/kanji-master-n4/ch06/page-03.jpeg",
+      "bookPage": 134,
+      "sectionId": "ch-06-s02",
+      "titleJa": "6章-1 けんきゅう",
+      "kind": "lesson",
+      "kanji": ["語", "文"]
+    },
+    {
+      "id": "ch06-p04",
+      "file": "/kanji-master-n4/ch06/page-04.jpeg",
+      "bookPage": 135,
+      "sectionId": "ch-06-s03",
+      "titleJa": "6章-1 けんきゅう",
+      "kind": "lesson",
+      "kanji": ["英", "化"]
+    },
+    {
+      "id": "ch06-p05",
+      "file": "/kanji-master-n4/ch06/page-05.jpeg",
+      "bookPage": 136,
+      "sectionId": "ch-06-s04",
+      "titleJa": "6章-1 けんきゅう",
+      "kind": "lesson",
+      "kanji": ["数", "心"]
+    },
+    {
+      "id": "ch06-p06",
+      "file": "/kanji-master-n4/ch06/page-06.jpeg",
+      "bookPage": 137,
+      "sectionId": "ch-06-s01",
+      "titleJa": "ふくしゅう 6-1",
+      "kind": "review",
+      "kanji": []
+    }
+  ]
+}

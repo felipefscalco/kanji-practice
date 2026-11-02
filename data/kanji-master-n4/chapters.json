@@ -142,6 +142,38 @@
           "kanjiIds": ["km-n4-合", "km-n4-計"]
         }
       ]
+    },
+    {
+      "id": "ch-06",
+      "number": 6,
+      "titleJa": "学生",
+      "titlePt": "Capítulo 6 (livro: けんきゅう)",
+      "sections": [
+        {
+          "id": "ch-06-s01",
+          "titleJa": "6-1 けんきゅう",
+          "titlePt": "研 · 究",
+          "kanjiIds": ["km-n4-研", "km-n4-究"]
+        },
+        {
+          "id": "ch-06-s02",
+          "titleJa": "6-1 けんきゅう",
+          "titlePt": "語 · 文",
+          "kanjiIds": ["km-n4-語", "km-n4-文"]
+        },
+        {
+          "id": "ch-06-s03",
+          "titleJa": "6-1 けんきゅう",
+          "titlePt": "英 · 化",
+          "kanjiIds": ["km-n4-英", "km-n4-化"]
+        },
+        {
+          "id": "ch-06-s04",
+          "titleJa": "6-1 けんきゅう",
+          "titlePt": "数 · 心",
+          "kanjiIds": ["km-n4-数", "km-n4-心"]
+        }
+      ]
     }
   ]
 }

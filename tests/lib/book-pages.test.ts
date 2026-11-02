@@ -23,6 +23,13 @@ describe("book pages", () => {
     expect(getBookPageForKanji("計")?.bookPage).toBe(126);
   });
 
+  it("maps chapter 6 kanji to book scan", () => {
+    expect(getBookPageImageUrl("研")).toBe("/kanji-master-n4/ch06/page-02.jpeg");
+    expect(getBookPageForKanji("文")?.bookPage).toBe(134);
+    expect(getBookPageForKanji("心")?.bookPage).toBe(136);
+    expect(getReviewPagesForSection("ch-06-s04")[0]?.bookPage).toBe(137);
+  });
+
   it("maps fukushuu scan to any section in the same book lesson", () => {
     const review = getReviewPagesForSection("ch-05-s12")[0];
     expect(review?.kind).toBe("review");
