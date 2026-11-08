@@ -2,6 +2,7 @@ import * as wanakana from "wanakana";
 
 import testsCh04 from "@/data/kanji-master-n4/tests.ch04.json";
 import testsCh05 from "@/data/kanji-master-n4/tests.ch05.json";
+import testsCh06 from "@/data/kanji-master-n4/tests.ch06.json";
 
 /** "class" = transcribed from a real class test; "generated" = written by scripts/generate-tests.ts. */
 export type TestSource = "class" | "generated";
@@ -36,7 +37,7 @@ export interface ChapterTestFile {
 export const QUESTIONS_PER_SECTION = 10;
 export const POINTS_PER_QUESTION = 5;
 
-const files = [testsCh04, testsCh05] as ChapterTestFile[];
+const files = [testsCh04, testsCh05, testsCh06] as ChapterTestFile[];
 
 export function getChapterTest(chapterId: string): ChapterTestFile | undefined {
   return files.find((f) => f.chapterId === chapterId);
