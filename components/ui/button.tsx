@@ -4,6 +4,9 @@ import type { ButtonHTMLAttributes, ReactNode } from "react";
 import { cx } from "@/components/ui/cx";
 import { Kbd } from "@/components/ui/kbd";
 
+/** Keycaps inside buttons only fit from `sm` up; narrow windows with a mouse would overflow. */
+const KBD_IN_BUTTON = "max-sm:hidden!";
+
 export type ButtonVariant = "primary" | "secondary" | "ghost";
 
 const base =
@@ -24,7 +27,7 @@ export function buttonClass(variant: ButtonVariant = "secondary", disabled = fal
 
 type CommonProps = {
   variant?: ButtonVariant;
-  /** Keyboard shortcut shown as a keycap (hidden on touch). */
+  /** Keyboard shortcut shown as a keycap (hidden on touch and below `sm`). */
   kbd?: ReactNode;
   icon?: ReactNode;
   className?: string;
@@ -50,7 +53,7 @@ export function Button({
     >
       {icon}
       {children}
-      {kbd ? <Kbd>{kbd}</Kbd> : null}
+      {kbd ? <Kbd className={KBD_IN_BUTTON}>{kbd}</Kbd> : null}
     </button>
   );
 }
@@ -70,7 +73,7 @@ export function ButtonLink({
     <>
       {icon}
       {children}
-      {kbd ? <Kbd>{kbd}</Kbd> : null}
+      {kbd ? <Kbd className={KBD_IN_BUTTON}>{kbd}</Kbd> : null}
     </>
   );
   if (disabled) {
