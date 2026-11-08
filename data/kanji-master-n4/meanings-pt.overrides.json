@@ -52,5 +52,19 @@
   "英": ["inglês", "Inglaterra", "talento"],
   "化": ["transformar", "mudar"],
   "数": ["número", "contar"],
-  "心": ["coração", "mente"]
+  "心": ["coração", "mente"],
+  "若": ["jovem"],
+  "集": ["reunir", "juntar", "colecionar"],
+  "知": ["saber", "conhecer"],
+  "酒": ["bebida alcoólica", "saquê"],
+  "歌": ["canção", "cantar"],
+  "声": ["voz"],
+  "楽": ["divertido", "fácil", "confortável", "música"],
+  "味": ["sabor", "gosto", "saborear"],
+  "油": ["óleo"],
+  "太": ["grosso", "gordo", "engordar"],
+  "細": ["fino", "estreito", "miúdo"],
+  "皿": ["prato"],
+  "飯": ["refeição", "arroz cozido"],
+  "麦": ["trigo", "cevada"]
 }

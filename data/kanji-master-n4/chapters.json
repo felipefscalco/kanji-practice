@@ -147,7 +147,7 @@
       "id": "ch-06",
       "number": 6,
       "titleJa": "学生",
-      "titlePt": "Capítulo 6 (livro: けんきゅう)",
+      "titlePt": "Capítulo 6 (livro: 学生)",
       "sections": [
         {
           "id": "ch-06-s01",
@@ -172,6 +172,54 @@
           "titleJa": "6-1 けんきゅう",
           "titlePt": "数 · 心",
           "kanjiIds": ["km-n4-数", "km-n4-心"]
+        },
+        {
+          "id": "ch-06-s05",
+          "titleJa": "6-2 コミュニケーション",
+          "titlePt": "若 · 集",
+          "kanjiIds": ["km-n4-若", "km-n4-集"]
+        },
+        {
+          "id": "ch-06-s06",
+          "titleJa": "6-2 コミュニケーション",
+          "titlePt": "知 · 酒",
+          "kanjiIds": ["km-n4-知", "km-n4-酒"]
+        },
+        {
+          "id": "ch-06-s07",
+          "titleJa": "6-2 コミュニケーション",
+          "titlePt": "歌 · 声",
+          "kanjiIds": ["km-n4-歌", "km-n4-声"]
+        },
+        {
+          "id": "ch-06-s08",
+          "titleJa": "6-2 コミュニケーション",
+          "titlePt": "楽",
+          "kanjiIds": ["km-n4-楽"]
+        },
+        {
+          "id": "ch-06-s09",
+          "titleJa": "6-3 ラーメンや",
+          "titlePt": "味 · 油",
+          "kanjiIds": ["km-n4-味", "km-n4-油"]
+        },
+        {
+          "id": "ch-06-s10",
+          "titleJa": "6-3 ラーメンや",
+          "titlePt": "太 · 細",
+          "kanjiIds": ["km-n4-太", "km-n4-細"]
+        },
+        {
+          "id": "ch-06-s11",
+          "titleJa": "6-3 ラーメンや",
+          "titlePt": "皿 · 飯",
+          "kanjiIds": ["km-n4-皿", "km-n4-飯"]
+        },
+        {
+          "id": "ch-06-s12",
+          "titleJa": "6-3 ラーメンや",
+          "titlePt": "麦",
+          "kanjiIds": ["km-n4-麦"]
         }
       ]
     }

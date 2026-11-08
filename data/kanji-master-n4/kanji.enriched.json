@@ -197,6 +197,27 @@
     "jlpt": 3
   },
   {
+    "id": "km-n4-歌",
+    "character": "歌",
+    "meaningsPt": [
+      "canção",
+      "cantar"
+    ],
+    "meaningsEn": [
+      "song",
+      "sing"
+    ],
+    "onReadings": [
+      "カ"
+    ],
+    "kunReadings": [
+      "うた",
+      "うた"
+    ],
+    "strokeCount": 14,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-画",
     "character": "画",
     "meaningsPt": [
@@ -273,6 +294,33 @@
       "あ"
     ],
     "strokeCount": 12,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-楽",
+    "character": "楽",
+    "meaningsPt": [
+      "divertido",
+      "fácil",
+      "confortável",
+      "música"
+    ],
+    "meaningsEn": [
+      "music",
+      "comfort",
+      "ease"
+    ],
+    "onReadings": [
+      "ガク",
+      "ラク",
+      "ゴウ"
+    ],
+    "kunReadings": [
+      "たの",
+      "たの",
+      "この"
+    ],
+    "strokeCount": 13,
     "jlpt": 4
   },
   {
@@ -543,6 +591,35 @@
     "jlpt": 3
   },
   {
+    "id": "km-n4-細",
+    "character": "細",
+    "meaningsPt": [
+      "fino",
+      "estreito",
+      "miúdo"
+    ],
+    "meaningsEn": [
+      "dainty",
+      "get thin",
+      "taper",
+      "slender",
+      "narrow",
+      "detailed",
+      "precise"
+    ],
+    "onReadings": [
+      "サイ"
+    ],
+    "kunReadings": [
+      "ほそ",
+      "ほそ",
+      "こま",
+      "こま"
+    ],
+    "strokeCount": 11,
+    "jlpt": 2
+  },
+  {
     "id": "km-n4-作",
     "character": "作",
     "meaningsPt": [
@@ -566,6 +643,26 @@
     ],
     "strokeCount": 7,
     "jlpt": 4
+  },
+  {
+    "id": "km-n4-皿",
+    "character": "皿",
+    "meaningsPt": [
+      "prato"
+    ],
+    "meaningsEn": [
+      "dish",
+      "a helping",
+      "plate"
+    ],
+    "onReadings": [
+      "ベイ"
+    ],
+    "kunReadings": [
+      "さら"
+    ],
+    "strokeCount": 5,
+    "jlpt": 2
   },
   {
     "id": "km-n4-始",
@@ -665,6 +762,57 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-若",
+    "character": "若",
+    "meaningsPt": [
+      "jovem"
+    ],
+    "meaningsEn": [
+      "young",
+      "if",
+      "perhaps",
+      "possibly",
+      "low number",
+      "immature"
+    ],
+    "onReadings": [
+      "ジャク",
+      "ニャク",
+      "ニャ"
+    ],
+    "kunReadings": [
+      "わか",
+      "わか-",
+      "も",
+      "も",
+      "も",
+      "ごと"
+    ],
+    "strokeCount": 8,
+    "jlpt": 3
+  },
+  {
+    "id": "km-n4-酒",
+    "character": "酒",
+    "meaningsPt": [
+      "bebida alcoólica",
+      "saquê"
+    ],
+    "meaningsEn": [
+      "sake",
+      "alcohol"
+    ],
+    "onReadings": [
+      "シュ"
+    ],
+    "kunReadings": [
+      "さけ",
+      "さか-"
+    ],
+    "strokeCount": 10,
+    "jlpt": 3
+  },
+  {
     "id": "km-n4-終",
     "character": "終",
     "meaningsPt": [
@@ -703,6 +851,32 @@
     ],
     "kunReadings": [],
     "strokeCount": 11,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-集",
+    "character": "集",
+    "meaningsPt": [
+      "reunir",
+      "juntar",
+      "colecionar"
+    ],
+    "meaningsEn": [
+      "gather",
+      "meet",
+      "congregate",
+      "swarm",
+      "flock"
+    ],
+    "onReadings": [
+      "シュウ"
+    ],
+    "kunReadings": [
+      "あつ",
+      "あつ",
+      "つど"
+    ],
+    "strokeCount": 12,
     "jlpt": 4
   },
   {
@@ -829,6 +1003,26 @@
     "jlpt": 3
   },
   {
+    "id": "km-n4-声",
+    "character": "声",
+    "meaningsPt": [
+      "voz"
+    ],
+    "meaningsEn": [
+      "voice"
+    ],
+    "onReadings": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunReadings": [
+      "こえ",
+      "こわ-"
+    ],
+    "strokeCount": 7,
+    "jlpt": 3
+  },
+  {
     "id": "km-n4-青",
     "character": "青",
     "meaningsPt": [
@@ -875,6 +1069,30 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-太",
+    "character": "太",
+    "meaningsPt": [
+      "grosso",
+      "gordo",
+      "engordar"
+    ],
+    "meaningsEn": [
+      "plump",
+      "thick",
+      "big around"
+    ],
+    "onReadings": [
+      "タイ",
+      "タ"
+    ],
+    "kunReadings": [
+      "ふと",
+      "ふと"
+    ],
+    "strokeCount": 4,
+    "jlpt": 3
+  },
+  {
     "id": "km-n4-待",
     "character": "待",
     "meaningsPt": [
@@ -916,6 +1134,27 @@
       "つかさ"
     ],
     "strokeCount": 5,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-知",
+    "character": "知",
+    "meaningsPt": [
+      "saber",
+      "conhecer"
+    ],
+    "meaningsEn": [
+      "know",
+      "wisdom"
+    ],
+    "onReadings": [
+      "チ"
+    ],
+    "kunReadings": [
+      "し",
+      "し"
+    ],
+    "strokeCount": 8,
     "jlpt": 4
   },
   {
@@ -1029,6 +1268,26 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-麦",
+    "character": "麦",
+    "meaningsPt": [
+      "trigo",
+      "cevada"
+    ],
+    "meaningsEn": [
+      "barley",
+      "wheat"
+    ],
+    "onReadings": [
+      "バク"
+    ],
+    "kunReadings": [
+      "むぎ"
+    ],
+    "strokeCount": 7,
+    "jlpt": 2
+  },
+  {
     "id": "km-n4-発",
     "character": "発",
     "meaningsPt": [
@@ -1057,6 +1316,26 @@
       "はな"
     ],
     "strokeCount": 9,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-飯",
+    "character": "飯",
+    "meaningsPt": [
+      "refeição",
+      "arroz cozido"
+    ],
+    "meaningsEn": [
+      "meal",
+      "boiled rice"
+    ],
+    "onReadings": [
+      "ハン"
+    ],
+    "kunReadings": [
+      "めし"
+    ],
+    "strokeCount": 12,
     "jlpt": 4
   },
   {
@@ -1176,6 +1455,28 @@
     "jlpt": 5
   },
   {
+    "id": "km-n4-味",
+    "character": "味",
+    "meaningsPt": [
+      "sabor",
+      "gosto",
+      "saborear"
+    ],
+    "meaningsEn": [
+      "flavor",
+      "taste"
+    ],
+    "onReadings": [
+      "ミ"
+    ],
+    "kunReadings": [
+      "あじ",
+      "あじ"
+    ],
+    "strokeCount": 8,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-薬",
     "character": "薬",
     "meaningsPt": [
@@ -1196,6 +1497,26 @@
     ],
     "strokeCount": 16,
     "jlpt": 3
+  },
+  {
+    "id": "km-n4-油",
+    "character": "油",
+    "meaningsPt": [
+      "óleo"
+    ],
+    "meaningsEn": [
+      "oil",
+      "fat"
+    ],
+    "onReadings": [
+      "ユ",
+      "ユウ"
+    ],
+    "kunReadings": [
+      "あぶら"
+    ],
+    "strokeCount": 8,
+    "jlpt": 2
   },
   {
     "id": "km-n4-有",

@@ -54,6 +54,114 @@
       "titleJa": "ふくしゅう 6-1",
       "kind": "review",
       "kanji": []
+    },
+    {
+      "id": "ch06-p07",
+      "file": "/kanji-master-n4/ch06/page-07.jpeg",
+      "bookPage": 138,
+      "sectionId": "ch-06-s05",
+      "titleJa": "6章-2 コミュニケーション",
+      "kind": "lesson",
+      "kanji": []
+    },
+    {
+      "id": "ch06-p08",
+      "file": "/kanji-master-n4/ch06/page-08.jpeg",
+      "bookPage": 139,
+      "sectionId": "ch-06-s05",
+      "titleJa": "6章-2 コミュニケーション",
+      "kind": "lesson",
+      "kanji": ["若", "集"]
+    },
+    {
+      "id": "ch06-p09",
+      "file": "/kanji-master-n4/ch06/page-09.jpeg",
+      "bookPage": 140,
+      "sectionId": "ch-06-s06",
+      "titleJa": "6章-2 コミュニケーション",
+      "kind": "lesson",
+      "kanji": ["知", "酒"]
+    },
+    {
+      "id": "ch06-p10",
+      "file": "/kanji-master-n4/ch06/page-10.jpeg",
+      "bookPage": 141,
+      "sectionId": "ch-06-s07",
+      "titleJa": "6章-2 コミュニケーション",
+      "kind": "lesson",
+      "kanji": ["歌", "声"]
+    },
+    {
+      "id": "ch06-p11",
+      "file": "/kanji-master-n4/ch06/page-11.jpeg",
+      "bookPage": 142,
+      "sectionId": "ch-06-s08",
+      "titleJa": "6章-2 コミュニケーション",
+      "kind": "lesson",
+      "kanji": ["楽"]
+    },
+    {
+      "id": "ch06-p12",
+      "file": "/kanji-master-n4/ch06/page-12.jpeg",
+      "bookPage": 143,
+      "sectionId": "ch-06-s05",
+      "titleJa": "ふくしゅう 6-2",
+      "kind": "review",
+      "kanji": []
+    },
+    {
+      "id": "ch06-p13",
+      "file": "/kanji-master-n4/ch06/page-13.jpeg",
+      "bookPage": 144,
+      "sectionId": "ch-06-s09",
+      "titleJa": "6章-3 ラーメン屋",
+      "kind": "lesson",
+      "kanji": []
+    },
+    {
+      "id": "ch06-p14",
+      "file": "/kanji-master-n4/ch06/page-14.jpeg",
+      "bookPage": 145,
+      "sectionId": "ch-06-s09",
+      "titleJa": "6章-3 ラーメン屋",
+      "kind": "lesson",
+      "kanji": ["味", "油"]
+    },
+    {
+      "id": "ch06-p15",
+      "file": "/kanji-master-n4/ch06/page-15.jpeg",
+      "bookPage": 146,
+      "sectionId": "ch-06-s10",
+      "titleJa": "6章-3 ラーメン屋",
+      "kind": "lesson",
+      "kanji": ["太", "細"]
+    },
+    {
+      "id": "ch06-p16",
+      "file": "/kanji-master-n4/ch06/page-16.jpeg",
+      "bookPage": 147,
+      "sectionId": "ch-06-s11",
+      "titleJa": "6章-3 ラーメン屋",
+      "kind": "lesson",
+      "kanji": ["皿", "飯"]
+    },
+    {
+      "id": "ch06-p17",
+      "file": "/kanji-master-n4/ch06/page-17.jpeg",
+      "bookPage": 148,
+      "sectionId": "ch-06-s12",
+      "titleJa": "6章-3 ラーメン屋",
+      "kind": "lesson",
+      "kanji": ["麦"]
+    },
+    {
+      "id": "ch06-p18",
+      "file": "/kanji-master-n4/ch06/page-18.jpeg",
+      "bookPage": 149,
+      "sectionId": "ch-06-s09",
+      "titleJa": "ふくしゅう 6-3",
+      "kind": "review",
+      "kanji": []
     }
   ]
 }

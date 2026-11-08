@@ -32,7 +32,17 @@ describe("curriculum", () => {
   it("includes chapter 6 lesson 6-1 けんきゅう", () => {
     const ch = getChapters().find((c) => c.id === "ch-06");
     expect(ch?.titleJa).toBe("学生");
-    expect(ch?.sections.map((s) => s.titlePt)).toEqual(["研 · 究", "語 · 文", "英 · 化", "数 · 心"]);
+    const lesson61 = ch?.sections.filter((s) => s.titleJa === "6-1 けんきゅう");
+    expect(lesson61?.map((s) => s.titlePt)).toEqual(["研 · 究", "語 · 文", "英 · 化", "数 · 心"]);
     expect(resolveKanjiIds(["ch-06-s04"])).toEqual(["km-n4-数", "km-n4-心"]);
+  });
+
+  it("includes chapter 6 lessons 6-2 コミュニケーション and 6-3 ラーメンや", () => {
+    const ch = getChapters().find((c) => c.id === "ch-06");
+    const lesson62 = ch?.sections.filter((s) => s.titleJa === "6-2 コミュニケーション");
+    expect(lesson62?.map((s) => s.titlePt)).toEqual(["若 · 集", "知 · 酒", "歌 · 声", "楽"]);
+    const lesson63 = ch?.sections.filter((s) => s.titleJa === "6-3 ラーメンや");
+    expect(lesson63?.map((s) => s.titlePt)).toEqual(["味 · 油", "太 · 細", "皿 · 飯", "麦"]);
+    expect(resolveKanjiIds(["ch-06-s12"])).toEqual(["km-n4-麦"]);
   });
 });
