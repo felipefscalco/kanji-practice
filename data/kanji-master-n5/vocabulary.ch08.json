@@ -1,0 +1,27 @@
+{
+  "chapterId": "n5-ch-08",
+  "items": [
+    { "id": "v-n5-ch08-chichi", "expression": "父", "reading": "ちち", "furigana": "{父|ちち}", "meaningsPt": ["pai (o meu)"], "sectionId": "n5-ch-08-s01" },
+    { "id": "v-n5-ch08-otousan", "expression": "お父さん", "reading": "おとうさん", "furigana": "お{父|とう}さん", "meaningsPt": ["pai"], "sectionId": "n5-ch-08-s01" },
+    { "id": "v-n5-ch08-haha", "expression": "母", "reading": "はは", "furigana": "{母|はは}", "meaningsPt": ["mãe (a minha)"], "sectionId": "n5-ch-08-s01" },
+    { "id": "v-n5-ch08-okaasan", "expression": "お母さん", "reading": "おかあさん", "furigana": "お{母|かあ}さん", "meaningsPt": ["mãe"], "sectionId": "n5-ch-08-s01" },
+    { "id": "v-n5-ch08-fubo", "expression": "父母", "reading": "ふぼ", "furigana": "{父|ふ}{母|ぼ}", "meaningsPt": ["pai e mãe"], "sectionId": "n5-ch-08-s01" },
+
+    { "id": "v-n5-ch08-ko", "expression": "子", "reading": "こ", "furigana": "{子|こ}", "meaningsPt": ["criança"], "sectionId": "n5-ch-08-s02" },
+    { "id": "v-n5-ch08-kodomo", "expression": "子ども", "reading": "こども", "furigana": "{子|こ}ども", "meaningsPt": ["criança"], "sectionId": "n5-ch-08-s02" },
+    { "id": "v-n5-ch08-otoko", "expression": "男", "reading": "おとこ", "furigana": "{男|おとこ}", "meaningsPt": ["homem"], "sectionId": "n5-ch-08-s02" },
+    { "id": "v-n5-ch08-otokonoko", "expression": "男の子", "reading": "おとこのこ", "furigana": "{男|おとこ}の{子|こ}", "meaningsPt": ["menino"], "sectionId": "n5-ch-08-s02" },
+    { "id": "v-n5-ch08-otokonohito", "expression": "男の人", "reading": "おとこのひと", "furigana": "{男|おとこ}の{人|ひと}", "meaningsPt": ["homem"], "sectionId": "n5-ch-08-s02" },
+    { "id": "v-n5-ch08-danshi", "expression": "男子", "reading": "だんし", "furigana": "{男|だん}{子|し}", "meaningsPt": ["rapaz", "masculino"], "sectionId": "n5-ch-08-s02" },
+
+    { "id": "v-n5-ch08-onna", "expression": "女", "reading": "おんな", "furigana": "{女|おんな}", "meaningsPt": ["mulher"], "sectionId": "n5-ch-08-s03" },
+    { "id": "v-n5-ch08-onnanoko", "expression": "女の子", "reading": "おんなのこ", "furigana": "{女|おんな}の{子|こ}", "meaningsPt": ["menina"], "sectionId": "n5-ch-08-s03" },
+    { "id": "v-n5-ch08-onnanohito", "expression": "女の人", "reading": "おんなのひと", "furigana": "{女|おんな}の{人|ひと}", "meaningsPt": ["mulher"], "sectionId": "n5-ch-08-s03" },
+    { "id": "v-n5-ch08-joshi", "expression": "女子", "reading": "じょし", "furigana": "{女|じょ}{子|し}", "meaningsPt": ["moça", "feminino"], "sectionId": "n5-ch-08-s03" },
+    { "id": "v-n5-ch08-danjo", "expression": "男女", "reading": "だんじょ", "furigana": "{男|だん}{女|じょ}", "meaningsPt": ["homens e mulheres"], "sectionId": "n5-ch-08-s03" },
+    { "id": "v-n5-ch08-joou", "expression": "女王", "reading": "じょおう", "furigana": "{女|じょ}{王|おう}", "meaningsPt": ["rainha"], "sectionId": "n5-ch-08-s03" },
+
+    { "id": "v-n5-ch08-inu", "expression": "犬", "reading": "いぬ", "furigana": "{犬|いぬ}", "meaningsPt": ["cachorro"], "sectionId": "n5-ch-08-s04" },
+    { "id": "v-n5-ch08-koinu", "expression": "子犬", "reading": "こいぬ", "furigana": "{子|こ}{犬|いぬ}", "meaningsPt": ["filhote de cachorro"], "sectionId": "n5-ch-08-s04" }
+  ]
+}

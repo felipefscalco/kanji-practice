@@ -1,0 +1,503 @@
+{
+  "book": "kanji-master-n5",
+  "chapters": [
+    {
+      "id": "n5-ch-01",
+      "number": 1,
+      "titleJa": "すうじ",
+      "titlePt": "Números",
+      "sections": [
+        {
+          "id": "n5-ch-01-s01",
+          "titleJa": "1章 すうじ",
+          "titlePt": "一 · 二",
+          "kanjiIds": ["km-n5-一", "km-n5-二"]
+        },
+        {
+          "id": "n5-ch-01-s02",
+          "titleJa": "1章 すうじ",
+          "titlePt": "三 · 四",
+          "kanjiIds": ["km-n5-三", "km-n5-四"]
+        },
+        {
+          "id": "n5-ch-01-s03",
+          "titleJa": "1章 すうじ",
+          "titlePt": "五 · 六",
+          "kanjiIds": ["km-n5-五", "km-n5-六"]
+        },
+        {
+          "id": "n5-ch-01-s04",
+          "titleJa": "1章 すうじ",
+          "titlePt": "七 · 八",
+          "kanjiIds": ["km-n5-七", "km-n5-八"]
+        },
+        {
+          "id": "n5-ch-01-s05",
+          "titleJa": "1章 すうじ",
+          "titlePt": "九 · 十",
+          "kanjiIds": ["km-n5-九", "km-n5-十"]
+        },
+        {
+          "id": "n5-ch-01-s06",
+          "titleJa": "1章 すうじ",
+          "titlePt": "百 · 千",
+          "kanjiIds": ["km-n5-百", "km-n5-千"]
+        },
+        {
+          "id": "n5-ch-01-s07",
+          "titleJa": "1章 すうじ",
+          "titlePt": "万 · 円",
+          "kanjiIds": ["km-n5-万", "km-n5-円"]
+        }
+      ]
+    },
+    {
+      "id": "n5-ch-02",
+      "number": 2,
+      "titleJa": "カレンダー",
+      "titlePt": "Calendário",
+      "sections": [
+        {
+          "id": "n5-ch-02-s01",
+          "titleJa": "2章 カレンダー",
+          "titlePt": "月 · 火",
+          "kanjiIds": ["km-n5-月", "km-n5-火"]
+        },
+        {
+          "id": "n5-ch-02-s02",
+          "titleJa": "2章 カレンダー",
+          "titlePt": "水 · 木",
+          "kanjiIds": ["km-n5-水", "km-n5-木"]
+        },
+        {
+          "id": "n5-ch-02-s03",
+          "titleJa": "2章 カレンダー",
+          "titlePt": "金 · 土",
+          "kanjiIds": ["km-n5-金", "km-n5-土"]
+        },
+        {
+          "id": "n5-ch-02-s04",
+          "titleJa": "2章 カレンダー",
+          "titlePt": "日 · 年",
+          "kanjiIds": ["km-n5-日", "km-n5-年"]
+        }
+      ]
+    },
+    {
+      "id": "n5-ch-03",
+      "number": 3,
+      "titleJa": "人",
+      "titlePt": "Pessoa",
+      "sections": [
+        {
+          "id": "n5-ch-03-s01",
+          "titleJa": "3章 人",
+          "titlePt": "人 · 口",
+          "kanjiIds": ["km-n5-人", "km-n5-口"]
+        },
+        {
+          "id": "n5-ch-03-s02",
+          "titleJa": "3章 人",
+          "titlePt": "目 · 耳",
+          "kanjiIds": ["km-n5-目", "km-n5-耳"]
+        },
+        {
+          "id": "n5-ch-03-s03",
+          "titleJa": "3章 人",
+          "titlePt": "手 · 足",
+          "kanjiIds": ["km-n5-手", "km-n5-足"]
+        },
+        {
+          "id": "n5-ch-03-s04",
+          "titleJa": "3章 人",
+          "titlePt": "力 · 王",
+          "kanjiIds": ["km-n5-力", "km-n5-王"]
+        }
+      ]
+    },
+    {
+      "id": "n5-ch-04",
+      "number": 4,
+      "titleJa": "しぜん-1",
+      "titlePt": "Natureza 1",
+      "sections": [
+        {
+          "id": "n5-ch-04-s01",
+          "titleJa": "4章 しぜん-1",
+          "titlePt": "山 · 川",
+          "kanjiIds": ["km-n5-山", "km-n5-川"]
+        },
+        {
+          "id": "n5-ch-04-s02",
+          "titleJa": "4章 しぜん-1",
+          "titlePt": "田 · 石",
+          "kanjiIds": ["km-n5-田", "km-n5-石"]
+        },
+        {
+          "id": "n5-ch-04-s03",
+          "titleJa": "4章 しぜん-1",
+          "titlePt": "花 · 竹",
+          "kanjiIds": ["km-n5-花", "km-n5-竹"]
+        },
+        {
+          "id": "n5-ch-04-s04",
+          "titleJa": "4章 しぜん-1",
+          "titlePt": "雨 · 虫",
+          "kanjiIds": ["km-n5-雨", "km-n5-虫"]
+        }
+      ]
+    },
+    {
+      "id": "n5-ch-05",
+      "number": 5,
+      "titleJa": "ばしょ",
+      "titlePt": "Lugar",
+      "sections": [
+        {
+          "id": "n5-ch-05-s01",
+          "titleJa": "5章 ばしょ",
+          "titlePt": "上 · 下",
+          "kanjiIds": ["km-n5-上", "km-n5-下"]
+        },
+        {
+          "id": "n5-ch-05-s02",
+          "titleJa": "5章 ばしょ",
+          "titlePt": "左 · 右",
+          "kanjiIds": ["km-n5-左", "km-n5-右"]
+        },
+        {
+          "id": "n5-ch-05-s03",
+          "titleJa": "5章 ばしょ",
+          "titlePt": "外 · 内",
+          "kanjiIds": ["km-n5-外", "km-n5-内"]
+        },
+        {
+          "id": "n5-ch-05-s04",
+          "titleJa": "5章 ばしょ",
+          "titlePt": "中",
+          "kanjiIds": ["km-n5-中"]
+        }
+      ]
+    },
+    {
+      "id": "n5-ch-06",
+      "number": 6,
+      "titleJa": "学校-1",
+      "titlePt": "Escola 1",
+      "sections": [
+        {
+          "id": "n5-ch-06-s01",
+          "titleJa": "6章 学校-1",
+          "titlePt": "学 · 校",
+          "kanjiIds": ["km-n5-学", "km-n5-校"]
+        },
+        {
+          "id": "n5-ch-06-s02",
+          "titleJa": "6章 学校-1",
+          "titlePt": "先 · 生",
+          "kanjiIds": ["km-n5-先", "km-n5-生"]
+        },
+        {
+          "id": "n5-ch-06-s03",
+          "titleJa": "6章 学校-1",
+          "titlePt": "名 · 字",
+          "kanjiIds": ["km-n5-名", "km-n5-字"]
+        },
+        {
+          "id": "n5-ch-06-s04",
+          "titleJa": "6章 学校-1",
+          "titlePt": "本 · 休",
+          "kanjiIds": ["km-n5-本", "km-n5-休"]
+        }
+      ]
+    },
+    {
+      "id": "n5-ch-07",
+      "number": 7,
+      "titleJa": "学校-2",
+      "titlePt": "Escola 2",
+      "sections": [
+        {
+          "id": "n5-ch-07-s01",
+          "titleJa": "7章 学校-2",
+          "titlePt": "大 · 小",
+          "kanjiIds": ["km-n5-大", "km-n5-小"]
+        },
+        {
+          "id": "n5-ch-07-s02",
+          "titleJa": "7章 学校-2",
+          "titlePt": "高 · 友",
+          "kanjiIds": ["km-n5-高", "km-n5-友"]
+        },
+        {
+          "id": "n5-ch-07-s03",
+          "titleJa": "7章 学校-2",
+          "titlePt": "入 · 出",
+          "kanjiIds": ["km-n5-入", "km-n5-出"]
+        },
+        {
+          "id": "n5-ch-07-s04",
+          "titleJa": "7章 学校-2",
+          "titlePt": "門 · 体",
+          "kanjiIds": ["km-n5-門", "km-n5-体"]
+        }
+      ]
+    },
+    {
+      "id": "n5-ch-08",
+      "number": 8,
+      "titleJa": "かぞく",
+      "titlePt": "Família",
+      "sections": [
+        {
+          "id": "n5-ch-08-s01",
+          "titleJa": "8章 かぞく",
+          "titlePt": "父 · 母",
+          "kanjiIds": ["km-n5-父", "km-n5-母"]
+        },
+        {
+          "id": "n5-ch-08-s02",
+          "titleJa": "8章 かぞく",
+          "titlePt": "子 · 男",
+          "kanjiIds": ["km-n5-子", "km-n5-男"]
+        },
+        {
+          "id": "n5-ch-08-s03",
+          "titleJa": "8章 かぞく",
+          "titlePt": "女",
+          "kanjiIds": ["km-n5-女"]
+        },
+        {
+          "id": "n5-ch-08-s04",
+          "titleJa": "8章 かぞく",
+          "titlePt": "犬",
+          "kanjiIds": ["km-n5-犬"]
+        }
+      ]
+    },
+    {
+      "id": "n5-ch-09",
+      "number": 9,
+      "titleJa": "どうし-1",
+      "titlePt": "Verbos 1",
+      "sections": [
+        {
+          "id": "n5-ch-09-s01",
+          "titleJa": "9章 どうし-1",
+          "titlePt": "立",
+          "kanjiIds": ["km-n5-立"]
+        },
+        {
+          "id": "n5-ch-09-s02",
+          "titleJa": "9章 どうし-1",
+          "titlePt": "見 · 聞",
+          "kanjiIds": ["km-n5-見", "km-n5-聞"]
+        },
+        {
+          "id": "n5-ch-09-s03",
+          "titleJa": "9章 どうし-1",
+          "titlePt": "行 · 来",
+          "kanjiIds": ["km-n5-行", "km-n5-来"]
+        },
+        {
+          "id": "n5-ch-09-s04",
+          "titleJa": "9章 どうし-1",
+          "titlePt": "帰",
+          "kanjiIds": ["km-n5-帰"]
+        }
+      ]
+    },
+    {
+      "id": "n5-ch-10",
+      "number": 10,
+      "titleJa": "たべもの",
+      "titlePt": "Comida",
+      "sections": [
+        {
+          "id": "n5-ch-10-s01",
+          "titleJa": "10章 たべもの",
+          "titlePt": "米 · 茶",
+          "kanjiIds": ["km-n5-米", "km-n5-茶"]
+        },
+        {
+          "id": "n5-ch-10-s02",
+          "titleJa": "10章 たべもの",
+          "titlePt": "牛 · 肉",
+          "kanjiIds": ["km-n5-牛", "km-n5-肉"]
+        },
+        {
+          "id": "n5-ch-10-s03",
+          "titleJa": "10章 たべもの",
+          "titlePt": "魚 · 貝",
+          "kanjiIds": ["km-n5-魚", "km-n5-貝"]
+        },
+        {
+          "id": "n5-ch-10-s04",
+          "titleJa": "10章 たべもの",
+          "titlePt": "好 · 物",
+          "kanjiIds": ["km-n5-好", "km-n5-物"]
+        }
+      ]
+    },
+    {
+      "id": "n5-ch-11",
+      "number": 11,
+      "titleJa": "時間",
+      "titlePt": "Tempo",
+      "sections": [
+        {
+          "id": "n5-ch-11-s01",
+          "titleJa": "11章 時間",
+          "titlePt": "時 · 間",
+          "kanjiIds": ["km-n5-時", "km-n5-間"]
+        },
+        {
+          "id": "n5-ch-11-s02",
+          "titleJa": "11章 時間",
+          "titlePt": "半 · 分",
+          "kanjiIds": ["km-n5-半", "km-n5-分"]
+        },
+        {
+          "id": "n5-ch-11-s03",
+          "titleJa": "11章 時間",
+          "titlePt": "今 · 何",
+          "kanjiIds": ["km-n5-今", "km-n5-何"]
+        },
+        {
+          "id": "n5-ch-11-s04",
+          "titleJa": "11章 時間",
+          "titlePt": "夕 · 方",
+          "kanjiIds": ["km-n5-夕", "km-n5-方"]
+        }
+      ]
+    },
+    {
+      "id": "n5-ch-12",
+      "number": 12,
+      "titleJa": "しぜん-2",
+      "titlePt": "Natureza 2",
+      "sections": [
+        {
+          "id": "n5-ch-12-s01",
+          "titleJa": "12章 しぜん-2",
+          "titlePt": "林 · 森",
+          "kanjiIds": ["km-n5-林", "km-n5-森"]
+        },
+        {
+          "id": "n5-ch-12-s02",
+          "titleJa": "12章 しぜん-2",
+          "titlePt": "畑 · 岩",
+          "kanjiIds": ["km-n5-畑", "km-n5-岩"]
+        },
+        {
+          "id": "n5-ch-12-s03",
+          "titleJa": "12章 しぜん-2",
+          "titlePt": "音",
+          "kanjiIds": ["km-n5-音"]
+        },
+        {
+          "id": "n5-ch-12-s04",
+          "titleJa": "12章 しぜん-2",
+          "titlePt": "明 · 暗",
+          "kanjiIds": ["km-n5-明", "km-n5-暗"]
+        }
+      ]
+    },
+    {
+      "id": "n5-ch-13",
+      "number": 13,
+      "titleJa": "どうし-2",
+      "titlePt": "Verbos 2",
+      "sections": [
+        {
+          "id": "n5-ch-13-s01",
+          "titleJa": "13章 どうし-2",
+          "titlePt": "言 · 書",
+          "kanjiIds": ["km-n5-言", "km-n5-書"]
+        },
+        {
+          "id": "n5-ch-13-s02",
+          "titleJa": "13章 どうし-2",
+          "titlePt": "読 · 話",
+          "kanjiIds": ["km-n5-読", "km-n5-話"]
+        },
+        {
+          "id": "n5-ch-13-s03",
+          "titleJa": "13章 どうし-2",
+          "titlePt": "食 · 飲",
+          "kanjiIds": ["km-n5-食", "km-n5-飲"]
+        },
+        {
+          "id": "n5-ch-13-s04",
+          "titleJa": "13章 どうし-2",
+          "titlePt": "買",
+          "kanjiIds": ["km-n5-買"]
+        }
+      ]
+    },
+    {
+      "id": "n5-ch-14",
+      "number": 14,
+      "titleJa": "町",
+      "titlePt": "Cidade",
+      "sections": [
+        {
+          "id": "n5-ch-14-s01",
+          "titleJa": "14章 町",
+          "titlePt": "町 · 寺",
+          "kanjiIds": ["km-n5-町", "km-n5-寺"]
+        },
+        {
+          "id": "n5-ch-14-s02",
+          "titleJa": "14章 町",
+          "titlePt": "電 · 車",
+          "kanjiIds": ["km-n5-電", "km-n5-車"]
+        },
+        {
+          "id": "n5-ch-14-s03",
+          "titleJa": "14章 町",
+          "titlePt": "東 · 西",
+          "kanjiIds": ["km-n5-東", "km-n5-西"]
+        },
+        {
+          "id": "n5-ch-14-s04",
+          "titleJa": "14章 町",
+          "titlePt": "南 · 北",
+          "kanjiIds": ["km-n5-南", "km-n5-北"]
+        }
+      ]
+    },
+    {
+      "id": "n5-ch-15",
+      "number": 15,
+      "titleJa": "けいようし",
+      "titlePt": "Adjetivos",
+      "sections": [
+        {
+          "id": "n5-ch-15-s01",
+          "titleJa": "15章 けいようし",
+          "titlePt": "新 · 古",
+          "kanjiIds": ["km-n5-新", "km-n5-古"]
+        },
+        {
+          "id": "n5-ch-15-s02",
+          "titleJa": "15章 けいようし",
+          "titlePt": "長 · 安",
+          "kanjiIds": ["km-n5-長", "km-n5-安"]
+        },
+        {
+          "id": "n5-ch-15-s03",
+          "titleJa": "15章 けいようし",
+          "titlePt": "多 · 少",
+          "kanjiIds": ["km-n5-多", "km-n5-少"]
+        },
+        {
+          "id": "n5-ch-15-s04",
+          "titleJa": "15章 けいようし",
+          "titlePt": "元 · 気",
+          "kanjiIds": ["km-n5-元", "km-n5-気"]
+        }
+      ]
+    }
+  ]
+}

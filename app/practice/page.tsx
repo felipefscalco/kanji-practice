@@ -9,7 +9,7 @@ import { PracticeSkeleton } from "@/components/skeletons";
 import { useIsClient, useVisitKey } from "@/hooks/use-client-env";
 import { buildPracticeQueue, type ReviewItem } from "@/lib/practice";
 import { currentStreak, recordStudyDay } from "@/lib/activity";
-import { getChapters, getKanjiById } from "@/lib/curriculum";
+import { chapterTitle, currentChapter, getKanjiById } from "@/lib/curriculum";
 import type { KanjiId } from "@/lib/kanji-types";
 import {
   SESSION_SIZE,
@@ -18,7 +18,7 @@ import {
   type SessionState,
   type SessionSummary,
 } from "@/lib/session";
-import { getActiveKanjiIds, getActiveReviewKinds } from "@/lib/study-selection";
+import { getActiveKanjiIds, getActiveReviewKinds, getActiveSectionIds } from "@/lib/study-selection";
 
 /** Kanji of a post-lesson quiz (`/practice?quiz=id,id`), limited to the curriculum. */
 function quizKanjiIds(): KanjiId[] | null {
@@ -60,7 +60,7 @@ function PracticeRunner() {
   const [cycle, setCycle] = useState(buildCycle);
   const [batch, setBatch] = useState<Batch>(() => ({ ...takeBatch(cycle, 0), id: 0 }));
   const [finished, setFinished] = useState<Finished | null>(null);
-  const chapter = getChapters()[0];
+  const chapter = currentChapter(getActiveSectionIds());
 
   const cycleDone = batch.nextOffset >= cycle.length;
   const nextCount = cycleDone ? Math.min(SESSION_SIZE, cycle.length) : takeBatch(cycle, batch.nextOffset).items.length;
@@ -109,7 +109,7 @@ function PracticeRunner() {
       <SessionSummaryView
         summary={finished.summary}
         streak={finished.streak}
-        chapterLabel={chapter ? `第${chapter.number}章 ${chapter.titleJa}` : ""}
+        chapterLabel={chapter ? chapterTitle(chapter) : ""}
         nextCount={nextCount}
         onNext={nextSession}
         onReviewMissed={reviewMissed}

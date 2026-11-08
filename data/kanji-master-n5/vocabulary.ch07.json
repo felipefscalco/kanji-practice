@@ -1,0 +1,31 @@
+{
+  "chapterId": "n5-ch-07",
+  "items": [
+    { "id": "v-n5-ch07-ookii", "expression": "大きい", "reading": "おおきい", "furigana": "{大|おお}きい", "meaningsPt": ["grande"], "sectionId": "n5-ch-07-s01" },
+    { "id": "v-n5-ch07-chiisai", "expression": "小さい", "reading": "ちいさい", "furigana": "{小|ちい}さい", "meaningsPt": ["pequeno"], "sectionId": "n5-ch-07-s01" },
+    { "id": "v-n5-ch07-daigaku", "expression": "大学", "reading": "だいがく", "furigana": "{大|だい}{学|がく}", "meaningsPt": ["universidade"], "sectionId": "n5-ch-07-s01" },
+    { "id": "v-n5-ch07-daigakusei", "expression": "大学生", "reading": "だいがくせい", "furigana": "{大|だい}{学|がく}{生|せい}", "meaningsPt": ["universitário"], "sectionId": "n5-ch-07-s01" },
+    { "id": "v-n5-ch07-shougakkou", "expression": "小学校", "reading": "しょうがっこう", "furigana": "{小|しょう}{学|がっ}{校|こう}", "meaningsPt": ["escola primária"], "sectionId": "n5-ch-07-s01" },
+    { "id": "v-n5-ch07-shougakusei", "expression": "小学生", "reading": "しょうがくせい", "furigana": "{小|しょう}{学|がく}{生|せい}", "meaningsPt": ["aluno do primário"], "sectionId": "n5-ch-07-s01" },
+    { "id": "v-n5-ch07-otona", "expression": "大人", "reading": "おとな", "furigana": "{大人|おとな}", "meaningsPt": ["adulto"], "sectionId": "n5-ch-07-s01" },
+
+    { "id": "v-n5-ch07-takai", "expression": "高い", "reading": "たかい", "furigana": "{高|たか}い", "meaningsPt": ["alto", "caro"], "sectionId": "n5-ch-07-s02" },
+    { "id": "v-n5-ch07-koukou", "expression": "高校", "reading": "こうこう", "furigana": "{高|こう}{校|こう}", "meaningsPt": ["ensino médio"], "sectionId": "n5-ch-07-s02" },
+    { "id": "v-n5-ch07-koukousei", "expression": "高校生", "reading": "こうこうせい", "furigana": "{高|こう}{校|こう}{生|せい}", "meaningsPt": ["aluno do ensino médio"], "sectionId": "n5-ch-07-s02" },
+    { "id": "v-n5-ch07-tomodachi", "expression": "友だち", "reading": "ともだち", "furigana": "{友|とも}だち", "meaningsPt": ["amigo"], "sectionId": "n5-ch-07-s02" },
+    { "id": "v-n5-ch07-yuujin", "expression": "友人", "reading": "ゆうじん", "furigana": "{友|ゆう}{人|じん}", "meaningsPt": ["amigo (formal)"], "sectionId": "n5-ch-07-s02" },
+
+    { "id": "v-n5-ch07-hairu", "expression": "入る", "reading": "はいる", "furigana": "{入|はい}る", "meaningsPt": ["entrar"], "sectionId": "n5-ch-07-s03" },
+    { "id": "v-n5-ch07-ireru", "expression": "入れる", "reading": "いれる", "furigana": "{入|い}れる", "meaningsPt": ["colocar dentro"], "sectionId": "n5-ch-07-s03" },
+    { "id": "v-n5-ch07-deru", "expression": "出る", "reading": "でる", "furigana": "{出|で}る", "meaningsPt": ["sair"], "sectionId": "n5-ch-07-s03" },
+    { "id": "v-n5-ch07-dasu", "expression": "出す", "reading": "だす", "furigana": "{出|だ}す", "meaningsPt": ["tirar", "enviar"], "sectionId": "n5-ch-07-s03" },
+    { "id": "v-n5-ch07-iriguchi", "expression": "入口", "reading": "いりぐち", "furigana": "{入|いり}{口|ぐち}", "meaningsPt": ["entrada"], "sectionId": "n5-ch-07-s03" },
+    { "id": "v-n5-ch07-deguchi", "expression": "出口", "reading": "でぐち", "furigana": "{出|で}{口|ぐち}", "meaningsPt": ["saída"], "sectionId": "n5-ch-07-s03" },
+    { "id": "v-n5-ch07-nyuugaku", "expression": "入学", "reading": "にゅうがく", "furigana": "{入|にゅう}{学|がく}", "meaningsPt": ["ingresso na escola"], "sectionId": "n5-ch-07-s03" },
+
+    { "id": "v-n5-ch07-mon", "expression": "門", "reading": "もん", "furigana": "{門|もん}", "meaningsPt": ["portão"], "sectionId": "n5-ch-07-s04" },
+    { "id": "v-n5-ch07-koumon", "expression": "校門", "reading": "こうもん", "furigana": "{校|こう}{門|もん}", "meaningsPt": ["portão da escola"], "sectionId": "n5-ch-07-s04" },
+    { "id": "v-n5-ch07-karada", "expression": "体", "reading": "からだ", "furigana": "{体|からだ}", "meaningsPt": ["corpo"], "sectionId": "n5-ch-07-s04" },
+    { "id": "v-n5-ch07-tairyoku", "expression": "体力", "reading": "たいりょく", "furigana": "{体|たい}{力|りょく}", "meaningsPt": ["resistência física"], "sectionId": "n5-ch-07-s04" }
+  ]
+}

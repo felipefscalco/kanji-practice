@@ -1,0 +1,33 @@
+{
+  "chapterId": "n5-ch-11",
+  "items": [
+    { "id": "v-n5-ch11-jikan", "expression": "時間", "reading": "じかん", "furigana": "{時|じ}{間|かん}", "meaningsPt": ["tempo", "horas"], "sectionId": "n5-ch-11-s01" },
+    { "id": "v-n5-ch11-ichijikan", "expression": "一時間", "reading": "いちじかん", "furigana": "{一|いち}{時|じ}{間|かん}", "meaningsPt": ["uma hora (duração)"], "sectionId": "n5-ch-11-s01" },
+    { "id": "v-n5-ch11-toki", "expression": "時", "reading": "とき", "furigana": "{時|とき}", "meaningsPt": ["quando", "momento"], "sectionId": "n5-ch-11-s01" },
+    { "id": "v-n5-ch11-ichiji", "expression": "一時", "reading": "いちじ", "furigana": "{一|いち}{時|じ}", "meaningsPt": ["uma hora (no relógio)"], "sectionId": "n5-ch-11-s01" },
+    { "id": "v-n5-ch11-yoji", "expression": "四時", "reading": "よじ", "furigana": "{四|よ}{時|じ}", "meaningsPt": ["quatro horas"], "sectionId": "n5-ch-11-s01" },
+    { "id": "v-n5-ch11-kuji", "expression": "九時", "reading": "くじ", "furigana": "{九|く}{時|じ}", "meaningsPt": ["nove horas"], "sectionId": "n5-ch-11-s01" },
+    { "id": "v-n5-ch11-aida", "expression": "間", "reading": "あいだ", "furigana": "{間|あいだ}", "meaningsPt": ["intervalo", "entre"], "sectionId": "n5-ch-11-s01" },
+    { "id": "v-n5-ch11-ningen", "expression": "人間", "reading": "にんげん", "furigana": "{人|にん}{間|げん}", "meaningsPt": ["ser humano"], "sectionId": "n5-ch-11-s01" },
+
+    { "id": "v-n5-ch11-hanbun", "expression": "半分", "reading": "はんぶん", "furigana": "{半|はん}{分|ぶん}", "meaningsPt": ["metade"], "sectionId": "n5-ch-11-s02" },
+    { "id": "v-n5-ch11-ichijihan", "expression": "一時半", "reading": "いちじはん", "furigana": "{一|いち}{時|じ}{半|はん}", "meaningsPt": ["uma e meia"], "sectionId": "n5-ch-11-s02" },
+    { "id": "v-n5-ch11-fun", "expression": "分", "reading": "ふん", "furigana": "{分|ふん}", "meaningsPt": ["minuto"], "sectionId": "n5-ch-11-s02" },
+    { "id": "v-n5-ch11-juppun", "expression": "十分", "reading": "じゅっぷん", "furigana": "{十|じゅっ}{分|ぷん}", "meaningsPt": ["dez minutos"], "sectionId": "n5-ch-11-s02" },
+    { "id": "v-n5-ch11-sanpun", "expression": "三分", "reading": "さんぷん", "furigana": "{三|さん}{分|ぷん}", "meaningsPt": ["três minutos"], "sectionId": "n5-ch-11-s02" },
+    { "id": "v-n5-ch11-wakaru", "expression": "分かる", "reading": "わかる", "furigana": "{分|わ}かる", "meaningsPt": ["entender"], "sectionId": "n5-ch-11-s02" },
+
+    { "id": "v-n5-ch11-ima", "expression": "今", "reading": "いま", "furigana": "{今|いま}", "meaningsPt": ["agora"], "sectionId": "n5-ch-11-s03" },
+    { "id": "v-n5-ch11-kyou", "expression": "今日", "reading": "きょう", "furigana": "{今日|きょう}", "meaningsPt": ["hoje"], "sectionId": "n5-ch-11-s03" },
+    { "id": "v-n5-ch11-kotoshi", "expression": "今年", "reading": "ことし", "furigana": "{今年|ことし}", "meaningsPt": ["este ano"], "sectionId": "n5-ch-11-s03" },
+    { "id": "v-n5-ch11-kongetsu", "expression": "今月", "reading": "こんげつ", "furigana": "{今|こん}{月|げつ}", "meaningsPt": ["este mês"], "sectionId": "n5-ch-11-s03" },
+    { "id": "v-n5-ch11-nani", "expression": "何", "reading": "なに", "furigana": "{何|なに}", "meaningsPt": ["o quê"], "sectionId": "n5-ch-11-s03" },
+    { "id": "v-n5-ch11-nanji", "expression": "何時", "reading": "なんじ", "furigana": "{何|なん}{時|じ}", "meaningsPt": ["que horas"], "sectionId": "n5-ch-11-s03" },
+    { "id": "v-n5-ch11-nannin", "expression": "何人", "reading": "なんにん", "furigana": "{何|なん}{人|にん}", "meaningsPt": ["quantas pessoas"], "sectionId": "n5-ch-11-s03" },
+
+    { "id": "v-n5-ch11-yuugata", "expression": "夕方", "reading": "ゆうがた", "furigana": "{夕|ゆう}{方|がた}", "meaningsPt": ["fim de tarde"], "sectionId": "n5-ch-11-s04" },
+    { "id": "v-n5-ch11-yuuhi", "expression": "夕日", "reading": "ゆうひ", "furigana": "{夕|ゆう}{日|ひ}", "meaningsPt": ["sol poente"], "sectionId": "n5-ch-11-s04" },
+    { "id": "v-n5-ch11-kata", "expression": "方", "reading": "かた", "furigana": "{方|かた}", "meaningsPt": ["pessoa (formal)"], "sectionId": "n5-ch-11-s04" },
+    { "id": "v-n5-ch11-mikata", "expression": "見方", "reading": "みかた", "furigana": "{見|み}{方|かた}", "meaningsPt": ["ponto de vista"], "sectionId": "n5-ch-11-s04" }
+  ]
+}

@@ -1,0 +1,2644 @@
+[
+  {
+    "id": "km-n5-安",
+    "character": "安",
+    "meaningsPt": [
+      "barato",
+      "tranquilo"
+    ],
+    "meaningsEn": [
+      "relax",
+      "cheap",
+      "low",
+      "quiet",
+      "rested",
+      "contented",
+      "peaceful"
+    ],
+    "onReadings": [
+      "アン"
+    ],
+    "kunReadings": [
+      "やす",
+      "やす",
+      "やす",
+      "やす"
+    ],
+    "strokeCount": 6,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-暗",
+    "character": "暗",
+    "meaningsPt": [
+      "escuro"
+    ],
+    "meaningsEn": [
+      "darkness",
+      "disappear",
+      "shade",
+      "informal",
+      "grow dark",
+      "be blinded"
+    ],
+    "onReadings": [
+      "アン"
+    ],
+    "kunReadings": [
+      "くら",
+      "くら",
+      "くれ"
+    ],
+    "strokeCount": 13,
+    "jlpt": 3
+  },
+  {
+    "id": "km-n5-一",
+    "character": "一",
+    "meaningsPt": [
+      "um"
+    ],
+    "meaningsEn": [
+      "one",
+      "one radical (no.1)"
+    ],
+    "onReadings": [
+      "イチ",
+      "イツ"
+    ],
+    "kunReadings": [
+      "ひと-",
+      "ひと"
+    ],
+    "strokeCount": 1,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-飲",
+    "character": "飲",
+    "meaningsPt": [
+      "beber"
+    ],
+    "meaningsEn": [
+      "drink",
+      "smoke",
+      "take"
+    ],
+    "onReadings": [
+      "イン",
+      "オン"
+    ],
+    "kunReadings": [
+      "の",
+      "-の"
+    ],
+    "strokeCount": 12,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-右",
+    "character": "右",
+    "meaningsPt": [
+      "direita"
+    ],
+    "meaningsEn": [
+      "right"
+    ],
+    "onReadings": [
+      "ウ",
+      "ユウ"
+    ],
+    "kunReadings": [
+      "みぎ"
+    ],
+    "strokeCount": 5,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-雨",
+    "character": "雨",
+    "meaningsPt": [
+      "chuva"
+    ],
+    "meaningsEn": [
+      "rain"
+    ],
+    "onReadings": [
+      "ウ"
+    ],
+    "kunReadings": [
+      "あめ",
+      "あま-",
+      "-さめ"
+    ],
+    "strokeCount": 8,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-円",
+    "character": "円",
+    "meaningsPt": [
+      "iene",
+      "círculo"
+    ],
+    "meaningsEn": [
+      "circle",
+      "yen",
+      "round"
+    ],
+    "onReadings": [
+      "エン"
+    ],
+    "kunReadings": [
+      "まる",
+      "まる",
+      "まど",
+      "まど",
+      "まろ"
+    ],
+    "strokeCount": 4,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-王",
+    "character": "王",
+    "meaningsPt": [
+      "rei"
+    ],
+    "meaningsEn": [
+      "king",
+      "rule",
+      "magnate"
+    ],
+    "onReadings": [
+      "オウ",
+      "-ノウ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 4,
+    "jlpt": 3
+  },
+  {
+    "id": "km-n5-音",
+    "character": "音",
+    "meaningsPt": [
+      "som"
+    ],
+    "meaningsEn": [
+      "sound",
+      "noise"
+    ],
+    "onReadings": [
+      "オン",
+      "イン",
+      "-ノン"
+    ],
+    "kunReadings": [
+      "おと",
+      "ね"
+    ],
+    "strokeCount": 9,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-下",
+    "character": "下",
+    "meaningsPt": [
+      "embaixo",
+      "descer"
+    ],
+    "meaningsEn": [
+      "below",
+      "down",
+      "descend",
+      "give",
+      "low",
+      "inferior"
+    ],
+    "onReadings": [
+      "カ",
+      "ゲ"
+    ],
+    "kunReadings": [
+      "した",
+      "しも",
+      "もと",
+      "さ",
+      "さ",
+      "くだ",
+      "くだ",
+      "くだ",
+      "-くだ",
+      "くだ",
+      "お",
+      "お"
+    ],
+    "strokeCount": 3,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-何",
+    "character": "何",
+    "meaningsPt": [
+      "o quê"
+    ],
+    "meaningsEn": [
+      "what"
+    ],
+    "onReadings": [
+      "カ"
+    ],
+    "kunReadings": [
+      "なに",
+      "なん",
+      "なに-",
+      "なん-"
+    ],
+    "strokeCount": 7,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-火",
+    "character": "火",
+    "meaningsPt": [
+      "fogo"
+    ],
+    "meaningsEn": [
+      "fire"
+    ],
+    "onReadings": [
+      "カ"
+    ],
+    "kunReadings": [
+      "ひ",
+      "-び",
+      "ほ-"
+    ],
+    "strokeCount": 4,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-花",
+    "character": "花",
+    "meaningsPt": [
+      "flor"
+    ],
+    "meaningsEn": [
+      "flower"
+    ],
+    "onReadings": [
+      "カ",
+      "ケ"
+    ],
+    "kunReadings": [
+      "はな"
+    ],
+    "strokeCount": 7,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-貝",
+    "character": "貝",
+    "meaningsPt": [
+      "concha",
+      "marisco"
+    ],
+    "meaningsEn": [
+      "shellfish"
+    ],
+    "onReadings": [
+      "バイ"
+    ],
+    "kunReadings": [
+      "かい"
+    ],
+    "strokeCount": 7,
+    "jlpt": 2
+  },
+  {
+    "id": "km-n5-外",
+    "character": "外",
+    "meaningsPt": [
+      "fora",
+      "exterior"
+    ],
+    "meaningsEn": [
+      "outside"
+    ],
+    "onReadings": [
+      "ガイ",
+      "ゲ"
+    ],
+    "kunReadings": [
+      "そと",
+      "ほか",
+      "はず",
+      "はず",
+      "と-"
+    ],
+    "strokeCount": 5,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-学",
+    "character": "学",
+    "meaningsPt": [
+      "estudo",
+      "aprender"
+    ],
+    "meaningsEn": [
+      "study",
+      "learning",
+      "science"
+    ],
+    "onReadings": [
+      "ガク"
+    ],
+    "kunReadings": [
+      "まな"
+    ],
+    "strokeCount": 8,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-間",
+    "character": "間",
+    "meaningsPt": [
+      "intervalo",
+      "entre"
+    ],
+    "meaningsEn": [
+      "interval",
+      "space"
+    ],
+    "onReadings": [
+      "カン",
+      "ケン"
+    ],
+    "kunReadings": [
+      "あいだ",
+      "ま",
+      "あい"
+    ],
+    "strokeCount": 12,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-岩",
+    "character": "岩",
+    "meaningsPt": [
+      "rocha"
+    ],
+    "meaningsEn": [
+      "boulder",
+      "rock",
+      "cliff"
+    ],
+    "onReadings": [
+      "ガン"
+    ],
+    "kunReadings": [
+      "いわ"
+    ],
+    "strokeCount": 8,
+    "jlpt": 2
+  },
+  {
+    "id": "km-n5-帰",
+    "character": "帰",
+    "meaningsPt": [
+      "voltar para casa"
+    ],
+    "meaningsEn": [
+      "homecoming",
+      "arrive at",
+      "lead to",
+      "result in"
+    ],
+    "onReadings": [
+      "キ"
+    ],
+    "kunReadings": [
+      "かえ",
+      "かえ",
+      "おく",
+      "とつ"
+    ],
+    "strokeCount": 10,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-気",
+    "character": "気",
+    "meaningsPt": [
+      "espírito",
+      "ânimo"
+    ],
+    "meaningsEn": [
+      "spirit",
+      "mind",
+      "air",
+      "atmosphere",
+      "mood"
+    ],
+    "onReadings": [
+      "キ",
+      "ケ"
+    ],
+    "kunReadings": [
+      "き"
+    ],
+    "strokeCount": 6,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-休",
+    "character": "休",
+    "meaningsPt": [
+      "descansar"
+    ],
+    "meaningsEn": [
+      "rest",
+      "day off",
+      "retire",
+      "sleep"
+    ],
+    "onReadings": [
+      "キュウ"
+    ],
+    "kunReadings": [
+      "やす",
+      "やす",
+      "やす"
+    ],
+    "strokeCount": 6,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-牛",
+    "character": "牛",
+    "meaningsPt": [
+      "vaca",
+      "boi"
+    ],
+    "meaningsEn": [
+      "cow"
+    ],
+    "onReadings": [
+      "ギュウ"
+    ],
+    "kunReadings": [
+      "うし"
+    ],
+    "strokeCount": 4,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-魚",
+    "character": "魚",
+    "meaningsPt": [
+      "peixe"
+    ],
+    "meaningsEn": [
+      "fish"
+    ],
+    "onReadings": [
+      "ギョ"
+    ],
+    "kunReadings": [
+      "うお",
+      "さかな",
+      "-ざかな"
+    ],
+    "strokeCount": 11,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-金",
+    "character": "金",
+    "meaningsPt": [
+      "ouro",
+      "dinheiro"
+    ],
+    "meaningsEn": [
+      "gold"
+    ],
+    "onReadings": [
+      "キン",
+      "コン",
+      "ゴン"
+    ],
+    "kunReadings": [
+      "かね",
+      "かな-",
+      "-がね"
+    ],
+    "strokeCount": 8,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-九",
+    "character": "九",
+    "meaningsPt": [
+      "nove"
+    ],
+    "meaningsEn": [
+      "nine"
+    ],
+    "onReadings": [
+      "キュウ",
+      "ク"
+    ],
+    "kunReadings": [
+      "ここの",
+      "ここの"
+    ],
+    "strokeCount": 2,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-月",
+    "character": "月",
+    "meaningsPt": [
+      "lua",
+      "mês"
+    ],
+    "meaningsEn": [
+      "month",
+      "moon"
+    ],
+    "onReadings": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "kunReadings": [
+      "つき"
+    ],
+    "strokeCount": 4,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-犬",
+    "character": "犬",
+    "meaningsPt": [
+      "cachorro"
+    ],
+    "meaningsEn": [
+      "dog"
+    ],
+    "onReadings": [
+      "ケン"
+    ],
+    "kunReadings": [
+      "いぬ",
+      "いぬ-"
+    ],
+    "strokeCount": 4,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-見",
+    "character": "見",
+    "meaningsPt": [
+      "ver"
+    ],
+    "meaningsEn": [
+      "see",
+      "hopes",
+      "chances",
+      "idea",
+      "opinion",
+      "look at",
+      "visible"
+    ],
+    "onReadings": [
+      "ケン"
+    ],
+    "kunReadings": [
+      "み",
+      "み",
+      "み"
+    ],
+    "strokeCount": 7,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-元",
+    "character": "元",
+    "meaningsPt": [
+      "origem"
+    ],
+    "meaningsEn": [
+      "beginning",
+      "former time",
+      "origin"
+    ],
+    "onReadings": [
+      "ゲン",
+      "ガン"
+    ],
+    "kunReadings": [
+      "もと"
+    ],
+    "strokeCount": 4,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-言",
+    "character": "言",
+    "meaningsPt": [
+      "dizer"
+    ],
+    "meaningsEn": [
+      "say",
+      "word"
+    ],
+    "onReadings": [
+      "ゲン",
+      "ゴン"
+    ],
+    "kunReadings": [
+      "い",
+      "こと"
+    ],
+    "strokeCount": 7,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-古",
+    "character": "古",
+    "meaningsPt": [
+      "velho",
+      "antigo"
+    ],
+    "meaningsEn": [
+      "old"
+    ],
+    "onReadings": [
+      "コ"
+    ],
+    "kunReadings": [
+      "ふる",
+      "ふる-",
+      "-ふる"
+    ],
+    "strokeCount": 5,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-五",
+    "character": "五",
+    "meaningsPt": [
+      "cinco"
+    ],
+    "meaningsEn": [
+      "five"
+    ],
+    "onReadings": [
+      "ゴ"
+    ],
+    "kunReadings": [
+      "いつ",
+      "いつ"
+    ],
+    "strokeCount": 4,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-口",
+    "character": "口",
+    "meaningsPt": [
+      "boca"
+    ],
+    "meaningsEn": [
+      "mouth"
+    ],
+    "onReadings": [
+      "コウ",
+      "ク"
+    ],
+    "kunReadings": [
+      "くち"
+    ],
+    "strokeCount": 3,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-好",
+    "character": "好",
+    "meaningsPt": [
+      "gostar"
+    ],
+    "meaningsEn": [
+      "fond",
+      "pleasing",
+      "like something"
+    ],
+    "onReadings": [
+      "コウ"
+    ],
+    "kunReadings": [
+      "この",
+      "す",
+      "よ",
+      "い"
+    ],
+    "strokeCount": 6,
+    "jlpt": 3
+  },
+  {
+    "id": "km-n5-校",
+    "character": "校",
+    "meaningsPt": [
+      "escola"
+    ],
+    "meaningsEn": [
+      "exam",
+      "school",
+      "printing",
+      "proof",
+      "correction"
+    ],
+    "onReadings": [
+      "コウ",
+      "キョウ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 10,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-行",
+    "character": "行",
+    "meaningsPt": [
+      "ir"
+    ],
+    "meaningsEn": [
+      "going",
+      "journey",
+      "carry out",
+      "conduct",
+      "act",
+      "line",
+      "row",
+      "bank"
+    ],
+    "onReadings": [
+      "コウ",
+      "ギョウ",
+      "アン"
+    ],
+    "kunReadings": [
+      "い",
+      "ゆ",
+      "-ゆ",
+      "-ゆき",
+      "-い",
+      "-いき",
+      "おこな",
+      "おこ"
+    ],
+    "strokeCount": 6,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-高",
+    "character": "高",
+    "meaningsPt": [
+      "alto",
+      "caro"
+    ],
+    "meaningsEn": [
+      "tall",
+      "high",
+      "expensive"
+    ],
+    "onReadings": [
+      "コウ"
+    ],
+    "kunReadings": [
+      "たか",
+      "たか",
+      "-だか",
+      "たか",
+      "たか"
+    ],
+    "strokeCount": 10,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-今",
+    "character": "今",
+    "meaningsPt": [
+      "agora"
+    ],
+    "meaningsEn": [
+      "now"
+    ],
+    "onReadings": [
+      "コン",
+      "キン"
+    ],
+    "kunReadings": [
+      "いま"
+    ],
+    "strokeCount": 4,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-左",
+    "character": "左",
+    "meaningsPt": [
+      "esquerda"
+    ],
+    "meaningsEn": [
+      "left"
+    ],
+    "onReadings": [
+      "サ",
+      "シャ"
+    ],
+    "kunReadings": [
+      "ひだり"
+    ],
+    "strokeCount": 5,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-三",
+    "character": "三",
+    "meaningsPt": [
+      "três"
+    ],
+    "meaningsEn": [
+      "three"
+    ],
+    "onReadings": [
+      "サン",
+      "ゾウ"
+    ],
+    "kunReadings": [
+      "み",
+      "み",
+      "みっ"
+    ],
+    "strokeCount": 3,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-山",
+    "character": "山",
+    "meaningsPt": [
+      "montanha"
+    ],
+    "meaningsEn": [
+      "mountain"
+    ],
+    "onReadings": [
+      "サン",
+      "セン"
+    ],
+    "kunReadings": [
+      "やま"
+    ],
+    "strokeCount": 3,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-四",
+    "character": "四",
+    "meaningsPt": [
+      "quatro"
+    ],
+    "meaningsEn": [
+      "four"
+    ],
+    "onReadings": [
+      "シ"
+    ],
+    "kunReadings": [
+      "よ",
+      "よ",
+      "よっ",
+      "よん"
+    ],
+    "strokeCount": 5,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-子",
+    "character": "子",
+    "meaningsPt": [
+      "criança",
+      "filho"
+    ],
+    "meaningsEn": [
+      "child",
+      "sign of the rat",
+      "11PM-1AM",
+      "first sign of Chinese zodiac"
+    ],
+    "onReadings": [
+      "シ",
+      "ス",
+      "ツ"
+    ],
+    "kunReadings": [
+      "こ",
+      "-こ",
+      "ね"
+    ],
+    "strokeCount": 3,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-字",
+    "character": "字",
+    "meaningsPt": [
+      "letra",
+      "caractere"
+    ],
+    "meaningsEn": [
+      "character",
+      "letter",
+      "word",
+      "section of village"
+    ],
+    "onReadings": [
+      "ジ"
+    ],
+    "kunReadings": [
+      "あざ",
+      "あざな",
+      "-な"
+    ],
+    "strokeCount": 6,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-寺",
+    "character": "寺",
+    "meaningsPt": [
+      "templo"
+    ],
+    "meaningsEn": [
+      "Buddhist temple"
+    ],
+    "onReadings": [
+      "ジ"
+    ],
+    "kunReadings": [
+      "てら"
+    ],
+    "strokeCount": 6,
+    "jlpt": 2
+  },
+  {
+    "id": "km-n5-時",
+    "character": "時",
+    "meaningsPt": [
+      "hora",
+      "tempo"
+    ],
+    "meaningsEn": [
+      "time",
+      "hour"
+    ],
+    "onReadings": [
+      "ジ"
+    ],
+    "kunReadings": [
+      "とき",
+      "-どき"
+    ],
+    "strokeCount": 10,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-耳",
+    "character": "耳",
+    "meaningsPt": [
+      "orelha",
+      "ouvido"
+    ],
+    "meaningsEn": [
+      "ear"
+    ],
+    "onReadings": [
+      "ジ"
+    ],
+    "kunReadings": [
+      "みみ"
+    ],
+    "strokeCount": 6,
+    "jlpt": 3
+  },
+  {
+    "id": "km-n5-七",
+    "character": "七",
+    "meaningsPt": [
+      "sete"
+    ],
+    "meaningsEn": [
+      "seven"
+    ],
+    "onReadings": [
+      "シチ"
+    ],
+    "kunReadings": [
+      "なな",
+      "なな",
+      "なの"
+    ],
+    "strokeCount": 2,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-車",
+    "character": "車",
+    "meaningsPt": [
+      "carro"
+    ],
+    "meaningsEn": [
+      "car"
+    ],
+    "onReadings": [
+      "シャ"
+    ],
+    "kunReadings": [
+      "くるま"
+    ],
+    "strokeCount": 7,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-手",
+    "character": "手",
+    "meaningsPt": [
+      "mão"
+    ],
+    "meaningsEn": [
+      "hand"
+    ],
+    "onReadings": [
+      "シュ",
+      "ズ"
+    ],
+    "kunReadings": [
+      "て",
+      "て-",
+      "-て",
+      "た-"
+    ],
+    "strokeCount": 4,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-十",
+    "character": "十",
+    "meaningsPt": [
+      "dez"
+    ],
+    "meaningsEn": [
+      "ten"
+    ],
+    "onReadings": [
+      "ジュウ",
+      "ジッ",
+      "ジュッ"
+    ],
+    "kunReadings": [
+      "とお",
+      "と",
+      "そ"
+    ],
+    "strokeCount": 2,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-出",
+    "character": "出",
+    "meaningsPt": [
+      "sair"
+    ],
+    "meaningsEn": [
+      "exit",
+      "leave",
+      "go out",
+      "come out",
+      "put out",
+      "protrude"
+    ],
+    "onReadings": [
+      "シュツ",
+      "スイ"
+    ],
+    "kunReadings": [
+      "で",
+      "-で",
+      "だ",
+      "-だ",
+      "い",
+      "い"
+    ],
+    "strokeCount": 5,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-書",
+    "character": "書",
+    "meaningsPt": [
+      "escrever"
+    ],
+    "meaningsEn": [
+      "write"
+    ],
+    "onReadings": [
+      "ショ"
+    ],
+    "kunReadings": [
+      "か",
+      "-が",
+      "-がき"
+    ],
+    "strokeCount": 10,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-女",
+    "character": "女",
+    "meaningsPt": [
+      "mulher"
+    ],
+    "meaningsEn": [
+      "woman",
+      "female"
+    ],
+    "onReadings": [
+      "ジョ",
+      "ニョ",
+      "ニョウ"
+    ],
+    "kunReadings": [
+      "おんな",
+      "め"
+    ],
+    "strokeCount": 3,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-小",
+    "character": "小",
+    "meaningsPt": [
+      "pequeno"
+    ],
+    "meaningsEn": [
+      "little",
+      "small"
+    ],
+    "onReadings": [
+      "ショウ"
+    ],
+    "kunReadings": [
+      "ちい",
+      "こ-",
+      "お-",
+      "さ-"
+    ],
+    "strokeCount": 3,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-少",
+    "character": "少",
+    "meaningsPt": [
+      "pouco"
+    ],
+    "meaningsEn": [
+      "few",
+      "little"
+    ],
+    "onReadings": [
+      "ショウ"
+    ],
+    "kunReadings": [
+      "すく",
+      "すこ"
+    ],
+    "strokeCount": 4,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-上",
+    "character": "上",
+    "meaningsPt": [
+      "em cima",
+      "subir"
+    ],
+    "meaningsEn": [
+      "above",
+      "up"
+    ],
+    "onReadings": [
+      "ジョウ",
+      "ショウ",
+      "シャン"
+    ],
+    "kunReadings": [
+      "うえ",
+      "-うえ",
+      "うわ-",
+      "かみ",
+      "あ",
+      "-あ",
+      "あ",
+      "-あ",
+      "あ",
+      "-あ",
+      "のぼ",
+      "のぼ",
+      "のぼ",
+      "のぼ",
+      "たてまつ"
+    ],
+    "strokeCount": 3,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-食",
+    "character": "食",
+    "meaningsPt": [
+      "comer"
+    ],
+    "meaningsEn": [
+      "eat",
+      "food"
+    ],
+    "onReadings": [
+      "ショク",
+      "ジキ"
+    ],
+    "kunReadings": [
+      "く",
+      "く",
+      "た",
+      "は"
+    ],
+    "strokeCount": 9,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-新",
+    "character": "新",
+    "meaningsPt": [
+      "novo"
+    ],
+    "meaningsEn": [
+      "new"
+    ],
+    "onReadings": [
+      "シン"
+    ],
+    "kunReadings": [
+      "あたら",
+      "あら",
+      "あら-",
+      "にい-"
+    ],
+    "strokeCount": 13,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-森",
+    "character": "森",
+    "meaningsPt": [
+      "floresta"
+    ],
+    "meaningsEn": [
+      "forest",
+      "woods"
+    ],
+    "onReadings": [
+      "シン"
+    ],
+    "kunReadings": [
+      "もり"
+    ],
+    "strokeCount": 12,
+    "jlpt": 2
+  },
+  {
+    "id": "km-n5-人",
+    "character": "人",
+    "meaningsPt": [
+      "pessoa"
+    ],
+    "meaningsEn": [
+      "person"
+    ],
+    "onReadings": [
+      "ジン",
+      "ニン"
+    ],
+    "kunReadings": [
+      "ひと",
+      "-り",
+      "-と"
+    ],
+    "strokeCount": 2,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-水",
+    "character": "水",
+    "meaningsPt": [
+      "água"
+    ],
+    "meaningsEn": [
+      "water"
+    ],
+    "onReadings": [
+      "スイ"
+    ],
+    "kunReadings": [
+      "みず",
+      "みず-"
+    ],
+    "strokeCount": 4,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-生",
+    "character": "生",
+    "meaningsPt": [
+      "vida",
+      "nascer"
+    ],
+    "meaningsEn": [
+      "life",
+      "genuine",
+      "birth"
+    ],
+    "onReadings": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunReadings": [
+      "い",
+      "い",
+      "い",
+      "う",
+      "うま",
+      "う",
+      "うまれ",
+      "う",
+      "お",
+      "は",
+      "は",
+      "き",
+      "なま",
+      "なま-",
+      "な",
+      "な",
+      "む",
+      "-う"
+    ],
+    "strokeCount": 5,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-西",
+    "character": "西",
+    "meaningsPt": [
+      "oeste"
+    ],
+    "meaningsEn": [
+      "west",
+      "Spain"
+    ],
+    "onReadings": [
+      "セイ",
+      "サイ",
+      "ス"
+    ],
+    "kunReadings": [
+      "にし"
+    ],
+    "strokeCount": 6,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-石",
+    "character": "石",
+    "meaningsPt": [
+      "pedra"
+    ],
+    "meaningsEn": [
+      "stone"
+    ],
+    "onReadings": [
+      "セキ",
+      "シャク",
+      "コク"
+    ],
+    "kunReadings": [
+      "いし"
+    ],
+    "strokeCount": 5,
+    "jlpt": 3
+  },
+  {
+    "id": "km-n5-先",
+    "character": "先",
+    "meaningsPt": [
+      "antes",
+      "à frente"
+    ],
+    "meaningsEn": [
+      "before",
+      "ahead",
+      "previous",
+      "future",
+      "precedence"
+    ],
+    "onReadings": [
+      "セン"
+    ],
+    "kunReadings": [
+      "さき",
+      "ま"
+    ],
+    "strokeCount": 6,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-千",
+    "character": "千",
+    "meaningsPt": [
+      "mil"
+    ],
+    "meaningsEn": [
+      "thousand"
+    ],
+    "onReadings": [
+      "セン"
+    ],
+    "kunReadings": [
+      "ち"
+    ],
+    "strokeCount": 3,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-川",
+    "character": "川",
+    "meaningsPt": [
+      "rio"
+    ],
+    "meaningsEn": [
+      "stream",
+      "river",
+      "river or three-stroke river radical (no. 47)"
+    ],
+    "onReadings": [
+      "セン"
+    ],
+    "kunReadings": [
+      "かわ"
+    ],
+    "strokeCount": 3,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-足",
+    "character": "足",
+    "meaningsPt": [
+      "pé",
+      "perna",
+      "bastar"
+    ],
+    "meaningsEn": [
+      "leg",
+      "foot",
+      "be sufficient",
+      "counter for pairs of footwear"
+    ],
+    "onReadings": [
+      "ソク"
+    ],
+    "kunReadings": [
+      "あし",
+      "た",
+      "た",
+      "た"
+    ],
+    "strokeCount": 7,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-多",
+    "character": "多",
+    "meaningsPt": [
+      "muito"
+    ],
+    "meaningsEn": [
+      "many",
+      "frequent",
+      "much"
+    ],
+    "onReadings": [
+      "タ"
+    ],
+    "kunReadings": [
+      "おお",
+      "まさ",
+      "まさ"
+    ],
+    "strokeCount": 6,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-体",
+    "character": "体",
+    "meaningsPt": [
+      "corpo"
+    ],
+    "meaningsEn": [
+      "body",
+      "substance",
+      "object",
+      "reality",
+      "counter for images"
+    ],
+    "onReadings": [
+      "タイ",
+      "テイ"
+    ],
+    "kunReadings": [
+      "からだ",
+      "かたち"
+    ],
+    "strokeCount": 7,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-大",
+    "character": "大",
+    "meaningsPt": [
+      "grande"
+    ],
+    "meaningsEn": [
+      "large",
+      "big"
+    ],
+    "onReadings": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunReadings": [
+      "おお-",
+      "おお",
+      "-おお"
+    ],
+    "strokeCount": 3,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-男",
+    "character": "男",
+    "meaningsPt": [
+      "homem"
+    ],
+    "meaningsEn": [
+      "male"
+    ],
+    "onReadings": [
+      "ダン",
+      "ナン"
+    ],
+    "kunReadings": [
+      "おとこ",
+      "お"
+    ],
+    "strokeCount": 7,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-竹",
+    "character": "竹",
+    "meaningsPt": [
+      "bambu"
+    ],
+    "meaningsEn": [
+      "bamboo"
+    ],
+    "onReadings": [
+      "チク"
+    ],
+    "kunReadings": [
+      "たけ"
+    ],
+    "strokeCount": 6,
+    "jlpt": 2
+  },
+  {
+    "id": "km-n5-茶",
+    "character": "茶",
+    "meaningsPt": [
+      "chá"
+    ],
+    "meaningsEn": [
+      "tea"
+    ],
+    "onReadings": [
+      "チャ",
+      "サ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 9,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-中",
+    "character": "中",
+    "meaningsPt": [
+      "meio",
+      "dentro"
+    ],
+    "meaningsEn": [
+      "in",
+      "inside",
+      "middle",
+      "mean",
+      "center"
+    ],
+    "onReadings": [
+      "チュウ"
+    ],
+    "kunReadings": [
+      "なか",
+      "うち",
+      "あた"
+    ],
+    "strokeCount": 4,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-虫",
+    "character": "虫",
+    "meaningsPt": [
+      "inseto"
+    ],
+    "meaningsEn": [
+      "insect",
+      "bug",
+      "temper"
+    ],
+    "onReadings": [
+      "チュウ",
+      "キ"
+    ],
+    "kunReadings": [
+      "むし"
+    ],
+    "strokeCount": 6,
+    "jlpt": 2
+  },
+  {
+    "id": "km-n5-町",
+    "character": "町",
+    "meaningsPt": [
+      "cidade",
+      "bairro"
+    ],
+    "meaningsEn": [
+      "town",
+      "village",
+      "block",
+      "street"
+    ],
+    "onReadings": [
+      "チョウ"
+    ],
+    "kunReadings": [
+      "まち"
+    ],
+    "strokeCount": 7,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-長",
+    "character": "長",
+    "meaningsPt": [
+      "longo",
+      "chefe"
+    ],
+    "meaningsEn": [
+      "long",
+      "leader",
+      "superior",
+      "senior"
+    ],
+    "onReadings": [
+      "チョウ"
+    ],
+    "kunReadings": [
+      "なが",
+      "おさ"
+    ],
+    "strokeCount": 8,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-田",
+    "character": "田",
+    "meaningsPt": [
+      "arrozal",
+      "campo de arroz"
+    ],
+    "meaningsEn": [
+      "rice field",
+      "rice paddy"
+    ],
+    "onReadings": [
+      "デン"
+    ],
+    "kunReadings": [
+      "た"
+    ],
+    "strokeCount": 5,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-電",
+    "character": "電",
+    "meaningsPt": [
+      "eletricidade"
+    ],
+    "meaningsEn": [
+      "electricity"
+    ],
+    "onReadings": [
+      "デン"
+    ],
+    "kunReadings": [],
+    "strokeCount": 13,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-土",
+    "character": "土",
+    "meaningsPt": [
+      "terra",
+      "solo"
+    ],
+    "meaningsEn": [
+      "soil",
+      "earth",
+      "ground",
+      "Turkey"
+    ],
+    "onReadings": [
+      "ド",
+      "ト"
+    ],
+    "kunReadings": [
+      "つち"
+    ],
+    "strokeCount": 3,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-東",
+    "character": "東",
+    "meaningsPt": [
+      "leste"
+    ],
+    "meaningsEn": [
+      "east"
+    ],
+    "onReadings": [
+      "トウ"
+    ],
+    "kunReadings": [
+      "ひがし"
+    ],
+    "strokeCount": 8,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-読",
+    "character": "読",
+    "meaningsPt": [
+      "ler"
+    ],
+    "meaningsEn": [
+      "read"
+    ],
+    "onReadings": [
+      "ドク",
+      "トク",
+      "トウ"
+    ],
+    "kunReadings": [
+      "よ",
+      "-よ"
+    ],
+    "strokeCount": 14,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-内",
+    "character": "内",
+    "meaningsPt": [
+      "dentro",
+      "interior"
+    ],
+    "meaningsEn": [
+      "inside",
+      "within",
+      "between",
+      "among",
+      "house",
+      "home"
+    ],
+    "onReadings": [
+      "ナイ",
+      "ダイ"
+    ],
+    "kunReadings": [
+      "うち"
+    ],
+    "strokeCount": 4,
+    "jlpt": 3
+  },
+  {
+    "id": "km-n5-南",
+    "character": "南",
+    "meaningsPt": [
+      "sul"
+    ],
+    "meaningsEn": [
+      "south"
+    ],
+    "onReadings": [
+      "ナン",
+      "ナ"
+    ],
+    "kunReadings": [
+      "みなみ"
+    ],
+    "strokeCount": 9,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-二",
+    "character": "二",
+    "meaningsPt": [
+      "dois"
+    ],
+    "meaningsEn": [
+      "two",
+      "two radical (no. 7)"
+    ],
+    "onReadings": [
+      "ニ",
+      "ジ"
+    ],
+    "kunReadings": [
+      "ふた",
+      "ふた",
+      "ふたたび"
+    ],
+    "strokeCount": 2,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-肉",
+    "character": "肉",
+    "meaningsPt": [
+      "carne"
+    ],
+    "meaningsEn": [
+      "meat"
+    ],
+    "onReadings": [
+      "ニク"
+    ],
+    "kunReadings": [
+      "しし"
+    ],
+    "strokeCount": 6,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-日",
+    "character": "日",
+    "meaningsPt": [
+      "sol",
+      "dia"
+    ],
+    "meaningsEn": [
+      "day",
+      "sun",
+      "Japan",
+      "counter for days"
+    ],
+    "onReadings": [
+      "ニチ",
+      "ジツ"
+    ],
+    "kunReadings": [
+      "ひ",
+      "-び",
+      "-か"
+    ],
+    "strokeCount": 4,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-入",
+    "character": "入",
+    "meaningsPt": [
+      "entrar"
+    ],
+    "meaningsEn": [
+      "enter",
+      "insert"
+    ],
+    "onReadings": [
+      "ニュウ",
+      "ジュ"
+    ],
+    "kunReadings": [
+      "い",
+      "-い",
+      "-い",
+      "い",
+      "-い",
+      "はい"
+    ],
+    "strokeCount": 2,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-年",
+    "character": "年",
+    "meaningsPt": [
+      "ano"
+    ],
+    "meaningsEn": [
+      "year",
+      "counter for years"
+    ],
+    "onReadings": [
+      "ネン"
+    ],
+    "kunReadings": [
+      "とし"
+    ],
+    "strokeCount": 6,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-買",
+    "character": "買",
+    "meaningsPt": [
+      "comprar"
+    ],
+    "meaningsEn": [
+      "buy"
+    ],
+    "onReadings": [
+      "バイ"
+    ],
+    "kunReadings": [
+      "か"
+    ],
+    "strokeCount": 12,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-畑",
+    "character": "畑",
+    "meaningsPt": [
+      "horta",
+      "plantação"
+    ],
+    "meaningsEn": [
+      "farm",
+      "field",
+      "garden",
+      "one's specialty",
+      "(kokuji)"
+    ],
+    "onReadings": [],
+    "kunReadings": [
+      "はた",
+      "はたけ",
+      "-ばたけ"
+    ],
+    "strokeCount": 9
+  },
+  {
+    "id": "km-n5-八",
+    "character": "八",
+    "meaningsPt": [
+      "oito"
+    ],
+    "meaningsEn": [
+      "eight",
+      "eight radical (no. 12)"
+    ],
+    "onReadings": [
+      "ハチ",
+      "ハツ"
+    ],
+    "kunReadings": [
+      "や",
+      "や",
+      "やっ",
+      "よう"
+    ],
+    "strokeCount": 2,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-半",
+    "character": "半",
+    "meaningsPt": [
+      "metade",
+      "meia"
+    ],
+    "meaningsEn": [
+      "half",
+      "middle",
+      "odd number",
+      "semi-",
+      "part-"
+    ],
+    "onReadings": [
+      "ハン"
+    ],
+    "kunReadings": [
+      "なか"
+    ],
+    "strokeCount": 5,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-百",
+    "character": "百",
+    "meaningsPt": [
+      "cem"
+    ],
+    "meaningsEn": [
+      "hundred"
+    ],
+    "onReadings": [
+      "ヒャク",
+      "ビャク"
+    ],
+    "kunReadings": [
+      "もも"
+    ],
+    "strokeCount": 6,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-父",
+    "character": "父",
+    "meaningsPt": [
+      "pai"
+    ],
+    "meaningsEn": [
+      "father"
+    ],
+    "onReadings": [
+      "フ"
+    ],
+    "kunReadings": [
+      "ちち"
+    ],
+    "strokeCount": 4,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-物",
+    "character": "物",
+    "meaningsPt": [
+      "coisa"
+    ],
+    "meaningsEn": [
+      "thing",
+      "object",
+      "matter"
+    ],
+    "onReadings": [
+      "ブツ",
+      "モツ"
+    ],
+    "kunReadings": [
+      "もの",
+      "もの-"
+    ],
+    "strokeCount": 8,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-分",
+    "character": "分",
+    "meaningsPt": [
+      "minuto",
+      "parte",
+      "entender"
+    ],
+    "meaningsEn": [
+      "part",
+      "minute of time",
+      "segment",
+      "share",
+      "degree",
+      "one's lot",
+      "duty",
+      "understand",
+      "know",
+      "rate",
+      "1%",
+      "chances",
+      "shaku/100"
+    ],
+    "onReadings": [
+      "ブン",
+      "フン",
+      "ブ"
+    ],
+    "kunReadings": [
+      "わ",
+      "わ",
+      "わ",
+      "わ",
+      "わ"
+    ],
+    "strokeCount": 4
+  },
+  {
+    "id": "km-n5-聞",
+    "character": "聞",
+    "meaningsPt": [
+      "ouvir",
+      "perguntar"
+    ],
+    "meaningsEn": [
+      "hear",
+      "ask",
+      "listen"
+    ],
+    "onReadings": [
+      "ブン",
+      "モン"
+    ],
+    "kunReadings": [
+      "き",
+      "き"
+    ],
+    "strokeCount": 14,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-米",
+    "character": "米",
+    "meaningsPt": [
+      "arroz"
+    ],
+    "meaningsEn": [
+      "rice",
+      "USA",
+      "metre"
+    ],
+    "onReadings": [
+      "ベイ",
+      "マイ",
+      "メエトル"
+    ],
+    "kunReadings": [
+      "こめ",
+      "よね"
+    ],
+    "strokeCount": 6,
+    "jlpt": 3
+  },
+  {
+    "id": "km-n5-母",
+    "character": "母",
+    "meaningsPt": [
+      "mãe"
+    ],
+    "meaningsEn": [
+      "mother"
+    ],
+    "onReadings": [
+      "ボ"
+    ],
+    "kunReadings": [
+      "はは",
+      "も"
+    ],
+    "strokeCount": 5,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-方",
+    "character": "方",
+    "meaningsPt": [
+      "direção",
+      "pessoa",
+      "jeito"
+    ],
+    "meaningsEn": [
+      "direction",
+      "person",
+      "alternative"
+    ],
+    "onReadings": [
+      "ホウ"
+    ],
+    "kunReadings": [
+      "かた",
+      "-かた",
+      "-がた"
+    ],
+    "strokeCount": 4,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-北",
+    "character": "北",
+    "meaningsPt": [
+      "norte"
+    ],
+    "meaningsEn": [
+      "north"
+    ],
+    "onReadings": [
+      "ホク"
+    ],
+    "kunReadings": [
+      "きた"
+    ],
+    "strokeCount": 5,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-本",
+    "character": "本",
+    "meaningsPt": [
+      "livro",
+      "origem"
+    ],
+    "meaningsEn": [
+      "book",
+      "present",
+      "main",
+      "origin",
+      "true",
+      "real",
+      "counter for long cylindrical things"
+    ],
+    "onReadings": [
+      "ホン"
+    ],
+    "kunReadings": [
+      "もと"
+    ],
+    "strokeCount": 5,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-万",
+    "character": "万",
+    "meaningsPt": [
+      "dez mil"
+    ],
+    "meaningsEn": [
+      "ten thousand",
+      "10,000"
+    ],
+    "onReadings": [
+      "マン",
+      "バン"
+    ],
+    "kunReadings": [
+      "よろず"
+    ],
+    "strokeCount": 3,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-名",
+    "character": "名",
+    "meaningsPt": [
+      "nome"
+    ],
+    "meaningsEn": [
+      "name",
+      "noted",
+      "distinguished",
+      "reputation"
+    ],
+    "onReadings": [
+      "メイ",
+      "ミョウ"
+    ],
+    "kunReadings": [
+      "な",
+      "-な"
+    ],
+    "strokeCount": 6,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-明",
+    "character": "明",
+    "meaningsPt": [
+      "claro",
+      "brilhante"
+    ],
+    "meaningsEn": [
+      "bright",
+      "light"
+    ],
+    "onReadings": [
+      "メイ",
+      "ミョウ",
+      "ミン"
+    ],
+    "kunReadings": [
+      "あ",
+      "あか",
+      "あか",
+      "あか",
+      "あき",
+      "あ",
+      "-あ",
+      "あ",
+      "あ",
+      "あ"
+    ],
+    "strokeCount": 8,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-木",
+    "character": "木",
+    "meaningsPt": [
+      "árvore",
+      "madeira"
+    ],
+    "meaningsEn": [
+      "tree",
+      "wood"
+    ],
+    "onReadings": [
+      "ボク",
+      "モク"
+    ],
+    "kunReadings": [
+      "き",
+      "こ-"
+    ],
+    "strokeCount": 4,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-目",
+    "character": "目",
+    "meaningsPt": [
+      "olho"
+    ],
+    "meaningsEn": [
+      "eye",
+      "class",
+      "look",
+      "insight",
+      "experience",
+      "care",
+      "favor"
+    ],
+    "onReadings": [
+      "モク",
+      "ボク"
+    ],
+    "kunReadings": [
+      "め",
+      "-め",
+      "ま-"
+    ],
+    "strokeCount": 5,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-門",
+    "character": "門",
+    "meaningsPt": [
+      "portão"
+    ],
+    "meaningsEn": [
+      "gate",
+      "counter for cannons"
+    ],
+    "onReadings": [
+      "モン"
+    ],
+    "kunReadings": [
+      "かど",
+      "と"
+    ],
+    "strokeCount": 8,
+    "jlpt": 2
+  },
+  {
+    "id": "km-n5-友",
+    "character": "友",
+    "meaningsPt": [
+      "amigo"
+    ],
+    "meaningsEn": [
+      "friend"
+    ],
+    "onReadings": [
+      "ユウ"
+    ],
+    "kunReadings": [
+      "とも"
+    ],
+    "strokeCount": 4,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-夕",
+    "character": "夕",
+    "meaningsPt": [
+      "entardecer"
+    ],
+    "meaningsEn": [
+      "evening"
+    ],
+    "onReadings": [
+      "セキ"
+    ],
+    "kunReadings": [
+      "ゆう"
+    ],
+    "strokeCount": 3,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-来",
+    "character": "来",
+    "meaningsPt": [
+      "vir"
+    ],
+    "meaningsEn": [
+      "come",
+      "due",
+      "next",
+      "cause",
+      "become"
+    ],
+    "onReadings": [
+      "ライ",
+      "タイ"
+    ],
+    "kunReadings": [
+      "く",
+      "きた",
+      "きた",
+      "き",
+      "き",
+      "き",
+      "こ"
+    ],
+    "strokeCount": 7,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-立",
+    "character": "立",
+    "meaningsPt": [
+      "ficar de pé"
+    ],
+    "meaningsEn": [
+      "stand up",
+      "rise",
+      "set up",
+      "erect"
+    ],
+    "onReadings": [
+      "リツ",
+      "リュウ",
+      "リットル"
+    ],
+    "kunReadings": [
+      "た",
+      "-た",
+      "た",
+      "た",
+      "-た",
+      "た",
+      "たて-",
+      "-た",
+      "-だ",
+      "-だ"
+    ],
+    "strokeCount": 5,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-力",
+    "character": "力",
+    "meaningsPt": [
+      "força"
+    ],
+    "meaningsEn": [
+      "power",
+      "strength",
+      "strong",
+      "strain",
+      "bear up",
+      "exert"
+    ],
+    "onReadings": [
+      "リョク",
+      "リキ",
+      "リイ"
+    ],
+    "kunReadings": [
+      "ちから"
+    ],
+    "strokeCount": 2,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n5-林",
+    "character": "林",
+    "meaningsPt": [
+      "bosque"
+    ],
+    "meaningsEn": [
+      "grove",
+      "forest"
+    ],
+    "onReadings": [
+      "リン"
+    ],
+    "kunReadings": [
+      "はやし"
+    ],
+    "strokeCount": 8,
+    "jlpt": 2
+  },
+  {
+    "id": "km-n5-六",
+    "character": "六",
+    "meaningsPt": [
+      "seis"
+    ],
+    "meaningsEn": [
+      "six"
+    ],
+    "onReadings": [
+      "ロク",
+      "リク"
+    ],
+    "kunReadings": [
+      "む",
+      "む",
+      "むっ",
+      "むい"
+    ],
+    "strokeCount": 4,
+    "jlpt": 5
+  },
+  {
+    "id": "km-n5-話",
+    "character": "話",
+    "meaningsPt": [
+      "falar",
+      "conversa"
+    ],
+    "meaningsEn": [
+      "tale",
+      "talk"
+    ],
+    "onReadings": [
+      "ワ"
+    ],
+    "kunReadings": [
+      "はな",
+      "はなし"
+    ],
+    "strokeCount": 13,
+    "jlpt": 5
+  }
+]

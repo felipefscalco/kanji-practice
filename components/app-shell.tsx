@@ -73,7 +73,7 @@ export function AppHeader({ items }: { items: NavItem[] }) {
           <span className="flex flex-col leading-[1.2]">
             <strong className="text-[17px]">Oyster</strong>
             <span lang="ja" className="hidden text-[13px] text-text-2 sm:block">
-              漢字マスター N4
+              漢字マスター
             </span>
           </span>
         </Link>

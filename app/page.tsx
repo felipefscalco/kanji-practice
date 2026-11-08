@@ -12,7 +12,7 @@ import { ProgressBar } from "@/components/ui/progress-bar";
 import { useStudyDays } from "@/hooks/use-activity";
 import { useStudyStats, type StudyStats } from "@/hooks/use-study-stats";
 import { currentStreak, lastSevenDays, toDayKey } from "@/lib/activity";
-import { getChapters, getSectionForKanji } from "@/lib/curriculum";
+import { bookLabel, currentChapter, getSectionForKanji } from "@/lib/curriculum";
 import { chapterProgress, currentLesson, greeting } from "@/lib/dashboard";
 import { SRS_GROUPS } from "@/lib/srs/groups";
 
@@ -36,7 +36,7 @@ export default function HomePage() {
 function Dashboard({ stats }: { stats: StudyStats }) {
   const days = useStudyDays() ?? [];
   const now = new Date();
-  const chapter = getChapters()[0];
+  const chapter = currentChapter(stats.sectionIds);
   const progress = chapter ? chapterProgress(chapter, stats.sectionIds) : [];
   const lesson = currentLesson(progress);
   const selectedKanji = progress.reduce((n, g) => n + g.selected, 0);
@@ -54,7 +54,7 @@ function Dashboard({ stats }: { stats: StudyStats }) {
         {chapter ? (
           <p className="m-0 text-sm text-text-2 sm:text-base">
             <span lang="ja">
-              第{chapter.number}章<span className="hidden sm:inline"> {chapter.titleJa}</span>
+              {bookLabel(chapter.book)} 第{chapter.number}章<span className="hidden sm:inline"> {chapter.titleJa}</span>
             </span>
             {lesson ? (
               <>
@@ -133,7 +133,9 @@ function Dashboard({ stats }: { stats: StudyStats }) {
         {chapter ? (
           <Card className="gap-3 p-5 sm:gap-4 sm:p-6">
             <div className="flex items-baseline justify-between">
-              <h2 className="m-0 text-[17px] font-bold sm:text-lg">Capítulo {chapter.number}</h2>
+              <h2 className="m-0 text-[17px] font-bold sm:text-lg">
+                {bookLabel(chapter.book)} · Capítulo {chapter.number}
+              </h2>
               <span className="text-sm text-text-2">
                 <strong className="text-text tabular-nums">{selectedKanji}</strong>
                 <span className="sm:hidden">/</span>

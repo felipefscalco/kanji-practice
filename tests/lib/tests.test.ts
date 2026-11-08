@@ -1,10 +1,12 @@
 import { describe, expect, it } from "vitest";
 import * as wanakana from "wanakana";
 
-import { getChapters } from "@/lib/curriculum";
+import { getChapters, learnedThroughChapter } from "@/lib/curriculum";
+import { furiganaKanji, isKanji } from "@/lib/furigana";
 import {
   buildTest,
   getChapterTest,
+  getRawChapterTests,
   getTestChapterIds,
   gradeTest,
   isReadingCorrect,
@@ -90,5 +92,33 @@ describe("test data", () => {
         expect(new Set([q.answer, ...q.distractors]).size, q.id).toBe(4);
       }
     });
+
+    it(`${chapterId} shows only kanji learned by the end of the chapter`, () => {
+      const learned = learnedThroughChapter(chapterId);
+      // Wrong options may use lookalike kanji on purpose (酒/洒), so they are not checked.
+      for (const q of [...file.reading, ...file.writing]) {
+        const shown = q.sentence + ("distractors" in q ? q.answer : "");
+        for (const ch of [...shown].filter(isKanji)) {
+          expect(learned.has(ch), `${q.id} ${q.sentence}: ${ch}`).toBe(true);
+        }
+      }
+    });
   }
+
+  it("writes kanji not learned yet in kana, like the book (化しょう品)", () => {
+    const w07 = getChapterTest("ch-06")!.writing.find((q) => q.id === "t-ch06-w07")!;
+    expect(w07.answer).toBe("化しょう品");
+    // 店 is taught in N4 2-1, so it shows as kanji in the chapter 4 test.
+    const r05 = getChapterTest("ch-04")!.reading.find((q) => q.id === "t-ch04-r05")!;
+    expect(r05.sentence).toBe("この 店は [終日] きんえんです。");
+  });
+
+  it("keeps wrong options wrong once every kanji is learned (no kana-only variants)", () => {
+    for (const file of getRawChapterTests()) {
+      for (const q of file.writing) {
+        const options = [q.answer, ...q.distractors].map(furiganaKanji);
+        expect(new Set(options).size, q.id).toBe(4);
+      }
+    }
+  });
 });

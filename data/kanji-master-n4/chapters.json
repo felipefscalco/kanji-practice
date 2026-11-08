@@ -2,6 +2,246 @@
   "book": "kanji-master-n4",
   "chapters": [
     {
+      "id": "ch-01",
+      "number": 1,
+      "titleJa": "生活",
+      "titlePt": "Capítulo 1 (livro: 生活)",
+      "sections": [
+        {
+          "id": "ch-01-s01",
+          "titleJa": "1-1 かぞく",
+          "titlePt": "家 · 族",
+          "kanjiIds": ["km-n4-家", "km-n4-族"]
+        },
+        {
+          "id": "ch-01-s02",
+          "titleJa": "1-1 かぞく",
+          "titlePt": "兄 · 弟",
+          "kanjiIds": ["km-n4-兄", "km-n4-弟"]
+        },
+        {
+          "id": "ch-01-s03",
+          "titleJa": "1-1 かぞく",
+          "titlePt": "姉 · 妹",
+          "kanjiIds": ["km-n4-姉", "km-n4-妹"]
+        },
+        {
+          "id": "ch-01-s04",
+          "titleJa": "1-1 かぞく",
+          "titlePt": "私 · 育",
+          "kanjiIds": ["km-n4-私", "km-n4-育"]
+        },
+        {
+          "id": "ch-01-s05",
+          "titleJa": "1-2 マンション",
+          "titlePt": "部 · 屋",
+          "kanjiIds": ["km-n4-部", "km-n4-屋"]
+        },
+        {
+          "id": "ch-01-s06",
+          "titleJa": "1-2 マンション",
+          "titlePt": "広 · 低",
+          "kanjiIds": ["km-n4-広", "km-n4-低"]
+        },
+        {
+          "id": "ch-01-s07",
+          "titleJa": "1-2 マンション",
+          "titlePt": "近 · 遠",
+          "kanjiIds": ["km-n4-近", "km-n4-遠"]
+        },
+        {
+          "id": "ch-01-s08",
+          "titleJa": "1-2 マンション",
+          "titlePt": "静",
+          "kanjiIds": ["km-n4-静"]
+        },
+        {
+          "id": "ch-01-s09",
+          "titleJa": "1-3 ファッション",
+          "titlePt": "洋 · 服",
+          "kanjiIds": ["km-n4-洋", "km-n4-服"]
+        },
+        {
+          "id": "ch-01-s10",
+          "titleJa": "1-3 ファッション",
+          "titlePt": "短 · 玉",
+          "kanjiIds": ["km-n4-短", "km-n4-玉"]
+        },
+        {
+          "id": "ch-01-s11",
+          "titleJa": "1-3 ファッション",
+          "titlePt": "毛 · 糸",
+          "kanjiIds": ["km-n4-毛", "km-n4-糸"]
+        },
+        {
+          "id": "ch-01-s12",
+          "titleJa": "1-3 ファッション",
+          "titlePt": "光 · 衣",
+          "kanjiIds": ["km-n4-光", "km-n4-衣"]
+        }
+      ]
+    },
+    {
+      "id": "ch-02",
+      "number": 2,
+      "titleJa": "コンビニ",
+      "titlePt": "Capítulo 2 (livro: コンビニ)",
+      "sections": [
+        {
+          "id": "ch-02-s01",
+          "titleJa": "2-1 レジ",
+          "titlePt": "店 · 客",
+          "kanjiIds": ["km-n4-店", "km-n4-客"]
+        },
+        {
+          "id": "ch-02-s02",
+          "titleJa": "2-1 レジ",
+          "titlePt": "親 · 切",
+          "kanjiIds": ["km-n4-親", "km-n4-切"]
+        },
+        {
+          "id": "ch-02-s03",
+          "titleJa": "2-1 レジ",
+          "titlePt": "売 · 当",
+          "kanjiIds": ["km-n4-売", "km-n4-当"]
+        },
+        {
+          "id": "ch-02-s04",
+          "titleJa": "2-1 レジ",
+          "titlePt": "品",
+          "kanjiIds": ["km-n4-品"]
+        },
+        {
+          "id": "ch-02-s05",
+          "titleJa": "2-2 てんない",
+          "titlePt": "便 · 利",
+          "kanjiIds": ["km-n4-便", "km-n4-利"]
+        },
+        {
+          "id": "ch-02-s06",
+          "titleJa": "2-2 てんない",
+          "titlePt": "使 · 銀",
+          "kanjiIds": ["km-n4-使", "km-n4-銀"]
+        },
+        {
+          "id": "ch-02-s07",
+          "titleJa": "2-2 てんない",
+          "titlePt": "白 · 黒",
+          "kanjiIds": ["km-n4-白", "km-n4-黒"]
+        },
+        {
+          "id": "ch-02-s08",
+          "titleJa": "2-2 てんない",
+          "titlePt": "紙",
+          "kanjiIds": ["km-n4-紙"]
+        },
+        {
+          "id": "ch-02-s09",
+          "titleJa": "2-3 24じかん",
+          "titlePt": "朝 · 晩",
+          "kanjiIds": ["km-n4-朝", "km-n4-晩"]
+        },
+        {
+          "id": "ch-02-s10",
+          "titleJa": "2-3 24じかん",
+          "titlePt": "昼 · 夜",
+          "kanjiIds": ["km-n4-昼", "km-n4-夜"]
+        },
+        {
+          "id": "ch-02-s11",
+          "titleJa": "2-3 24じかん",
+          "titlePt": "前 · 後",
+          "kanjiIds": ["km-n4-前", "km-n4-後"]
+        },
+        {
+          "id": "ch-02-s12",
+          "titleJa": "2-3 24じかん",
+          "titlePt": "午 · 早",
+          "kanjiIds": ["km-n4-午", "km-n4-早"]
+        }
+      ]
+    },
+    {
+      "id": "ch-03",
+      "number": 3,
+      "titleJa": "おくり物",
+      "titlePt": "Capítulo 3 (livro: おくり物)",
+      "sections": [
+        {
+          "id": "ch-03-s01",
+          "titleJa": "3-1 にもつ",
+          "titlePt": "荷 · 送",
+          "kanjiIds": ["km-n4-荷", "km-n4-送"]
+        },
+        {
+          "id": "ch-03-s02",
+          "titleJa": "3-1 にもつ",
+          "titlePt": "宅 · 急",
+          "kanjiIds": ["km-n4-宅", "km-n4-急"]
+        },
+        {
+          "id": "ch-03-s03",
+          "titleJa": "3-1 にもつ",
+          "titlePt": "速 · 遅",
+          "kanjiIds": ["km-n4-速", "km-n4-遅"]
+        },
+        {
+          "id": "ch-03-s04",
+          "titleJa": "3-1 にもつ",
+          "titlePt": "重 · 軽",
+          "kanjiIds": ["km-n4-重", "km-n4-軽"]
+        },
+        {
+          "id": "ch-03-s05",
+          "titleJa": "3-2 あてさき",
+          "titlePt": "住 · 所",
+          "kanjiIds": ["km-n4-住", "km-n4-所"]
+        },
+        {
+          "id": "ch-03-s06",
+          "titleJa": "3-2 あてさき",
+          "titlePt": "様 · 主",
+          "kanjiIds": ["km-n4-様", "km-n4-主"]
+        },
+        {
+          "id": "ch-03-s07",
+          "titleJa": "3-2 あてさき",
+          "titlePt": "番 · 地",
+          "kanjiIds": ["km-n4-番", "km-n4-地"]
+        },
+        {
+          "id": "ch-03-s08",
+          "titleJa": "3-2 あてさき",
+          "titlePt": "号 · 京",
+          "kanjiIds": ["km-n4-号", "km-n4-京"]
+        },
+        {
+          "id": "ch-03-s09",
+          "titleJa": "3-3 とどうふけん",
+          "titlePt": "国 · 都",
+          "kanjiIds": ["km-n4-国", "km-n4-都"]
+        },
+        {
+          "id": "ch-03-s10",
+          "titleJa": "3-3 とどうふけん",
+          "titlePt": "道 · 府",
+          "kanjiIds": ["km-n4-道", "km-n4-府"]
+        },
+        {
+          "id": "ch-03-s11",
+          "titleJa": "3-3 とどうふけん",
+          "titlePt": "県 · 市",
+          "kanjiIds": ["km-n4-県", "km-n4-市"]
+        },
+        {
+          "id": "ch-03-s12",
+          "titleJa": "3-3 とどうふけん",
+          "titlePt": "区 · 村",
+          "kanjiIds": ["km-n4-区", "km-n4-村"]
+        }
+      ]
+    },
+    {
       "id": "ch-04",
       "number": 4,
       "titleJa": "スケジュール",

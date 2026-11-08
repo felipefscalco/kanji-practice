@@ -1,0 +1,31 @@
+{
+  "chapterId": "n5-ch-05",
+  "items": [
+    { "id": "v-n5-ch05-ue", "expression": "上", "reading": "うえ", "furigana": "{上|うえ}", "meaningsPt": ["em cima"], "sectionId": "n5-ch-05-s01" },
+    { "id": "v-n5-ch05-shita", "expression": "下", "reading": "した", "furigana": "{下|した}", "meaningsPt": ["embaixo"], "sectionId": "n5-ch-05-s01" },
+    { "id": "v-n5-ch05-agaru", "expression": "上がる", "reading": "あがる", "furigana": "{上|あ}がる", "meaningsPt": ["subir"], "sectionId": "n5-ch-05-s01" },
+    { "id": "v-n5-ch05-sagaru", "expression": "下がる", "reading": "さがる", "furigana": "{下|さ}がる", "meaningsPt": ["descer", "baixar"], "sectionId": "n5-ch-05-s01" },
+    { "id": "v-n5-ch05-jouzu", "expression": "上手", "reading": "じょうず", "furigana": "{上|じょう}{手|ず}", "meaningsPt": ["habilidoso"], "sectionId": "n5-ch-05-s01" },
+    { "id": "v-n5-ch05-heta", "expression": "下手", "reading": "へた", "furigana": "{下手|へた}", "meaningsPt": ["desajeitado"], "sectionId": "n5-ch-05-s01" },
+    { "id": "v-n5-ch05-toshiue", "expression": "年上", "reading": "としうえ", "furigana": "{年|とし}{上|うえ}", "meaningsPt": ["mais velho"], "sectionId": "n5-ch-05-s01" },
+    { "id": "v-n5-ch05-toshishita", "expression": "年下", "reading": "としした", "furigana": "{年|とし}{下|した}", "meaningsPt": ["mais novo"], "sectionId": "n5-ch-05-s01" },
+    { "id": "v-n5-ch05-kawakami", "expression": "川上", "reading": "かわかみ", "furigana": "{川|かわ}{上|かみ}", "meaningsPt": ["rio acima"], "sectionId": "n5-ch-05-s01" },
+
+    { "id": "v-n5-ch05-hidari", "expression": "左", "reading": "ひだり", "furigana": "{左|ひだり}", "meaningsPt": ["esquerda"], "sectionId": "n5-ch-05-s02" },
+    { "id": "v-n5-ch05-migi", "expression": "右", "reading": "みぎ", "furigana": "{右|みぎ}", "meaningsPt": ["direita"], "sectionId": "n5-ch-05-s02" },
+    { "id": "v-n5-ch05-hidarite", "expression": "左手", "reading": "ひだりて", "furigana": "{左|ひだり}{手|て}", "meaningsPt": ["mão esquerda"], "sectionId": "n5-ch-05-s02" },
+    { "id": "v-n5-ch05-migite", "expression": "右手", "reading": "みぎて", "furigana": "{右|みぎ}{手|て}", "meaningsPt": ["mão direita"], "sectionId": "n5-ch-05-s02" },
+    { "id": "v-n5-ch05-migiashi", "expression": "右足", "reading": "みぎあし", "furigana": "{右|みぎ}{足|あし}", "meaningsPt": ["pé direito"], "sectionId": "n5-ch-05-s02" },
+    { "id": "v-n5-ch05-sayuu", "expression": "左右", "reading": "さゆう", "furigana": "{左|さ}{右|ゆう}", "meaningsPt": ["esquerda e direita"], "sectionId": "n5-ch-05-s02" },
+
+    { "id": "v-n5-ch05-soto", "expression": "外", "reading": "そと", "furigana": "{外|そと}", "meaningsPt": ["fora"], "sectionId": "n5-ch-05-s03" },
+    { "id": "v-n5-ch05-uchi", "expression": "内", "reading": "うち", "furigana": "{内|うち}", "meaningsPt": ["dentro"], "sectionId": "n5-ch-05-s03" },
+    { "id": "v-n5-ch05-naigai", "expression": "内外", "reading": "ないがい", "furigana": "{内|ない}{外|がい}", "meaningsPt": ["dentro e fora"], "sectionId": "n5-ch-05-s03" },
+
+    { "id": "v-n5-ch05-naka", "expression": "中", "reading": "なか", "furigana": "{中|なか}", "meaningsPt": ["dentro", "meio"], "sectionId": "n5-ch-05-s04" },
+    { "id": "v-n5-ch05-nitchuu", "expression": "日中", "reading": "にっちゅう", "furigana": "{日|にっ}{中|ちゅう}", "meaningsPt": ["durante o dia"], "sectionId": "n5-ch-05-s04" },
+    { "id": "v-n5-ch05-ichinichijuu", "expression": "一日中", "reading": "いちにちじゅう", "furigana": "{一|いち}{日|にち}{中|じゅう}", "meaningsPt": ["o dia todo"], "sectionId": "n5-ch-05-s04" },
+    { "id": "v-n5-ch05-nenjuu", "expression": "年中", "reading": "ねんじゅう", "furigana": "{年|ねん}{中|じゅう}", "meaningsPt": ["o ano todo"], "sectionId": "n5-ch-05-s04" },
+    { "id": "v-n5-ch05-suichuu", "expression": "水中", "reading": "すいちゅう", "furigana": "{水|すい}{中|ちゅう}", "meaningsPt": ["debaixo d'água"], "sectionId": "n5-ch-05-s04" }
+  ]
+}

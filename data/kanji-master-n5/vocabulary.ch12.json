@@ -1,0 +1,19 @@
+{
+  "chapterId": "n5-ch-12",
+  "items": [
+    { "id": "v-n5-ch12-hayashi", "expression": "林", "reading": "はやし", "furigana": "{林|はやし}", "meaningsPt": ["bosque"], "sectionId": "n5-ch-12-s01" },
+    { "id": "v-n5-ch12-mori", "expression": "森", "reading": "もり", "furigana": "{森|もり}", "meaningsPt": ["floresta"], "sectionId": "n5-ch-12-s01" },
+
+    { "id": "v-n5-ch12-hatake", "expression": "畑", "reading": "はたけ", "furigana": "{畑|はたけ}", "meaningsPt": ["horta", "plantação"], "sectionId": "n5-ch-12-s02" },
+    { "id": "v-n5-ch12-tahata", "expression": "田畑", "reading": "たはた", "furigana": "{田|た}{畑|はた}", "meaningsPt": ["campos de cultivo"], "sectionId": "n5-ch-12-s02" },
+    { "id": "v-n5-ch12-iwa", "expression": "岩", "reading": "いわ", "furigana": "{岩|いわ}", "meaningsPt": ["rocha"], "sectionId": "n5-ch-12-s02" },
+
+    { "id": "v-n5-ch12-oto", "expression": "音", "reading": "おと", "furigana": "{音|おと}", "meaningsPt": ["som"], "sectionId": "n5-ch-12-s03" },
+    { "id": "v-n5-ch12-ashioto", "expression": "足音", "reading": "あしおと", "furigana": "{足|あし}{音|おと}", "meaningsPt": ["som de passos"], "sectionId": "n5-ch-12-s03" },
+    { "id": "v-n5-ch12-ongaku", "expression": "音楽", "reading": "おんがく", "furigana": "{音|おん}{楽|がく}", "meaningsPt": ["música"], "sectionId": "n5-ch-12-s03" },
+
+    { "id": "v-n5-ch12-akarui", "expression": "明るい", "reading": "あかるい", "furigana": "{明|あか}るい", "meaningsPt": ["claro", "alegre"], "sectionId": "n5-ch-12-s04" },
+    { "id": "v-n5-ch12-ashita", "expression": "明日", "reading": "あした", "furigana": "{明日|あした}", "meaningsPt": ["amanhã"], "sectionId": "n5-ch-12-s04" },
+    { "id": "v-n5-ch12-kurai", "expression": "暗い", "reading": "くらい", "furigana": "{暗|くら}い", "meaningsPt": ["escuro"], "sectionId": "n5-ch-12-s04" }
+  ]
+}

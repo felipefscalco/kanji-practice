@@ -10,7 +10,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "enrich:kanji": "tsx scripts/enrich-kanji.ts",
-    "generate:tests": "tsx scripts/generate-tests.ts"
+    "generate:tests": "tsx scripts/generate-tests.ts",
+    "annotate:furigana": "tsx scripts/annotate-furigana.ts"
   },
   "dependencies": {
     "kanjidic2-json": "^0.1.0",

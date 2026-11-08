@@ -1,3 +1,4 @@
+import { charFromKanjiId } from "@/lib/curriculum";
 import { toHiraganaReading } from "@/lib/display-readings";
 import type { Chapter, Section } from "@/lib/kanji-types";
 import { getVocabularyCatalog } from "@/lib/vocabulary";
@@ -7,6 +8,15 @@ import { getVocabularyCatalog } from "@/lib/vocabulary";
  * TODO(design): move into chapters.json when the curriculum data gets PT lesson titles.
  */
 const LESSON_TITLE_PT: Record<string, string> = {
+  "1-1 かぞく": "Família",
+  "1-2 マンション": "Apartamento",
+  "1-3 ファッション": "Moda",
+  "2-1 レジ": "Caixa",
+  "2-2 てんない": "Dentro da loja",
+  "2-3 24じかん": "24 horas",
+  "3-1 にもつ": "Encomenda",
+  "3-2 あてさき": "Destinatário",
+  "3-3 とどうふけん": "Províncias",
   "4-1 デート": "Encontro",
   "4-2 けっこんきねんび": "Aniversário de casamento",
   "4-3 しごと": "Trabalho",
@@ -31,7 +41,9 @@ export function bookLessons(chapter: Chapter): BookLesson[] {
   for (const section of chapter.sections) {
     let lesson = lessons.find((l) => l.label === section.titleJa);
     if (!lesson) {
-      lesson = { label: section.titleJa, titlePt: LESSON_TITLE_PT[section.titleJa], sections: [] };
+      // N5 chapters are one lesson each, so the chapter title is the lesson title.
+      const titlePt = LESSON_TITLE_PT[section.titleJa] ?? (chapter.book === "n5" ? chapter.titlePt : undefined);
+      lesson = { label: section.titleJa, titlePt, sections: [] };
       lessons.push(lesson);
     }
     lesson.sections.push(section);
@@ -49,7 +61,7 @@ export interface SectionWords {
 /** Fewest words of the subsection that use all its kanji (ties keep book order). */
 export function sectionWords(section: Section): SectionWords {
   const vocab = getVocabularyCatalog().filter((v) => v.sectionId === section.id);
-  const chars = section.kanjiIds.map((id) => id.replace(/^km-n4-/, ""));
+  const chars = section.kanjiIds.map(charFromKanjiId);
   const uncovered = new Set(chars);
   const picked: typeof vocab = [];
   while (uncovered.size > 0) {

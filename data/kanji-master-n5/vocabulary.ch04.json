@@ -1,0 +1,20 @@
+{
+  "chapterId": "n5-ch-04",
+  "items": [
+    { "id": "v-n5-ch04-yama", "expression": "山", "reading": "やま", "furigana": "{山|やま}", "meaningsPt": ["montanha"], "sectionId": "n5-ch-04-s01" },
+    { "id": "v-n5-ch04-kazan", "expression": "火山", "reading": "かざん", "furigana": "{火|か}{山|ざん}", "meaningsPt": ["vulcão"], "sectionId": "n5-ch-04-s01" },
+    { "id": "v-n5-ch04-kawa", "expression": "川", "reading": "かわ", "furigana": "{川|かわ}", "meaningsPt": ["rio"], "sectionId": "n5-ch-04-s01" },
+
+    { "id": "v-n5-ch04-ta", "expression": "田", "reading": "た", "furigana": "{田|た}", "meaningsPt": ["arrozal"], "sectionId": "n5-ch-04-s02" },
+    { "id": "v-n5-ch04-suiden", "expression": "水田", "reading": "すいでん", "furigana": "{水|すい}{田|でん}", "meaningsPt": ["arrozal alagado"], "sectionId": "n5-ch-04-s02" },
+    { "id": "v-n5-ch04-ishi", "expression": "石", "reading": "いし", "furigana": "{石|いし}", "meaningsPt": ["pedra"], "sectionId": "n5-ch-04-s02" },
+
+    { "id": "v-n5-ch04-hana", "expression": "花", "reading": "はな", "furigana": "{花|はな}", "meaningsPt": ["flor"], "sectionId": "n5-ch-04-s03" },
+    { "id": "v-n5-ch04-hanabi", "expression": "花火", "reading": "はなび", "furigana": "{花|はな}{火|び}", "meaningsPt": ["fogos de artifício"], "sectionId": "n5-ch-04-s03" },
+    { "id": "v-n5-ch04-take", "expression": "竹", "reading": "たけ", "furigana": "{竹|たけ}", "meaningsPt": ["bambu"], "sectionId": "n5-ch-04-s03" },
+
+    { "id": "v-n5-ch04-ame", "expression": "雨", "reading": "あめ", "furigana": "{雨|あめ}", "meaningsPt": ["chuva"], "sectionId": "n5-ch-04-s04" },
+    { "id": "v-n5-ch04-amamizu", "expression": "雨水", "reading": "あまみず", "furigana": "{雨|あま}{水|みず}", "meaningsPt": ["água da chuva"], "sectionId": "n5-ch-04-s04" },
+    { "id": "v-n5-ch04-mushi", "expression": "虫", "reading": "むし", "furigana": "{虫|むし}", "meaningsPt": ["inseto"], "sectionId": "n5-ch-04-s04" }
+  ]
+}

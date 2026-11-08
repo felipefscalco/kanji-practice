@@ -1,0 +1,33 @@
+{
+  "chapterId": "n5-ch-02",
+  "items": [
+    { "id": "v-n5-ch02-tsuki", "expression": "月", "reading": "つき", "furigana": "{月|つき}", "meaningsPt": ["lua"], "sectionId": "n5-ch-02-s01" },
+    { "id": "v-n5-ch02-ichigatsu", "expression": "一月", "reading": "いちがつ", "furigana": "{一|いち}{月|がつ}", "meaningsPt": ["janeiro"], "sectionId": "n5-ch-02-s01" },
+    { "id": "v-n5-ch02-shigatsu", "expression": "四月", "reading": "しがつ", "furigana": "{四|し}{月|がつ}", "meaningsPt": ["abril"], "sectionId": "n5-ch-02-s01" },
+    { "id": "v-n5-ch02-kugatsu", "expression": "九月", "reading": "くがつ", "furigana": "{九|く}{月|がつ}", "meaningsPt": ["setembro"], "sectionId": "n5-ch-02-s01" },
+    { "id": "v-n5-ch02-ikkagetsu", "expression": "一か月", "reading": "いっかげつ", "furigana": "{一|いっ}か{月|げつ}", "meaningsPt": ["um mês"], "sectionId": "n5-ch-02-s01" },
+    { "id": "v-n5-ch02-hi", "expression": "火", "reading": "ひ", "furigana": "{火|ひ}", "meaningsPt": ["fogo"], "sectionId": "n5-ch-02-s01" },
+
+    { "id": "v-n5-ch02-mizu", "expression": "水", "reading": "みず", "furigana": "{水|みず}", "meaningsPt": ["água"], "sectionId": "n5-ch-02-s02" },
+    { "id": "v-n5-ch02-ki", "expression": "木", "reading": "き", "furigana": "{木|き}", "meaningsPt": ["árvore"], "sectionId": "n5-ch-02-s02" },
+
+    { "id": "v-n5-ch02-okane", "expression": "お金", "reading": "おかね", "furigana": "お{金|かね}", "meaningsPt": ["dinheiro"], "sectionId": "n5-ch-02-s03" },
+    { "id": "v-n5-ch02-kin", "expression": "金", "reading": "きん", "furigana": "{金|きん}", "meaningsPt": ["ouro"], "sectionId": "n5-ch-02-s03" },
+    { "id": "v-n5-ch02-tsuchi", "expression": "土", "reading": "つち", "furigana": "{土|つち}", "meaningsPt": ["terra", "solo"], "sectionId": "n5-ch-02-s03" },
+
+    { "id": "v-n5-ch02-hi2", "expression": "日", "reading": "ひ", "furigana": "{日|ひ}", "meaningsPt": ["dia", "sol"], "sectionId": "n5-ch-02-s04" },
+    { "id": "v-n5-ch02-mikka", "expression": "三日", "reading": "みっか", "furigana": "{三|みっ}{日|か}", "meaningsPt": ["dia 3", "três dias"], "sectionId": "n5-ch-02-s04" },
+    { "id": "v-n5-ch02-tooka", "expression": "十日", "reading": "とおか", "furigana": "{十|とお}{日|か}", "meaningsPt": ["dia 10", "dez dias"], "sectionId": "n5-ch-02-s04" },
+    { "id": "v-n5-ch02-tsuitachi", "expression": "一日", "reading": "ついたち", "furigana": "{一日|ついたち}", "meaningsPt": ["dia 1 (do mês)"], "sectionId": "n5-ch-02-s04" },
+    { "id": "v-n5-ch02-futsuka", "expression": "二日", "reading": "ふつか", "furigana": "{二日|ふつか}", "meaningsPt": ["dia 2", "dois dias"], "sectionId": "n5-ch-02-s04" },
+    { "id": "v-n5-ch02-getsuyoubi", "expression": "月曜日", "reading": "げつようび", "furigana": "{月|げつ}{曜|よう}{日|び}", "meaningsPt": ["segunda-feira"], "sectionId": "n5-ch-02-s04" },
+    { "id": "v-n5-ch02-kayoubi", "expression": "火曜日", "reading": "かようび", "furigana": "{火|か}{曜|よう}{日|び}", "meaningsPt": ["terça-feira"], "sectionId": "n5-ch-02-s04" },
+    { "id": "v-n5-ch02-suiyoubi", "expression": "水曜日", "reading": "すいようび", "furigana": "{水|すい}{曜|よう}{日|び}", "meaningsPt": ["quarta-feira"], "sectionId": "n5-ch-02-s04" },
+    { "id": "v-n5-ch02-mokuyoubi", "expression": "木曜日", "reading": "もくようび", "furigana": "{木|もく}{曜|よう}{日|び}", "meaningsPt": ["quinta-feira"], "sectionId": "n5-ch-02-s04" },
+    { "id": "v-n5-ch02-kinyoubi", "expression": "金曜日", "reading": "きんようび", "furigana": "{金|きん}{曜|よう}{日|び}", "meaningsPt": ["sexta-feira"], "sectionId": "n5-ch-02-s04" },
+    { "id": "v-n5-ch02-doyoubi", "expression": "土曜日", "reading": "どようび", "furigana": "{土|ど}{曜|よう}{日|び}", "meaningsPt": ["sábado"], "sectionId": "n5-ch-02-s04" },
+    { "id": "v-n5-ch02-nichiyoubi", "expression": "日曜日", "reading": "にちようび", "furigana": "{日|にち}{曜|よう}{日|び}", "meaningsPt": ["domingo"], "sectionId": "n5-ch-02-s04" },
+    { "id": "v-n5-ch02-toshi", "expression": "年", "reading": "とし", "furigana": "{年|とし}", "meaningsPt": ["ano", "idade"], "sectionId": "n5-ch-02-s04" },
+    { "id": "v-n5-ch02-ichinen", "expression": "一年", "reading": "いちねん", "furigana": "{一|いち}{年|ねん}", "meaningsPt": ["um ano"], "sectionId": "n5-ch-02-s04" }
+  ]
+}

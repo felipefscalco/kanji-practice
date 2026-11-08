@@ -50,7 +50,11 @@ function gradeVocabAnswer(vocab: VocabularyEntry, kind: ReviewKind, value: strin
     return gradeMeaning(value, vocab.meaningsPt);
   }
   if (kind === "writing") {
-    return gradeVocabWriting(value, vocab.expression, [vocab.reading]);
+    // The IME may also give the full spelling (調味料 for ちょう味料).
+    return (
+      gradeVocabWriting(value, vocab.expression, [vocab.reading]) ||
+      gradeVocabWriting(value, vocab.fullExpression, [vocab.reading])
+    );
   }
   return gradeReading(value, [vocab.reading]);
 }

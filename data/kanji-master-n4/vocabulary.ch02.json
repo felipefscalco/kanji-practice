@@ -1,0 +1,66 @@
+{
+  "chapterId": "ch-02",
+  "items": [
+    { "id": "v-ch02-mise", "expression": "店", "reading": "みせ", "furigana": "{店|みせ}", "meaningsPt": ["loja"], "sectionId": "ch-02-s01" },
+    { "id": "v-ch02-tenin", "expression": "店員", "reading": "てんいん", "furigana": "{店|てん}{員|いん}", "meaningsPt": ["balconista"], "sectionId": "ch-02-s01" },
+    { "id": "v-ch02-honten", "expression": "本店", "reading": "ほんてん", "furigana": "{本|ほん}{店|てん}", "meaningsPt": ["matriz (loja)"], "sectionId": "ch-02-s01" },
+    { "id": "v-ch02-kyaku", "expression": "客", "reading": "きゃく", "furigana": "{客|きゃく}", "meaningsPt": ["cliente", "visita"], "sectionId": "ch-02-s01" },
+    { "id": "v-ch02-okyakusan", "expression": "お客さん", "reading": "おきゃくさん", "furigana": "お{客|きゃく}さん", "meaningsPt": ["cliente", "visita"], "sectionId": "ch-02-s01" },
+
+    { "id": "v-ch02-shinsetsu", "expression": "親切", "reading": "しんせつ", "furigana": "{親|しん}{切|せつ}", "meaningsPt": ["gentil"], "sectionId": "ch-02-s02" },
+    { "id": "v-ch02-oya", "expression": "親", "reading": "おや", "furigana": "{親|おや}", "meaningsPt": ["pais"], "sectionId": "ch-02-s02" },
+    { "id": "v-ch02-chichioya", "expression": "父親", "reading": "ちちおや", "furigana": "{父|ちち}{親|おや}", "meaningsPt": ["pai"], "sectionId": "ch-02-s02" },
+    { "id": "v-ch02-hahaoya", "expression": "母親", "reading": "ははおや", "furigana": "{母|はは}{親|おや}", "meaningsPt": ["mãe"], "sectionId": "ch-02-s02" },
+    { "id": "v-ch02-kiru", "expression": "切る", "reading": "きる", "furigana": "{切|き}る", "meaningsPt": ["cortar"], "sectionId": "ch-02-s02" },
+    { "id": "v-ch02-taisetsu", "expression": "大切", "reading": "たいせつ", "furigana": "{大|たい}{切|せつ}", "meaningsPt": ["importante"], "sectionId": "ch-02-s02" },
+    { "id": "v-ch02-kitte", "expression": "切手", "reading": "きって", "furigana": "{切|きっ}{手|て}", "meaningsPt": ["selo"], "sectionId": "ch-02-s02" },
+
+    { "id": "v-ch02-uru", "expression": "売る", "reading": "うる", "furigana": "{売|う}る", "meaningsPt": ["vender"], "sectionId": "ch-02-s03" },
+    { "id": "v-ch02-baiten", "expression": "売店", "reading": "ばいてん", "furigana": "{売|ばい}{店|てん}", "meaningsPt": ["quiosque", "lojinha"], "sectionId": "ch-02-s03" },
+    { "id": "v-ch02-hontou", "expression": "本当", "reading": "ほんとう", "furigana": "{本|ほん}{当|とう}", "meaningsPt": ["verdade"], "sectionId": "ch-02-s03" },
+    { "id": "v-ch02-obentou", "expression": "お弁当", "reading": "おべんとう", "furigana": "お{弁|べん}{当|とう}", "meaningsPt": ["marmita (bentô)"], "sectionId": "ch-02-s03" },
+    { "id": "v-ch02-ataru", "expression": "当たる", "reading": "あたる", "furigana": "{当|あ}たる", "meaningsPt": ["acertar", "bater"], "sectionId": "ch-02-s03" },
+
+    { "id": "v-ch02-shinamono", "expression": "品物", "reading": "しなもの", "furigana": "{品|しな}{物|もの}", "meaningsPt": ["mercadoria"], "sectionId": "ch-02-s04" },
+    { "id": "v-ch02-shokuhin", "expression": "食品", "reading": "しょくひん", "furigana": "{食|しょく}{品|ひん}", "meaningsPt": ["alimento"], "sectionId": "ch-02-s04" },
+    { "id": "v-ch02-shinpin", "expression": "新品", "reading": "しんぴん", "furigana": "{新|しん}{品|ぴん}", "meaningsPt": ["novo em folha"], "sectionId": "ch-02-s04" },
+
+    { "id": "v-ch02-benri", "expression": "便利", "reading": "べんり", "furigana": "{便|べん}{利|り}", "meaningsPt": ["conveniente"], "sectionId": "ch-02-s05" },
+    { "id": "v-ch02-riyou", "expression": "利用", "reading": "りよう", "furigana": "{利|り}{用|よう}", "meaningsPt": ["uso"], "sectionId": "ch-02-s05" },
+
+    { "id": "v-ch02-tsukau", "expression": "使う", "reading": "つかう", "furigana": "{使|つか}う", "meaningsPt": ["usar"], "sectionId": "ch-02-s06" },
+    { "id": "v-ch02-ginkou", "expression": "銀行", "reading": "ぎんこう", "furigana": "{銀|ぎん}{行|こう}", "meaningsPt": ["banco"], "sectionId": "ch-02-s06" },
+    { "id": "v-ch02-gin", "expression": "銀", "reading": "ぎん", "furigana": "{銀|ぎん}", "meaningsPt": ["prata"], "sectionId": "ch-02-s06" },
+
+    { "id": "v-ch02-shiroi", "expression": "白い", "reading": "しろい", "furigana": "{白|しろ}い", "meaningsPt": ["branco"], "sectionId": "ch-02-s07" },
+    { "id": "v-ch02-kuroi", "expression": "黒い", "reading": "くろい", "furigana": "{黒|くろ}い", "meaningsPt": ["preto"], "sectionId": "ch-02-s07" },
+    { "id": "v-ch02-shiro", "expression": "白", "reading": "しろ", "furigana": "{白|しろ}", "meaningsPt": ["branco"], "sectionId": "ch-02-s07" },
+    { "id": "v-ch02-kuro", "expression": "黒", "reading": "くろ", "furigana": "{黒|くろ}", "meaningsPt": ["preto"], "sectionId": "ch-02-s07" },
+    { "id": "v-ch02-shirokuro", "expression": "白黒", "reading": "しろくろ", "furigana": "{白|しろ}{黒|くろ}", "meaningsPt": ["preto e branco"], "sectionId": "ch-02-s07" },
+
+    { "id": "v-ch02-kami", "expression": "紙", "reading": "かみ", "furigana": "{紙|かみ}", "meaningsPt": ["papel"], "sectionId": "ch-02-s08" },
+    { "id": "v-ch02-tegami", "expression": "手紙", "reading": "てがみ", "furigana": "{手|て}{紙|がみ}", "meaningsPt": ["carta"], "sectionId": "ch-02-s08" },
+
+    { "id": "v-ch02-asa", "expression": "朝", "reading": "あさ", "furigana": "{朝|あさ}", "meaningsPt": ["manhã"], "sectionId": "ch-02-s09" },
+    { "id": "v-ch02-kesa", "expression": "今朝", "reading": "けさ", "furigana": "{今朝|けさ}", "meaningsPt": ["hoje de manhã"], "sectionId": "ch-02-s09" },
+    { "id": "v-ch02-asagohan", "expression": "朝ご飯", "reading": "あさごはん", "furigana": "{朝|あさ}ご{飯|はん}", "meaningsPt": ["café da manhã"], "sectionId": "ch-02-s09" },
+    { "id": "v-ch02-ban", "expression": "晩", "reading": "ばん", "furigana": "{晩|ばん}", "meaningsPt": ["noite"], "sectionId": "ch-02-s09" },
+    { "id": "v-ch02-konban", "expression": "今晩", "reading": "こんばん", "furigana": "{今|こん}{晩|ばん}", "meaningsPt": ["esta noite"], "sectionId": "ch-02-s09" },
+
+    { "id": "v-ch02-hiru", "expression": "昼", "reading": "ひる", "furigana": "{昼|ひる}", "meaningsPt": ["meio-dia", "dia"], "sectionId": "ch-02-s10" },
+    { "id": "v-ch02-hiruyasumi", "expression": "昼休み", "reading": "ひるやすみ", "furigana": "{昼|ひる}{休|やす}み", "meaningsPt": ["intervalo de almoço"], "sectionId": "ch-02-s10" },
+    { "id": "v-ch02-yoru", "expression": "夜", "reading": "よる", "furigana": "{夜|よる}", "meaningsPt": ["noite"], "sectionId": "ch-02-s10" },
+    { "id": "v-ch02-konya", "expression": "今夜", "reading": "こんや", "furigana": "{今|こん}{夜|や}", "meaningsPt": ["esta noite"], "sectionId": "ch-02-s10" },
+    { "id": "v-ch02-yonaka", "expression": "夜中", "reading": "よなか", "furigana": "{夜|よ}{中|なか}", "meaningsPt": ["meia-noite", "madrugada"], "sectionId": "ch-02-s10" },
+
+    { "id": "v-ch02-mae", "expression": "前", "reading": "まえ", "furigana": "{前|まえ}", "meaningsPt": ["frente", "antes"], "sectionId": "ch-02-s11" },
+    { "id": "v-ch02-ushiro", "expression": "後ろ", "reading": "うしろ", "furigana": "{後|うし}ろ", "meaningsPt": ["atrás"], "sectionId": "ch-02-s11" },
+    { "id": "v-ch02-ato", "expression": "後", "reading": "あと", "furigana": "{後|あと}", "meaningsPt": ["depois"], "sectionId": "ch-02-s11" },
+    { "id": "v-ch02-zengo", "expression": "前後", "reading": "ぜんご", "furigana": "{前|ぜん}{後|ご}", "meaningsPt": ["antes e depois", "cerca de"], "sectionId": "ch-02-s11" },
+
+    { "id": "v-ch02-gozen", "expression": "午前", "reading": "ごぜん", "furigana": "{午|ご}{前|ぜん}", "meaningsPt": ["manhã (a.m.)"], "sectionId": "ch-02-s12" },
+    { "id": "v-ch02-gogo", "expression": "午後", "reading": "ごご", "furigana": "{午|ご}{後|ご}", "meaningsPt": ["tarde (p.m.)"], "sectionId": "ch-02-s12" },
+    { "id": "v-ch02-hayai", "expression": "早い", "reading": "はやい", "furigana": "{早|はや}い", "meaningsPt": ["cedo", "rápido"], "sectionId": "ch-02-s12" },
+    { "id": "v-ch02-hayaku", "expression": "早く", "reading": "はやく", "furigana": "{早|はや}く", "meaningsPt": ["cedo", "depressa"], "sectionId": "ch-02-s12" }
+  ]
+}

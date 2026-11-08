@@ -1,0 +1,25 @@
+{
+  "chapterId": "n5-ch-09",
+  "items": [
+    { "id": "v-n5-ch09-tatsu", "expression": "立つ", "reading": "たつ", "furigana": "{立|た}つ", "meaningsPt": ["ficar de pé"], "sectionId": "n5-ch-09-s01" },
+    { "id": "v-n5-ch09-tateru", "expression": "立てる", "reading": "たてる", "furigana": "{立|た}てる", "meaningsPt": ["erguer", "fazer (planos)"], "sectionId": "n5-ch-09-s01" },
+    { "id": "v-n5-ch09-medatsu", "expression": "目立つ", "reading": "めだつ", "furigana": "{目|め}{立|だ}つ", "meaningsPt": ["chamar atenção"], "sectionId": "n5-ch-09-s01" },
+
+    { "id": "v-n5-ch09-miru", "expression": "見る", "reading": "みる", "furigana": "{見|み}る", "meaningsPt": ["ver"], "sectionId": "n5-ch-09-s02" },
+    { "id": "v-n5-ch09-miseru", "expression": "見せる", "reading": "みせる", "furigana": "{見|み}せる", "meaningsPt": ["mostrar"], "sectionId": "n5-ch-09-s02" },
+    { "id": "v-n5-ch09-mieru", "expression": "見える", "reading": "みえる", "furigana": "{見|み}える", "meaningsPt": ["ser visível"], "sectionId": "n5-ch-09-s02" },
+    { "id": "v-n5-ch09-hanami", "expression": "花見", "reading": "はなみ", "furigana": "{花|はな}{見|み}", "meaningsPt": ["ver as cerejeiras"], "sectionId": "n5-ch-09-s02" },
+    { "id": "v-n5-ch09-kengaku", "expression": "見学", "reading": "けんがく", "furigana": "{見|けん}{学|がく}", "meaningsPt": ["visita de estudo"], "sectionId": "n5-ch-09-s02" },
+    { "id": "v-n5-ch09-kiku", "expression": "聞く", "reading": "きく", "furigana": "{聞|き}く", "meaningsPt": ["ouvir", "perguntar"], "sectionId": "n5-ch-09-s02" },
+    { "id": "v-n5-ch09-kikoeru", "expression": "聞こえる", "reading": "きこえる", "furigana": "{聞|き}こえる", "meaningsPt": ["ser audível"], "sectionId": "n5-ch-09-s02" },
+
+    { "id": "v-n5-ch09-iku", "expression": "行く", "reading": "いく", "furigana": "{行|い}く", "meaningsPt": ["ir"], "sectionId": "n5-ch-09-s03" },
+    { "id": "v-n5-ch09-okonau", "expression": "行う", "reading": "おこなう", "furigana": "{行|おこな}う", "meaningsPt": ["realizar"], "sectionId": "n5-ch-09-s03" },
+    { "id": "v-n5-ch09-kuru", "expression": "来る", "reading": "くる", "furigana": "{来|く}る", "meaningsPt": ["vir"], "sectionId": "n5-ch-09-s03" },
+    { "id": "v-n5-ch09-raigetsu", "expression": "来月", "reading": "らいげつ", "furigana": "{来|らい}{月|げつ}", "meaningsPt": ["mês que vem"], "sectionId": "n5-ch-09-s03" },
+    { "id": "v-n5-ch09-rainen", "expression": "来年", "reading": "らいねん", "furigana": "{来|らい}{年|ねん}", "meaningsPt": ["ano que vem"], "sectionId": "n5-ch-09-s03" },
+
+    { "id": "v-n5-ch09-kaeru", "expression": "帰る", "reading": "かえる", "furigana": "{帰|かえ}る", "meaningsPt": ["voltar (para casa)"], "sectionId": "n5-ch-09-s04" },
+    { "id": "v-n5-ch09-higaeri", "expression": "日帰り", "reading": "ひがえり", "furigana": "{日|ひ}{帰|がえ}り", "meaningsPt": ["bate-volta (no mesmo dia)"], "sectionId": "n5-ch-09-s04" }
+  ]
+}

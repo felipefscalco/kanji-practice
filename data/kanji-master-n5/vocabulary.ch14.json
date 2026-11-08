@@ -1,0 +1,23 @@
+{
+  "chapterId": "n5-ch-14",
+  "items": [
+    { "id": "v-n5-ch14-machi", "expression": "町", "reading": "まち", "furigana": "{町|まち}", "meaningsPt": ["cidade", "bairro"], "sectionId": "n5-ch-14-s01" },
+    { "id": "v-n5-ch14-tera", "expression": "寺", "reading": "てら", "furigana": "{寺|てら}", "meaningsPt": ["templo budista"], "sectionId": "n5-ch-14-s01" },
+    { "id": "v-n5-ch14-otera", "expression": "お寺", "reading": "おてら", "furigana": "お{寺|てら}", "meaningsPt": ["templo budista"], "sectionId": "n5-ch-14-s01" },
+
+    { "id": "v-n5-ch14-densha", "expression": "電車", "reading": "でんしゃ", "furigana": "{電|でん}{車|しゃ}", "meaningsPt": ["trem"], "sectionId": "n5-ch-14-s02" },
+    { "id": "v-n5-ch14-kuruma", "expression": "車", "reading": "くるま", "furigana": "{車|くるま}", "meaningsPt": ["carro"], "sectionId": "n5-ch-14-s02" },
+    { "id": "v-n5-ch14-denwa", "expression": "電話", "reading": "でんわ", "furigana": "{電|でん}{話|わ}", "meaningsPt": ["telefone"], "sectionId": "n5-ch-14-s02" },
+
+    { "id": "v-n5-ch14-higashi", "expression": "東", "reading": "ひがし", "furigana": "{東|ひがし}", "meaningsPt": ["leste"], "sectionId": "n5-ch-14-s03" },
+    { "id": "v-n5-ch14-nishi", "expression": "西", "reading": "にし", "furigana": "{西|にし}", "meaningsPt": ["oeste"], "sectionId": "n5-ch-14-s03" },
+    { "id": "v-n5-ch14-higashiguchi", "expression": "東口", "reading": "ひがしぐち", "furigana": "{東|ひがし}{口|ぐち}", "meaningsPt": ["saída leste"], "sectionId": "n5-ch-14-s03" },
+    { "id": "v-n5-ch14-nishiguchi", "expression": "西口", "reading": "にしぐち", "furigana": "{西|にし}{口|ぐち}", "meaningsPt": ["saída oeste"], "sectionId": "n5-ch-14-s03" },
+
+    { "id": "v-n5-ch14-minami", "expression": "南", "reading": "みなみ", "furigana": "{南|みなみ}", "meaningsPt": ["sul"], "sectionId": "n5-ch-14-s04" },
+    { "id": "v-n5-ch14-kita", "expression": "北", "reading": "きた", "furigana": "{北|きた}", "meaningsPt": ["norte"], "sectionId": "n5-ch-14-s04" },
+    { "id": "v-n5-ch14-minamiguchi", "expression": "南口", "reading": "みなみぐち", "furigana": "{南|みなみ}{口|ぐち}", "meaningsPt": ["saída sul"], "sectionId": "n5-ch-14-s04" },
+    { "id": "v-n5-ch14-kitaguchi", "expression": "北口", "reading": "きたぐち", "furigana": "{北|きた}{口|ぐち}", "meaningsPt": ["saída norte"], "sectionId": "n5-ch-14-s04" },
+    { "id": "v-n5-ch14-touzainanboku", "expression": "東西南北", "reading": "とうざいなんぼく", "furigana": "{東|とう}{西|ざい}{南|なん}{北|ぼく}", "meaningsPt": ["os quatro pontos cardeais"], "sectionId": "n5-ch-14-s04" }
+  ]
+}

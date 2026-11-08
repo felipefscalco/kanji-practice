@@ -1,0 +1,21 @@
+{
+  "chapterId": "n5-ch-10",
+  "items": [
+    { "id": "v-n5-ch10-kome", "expression": "米", "reading": "こめ", "furigana": "{米|こめ}", "meaningsPt": ["arroz (grão)"], "sectionId": "n5-ch-10-s01" },
+    { "id": "v-n5-ch10-ocha", "expression": "お茶", "reading": "おちゃ", "furigana": "お{茶|ちゃ}", "meaningsPt": ["chá"], "sectionId": "n5-ch-10-s01" },
+
+    { "id": "v-n5-ch10-ushi", "expression": "牛", "reading": "うし", "furigana": "{牛|うし}", "meaningsPt": ["vaca", "boi"], "sectionId": "n5-ch-10-s02" },
+    { "id": "v-n5-ch10-gyuuniku", "expression": "牛肉", "reading": "ぎゅうにく", "furigana": "{牛|ぎゅう}{肉|にく}", "meaningsPt": ["carne bovina"], "sectionId": "n5-ch-10-s02" },
+    { "id": "v-n5-ch10-niku", "expression": "肉", "reading": "にく", "furigana": "{肉|にく}", "meaningsPt": ["carne"], "sectionId": "n5-ch-10-s02" },
+
+    { "id": "v-n5-ch10-sakana", "expression": "魚", "reading": "さかな", "furigana": "{魚|さかな}", "meaningsPt": ["peixe"], "sectionId": "n5-ch-10-s03" },
+    { "id": "v-n5-ch10-kingyo", "expression": "金魚", "reading": "きんぎょ", "furigana": "{金|きん}{魚|ぎょ}", "meaningsPt": ["peixinho dourado"], "sectionId": "n5-ch-10-s03" },
+    { "id": "v-n5-ch10-kai", "expression": "貝", "reading": "かい", "furigana": "{貝|かい}", "meaningsPt": ["marisco", "concha"], "sectionId": "n5-ch-10-s03" },
+
+    { "id": "v-n5-ch10-suki", "expression": "好き", "reading": "すき", "furigana": "{好|す}き", "meaningsPt": ["gostar"], "sectionId": "n5-ch-10-s04" },
+    { "id": "v-n5-ch10-daisuki", "expression": "大好き", "reading": "だいすき", "furigana": "{大|だい}{好|す}き", "meaningsPt": ["adorar"], "sectionId": "n5-ch-10-s04" },
+    { "id": "v-n5-ch10-mono", "expression": "物", "reading": "もの", "furigana": "{物|もの}", "meaningsPt": ["coisa"], "sectionId": "n5-ch-10-s04" },
+    { "id": "v-n5-ch10-koubutsu", "expression": "好物", "reading": "こうぶつ", "furigana": "{好|こう}{物|ぶつ}", "meaningsPt": ["comida favorita"], "sectionId": "n5-ch-10-s04" },
+    { "id": "v-n5-ch10-kenbutsu", "expression": "見物", "reading": "けんぶつ", "furigana": "{見|けん}{物|ぶつ}", "meaningsPt": ["passeio turístico"], "sectionId": "n5-ch-10-s04" }
+  ]
+}

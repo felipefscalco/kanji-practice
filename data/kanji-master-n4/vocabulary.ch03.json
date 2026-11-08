@@ -1,0 +1,68 @@
+{
+  "chapterId": "ch-03",
+  "items": [
+    { "id": "v-ch03-nimotsu", "expression": "荷物", "reading": "にもつ", "furigana": "{荷|に}{物|もつ}", "meaningsPt": ["bagagem", "encomenda"], "sectionId": "ch-03-s01" },
+    { "id": "v-ch03-ni", "expression": "荷", "reading": "に", "furigana": "{荷|に}", "meaningsPt": ["carga"], "sectionId": "ch-03-s01" },
+    { "id": "v-ch03-okuru", "expression": "送る", "reading": "おくる", "furigana": "{送|おく}る", "meaningsPt": ["enviar"], "sectionId": "ch-03-s01" },
+    { "id": "v-ch03-souryou", "expression": "送料", "reading": "そうりょう", "furigana": "{送|そう}{料|りょう}", "meaningsPt": ["frete"], "sectionId": "ch-03-s01" },
+    { "id": "v-ch03-miokuru", "expression": "見送る", "reading": "みおくる", "furigana": "{見|み}{送|おく}る", "meaningsPt": ["despedir-se (na partida)"], "sectionId": "ch-03-s01" },
+
+    { "id": "v-ch03-takuhaibin", "expression": "宅配便", "reading": "たくはいびん", "furigana": "{宅|たく}{配|はい}{便|びん}", "meaningsPt": ["entrega em domicílio"], "sectionId": "ch-03-s02" },
+    { "id": "v-ch03-jitaku", "expression": "自宅", "reading": "じたく", "furigana": "{自|じ}{宅|たく}", "meaningsPt": ["a própria casa"], "sectionId": "ch-03-s02" },
+    { "id": "v-ch03-isogu", "expression": "急ぐ", "reading": "いそぐ", "furigana": "{急|いそ}ぐ", "meaningsPt": ["apressar-se"], "sectionId": "ch-03-s02" },
+    { "id": "v-ch03-kyuuni", "expression": "急に", "reading": "きゅうに", "furigana": "{急|きゅう}に", "meaningsPt": ["de repente"], "sectionId": "ch-03-s02" },
+    { "id": "v-ch03-kyuukou", "expression": "急行", "reading": "きゅうこう", "furigana": "{急|きゅう}{行|こう}", "meaningsPt": ["trem rápido"], "sectionId": "ch-03-s02" },
+
+    { "id": "v-ch03-hayai", "expression": "速い", "reading": "はやい", "furigana": "{速|はや}い", "meaningsPt": ["rápido (velocidade)"], "sectionId": "ch-03-s03" },
+    { "id": "v-ch03-sokutatsu", "expression": "速達", "reading": "そくたつ", "furigana": "{速|そく}{達|たつ}", "meaningsPt": ["entrega expressa"], "sectionId": "ch-03-s03" },
+    { "id": "v-ch03-osoi", "expression": "遅い", "reading": "おそい", "furigana": "{遅|おそ}い", "meaningsPt": ["lento", "tarde"], "sectionId": "ch-03-s03" },
+    { "id": "v-ch03-okureru", "expression": "遅れる", "reading": "おくれる", "furigana": "{遅|おく}れる", "meaningsPt": ["atrasar-se"], "sectionId": "ch-03-s03" },
+
+    { "id": "v-ch03-omoi", "expression": "重い", "reading": "おもい", "furigana": "{重|おも}い", "meaningsPt": ["pesado"], "sectionId": "ch-03-s04" },
+    { "id": "v-ch03-taijuu", "expression": "体重", "reading": "たいじゅう", "furigana": "{体|たい}{重|じゅう}", "meaningsPt": ["peso (corporal)"], "sectionId": "ch-03-s04" },
+    { "id": "v-ch03-karui", "expression": "軽い", "reading": "かるい", "furigana": "{軽|かる}い", "meaningsPt": ["leve"], "sectionId": "ch-03-s04" },
+
+    { "id": "v-ch03-juusho", "expression": "住所", "reading": "じゅうしょ", "furigana": "{住|じゅう}{所|しょ}", "meaningsPt": ["endereço"], "sectionId": "ch-03-s05" },
+    { "id": "v-ch03-sumu", "expression": "住む", "reading": "すむ", "furigana": "{住|す}む", "meaningsPt": ["morar"], "sectionId": "ch-03-s05" },
+    { "id": "v-ch03-tokoro", "expression": "所", "reading": "ところ", "furigana": "{所|ところ}", "meaningsPt": ["lugar"], "sectionId": "ch-03-s05" },
+    { "id": "v-ch03-meisho", "expression": "名所", "reading": "めいしょ", "furigana": "{名|めい}{所|しょ}", "meaningsPt": ["ponto turístico"], "sectionId": "ch-03-s05" },
+
+    { "id": "v-ch03-sama", "expression": "様", "reading": "さま", "furigana": "{様|さま}", "meaningsPt": ["senhor(a) (tratamento)"], "sectionId": "ch-03-s06" },
+    { "id": "v-ch03-tanakasama", "expression": "田中様", "reading": "たなかさま", "furigana": "{田|た}{中|なか}{様|さま}", "meaningsPt": ["Sr(a). Tanaka"], "sectionId": "ch-03-s06" },
+    { "id": "v-ch03-shujin", "expression": "主人", "reading": "しゅじん", "furigana": "{主|しゅ}{人|じん}", "meaningsPt": ["marido", "dono"], "sectionId": "ch-03-s06" },
+    { "id": "v-ch03-omoni", "expression": "主に", "reading": "おもに", "furigana": "{主|おも}に", "meaningsPt": ["principalmente"], "sectionId": "ch-03-s06" },
+
+    { "id": "v-ch03-bangou", "expression": "番号", "reading": "ばんごう", "furigana": "{番|ばん}{号|ごう}", "meaningsPt": ["número"], "sectionId": "ch-03-s07" },
+    { "id": "v-ch03-ichiban", "expression": "一番", "reading": "いちばん", "furigana": "{一|いち}{番|ばん}", "meaningsPt": ["o primeiro", "o mais"], "sectionId": "ch-03-s07" },
+    { "id": "v-ch03-kouban", "expression": "交番", "reading": "こうばん", "furigana": "{交|こう}{番|ばん}", "meaningsPt": ["posto policial"], "sectionId": "ch-03-s07" },
+    { "id": "v-ch03-chizu", "expression": "地図", "reading": "ちず", "furigana": "{地|ち}{図|ず}", "meaningsPt": ["mapa"], "sectionId": "ch-03-s07" },
+    { "id": "v-ch03-chika", "expression": "地下", "reading": "ちか", "furigana": "{地|ち}{下|か}", "meaningsPt": ["subsolo"], "sectionId": "ch-03-s07" },
+    { "id": "v-ch03-banchi", "expression": "番地", "reading": "ばんち", "furigana": "{番|ばん}{地|ち}", "meaningsPt": ["número do endereço"], "sectionId": "ch-03-s07" },
+
+    { "id": "v-ch03-gou", "expression": "号", "reading": "ごう", "furigana": "{号|ごう}", "meaningsPt": ["número", "edição"], "sectionId": "ch-03-s08" },
+    { "id": "v-ch03-denwabangou", "expression": "電話番号", "reading": "でんわばんごう", "furigana": "{電|でん}{話|わ}{番|ばん}{号|ごう}", "meaningsPt": ["número de telefone"], "sectionId": "ch-03-s08" },
+    { "id": "v-ch03-toukyou", "expression": "東京", "reading": "とうきょう", "furigana": "{東|とう}{京|きょう}", "meaningsPt": ["Tóquio"], "sectionId": "ch-03-s08" },
+    { "id": "v-ch03-kyouto", "expression": "京都", "reading": "きょうと", "furigana": "{京|きょう}{都|と}", "meaningsPt": ["Quioto"], "sectionId": "ch-03-s08" },
+
+    { "id": "v-ch03-kuni", "expression": "国", "reading": "くに", "furigana": "{国|くに}", "meaningsPt": ["país"], "sectionId": "ch-03-s09" },
+    { "id": "v-ch03-gaikoku", "expression": "外国", "reading": "がいこく", "furigana": "{外|がい}{国|こく}", "meaningsPt": ["exterior", "país estrangeiro"], "sectionId": "ch-03-s09" },
+    { "id": "v-ch03-chuugoku", "expression": "中国", "reading": "ちゅうごく", "furigana": "{中|ちゅう}{国|ごく}", "meaningsPt": ["China"], "sectionId": "ch-03-s09" },
+    { "id": "v-ch03-tsugou", "expression": "都合", "reading": "つごう", "furigana": "{都|つ}{合|ごう}", "meaningsPt": ["conveniência (horário)"], "sectionId": "ch-03-s09" },
+    { "id": "v-ch03-shuto", "expression": "首都", "reading": "しゅと", "furigana": "{首|しゅ}{都|と}", "meaningsPt": ["capital (de país)"], "sectionId": "ch-03-s09" },
+
+    { "id": "v-ch03-michi", "expression": "道", "reading": "みち", "furigana": "{道|みち}", "meaningsPt": ["caminho", "rua"], "sectionId": "ch-03-s10" },
+    { "id": "v-ch03-hokkaidou", "expression": "北海道", "reading": "ほっかいどう", "furigana": "{北|ほっ}{海|かい}{道|どう}", "meaningsPt": ["Hokkaido"], "sectionId": "ch-03-s10" },
+    { "id": "v-ch03-oosakafu", "expression": "大阪府", "reading": "おおさかふ", "furigana": "{大|おお}{阪|さか}{府|ふ}", "meaningsPt": ["província de Osaka"], "sectionId": "ch-03-s10" },
+    { "id": "v-ch03-todoufuken", "expression": "都道府県", "reading": "とどうふけん", "furigana": "{都|と}{道|どう}{府|ふ}{県|けん}", "meaningsPt": ["províncias do Japão"], "sectionId": "ch-03-s10" },
+
+    { "id": "v-ch03-ken", "expression": "県", "reading": "けん", "furigana": "{県|けん}", "meaningsPt": ["província"], "sectionId": "ch-03-s11" },
+    { "id": "v-ch03-shi", "expression": "市", "reading": "し", "furigana": "{市|し}", "meaningsPt": ["cidade"], "sectionId": "ch-03-s11" },
+    { "id": "v-ch03-shichou", "expression": "市長", "reading": "しちょう", "furigana": "{市|し}{長|ちょう}", "meaningsPt": ["prefeito"], "sectionId": "ch-03-s11" },
+    { "id": "v-ch03-ichiba", "expression": "市場", "reading": "いちば", "furigana": "{市|いち}{場|ば}", "meaningsPt": ["mercado"], "sectionId": "ch-03-s11" },
+
+    { "id": "v-ch03-ku", "expression": "区", "reading": "く", "furigana": "{区|く}", "meaningsPt": ["distrito"], "sectionId": "ch-03-s12" },
+    { "id": "v-ch03-kuyakusho", "expression": "区役所", "reading": "くやくしょ", "furigana": "{区|く}{役|やく}{所|しょ}", "meaningsPt": ["administração distrital"], "sectionId": "ch-03-s12" },
+    { "id": "v-ch03-mura", "expression": "村", "reading": "むら", "furigana": "{村|むら}", "meaningsPt": ["vila", "aldeia"], "sectionId": "ch-03-s12" },
+    { "id": "v-ch03-shichouson", "expression": "市町村", "reading": "しちょうそん", "furigana": "{市|し}{町|ちょう}{村|そん}", "meaningsPt": ["cidades, bairros e vilas"], "sectionId": "ch-03-s12" }
+  ]
+}

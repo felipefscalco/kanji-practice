@@ -1,0 +1,68 @@
+{
+  "chapterId": "ch-01",
+  "items": [
+    { "id": "v-ch01-ie", "expression": "家", "reading": "いえ", "furigana": "{家|いえ}", "meaningsPt": ["casa"], "sectionId": "ch-01-s01" },
+    { "id": "v-ch01-kazoku", "expression": "家族", "reading": "かぞく", "furigana": "{家|か}{族|ぞく}", "meaningsPt": ["família"], "sectionId": "ch-01-s01" },
+    { "id": "v-ch01-daikazoku", "expression": "大家族", "reading": "だいかぞく", "furigana": "{大|だい}{家|か}{族|ぞく}", "meaningsPt": ["família grande"], "sectionId": "ch-01-s01" },
+    { "id": "v-ch01-kanai", "expression": "家内", "reading": "かない", "furigana": "{家|か}{内|ない}", "meaningsPt": ["esposa (a minha)"], "sectionId": "ch-01-s01" },
+    { "id": "v-ch01-iede", "expression": "家出", "reading": "いえで", "furigana": "{家|いえ}{出|で}", "meaningsPt": ["fugir de casa"], "sectionId": "ch-01-s01" },
+
+    { "id": "v-ch01-ani", "expression": "兄", "reading": "あに", "furigana": "{兄|あに}", "meaningsPt": ["irmão mais velho (o meu)"], "sectionId": "ch-01-s02" },
+    { "id": "v-ch01-oniisan", "expression": "お兄さん", "reading": "おにいさん", "furigana": "お{兄|にい}さん", "meaningsPt": ["irmão mais velho"], "sectionId": "ch-01-s02" },
+    { "id": "v-ch01-otouto", "expression": "弟", "reading": "おとうと", "furigana": "{弟|おとうと}", "meaningsPt": ["irmão mais novo"], "sectionId": "ch-01-s02" },
+    { "id": "v-ch01-kyoudai", "expression": "兄弟", "reading": "きょうだい", "furigana": "{兄|きょう}{弟|だい}", "meaningsPt": ["irmãos"], "sectionId": "ch-01-s02" },
+    { "id": "v-ch01-deshi", "expression": "弟子", "reading": "でし", "furigana": "{弟|で}{子|し}", "meaningsPt": ["discípulo"], "sectionId": "ch-01-s02" },
+
+    { "id": "v-ch01-ane", "expression": "姉", "reading": "あね", "furigana": "{姉|あね}", "meaningsPt": ["irmã mais velha (a minha)"], "sectionId": "ch-01-s03" },
+    { "id": "v-ch01-oneesan", "expression": "お姉さん", "reading": "おねえさん", "furigana": "お{姉|ねえ}さん", "meaningsPt": ["irmã mais velha"], "sectionId": "ch-01-s03" },
+    { "id": "v-ch01-imouto", "expression": "妹", "reading": "いもうと", "furigana": "{妹|いもうと}", "meaningsPt": ["irmã mais nova"], "sectionId": "ch-01-s03" },
+    { "id": "v-ch01-shimai", "expression": "姉妹", "reading": "しまい", "furigana": "{姉|し}{妹|まい}", "meaningsPt": ["irmãs"], "sectionId": "ch-01-s03" },
+
+    { "id": "v-ch01-watashi", "expression": "私", "reading": "わたし", "furigana": "{私|わたし}", "meaningsPt": ["eu"], "sectionId": "ch-01-s04" },
+    { "id": "v-ch01-shiritsu", "expression": "私立", "reading": "しりつ", "furigana": "{私|し}{立|りつ}", "meaningsPt": ["particular (escola)"], "sectionId": "ch-01-s04" },
+    { "id": "v-ch01-sodateru", "expression": "育てる", "reading": "そだてる", "furigana": "{育|そだ}てる", "meaningsPt": ["criar", "educar"], "sectionId": "ch-01-s04" },
+    { "id": "v-ch01-sodatsu", "expression": "育つ", "reading": "そだつ", "furigana": "{育|そだ}つ", "meaningsPt": ["crescer"], "sectionId": "ch-01-s04" },
+    { "id": "v-ch01-taiiku", "expression": "体育", "reading": "たいいく", "furigana": "{体|たい}{育|いく}", "meaningsPt": ["educação física"], "sectionId": "ch-01-s04" },
+
+    { "id": "v-ch01-heya", "expression": "部屋", "reading": "へや", "furigana": "{部屋|へや}", "meaningsPt": ["quarto", "cômodo"], "sectionId": "ch-01-s05" },
+    { "id": "v-ch01-bu", "expression": "部", "reading": "ぶ", "furigana": "{部|ぶ}", "meaningsPt": ["clube", "parte"], "sectionId": "ch-01-s05" },
+    { "id": "v-ch01-bubun", "expression": "部分", "reading": "ぶぶん", "furigana": "{部|ぶ}{分|ぶん}", "meaningsPt": ["parte"], "sectionId": "ch-01-s05" },
+    { "id": "v-ch01-ichibu", "expression": "一部", "reading": "いちぶ", "furigana": "{一|いち}{部|ぶ}", "meaningsPt": ["uma parte"], "sectionId": "ch-01-s05" },
+    { "id": "v-ch01-buchou", "expression": "部長", "reading": "ぶちょう", "furigana": "{部|ぶ}{長|ちょう}", "meaningsPt": ["chefe de departamento"], "sectionId": "ch-01-s05" },
+    { "id": "v-ch01-okujou", "expression": "屋上", "reading": "おくじょう", "furigana": "{屋|おく}{上|じょう}", "meaningsPt": ["terraço"], "sectionId": "ch-01-s05" },
+    { "id": "v-ch01-honya", "expression": "本屋", "reading": "ほんや", "furigana": "{本|ほん}{屋|や}", "meaningsPt": ["livraria"], "sectionId": "ch-01-s05" },
+    { "id": "v-ch01-hanaya", "expression": "花屋", "reading": "はなや", "furigana": "{花|はな}{屋|や}", "meaningsPt": ["floricultura"], "sectionId": "ch-01-s05" },
+
+    { "id": "v-ch01-hiroi", "expression": "広い", "reading": "ひろい", "furigana": "{広|ひろ}い", "meaningsPt": ["amplo", "espaçoso"], "sectionId": "ch-01-s06" },
+    { "id": "v-ch01-hikui", "expression": "低い", "reading": "ひくい", "furigana": "{低|ひく}い", "meaningsPt": ["baixo"], "sectionId": "ch-01-s06" },
+
+    { "id": "v-ch01-chikai", "expression": "近い", "reading": "ちかい", "furigana": "{近|ちか}い", "meaningsPt": ["perto"], "sectionId": "ch-01-s07" },
+    { "id": "v-ch01-chikaku", "expression": "近く", "reading": "ちかく", "furigana": "{近|ちか}く", "meaningsPt": ["arredores", "perto"], "sectionId": "ch-01-s07" },
+    { "id": "v-ch01-kinjo", "expression": "近所", "reading": "きんじょ", "furigana": "{近|きん}{所|じょ}", "meaningsPt": ["vizinhança"], "sectionId": "ch-01-s07" },
+    { "id": "v-ch01-tooi", "expression": "遠い", "reading": "とおい", "furigana": "{遠|とお}い", "meaningsPt": ["longe"], "sectionId": "ch-01-s07" },
+    { "id": "v-ch01-ensoku", "expression": "遠足", "reading": "えんそく", "furigana": "{遠|えん}{足|そく}", "meaningsPt": ["excursão"], "sectionId": "ch-01-s07" },
+
+    { "id": "v-ch01-shizuka", "expression": "静か", "reading": "しずか", "furigana": "{静|しず}か", "meaningsPt": ["silencioso", "calmo"], "sectionId": "ch-01-s08" },
+
+    { "id": "v-ch01-youfuku", "expression": "洋服", "reading": "ようふく", "furigana": "{洋|よう}{服|ふく}", "meaningsPt": ["roupa ocidental"], "sectionId": "ch-01-s09" },
+    { "id": "v-ch01-fuku", "expression": "服", "reading": "ふく", "furigana": "{服|ふく}", "meaningsPt": ["roupa"], "sectionId": "ch-01-s09" },
+    { "id": "v-ch01-seiyou", "expression": "西洋", "reading": "せいよう", "furigana": "{西|せい}{洋|よう}", "meaningsPt": ["Ocidente"], "sectionId": "ch-01-s09" },
+    { "id": "v-ch01-touyou", "expression": "東洋", "reading": "とうよう", "furigana": "{東|とう}{洋|よう}", "meaningsPt": ["Oriente"], "sectionId": "ch-01-s09" },
+    { "id": "v-ch01-youshoku", "expression": "洋食", "reading": "ようしょく", "furigana": "{洋|よう}{食|しょく}", "meaningsPt": ["comida ocidental"], "sectionId": "ch-01-s09" },
+
+    { "id": "v-ch01-mijikai", "expression": "短い", "reading": "みじかい", "furigana": "{短|みじか}い", "meaningsPt": ["curto"], "sectionId": "ch-01-s10" },
+    { "id": "v-ch01-tama", "expression": "玉", "reading": "たま", "furigana": "{玉|たま}", "meaningsPt": ["bola"], "sectionId": "ch-01-s10" },
+    { "id": "v-ch01-medama", "expression": "目玉", "reading": "めだま", "furigana": "{目|め}{玉|だま}", "meaningsPt": ["globo ocular"], "sectionId": "ch-01-s10" },
+    { "id": "v-ch01-juuendama", "expression": "十円玉", "reading": "じゅうえんだま", "furigana": "{十|じゅう}{円|えん}{玉|だま}", "meaningsPt": ["moeda de 10 ienes"], "sectionId": "ch-01-s10" },
+    { "id": "v-ch01-hyakuendama", "expression": "百円玉", "reading": "ひゃくえんだま", "furigana": "{百|ひゃく}{円|えん}{玉|だま}", "meaningsPt": ["moeda de 100 ienes"], "sectionId": "ch-01-s10" },
+
+    { "id": "v-ch01-ke", "expression": "毛", "reading": "け", "furigana": "{毛|け}", "meaningsPt": ["pelo", "cabelo"], "sectionId": "ch-01-s11" },
+    { "id": "v-ch01-keito", "expression": "毛糸", "reading": "けいと", "furigana": "{毛|け}{糸|いと}", "meaningsPt": ["fio de lã"], "sectionId": "ch-01-s11" },
+    { "id": "v-ch01-ito", "expression": "糸", "reading": "いと", "furigana": "{糸|いと}", "meaningsPt": ["linha", "fio"], "sectionId": "ch-01-s11" },
+
+    { "id": "v-ch01-hikari", "expression": "光", "reading": "ひかり", "furigana": "{光|ひかり}", "meaningsPt": ["luz"], "sectionId": "ch-01-s12" },
+    { "id": "v-ch01-hikaru", "expression": "光る", "reading": "ひかる", "furigana": "{光|ひか}る", "meaningsPt": ["brilhar"], "sectionId": "ch-01-s12" },
+    { "id": "v-ch01-nikkou", "expression": "日光", "reading": "にっこう", "furigana": "{日|にっ}{光|こう}", "meaningsPt": ["luz do sol"], "sectionId": "ch-01-s12" },
+    { "id": "v-ch01-ifuku", "expression": "衣服", "reading": "いふく", "furigana": "{衣|い}{服|ふく}", "meaningsPt": ["vestuário"], "sectionId": "ch-01-s12" }
+  ]
+}

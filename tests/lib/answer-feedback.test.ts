@@ -37,15 +37,16 @@ describe("describeTyped", () => {
 
   it("returns null when the answer is not in the book", () => {
     const item: ReviewItem = { type: "vocab", vocab: jinkou, kind: "writing" };
-    expect(describeTyped(item, "人口")).toBeNull();
+    expect(describeTyped(item, "人目")).toBeNull();
   });
 });
 
 describe("confusionHint", () => {
   it("names the kanji that differ in a writing answer", () => {
     const item: ReviewItem = { type: "vocab", vocab: jinkou, kind: "writing" };
+    // 人口 (N5 3章) has the same reading as 人工.
     const text = hintText(confusionHint(item, "人口", "人工"));
-    expect(text.startsWith("Kanji diferente: 工")).toBe(true);
+    expect(text.startsWith("Mesma leitura, kanji diferente: 工")).toBe(true);
     expect(text).toContain("(4-3)");
     expect(text).toContain("≠ 口");
   });

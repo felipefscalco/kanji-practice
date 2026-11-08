@@ -1,0 +1,27 @@
+{
+  "chapterId": "n5-ch-03",
+  "items": [
+    { "id": "v-n5-ch03-hito", "expression": "人", "reading": "ひと", "furigana": "{人|ひと}", "meaningsPt": ["pessoa"], "sectionId": "n5-ch-03-s01" },
+    { "id": "v-n5-ch03-hitori", "expression": "一人", "reading": "ひとり", "furigana": "{一|ひと}{人|り}", "meaningsPt": ["uma pessoa", "sozinho"], "sectionId": "n5-ch-03-s01" },
+    { "id": "v-n5-ch03-futari", "expression": "二人", "reading": "ふたり", "furigana": "{二|ふた}{人|り}", "meaningsPt": ["duas pessoas"], "sectionId": "n5-ch-03-s01" },
+    { "id": "v-n5-ch03-sannin", "expression": "三人", "reading": "さんにん", "furigana": "{三|さん}{人|にん}", "meaningsPt": ["três pessoas"], "sectionId": "n5-ch-03-s01" },
+    { "id": "v-n5-ch03-jinkou", "expression": "人口", "reading": "じんこう", "furigana": "{人|じん}{口|こう}", "meaningsPt": ["população"], "sectionId": "n5-ch-03-s01" },
+    { "id": "v-n5-ch03-kuchi", "expression": "口", "reading": "くち", "furigana": "{口|くち}", "meaningsPt": ["boca"], "sectionId": "n5-ch-03-s01" },
+
+    { "id": "v-n5-ch03-me", "expression": "目", "reading": "め", "furigana": "{目|め}", "meaningsPt": ["olho"], "sectionId": "n5-ch-03-s02" },
+    { "id": "v-n5-ch03-hitotsume", "expression": "一つ目", "reading": "ひとつめ", "furigana": "{一|ひと}つ{目|め}", "meaningsPt": ["o primeiro"], "sectionId": "n5-ch-03-s02" },
+    { "id": "v-n5-ch03-futatsume", "expression": "二つ目", "reading": "ふたつめ", "furigana": "{二|ふた}つ{目|め}", "meaningsPt": ["o segundo"], "sectionId": "n5-ch-03-s02" },
+    { "id": "v-n5-ch03-mimi", "expression": "耳", "reading": "みみ", "furigana": "{耳|みみ}", "meaningsPt": ["orelha", "ouvido"], "sectionId": "n5-ch-03-s02" },
+
+    { "id": "v-n5-ch03-te", "expression": "手", "reading": "て", "furigana": "{手|て}", "meaningsPt": ["mão"], "sectionId": "n5-ch-03-s03" },
+    { "id": "v-n5-ch03-ashi", "expression": "足", "reading": "あし", "furigana": "{足|あし}", "meaningsPt": ["pé", "perna"], "sectionId": "n5-ch-03-s03" },
+    { "id": "v-n5-ch03-teashi", "expression": "手足", "reading": "てあし", "furigana": "{手|て}{足|あし}", "meaningsPt": ["mãos e pés"], "sectionId": "n5-ch-03-s03" },
+    { "id": "v-n5-ch03-tariru", "expression": "足りる", "reading": "たりる", "furigana": "{足|た}りる", "meaningsPt": ["bastar", "ser suficiente"], "sectionId": "n5-ch-03-s03" },
+    { "id": "v-n5-ch03-issoku", "expression": "一足", "reading": "いっそく", "furigana": "{一|いっ}{足|そく}", "meaningsPt": ["um par (de calçados)"], "sectionId": "n5-ch-03-s03" },
+
+    { "id": "v-n5-ch03-chikara", "expression": "力", "reading": "ちから", "furigana": "{力|ちから}", "meaningsPt": ["força"], "sectionId": "n5-ch-03-s04" },
+    { "id": "v-n5-ch03-karyoku", "expression": "火力", "reading": "かりょく", "furigana": "{火|か}{力|りょく}", "meaningsPt": ["poder de fogo"], "sectionId": "n5-ch-03-s04" },
+    { "id": "v-n5-ch03-suiryoku", "expression": "水力", "reading": "すいりょく", "furigana": "{水|すい}{力|りょく}", "meaningsPt": ["energia hidráulica"], "sectionId": "n5-ch-03-s04" },
+    { "id": "v-n5-ch03-ou", "expression": "王", "reading": "おう", "furigana": "{王|おう}", "meaningsPt": ["rei"], "sectionId": "n5-ch-03-s04" }
+  ]
+}

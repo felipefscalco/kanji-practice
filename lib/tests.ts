@@ -3,6 +3,8 @@ import * as wanakana from "wanakana";
 import testsCh04 from "@/data/kanji-master-n4/tests.ch04.json";
 import testsCh05 from "@/data/kanji-master-n4/tests.ch05.json";
 import testsCh06 from "@/data/kanji-master-n4/tests.ch06.json";
+import { learnedThroughChapter } from "@/lib/curriculum";
+import { renderFurigana } from "@/lib/furigana";
 
 /** "class" = transcribed from a real class test; "generated" = written by scripts/generate-tests.ts. */
 export type TestSource = "class" | "generated";
@@ -37,7 +39,32 @@ export interface ChapterTestFile {
 export const QUESTIONS_PER_SECTION = 10;
 export const POINTS_PER_QUESTION = 5;
 
-const files = [testsCh04, testsCh05, testsCh06] as ChapterTestFile[];
+/**
+ * Kanji not learned by the end of the chapter carry their reading ("{店|みせ}") and are
+ * shown in kana, like the book; once a later book chapter teaches them they show as kanji.
+ */
+function renderChapterTest(file: ChapterTestFile): ChapterTestFile {
+  const learned = learnedThroughChapter(file.chapterId);
+  const render = (text: string) => renderFurigana(text, learned);
+  return {
+    chapterId: file.chapterId,
+    reading: file.reading.map((q) => ({ ...q, sentence: render(q.sentence) })),
+    writing: file.writing.map((q) => ({
+      ...q,
+      sentence: render(q.sentence),
+      answer: render(q.answer),
+      distractors: q.distractors.map(render),
+    })),
+  };
+}
+
+const rawFiles = [testsCh04, testsCh05, testsCh06] as ChapterTestFile[];
+const files = rawFiles.map(renderChapterTest);
+
+/** Test data as stored, with reading markup. */
+export function getRawChapterTests(): ChapterTestFile[] {
+  return rawFiles;
+}
 
 export function getChapterTest(chapterId: string): ChapterTestFile | undefined {
   return files.find((f) => f.chapterId === chapterId);

@@ -27,8 +27,8 @@ const schibsted = Schibsted_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Oyster — Kanji Master N4",
-  description: "SRS de kanji alinhado ao Kanji Master N4",
+  title: "Oyster — Kanji Master",
+  description: "SRS de kanji alinhado aos livros Kanji Master (N5, N4)",
 };
 
 export const viewport: Viewport = {

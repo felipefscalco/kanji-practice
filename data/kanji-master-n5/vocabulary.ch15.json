@@ -1,0 +1,25 @@
+{
+  "chapterId": "n5-ch-15",
+  "items": [
+    { "id": "v-n5-ch15-atarashii", "expression": "新しい", "reading": "あたらしい", "furigana": "{新|あたら}しい", "meaningsPt": ["novo"], "sectionId": "n5-ch-15-s01" },
+    { "id": "v-n5-ch15-furui", "expression": "古い", "reading": "ふるい", "furigana": "{古|ふる}い", "meaningsPt": ["velho", "antigo"], "sectionId": "n5-ch-15-s01" },
+    { "id": "v-n5-ch15-shinbun", "expression": "新聞", "reading": "しんぶん", "furigana": "{新|しん}{聞|ぶん}", "meaningsPt": ["jornal"], "sectionId": "n5-ch-15-s01" },
+    { "id": "v-n5-ch15-shinnen", "expression": "新年", "reading": "しんねん", "furigana": "{新|しん}{年|ねん}", "meaningsPt": ["ano novo"], "sectionId": "n5-ch-15-s01" },
+    { "id": "v-n5-ch15-chuuko", "expression": "中古", "reading": "ちゅうこ", "furigana": "{中|ちゅう}{古|こ}", "meaningsPt": ["usado", "de segunda mão"], "sectionId": "n5-ch-15-s01" },
+
+    { "id": "v-n5-ch15-nagai", "expression": "長い", "reading": "ながい", "furigana": "{長|なが}い", "meaningsPt": ["longo", "comprido"], "sectionId": "n5-ch-15-s02" },
+    { "id": "v-n5-ch15-yasui", "expression": "安い", "reading": "やすい", "furigana": "{安|やす}い", "meaningsPt": ["barato"], "sectionId": "n5-ch-15-s02" },
+    { "id": "v-n5-ch15-kouchou", "expression": "校長", "reading": "こうちょう", "furigana": "{校|こう}{長|ちょう}", "meaningsPt": ["diretor (de escola)"], "sectionId": "n5-ch-15-s02" },
+
+    { "id": "v-n5-ch15-ooi", "expression": "多い", "reading": "おおい", "furigana": "{多|おお}い", "meaningsPt": ["muitos"], "sectionId": "n5-ch-15-s03" },
+    { "id": "v-n5-ch15-sukunai", "expression": "少ない", "reading": "すくない", "furigana": "{少|すく}ない", "meaningsPt": ["poucos"], "sectionId": "n5-ch-15-s03" },
+    { "id": "v-n5-ch15-sukoshi", "expression": "少し", "reading": "すこし", "furigana": "{少|すこ}し", "meaningsPt": ["um pouco"], "sectionId": "n5-ch-15-s03" },
+    { "id": "v-n5-ch15-tashou", "expression": "多少", "reading": "たしょう", "furigana": "{多|た}{少|しょう}", "meaningsPt": ["mais ou menos", "um pouco"], "sectionId": "n5-ch-15-s03" },
+
+    { "id": "v-n5-ch15-genki", "expression": "元気", "reading": "げんき", "furigana": "{元|げん}{気|き}", "meaningsPt": ["animado", "saudável"], "sectionId": "n5-ch-15-s04" },
+    { "id": "v-n5-ch15-ki", "expression": "気", "reading": "き", "furigana": "{気|き}", "meaningsPt": ["ânimo", "espírito"], "sectionId": "n5-ch-15-s04" },
+    { "id": "v-n5-ch15-denki", "expression": "電気", "reading": "でんき", "furigana": "{電|でん}{気|き}", "meaningsPt": ["eletricidade", "luz"], "sectionId": "n5-ch-15-s04" },
+    { "id": "v-n5-ch15-ninki", "expression": "人気", "reading": "にんき", "furigana": "{人|にん}{気|き}", "meaningsPt": ["popularidade"], "sectionId": "n5-ch-15-s04" },
+    { "id": "v-n5-ch15-kibun", "expression": "気分", "reading": "きぶん", "furigana": "{気|き}{分|ぶん}", "meaningsPt": ["disposição", "humor"], "sectionId": "n5-ch-15-s04" }
+  ]
+}

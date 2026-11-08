@@ -12,6 +12,8 @@ import path from "node:path";
 
 import * as wanakana from "wanakana";
 
+import { learnedThroughChapter } from "../lib/curriculum";
+import { bareKanji, furiganaKanji } from "../lib/furigana";
 import type { ChaptersFile, VocabularyFile } from "../lib/kanji-types";
 import type { ChapterTestFile, ReadingQuestion, WritingQuestion } from "../lib/tests";
 
@@ -38,16 +40,20 @@ const existing: ChapterTestFile = existsSync(testPath)
   ? (JSON.parse(readFileSync(testPath, "utf8")) as ChapterTestFile)
   : { chapterId, reading: [], writing: [] };
 
-const chapterKanji = chapter.sections.flatMap((s) => s.kanjiIds.map((id) => id.replace(/^km-n4-/, "")));
+const chapterKanji = chapter.sections.flatMap((s) => s.kanjiIds.map((id) => id.replace(/^km-n\d-/, "")));
+/** Kanji learned by the end of the chapter (N5 book + N4 up to here): the only ones a question may show. */
+const learned = learnedThroughChapter(chapterId);
 
 const prompt = `You write questions for a Japanese "Kanji Master N4" chapter achievement test (アチーブメントテスト).
 The learner studies with Minna no Nihongo I and II: use only grammar and everyday vocabulary at that level.
 Write original sentences (do not copy textbook sentences). Separate phrases with a half-width space, like the class tests.
-Kanji outside the list below may appear only if they are N5 level; otherwise write those words in hiragana.
+The learner only knows these kanji: ${[...learned].join("")}
+Any other kanji must not appear as plain kanji: write the word in hiragana, or wrap that kanji with its reading as {店|みせ}
+(the app shows the reading until the kanji is taught). Distractors may use lookalike kanji freely.
 
 Chapter ${chapter.number} kanji: ${chapterKanji.join(" ")}
 Chapter vocabulary (expression = reading):
-${vocab.items.map((v) => `${v.expression} = ${v.reading}`).join("\n")}
+${vocab.items.map((v) => `${v.furigana ?? v.expression} = ${v.reading}`).join("\n")}
 
 Existing sentences (do not repeat them or their target words too often):
 ${[...existing.reading, ...existing.writing].map((q) => q.sentence).join("\n")}
@@ -77,7 +83,9 @@ const generated = JSON.parse(json) as {
 
 const seen = new Set([...existing.reading, ...existing.writing].map((q) => q.sentence));
 const hasTarget = (s: string) => (s.match(/\[[^\]]+\]/gu) ?? []).length === 1;
-const usesChapterKanji = (s: string) => chapterKanji.some((k) => s.includes(k));
+const usesChapterKanji = (s: string) => chapterKanji.some((k) => furiganaKanji(s).includes(k));
+/** Every plain kanji (outside {漢字|かな} markup) is already learned. */
+const onlyLearned = (s: string) => bareKanji(s).every((k) => learned.has(k));
 
 function nextId(kind: "r" | "w", list: { id: string }[]): string {
   const max = list.reduce((n, q) => Math.max(n, Number(q.id.split(`-${kind}`)[1]) || 0), 0);
@@ -87,7 +95,7 @@ function nextId(kind: "r" | "w", list: { id: string }[]): string {
 let skipped = 0;
 for (const q of generated.reading) {
   const target = /\[(.+?)\]/u.exec(q.sentence)?.[1] ?? "";
-  if (seen.has(q.sentence) || !hasTarget(q.sentence) || !usesChapterKanji(target) || !wanakana.isHiragana(q.answer)) {
+  if (seen.has(q.sentence) || !hasTarget(q.sentence) || !usesChapterKanji(target) || !onlyLearned(q.sentence) || !wanakana.isHiragana(q.answer)) {
     skipped++;
     continue;
   }
@@ -96,7 +104,14 @@ for (const q of generated.reading) {
 }
 for (const q of generated.writing) {
   const options = new Set([q.answer, ...(q.distractors ?? [])]);
-  if (seen.has(q.sentence) || !hasTarget(q.sentence) || !usesChapterKanji(q.answer) || q.distractors?.length !== 3 || options.size !== 4) {
+  if (
+    seen.has(q.sentence) ||
+    !hasTarget(q.sentence) ||
+    !usesChapterKanji(q.answer) ||
+    !onlyLearned(q.sentence + q.answer) ||
+    q.distractors?.length !== 3 ||
+    options.size !== 4
+  ) {
     skipped++;
     continue;
   }

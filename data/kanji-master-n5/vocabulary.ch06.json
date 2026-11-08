@@ -1,0 +1,30 @@
+{
+  "chapterId": "n5-ch-06",
+  "items": [
+    { "id": "v-n5-ch06-gakkou", "expression": "学校", "reading": "がっこう", "furigana": "{学|がっ}{校|こう}", "meaningsPt": ["escola"], "sectionId": "n5-ch-06-s01" },
+    { "id": "v-n5-ch06-chuugaku", "expression": "中学", "reading": "ちゅうがく", "furigana": "{中|ちゅう}{学|がく}", "meaningsPt": ["ensino fundamental II"], "sectionId": "n5-ch-06-s01" },
+    { "id": "v-n5-ch06-manabu", "expression": "学ぶ", "reading": "まなぶ", "furigana": "{学|まな}ぶ", "meaningsPt": ["aprender"], "sectionId": "n5-ch-06-s01" },
+    { "id": "v-n5-ch06-kounai", "expression": "校内", "reading": "こうない", "furigana": "{校|こう}{内|ない}", "meaningsPt": ["dentro da escola"], "sectionId": "n5-ch-06-s01" },
+
+    { "id": "v-n5-ch06-sensei", "expression": "先生", "reading": "せんせい", "furigana": "{先|せん}{生|せい}", "meaningsPt": ["professor"], "sectionId": "n5-ch-06-s02" },
+    { "id": "v-n5-ch06-gakusei", "expression": "学生", "reading": "がくせい", "furigana": "{学|がく}{生|せい}", "meaningsPt": ["estudante"], "sectionId": "n5-ch-06-s02" },
+    { "id": "v-n5-ch06-saki", "expression": "先", "reading": "さき", "furigana": "{先|さき}", "meaningsPt": ["ponta", "adiante"], "sectionId": "n5-ch-06-s02" },
+    { "id": "v-n5-ch06-sengetsu", "expression": "先月", "reading": "せんげつ", "furigana": "{先|せん}{月|げつ}", "meaningsPt": ["mês passado"], "sectionId": "n5-ch-06-s02" },
+    { "id": "v-n5-ch06-umareru", "expression": "生まれる", "reading": "うまれる", "furigana": "{生|う}まれる", "meaningsPt": ["nascer"], "sectionId": "n5-ch-06-s02" },
+    { "id": "v-n5-ch06-isshou", "expression": "一生", "reading": "いっしょう", "furigana": "{一|いっ}{生|しょう}", "meaningsPt": ["a vida toda"], "sectionId": "n5-ch-06-s02" },
+    { "id": "v-n5-ch06-nama", "expression": "生", "reading": "なま", "furigana": "{生|なま}", "meaningsPt": ["cru"], "sectionId": "n5-ch-06-s02" },
+
+    { "id": "v-n5-ch06-namae", "expression": "名前", "reading": "なまえ", "furigana": "{名|な}{前|まえ}", "meaningsPt": ["nome"], "sectionId": "n5-ch-06-s03" },
+    { "id": "v-n5-ch06-myouji", "expression": "名字", "reading": "みょうじ", "furigana": "{名|みょう}{字|じ}", "meaningsPt": ["sobrenome"], "sectionId": "n5-ch-06-s03" },
+    { "id": "v-n5-ch06-ji", "expression": "字", "reading": "じ", "furigana": "{字|じ}", "meaningsPt": ["letra", "caractere"], "sectionId": "n5-ch-06-s03" },
+    { "id": "v-n5-ch06-meijin", "expression": "名人", "reading": "めいじん", "furigana": "{名|めい}{人|じん}", "meaningsPt": ["mestre", "especialista"], "sectionId": "n5-ch-06-s03" },
+
+    { "id": "v-n5-ch06-hon", "expression": "本", "reading": "ほん", "furigana": "{本|ほん}", "meaningsPt": ["livro"], "sectionId": "n5-ch-06-s04" },
+    { "id": "v-n5-ch06-nihon", "expression": "日本", "reading": "にほん", "furigana": "{日|に}{本|ほん}", "meaningsPt": ["Japão"], "sectionId": "n5-ch-06-s04" },
+    { "id": "v-n5-ch06-nihonjin", "expression": "日本人", "reading": "にほんじん", "furigana": "{日|に}{本|ほん}{人|じん}", "meaningsPt": ["japonês (pessoa)"], "sectionId": "n5-ch-06-s04" },
+    { "id": "v-n5-ch06-ippon", "expression": "一本", "reading": "いっぽん", "furigana": "{一|いっ}{本|ぽん}", "meaningsPt": ["um (objeto longo)"], "sectionId": "n5-ch-06-s04" },
+    { "id": "v-n5-ch06-sanbon", "expression": "三本", "reading": "さんぼん", "furigana": "{三|さん}{本|ぼん}", "meaningsPt": ["três (objetos longos)"], "sectionId": "n5-ch-06-s04" },
+    { "id": "v-n5-ch06-yasumu", "expression": "休む", "reading": "やすむ", "furigana": "{休|やす}む", "meaningsPt": ["descansar", "faltar"], "sectionId": "n5-ch-06-s04" },
+    { "id": "v-n5-ch06-yasumi", "expression": "休み", "reading": "やすみ", "furigana": "{休|やす}み", "meaningsPt": ["folga", "férias"], "sectionId": "n5-ch-06-s04" }
+  ]
+}

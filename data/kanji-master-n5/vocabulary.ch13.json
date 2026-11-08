@@ -1,0 +1,21 @@
+{
+  "chapterId": "n5-ch-13",
+  "items": [
+    { "id": "v-n5-ch13-iu", "expression": "言う", "reading": "いう", "furigana": "{言|い}う", "meaningsPt": ["dizer"], "sectionId": "n5-ch-13-s01" },
+    { "id": "v-n5-ch13-kaku", "expression": "書く", "reading": "かく", "furigana": "{書|か}く", "meaningsPt": ["escrever"], "sectionId": "n5-ch-13-s01" },
+    { "id": "v-n5-ch13-kakikata", "expression": "書き方", "reading": "かきかた", "furigana": "{書|か}き{方|かた}", "meaningsPt": ["modo de escrever"], "sectionId": "n5-ch-13-s01" },
+
+    { "id": "v-n5-ch13-yomu", "expression": "読む", "reading": "よむ", "furigana": "{読|よ}む", "meaningsPt": ["ler"], "sectionId": "n5-ch-13-s02" },
+    { "id": "v-n5-ch13-yomikata", "expression": "読み方", "reading": "よみかた", "furigana": "{読|よ}み{方|かた}", "meaningsPt": ["modo de ler", "leitura"], "sectionId": "n5-ch-13-s02" },
+    { "id": "v-n5-ch13-hanasu", "expression": "話す", "reading": "はなす", "furigana": "{話|はな}す", "meaningsPt": ["falar"], "sectionId": "n5-ch-13-s02" },
+    { "id": "v-n5-ch13-hanashi", "expression": "話", "reading": "はなし", "furigana": "{話|はなし}", "meaningsPt": ["conversa", "história"], "sectionId": "n5-ch-13-s02" },
+
+    { "id": "v-n5-ch13-taberu", "expression": "食べる", "reading": "たべる", "furigana": "{食|た}べる", "meaningsPt": ["comer"], "sectionId": "n5-ch-13-s03" },
+    { "id": "v-n5-ch13-tabemono", "expression": "食べ物", "reading": "たべもの", "furigana": "{食|た}べ{物|もの}", "meaningsPt": ["comida"], "sectionId": "n5-ch-13-s03" },
+    { "id": "v-n5-ch13-nomu", "expression": "飲む", "reading": "のむ", "furigana": "{飲|の}む", "meaningsPt": ["beber"], "sectionId": "n5-ch-13-s03" },
+    { "id": "v-n5-ch13-nomimono", "expression": "飲み物", "reading": "のみもの", "furigana": "{飲|の}み{物|もの}", "meaningsPt": ["bebida"], "sectionId": "n5-ch-13-s03" },
+
+    { "id": "v-n5-ch13-kau", "expression": "買う", "reading": "かう", "furigana": "{買|か}う", "meaningsPt": ["comprar"], "sectionId": "n5-ch-13-s04" },
+    { "id": "v-n5-ch13-kaimono", "expression": "買い物", "reading": "かいもの", "furigana": "{買|か}い{物|もの}", "meaningsPt": ["compras"], "sectionId": "n5-ch-13-s04" }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "chapterId": "n5-ch-01",
+  "items": [
+    { "id": "v-n5-ch01-ichi", "expression": "一", "reading": "いち", "furigana": "{一|いち}", "meaningsPt": ["um"], "sectionId": "n5-ch-01-s01" },
+    { "id": "v-n5-ch01-hitotsu", "expression": "一つ", "reading": "ひとつ", "furigana": "{一|ひと}つ", "meaningsPt": ["um (contagem)"], "sectionId": "n5-ch-01-s01" },
+    { "id": "v-n5-ch01-ni", "expression": "二", "reading": "に", "furigana": "{二|に}", "meaningsPt": ["dois"], "sectionId": "n5-ch-01-s01" },
+    { "id": "v-n5-ch01-futatsu", "expression": "二つ", "reading": "ふたつ", "furigana": "{二|ふた}つ", "meaningsPt": ["dois (contagem)"], "sectionId": "n5-ch-01-s01" },
+
+    { "id": "v-n5-ch01-san", "expression": "三", "reading": "さん", "furigana": "{三|さん}", "meaningsPt": ["três"], "sectionId": "n5-ch-01-s02" },
+    { "id": "v-n5-ch01-mittsu", "expression": "三つ", "reading": "みっつ", "furigana": "{三|みっ}つ", "meaningsPt": ["três (contagem)"], "sectionId": "n5-ch-01-s02" },
+    { "id": "v-n5-ch01-yon", "expression": "四", "reading": "よん", "furigana": "{四|よん}", "meaningsPt": ["quatro"], "sectionId": "n5-ch-01-s02" },
+    { "id": "v-n5-ch01-yottsu", "expression": "四つ", "reading": "よっつ", "furigana": "{四|よっ}つ", "meaningsPt": ["quatro (contagem)"], "sectionId": "n5-ch-01-s02" },
+
+    { "id": "v-n5-ch01-go", "expression": "五", "reading": "ご", "furigana": "{五|ご}", "meaningsPt": ["cinco"], "sectionId": "n5-ch-01-s03" },
+    { "id": "v-n5-ch01-itsutsu", "expression": "五つ", "reading": "いつつ", "furigana": "{五|いつ}つ", "meaningsPt": ["cinco (contagem)"], "sectionId": "n5-ch-01-s03" },
+    { "id": "v-n5-ch01-roku", "expression": "六", "reading": "ろく", "furigana": "{六|ろく}", "meaningsPt": ["seis"], "sectionId": "n5-ch-01-s03" },
+    { "id": "v-n5-ch01-muttsu", "expression": "六つ", "reading": "むっつ", "furigana": "{六|むっ}つ", "meaningsPt": ["seis (contagem)"], "sectionId": "n5-ch-01-s03" },
+
+    { "id": "v-n5-ch01-nana", "expression": "七", "reading": "なな", "furigana": "{七|なな}", "meaningsPt": ["sete"], "sectionId": "n5-ch-01-s04" },
+    { "id": "v-n5-ch01-nanatsu", "expression": "七つ", "reading": "ななつ", "furigana": "{七|なな}つ", "meaningsPt": ["sete (contagem)"], "sectionId": "n5-ch-01-s04" },
+    { "id": "v-n5-ch01-hachi", "expression": "八", "reading": "はち", "furigana": "{八|はち}", "meaningsPt": ["oito"], "sectionId": "n5-ch-01-s04" },
+    { "id": "v-n5-ch01-yattsu", "expression": "八つ", "reading": "やっつ", "furigana": "{八|やっ}つ", "meaningsPt": ["oito (contagem)"], "sectionId": "n5-ch-01-s04" },
+
+    { "id": "v-n5-ch01-kyuu", "expression": "九", "reading": "きゅう", "furigana": "{九|きゅう}", "meaningsPt": ["nove"], "sectionId": "n5-ch-01-s05" },
+    { "id": "v-n5-ch01-kokonotsu", "expression": "九つ", "reading": "ここのつ", "furigana": "{九|ここの}つ", "meaningsPt": ["nove (contagem)"], "sectionId": "n5-ch-01-s05" },
+    { "id": "v-n5-ch01-juu", "expression": "十", "reading": "じゅう", "furigana": "{十|じゅう}", "meaningsPt": ["dez"], "sectionId": "n5-ch-01-s05" },
+    { "id": "v-n5-ch01-juuichi", "expression": "十一", "reading": "じゅういち", "furigana": "{十|じゅう}{一|いち}", "meaningsPt": ["onze"], "sectionId": "n5-ch-01-s05" },
+    { "id": "v-n5-ch01-nijuu", "expression": "二十", "reading": "にじゅう", "furigana": "{二|に}{十|じゅう}", "meaningsPt": ["vinte"], "sectionId": "n5-ch-01-s05" },
+    { "id": "v-n5-ch01-yonjuu", "expression": "四十", "reading": "よんじゅう", "furigana": "{四|よん}{十|じゅう}", "meaningsPt": ["quarenta"], "sectionId": "n5-ch-01-s05" },
+    { "id": "v-n5-ch01-kyuujuu", "expression": "九十", "reading": "きゅうじゅう", "furigana": "{九|きゅう}{十|じゅう}", "meaningsPt": ["noventa"], "sectionId": "n5-ch-01-s05" },
+
+    { "id": "v-n5-ch01-hyaku", "expression": "百", "reading": "ひゃく", "furigana": "{百|ひゃく}", "meaningsPt": ["cem"], "sectionId": "n5-ch-01-s06" },
+    { "id": "v-n5-ch01-sanbyaku", "expression": "三百", "reading": "さんびゃく", "furigana": "{三|さん}{百|びゃく}", "meaningsPt": ["trezentos"], "sectionId": "n5-ch-01-s06" },
+    { "id": "v-n5-ch01-roppyaku", "expression": "六百", "reading": "ろっぴゃく", "furigana": "{六|ろっ}{百|ぴゃく}", "meaningsPt": ["seiscentos"], "sectionId": "n5-ch-01-s06" },
+    { "id": "v-n5-ch01-happyaku", "expression": "八百", "reading": "はっぴゃく", "furigana": "{八|はっ}{百|ぴゃく}", "meaningsPt": ["oitocentos"], "sectionId": "n5-ch-01-s06" },
+    { "id": "v-n5-ch01-sen", "expression": "千", "reading": "せん", "furigana": "{千|せん}", "meaningsPt": ["mil"], "sectionId": "n5-ch-01-s06" },
+    { "id": "v-n5-ch01-sanzen", "expression": "三千", "reading": "さんぜん", "furigana": "{三|さん}{千|ぜん}", "meaningsPt": ["três mil"], "sectionId": "n5-ch-01-s06" },
+    { "id": "v-n5-ch01-hassen", "expression": "八千", "reading": "はっせん", "furigana": "{八|はっ}{千|せん}", "meaningsPt": ["oito mil"], "sectionId": "n5-ch-01-s06" },
+
+    { "id": "v-n5-ch01-ichiman", "expression": "一万", "reading": "いちまん", "furigana": "{一|いち}{万|まん}", "meaningsPt": ["dez mil"], "sectionId": "n5-ch-01-s07" },
+    { "id": "v-n5-ch01-juuman", "expression": "十万", "reading": "じゅうまん", "furigana": "{十|じゅう}{万|まん}", "meaningsPt": ["cem mil"], "sectionId": "n5-ch-01-s07" },
+    { "id": "v-n5-ch01-hyakuman", "expression": "百万", "reading": "ひゃくまん", "furigana": "{百|ひゃく}{万|まん}", "meaningsPt": ["um milhão"], "sectionId": "n5-ch-01-s07" },
+    { "id": "v-n5-ch01-en", "expression": "円", "reading": "えん", "furigana": "{円|えん}", "meaningsPt": ["iene"], "sectionId": "n5-ch-01-s07" },
+    { "id": "v-n5-ch01-goen", "expression": "五円", "reading": "ごえん", "furigana": "{五|ご}{円|えん}", "meaningsPt": ["cinco ienes"], "sectionId": "n5-ch-01-s07" },
+    { "id": "v-n5-ch01-hyakuen", "expression": "百円", "reading": "ひゃくえん", "furigana": "{百|ひゃく}{円|えん}", "meaningsPt": ["cem ienes"], "sectionId": "n5-ch-01-s07" },
+    { "id": "v-n5-ch01-senen", "expression": "千円", "reading": "せんえん", "furigana": "{千|せん}{円|えん}", "meaningsPt": ["mil ienes"], "sectionId": "n5-ch-01-s07" },
+    { "id": "v-n5-ch01-ichimanen", "expression": "一万円", "reading": "いちまんえん", "furigana": "{一|いち}{万|まん}{円|えん}", "meaningsPt": ["dez mil ienes"], "sectionId": "n5-ch-01-s07" }
+  ]
+}

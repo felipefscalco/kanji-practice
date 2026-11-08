@@ -6,8 +6,7 @@ import { AppShell } from "@/components/app-shell";
 import { TestPaperForm } from "@/components/tests/test-paper";
 import { TestResults } from "@/components/tests/test-results";
 import { Button } from "@/components/ui/button";
-import { getChapterById } from "@/lib/curriculum";
-import type { Chapter } from "@/lib/kanji-types";
+import { chapterTitle, getChapterById } from "@/lib/curriculum";
 import {
   buildTest,
   getChapterTest,
@@ -22,10 +21,6 @@ type View =
   | { kind: "pick" }
   | { kind: "taking"; paper: TestPaper }
   | { kind: "done"; paper: TestPaper; answers: TestAnswers; result: TestResult };
-
-function chapterTitle(chapter: Chapter): string {
-  return `第${chapter.number}章 ${chapter.titleJa}`;
-}
 
 export default function TestsPage() {
   const [view, setView] = useState<View>({ kind: "pick" });
