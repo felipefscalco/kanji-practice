@@ -50,6 +50,8 @@ type Batch = {
   /** Where the next regular batch starts in the cycle. */
   nextOffset: number;
   id: number;
+  /** Extra batch with the misses of the previous one, outside the cycle. */
+  extra?: boolean;
 };
 
 type Finished = { summary: SessionSummary; streak: number };
@@ -86,7 +88,7 @@ function PracticeRunner() {
       return;
     }
     // A short extra batch with the misses; the cycle position stays put.
-    setBatch({ items: finished.summary.missed.map((m) => m.item), nextOffset: batch.nextOffset, id: batch.id + 1 });
+    setBatch({ items: finished.summary.missed.map((m) => m.item), nextOffset: batch.nextOffset, id: batch.id + 1, extra: true });
     setFinished(null);
   }
 
@@ -115,5 +117,13 @@ function PracticeRunner() {
     );
   }
 
-  return <PracticeSession key={batch.id} items={batch.items} onFinish={finish} />;
+  const showCycle = !batch.extra && cycle.length > SESSION_SIZE;
+  return (
+    <PracticeSession
+      key={batch.id}
+      items={batch.items}
+      cycle={showCycle ? { startOffset: batch.nextOffset - batch.items.length, length: cycle.length } : undefined}
+      onFinish={finish}
+    />
+  );
 }

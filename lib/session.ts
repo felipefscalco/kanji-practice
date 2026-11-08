@@ -159,6 +159,31 @@ export function minutesRemaining(state: SessionState): number {
   return Math.max(1, Math.ceil((left * perItem) / 60_000));
 }
 
+export interface CycleProgress {
+  /** Items of the cycle answered at least once (earlier batches + this one). */
+  done: number;
+  total: number;
+  /** 1-based batch number within the cycle. */
+  batch: number;
+  batches: number;
+}
+
+/** Progress through the whole practice cycle, of which this batch starts at `startOffset`. */
+export function cycleProgress(
+  state: SessionState,
+  startOffset: number,
+  cycleLength: number,
+  size: number = SESSION_SIZE,
+): CycleProgress {
+  const answeredHere = state.answers.filter((a) => !a.repeat).length;
+  return {
+    done: Math.min(startOffset + answeredHere, cycleLength),
+    total: cycleLength,
+    batch: Math.floor(startOffset / size) + 1,
+    batches: Math.ceil(cycleLength / size),
+  };
+}
+
 export interface MissedItem {
   item: ReviewItem;
   /** First wrong answer given in the session ("" when skipped). */

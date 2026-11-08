@@ -9,6 +9,7 @@ import {
   counts,
   createSession,
   currentEntry,
+  cycleProgress,
   isFinished,
   minutesRemaining,
   summarize,
@@ -39,6 +40,27 @@ describe("takeBatch", () => {
     const last = takeBatch(cycle, 40);
     expect(last.items).toHaveLength(5);
     expect(last.nextOffset).toBe(45);
+  });
+});
+
+describe("cycleProgress", () => {
+  it("counts the whole cycle: earlier batches plus first answers of this one", () => {
+    const cycle = Array.from({ length: 45 }, (_, i) => item(String(i)));
+    const { items } = takeBatch(cycle, 20);
+    let s = createSession(items, 0);
+    expect(cycleProgress(s, 20, 45)).toEqual({ done: 20, total: 45, batch: 2, batches: 3 });
+
+    s = advance(answer(s, "err", "x", 1));
+    s = advance(answer(s, "ok", "x", 2));
+    expect(cycleProgress(s, 20, 45).done).toBe(22);
+
+    // A retry of a failed item does not count twice.
+    while (!currentEntry(s)?.repeat) {
+      s = advance(answer(s, "ok", "x", 3));
+    }
+    expect(cycleProgress(s, 20, 45).done).toBe(40);
+    s = answer(s, "ok", "x", 4);
+    expect(cycleProgress(s, 20, 45).done).toBe(40);
   });
 });
 

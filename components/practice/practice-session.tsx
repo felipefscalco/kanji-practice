@@ -17,6 +17,7 @@ import {
   counts,
   createSession,
   currentEntry,
+  cycleProgress,
   isFinished,
   minutesRemaining,
   undoError,
@@ -26,9 +27,12 @@ import {
 /** Runs one batch in focus mode and hands the finished state back. */
 export function PracticeSession({
   items,
+  cycle,
   onFinish,
 }: {
   items: ReviewItem[];
+  /** Where this batch sits in the practice cycle; omitted for single-batch or extra batches. */
+  cycle?: { startOffset: number; length: number };
   onFinish: (state: SessionState) => void;
 }) {
   const router = useRouter();
@@ -89,6 +93,7 @@ export function PracticeSession({
         ok={ok}
         err={err}
         minutesLeft={minutesRemaining(session)}
+        cycle={cycle ? cycleProgress(session, cycle.startOffset, cycle.length) : undefined}
       />
       <main className="flex flex-1 flex-col items-center gap-4 px-4 pb-8 pt-1 sm:gap-5 sm:px-6 sm:pb-12 sm:pt-10">
         {entry ? (
