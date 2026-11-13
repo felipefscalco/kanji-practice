@@ -3,6 +3,7 @@ import * as wanakana from "wanakana";
 import testsCh04 from "@/data/kanji-master-n4/tests.ch04.json";
 import testsCh05 from "@/data/kanji-master-n4/tests.ch05.json";
 import testsCh06 from "@/data/kanji-master-n4/tests.ch06.json";
+import testsCh07 from "@/data/kanji-master-n4/tests.ch07.json";
 import { learnedThroughChapter } from "@/lib/curriculum";
 import { renderFurigana } from "@/lib/furigana";
 
@@ -58,7 +59,7 @@ function renderChapterTest(file: ChapterTestFile): ChapterTestFile {
   };
 }
 
-const rawFiles = [testsCh04, testsCh05, testsCh06] as ChapterTestFile[];
+const rawFiles = [testsCh04, testsCh05, testsCh06, testsCh07] as ChapterTestFile[];
 const files = rawFiles.map(renderChapterTest);
 
 /** Test data as stored, with reading markup. */
