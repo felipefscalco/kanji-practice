@@ -462,6 +462,86 @@
           "kanjiIds": ["km-n4-麦"]
         }
       ]
+    },
+    {
+      "id": "ch-07",
+      "number": 7,
+      "titleJa": "春夏秋冬",
+      "titlePt": "Capítulo 7 (livro: 春夏秋冬)",
+      "sections": [
+        {
+          "id": "ch-07-s01",
+          "titleJa": "7-1 きせつ",
+          "titlePt": "春 · 夏",
+          "kanjiIds": ["km-n4-春", "km-n4-夏"]
+        },
+        {
+          "id": "ch-07-s02",
+          "titleJa": "7-1 きせつ",
+          "titlePt": "秋 · 冬",
+          "kanjiIds": ["km-n4-秋", "km-n4-冬"]
+        },
+        {
+          "id": "ch-07-s03",
+          "titleJa": "7-1 きせつ",
+          "titlePt": "空 · 星",
+          "kanjiIds": ["km-n4-空", "km-n4-星"]
+        },
+        {
+          "id": "ch-07-s04",
+          "titleJa": "7-1 きせつ",
+          "titlePt": "雲 · 去",
+          "kanjiIds": ["km-n4-雲", "km-n4-去"]
+        },
+        {
+          "id": "ch-07-s05",
+          "titleJa": "7-2 てんき",
+          "titlePt": "天 · 晴",
+          "kanjiIds": ["km-n4-天", "km-n4-晴"]
+        },
+        {
+          "id": "ch-07-s06",
+          "titleJa": "7-2 てんき",
+          "titlePt": "雪 · 風",
+          "kanjiIds": ["km-n4-雪", "km-n4-風"]
+        },
+        {
+          "id": "ch-07-s07",
+          "titleJa": "7-2 てんき",
+          "titlePt": "強 · 弱",
+          "kanjiIds": ["km-n4-強", "km-n4-弱"]
+        },
+        {
+          "id": "ch-07-s08",
+          "titleJa": "7-2 てんき",
+          "titlePt": "暑 · 寒",
+          "kanjiIds": ["km-n4-暑", "km-n4-寒"]
+        },
+        {
+          "id": "ch-07-s09",
+          "titleJa": "7-3 りょこう",
+          "titlePt": "旅 · 持",
+          "kanjiIds": ["km-n4-旅", "km-n4-持"]
+        },
+        {
+          "id": "ch-07-s10",
+          "titleJa": "7-3 りょこう",
+          "titlePt": "世 · 界",
+          "kanjiIds": ["km-n4-世", "km-n4-界"]
+        },
+        {
+          "id": "ch-07-s11",
+          "titleJa": "7-3 りょこう",
+          "titlePt": "写 · 真",
+          "kanjiIds": ["km-n4-写", "km-n4-真"]
+        },
+        {
+          "id": "ch-07-s12",
+          "titleJa": "7-3 りょこう",
+          "titlePt": "船",
+          "kanjiIds": ["km-n4-船"]
+        }
+      ]
     }
   ]
 }

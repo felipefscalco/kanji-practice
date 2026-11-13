@@ -45,4 +45,16 @@ describe("curriculum", () => {
     expect(lesson63?.map((s) => s.titlePt)).toEqual(["味 · 油", "太 · 細", "皿 · 飯", "麦"]);
     expect(resolveKanjiIds(["ch-06-s12"])).toEqual(["km-n4-麦"]);
   });
+
+  it("includes chapter 7 lessons 7-1 きせつ, 7-2 てんき and 7-3 りょこう", () => {
+    const ch = getChapters().find((c) => c.id === "ch-07");
+    expect(ch?.titleJa).toBe("春夏秋冬");
+    const lesson71 = ch?.sections.filter((s) => s.titleJa === "7-1 きせつ");
+    expect(lesson71?.map((s) => s.titlePt)).toEqual(["春 · 夏", "秋 · 冬", "空 · 星", "雲 · 去"]);
+    const lesson72 = ch?.sections.filter((s) => s.titleJa === "7-2 てんき");
+    expect(lesson72?.map((s) => s.titlePt)).toEqual(["天 · 晴", "雪 · 風", "強 · 弱", "暑 · 寒"]);
+    const lesson73 = ch?.sections.filter((s) => s.titleJa === "7-3 りょこう");
+    expect(lesson73?.map((s) => s.titlePt)).toEqual(["旅 · 持", "世 · 界", "写 · 真", "船"]);
+    expect(resolveKanjiIds(["ch-07-s08"])).toEqual(["km-n4-暑", "km-n4-寒"]);
+  });
 });

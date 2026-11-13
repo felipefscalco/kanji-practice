@@ -4,6 +4,7 @@ import vocabCh03 from "@/data/kanji-master-n4/vocabulary.ch03.json";
 import vocabCh04 from "@/data/kanji-master-n4/vocabulary.ch04.json";
 import vocabCh05 from "@/data/kanji-master-n4/vocabulary.ch05.json";
 import vocabCh06 from "@/data/kanji-master-n4/vocabulary.ch06.json";
+import vocabCh07 from "@/data/kanji-master-n4/vocabulary.ch07.json";
 import vocabN5Ch01 from "@/data/kanji-master-n5/vocabulary.ch01.json";
 import vocabN5Ch02 from "@/data/kanji-master-n5/vocabulary.ch02.json";
 import vocabN5Ch03 from "@/data/kanji-master-n5/vocabulary.ch03.json";
@@ -47,6 +48,7 @@ const files = [
   vocabCh04,
   vocabCh05,
   vocabCh06,
+  vocabCh07,
 ] as VocabularyFile[];
 
 /** The word as shown at its section: kanji not learned yet become kana. */

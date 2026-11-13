@@ -92,6 +92,25 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-雲",
+    "character": "雲",
+    "meaningsPt": [
+      "nuvem"
+    ],
+    "meaningsEn": [
+      "cloud"
+    ],
+    "onReadings": [
+      "ウン"
+    ],
+    "kunReadings": [
+      "くも",
+      "-ぐも"
+    ],
+    "strokeCount": 12,
+    "jlpt": 2
+  },
+  {
     "id": "km-n4-映",
     "character": "映",
     "meaningsPt": [
@@ -269,6 +288,26 @@
     "jlpt": 3
   },
   {
+    "id": "km-n4-夏",
+    "character": "夏",
+    "meaningsPt": [
+      "verão"
+    ],
+    "meaningsEn": [
+      "summer"
+    ],
+    "onReadings": [
+      "カ",
+      "ガ",
+      "ゲ"
+    ],
+    "kunReadings": [
+      "なつ"
+    ],
+    "strokeCount": 10,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-家",
     "character": "家",
     "meaningsPt": [
@@ -416,6 +455,24 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-界",
+    "character": "界",
+    "meaningsPt": [
+      "mundo",
+      "limite"
+    ],
+    "meaningsEn": [
+      "world",
+      "boundary"
+    ],
+    "onReadings": [
+      "カイ"
+    ],
+    "kunReadings": [],
+    "strokeCount": 9,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-開",
     "character": "開",
     "meaningsPt": [
@@ -466,6 +523,24 @@
     ],
     "strokeCount": 13,
     "jlpt": 4
+  },
+  {
+    "id": "km-n4-寒",
+    "character": "寒",
+    "meaningsPt": [
+      "frio"
+    ],
+    "meaningsEn": [
+      "cold"
+    ],
+    "onReadings": [
+      "カン"
+    ],
+    "kunReadings": [
+      "さむ"
+    ],
+    "strokeCount": 12,
+    "jlpt": 3
   },
   {
     "id": "km-n4-館",
@@ -556,6 +631,33 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-去",
+    "character": "去",
+    "meaningsPt": [
+      "passado",
+      "ir embora"
+    ],
+    "meaningsEn": [
+      "gone",
+      "past",
+      "quit",
+      "leave",
+      "elapse",
+      "eliminate",
+      "divorce"
+    ],
+    "onReadings": [
+      "キョ",
+      "コ"
+    ],
+    "kunReadings": [
+      "さ",
+      "-さ"
+    ],
+    "strokeCount": 5,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-京",
     "character": "京",
     "meaningsPt": [
@@ -574,6 +676,29 @@
       "みやこ"
     ],
     "strokeCount": 8,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-強",
+    "character": "強",
+    "meaningsPt": [
+      "forte"
+    ],
+    "meaningsEn": [
+      "strong"
+    ],
+    "onReadings": [
+      "キョウ",
+      "ゴウ"
+    ],
+    "kunReadings": [
+      "つよ",
+      "つよ",
+      "つよ",
+      "し",
+      "こわ"
+    ],
+    "strokeCount": 11,
     "jlpt": 4
   },
   {
@@ -657,6 +782,37 @@
     "kunReadings": [],
     "strokeCount": 4,
     "jlpt": 2
+  },
+  {
+    "id": "km-n4-空",
+    "character": "空",
+    "meaningsPt": [
+      "céu",
+      "vazio",
+      "ficar livre"
+    ],
+    "meaningsEn": [
+      "empty",
+      "sky",
+      "void",
+      "vacant",
+      "vacuum"
+    ],
+    "onReadings": [
+      "クウ"
+    ],
+    "kunReadings": [
+      "そら",
+      "あ",
+      "あ",
+      "あ",
+      "から",
+      "す",
+      "す",
+      "むな"
+    ],
+    "strokeCount": 8,
+    "jlpt": 4
   },
   {
     "id": "km-n4-兄",
@@ -1375,6 +1531,54 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-持",
+    "character": "持",
+    "meaningsPt": [
+      "segurar",
+      "ter",
+      "carregar"
+    ],
+    "meaningsEn": [
+      "hold",
+      "have"
+    ],
+    "onReadings": [
+      "ジ"
+    ],
+    "kunReadings": [
+      "も",
+      "-も",
+      "も"
+    ],
+    "strokeCount": 9,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-写",
+    "character": "写",
+    "meaningsPt": [
+      "copiar",
+      "fotografar"
+    ],
+    "meaningsEn": [
+      "copy",
+      "be photographed",
+      "describe"
+    ],
+    "onReadings": [
+      "シャ",
+      "ジャ"
+    ],
+    "kunReadings": [
+      "うつ",
+      "うつ",
+      "うつ-",
+      "うつ"
+    ],
+    "strokeCount": 5,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-社",
     "character": "社",
     "meaningsPt": [
@@ -1428,6 +1632,28 @@
     "jlpt": 3
   },
   {
+    "id": "km-n4-弱",
+    "character": "弱",
+    "meaningsPt": [
+      "fraco"
+    ],
+    "meaningsEn": [
+      "weak",
+      "frail"
+    ],
+    "onReadings": [
+      "ジャク"
+    ],
+    "kunReadings": [
+      "よわ",
+      "よわ",
+      "よわ",
+      "よわ"
+    ],
+    "strokeCount": 10,
+    "jlpt": 2
+  },
+  {
     "id": "km-n4-主",
     "character": "主",
     "meaningsPt": [
@@ -1474,6 +1700,25 @@
     ],
     "strokeCount": 10,
     "jlpt": 3
+  },
+  {
+    "id": "km-n4-秋",
+    "character": "秋",
+    "meaningsPt": [
+      "outono"
+    ],
+    "meaningsEn": [
+      "autumn"
+    ],
+    "onReadings": [
+      "シュウ"
+    ],
+    "kunReadings": [
+      "あき",
+      "とき"
+    ],
+    "strokeCount": 9,
+    "jlpt": 4
   },
   {
     "id": "km-n4-終",
@@ -1600,6 +1845,25 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-春",
+    "character": "春",
+    "meaningsPt": [
+      "primavera"
+    ],
+    "meaningsEn": [
+      "springtime",
+      "spring (season)"
+    ],
+    "onReadings": [
+      "シュン"
+    ],
+    "kunReadings": [
+      "はる"
+    ],
+    "strokeCount": 9,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-所",
     "character": "所",
     "meaningsPt": [
@@ -1620,6 +1884,27 @@
     ],
     "strokeCount": 8,
     "jlpt": 3
+  },
+  {
+    "id": "km-n4-暑",
+    "character": "暑",
+    "meaningsPt": [
+      "calor",
+      "quente (clima)"
+    ],
+    "meaningsEn": [
+      "sultry",
+      "hot",
+      "summer heat"
+    ],
+    "onReadings": [
+      "ショ"
+    ],
+    "kunReadings": [
+      "あつ"
+    ],
+    "strokeCount": 12,
+    "jlpt": 1
   },
   {
     "id": "km-n4-乗",
@@ -1714,6 +1999,30 @@
     "jlpt": 4
   },
   {
+    "id": "km-n4-真",
+    "character": "真",
+    "meaningsPt": [
+      "verdade",
+      "real",
+      "bem no meio"
+    ],
+    "meaningsEn": [
+      "true",
+      "reality",
+      "Buddhist sect"
+    ],
+    "onReadings": [
+      "シン"
+    ],
+    "kunReadings": [
+      "ま",
+      "ま-",
+      "まこと"
+    ],
+    "strokeCount": 10,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-親",
     "character": "親",
     "meaningsPt": [
@@ -1768,6 +2077,77 @@
       "わずらわ"
     ],
     "strokeCount": 13,
+    "jlpt": 3
+  },
+  {
+    "id": "km-n4-世",
+    "character": "世",
+    "meaningsPt": [
+      "mundo",
+      "sociedade",
+      "geração"
+    ],
+    "meaningsEn": [
+      "generation",
+      "world",
+      "society",
+      "public"
+    ],
+    "onReadings": [
+      "セイ",
+      "セ",
+      "ソウ"
+    ],
+    "kunReadings": [
+      "よ"
+    ],
+    "strokeCount": 5,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-星",
+    "character": "星",
+    "meaningsPt": [
+      "estrela"
+    ],
+    "meaningsEn": [
+      "star",
+      "spot",
+      "dot",
+      "mark"
+    ],
+    "onReadings": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunReadings": [
+      "ほし",
+      "-ぼし"
+    ],
+    "strokeCount": 9,
+    "jlpt": 2
+  },
+  {
+    "id": "km-n4-晴",
+    "character": "晴",
+    "meaningsPt": [
+      "céu limpo",
+      "clarear"
+    ],
+    "meaningsEn": [
+      "clear up"
+    ],
+    "onReadings": [
+      "セイ"
+    ],
+    "kunReadings": [
+      "は",
+      "は",
+      "は",
+      "-ば",
+      "は"
+    ],
+    "strokeCount": 12,
     "jlpt": 3
   },
   {
@@ -1888,6 +2268,45 @@
     ],
     "strokeCount": 4,
     "jlpt": 4
+  },
+  {
+    "id": "km-n4-雪",
+    "character": "雪",
+    "meaningsPt": [
+      "neve"
+    ],
+    "meaningsEn": [
+      "snow"
+    ],
+    "onReadings": [
+      "セツ"
+    ],
+    "kunReadings": [
+      "ゆき"
+    ],
+    "strokeCount": 11,
+    "jlpt": 3
+  },
+  {
+    "id": "km-n4-船",
+    "character": "船",
+    "meaningsPt": [
+      "barco",
+      "navio"
+    ],
+    "meaningsEn": [
+      "ship",
+      "boat"
+    ],
+    "onReadings": [
+      "セン"
+    ],
+    "kunReadings": [
+      "ふね",
+      "ふな-"
+    ],
+    "strokeCount": 11,
+    "jlpt": 3
   },
   {
     "id": "km-n4-前",
@@ -2353,6 +2772,29 @@
     "jlpt": 2
   },
   {
+    "id": "km-n4-天",
+    "character": "天",
+    "meaningsPt": [
+      "céu",
+      "paraíso"
+    ],
+    "meaningsEn": [
+      "heavens",
+      "sky",
+      "imperial"
+    ],
+    "onReadings": [
+      "テン"
+    ],
+    "kunReadings": [
+      "あまつ",
+      "あめ",
+      "あま-"
+    ],
+    "strokeCount": 4,
+    "jlpt": 5
+  },
+  {
     "id": "km-n4-店",
     "character": "店",
     "meaningsPt": [
@@ -2394,6 +2836,24 @@
     ],
     "strokeCount": 11,
     "jlpt": 3
+  },
+  {
+    "id": "km-n4-冬",
+    "character": "冬",
+    "meaningsPt": [
+      "inverno"
+    ],
+    "meaningsEn": [
+      "winter"
+    ],
+    "onReadings": [
+      "トウ"
+    ],
+    "kunReadings": [
+      "ふゆ"
+    ],
+    "strokeCount": 5,
+    "jlpt": 4
   },
   {
     "id": "km-n4-当",
@@ -2747,6 +3207,30 @@
     "jlpt": 3
   },
   {
+    "id": "km-n4-風",
+    "character": "風",
+    "meaningsPt": [
+      "vento",
+      "estilo"
+    ],
+    "meaningsEn": [
+      "wind",
+      "air",
+      "style",
+      "manner"
+    ],
+    "onReadings": [
+      "フウ",
+      "フ"
+    ],
+    "kunReadings": [
+      "かぜ",
+      "かざ-"
+    ],
+    "strokeCount": 9,
+    "jlpt": 4
+  },
+  {
     "id": "km-n4-服",
     "character": "服",
     "meaningsPt": [
@@ -3098,6 +3582,25 @@
       "ことわり"
     ],
     "strokeCount": 11,
+    "jlpt": 4
+  },
+  {
+    "id": "km-n4-旅",
+    "character": "旅",
+    "meaningsPt": [
+      "viagem"
+    ],
+    "meaningsEn": [
+      "trip",
+      "travel"
+    ],
+    "onReadings": [
+      "リョ"
+    ],
+    "kunReadings": [
+      "たび"
+    ],
+    "strokeCount": 10,
     "jlpt": 4
   },
   {

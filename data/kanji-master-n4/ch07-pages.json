@@ -1,0 +1,167 @@
+{
+  "chapterId": "ch-07",
+  "pages": [
+    {
+      "id": "ch07-p01",
+      "file": "/kanji-master-n4/ch07/page-01.jpeg",
+      "bookPage": 154,
+      "sectionId": "ch-07-s01",
+      "titleJa": "7章-1 きせつ",
+      "kind": "lesson",
+      "kanji": []
+    },
+    {
+      "id": "ch07-p02",
+      "file": "/kanji-master-n4/ch07/page-02.jpeg",
+      "bookPage": 155,
+      "sectionId": "ch-07-s01",
+      "titleJa": "7章-1 きせつ",
+      "kind": "lesson",
+      "kanji": ["春", "夏"]
+    },
+    {
+      "id": "ch07-p03",
+      "file": "/kanji-master-n4/ch07/page-03.jpeg",
+      "bookPage": 156,
+      "sectionId": "ch-07-s02",
+      "titleJa": "7章-1 きせつ",
+      "kind": "lesson",
+      "kanji": ["秋", "冬"]
+    },
+    {
+      "id": "ch07-p04",
+      "file": "/kanji-master-n4/ch07/page-04.jpeg",
+      "bookPage": 157,
+      "sectionId": "ch-07-s03",
+      "titleJa": "7章-1 きせつ",
+      "kind": "lesson",
+      "kanji": ["空", "星"]
+    },
+    {
+      "id": "ch07-p05",
+      "file": "/kanji-master-n4/ch07/page-05.jpeg",
+      "bookPage": 158,
+      "sectionId": "ch-07-s04",
+      "titleJa": "7章-1 きせつ",
+      "kind": "lesson",
+      "kanji": ["雲", "去"]
+    },
+    {
+      "id": "ch07-p06",
+      "file": "/kanji-master-n4/ch07/page-06.jpeg",
+      "bookPage": 159,
+      "sectionId": "ch-07-s01",
+      "titleJa": "ふくしゅう 7-1",
+      "kind": "review",
+      "kanji": []
+    },
+    {
+      "id": "ch07-p07",
+      "file": "/kanji-master-n4/ch07/page-07.jpeg",
+      "bookPage": 160,
+      "sectionId": "ch-07-s05",
+      "titleJa": "7章-2 天気",
+      "kind": "lesson",
+      "kanji": []
+    },
+    {
+      "id": "ch07-p08",
+      "file": "/kanji-master-n4/ch07/page-08.jpeg",
+      "bookPage": 161,
+      "sectionId": "ch-07-s05",
+      "titleJa": "7章-2 天気",
+      "kind": "lesson",
+      "kanji": ["天", "晴"]
+    },
+    {
+      "id": "ch07-p09",
+      "file": "/kanji-master-n4/ch07/page-09.jpeg",
+      "bookPage": 162,
+      "sectionId": "ch-07-s06",
+      "titleJa": "7章-2 天気",
+      "kind": "lesson",
+      "kanji": ["雪", "風"]
+    },
+    {
+      "id": "ch07-p10",
+      "file": "/kanji-master-n4/ch07/page-10.jpeg",
+      "bookPage": 163,
+      "sectionId": "ch-07-s07",
+      "titleJa": "7章-2 天気",
+      "kind": "lesson",
+      "kanji": ["強", "弱"]
+    },
+    {
+      "id": "ch07-p11",
+      "file": "/kanji-master-n4/ch07/page-11.jpeg",
+      "bookPage": 164,
+      "sectionId": "ch-07-s08",
+      "titleJa": "7章-2 天気",
+      "kind": "lesson",
+      "kanji": ["暑", "寒"]
+    },
+    {
+      "id": "ch07-p12",
+      "file": "/kanji-master-n4/ch07/page-12.jpeg",
+      "bookPage": 165,
+      "sectionId": "ch-07-s05",
+      "titleJa": "ふくしゅう 7-2",
+      "kind": "review",
+      "kanji": []
+    },
+    {
+      "id": "ch07-p13",
+      "file": "/kanji-master-n4/ch07/page-13.jpeg",
+      "bookPage": 166,
+      "sectionId": "ch-07-s09",
+      "titleJa": "7章-3 旅行",
+      "kind": "lesson",
+      "kanji": []
+    },
+    {
+      "id": "ch07-p14",
+      "file": "/kanji-master-n4/ch07/page-14.jpeg",
+      "bookPage": 167,
+      "sectionId": "ch-07-s09",
+      "titleJa": "7章-3 旅行",
+      "kind": "lesson",
+      "kanji": ["旅", "持"]
+    },
+    {
+      "id": "ch07-p15",
+      "file": "/kanji-master-n4/ch07/page-15.jpeg",
+      "bookPage": 168,
+      "sectionId": "ch-07-s10",
+      "titleJa": "7章-3 旅行",
+      "kind": "lesson",
+      "kanji": ["世", "界"]
+    },
+    {
+      "id": "ch07-p16",
+      "file": "/kanji-master-n4/ch07/page-16.jpeg",
+      "bookPage": 169,
+      "sectionId": "ch-07-s11",
+      "titleJa": "7章-3 旅行",
+      "kind": "lesson",
+      "kanji": ["写", "真"]
+    },
+    {
+      "id": "ch07-p17",
+      "file": "/kanji-master-n4/ch07/page-17.jpeg",
+      "bookPage": 170,
+      "sectionId": "ch-07-s12",
+      "titleJa": "7章-3 旅行",
+      "kind": "lesson",
+      "kanji": ["船"]
+    },
+    {
+      "id": "ch07-p18",
+      "file": "/kanji-master-n4/ch07/page-18.jpeg",
+      "bookPage": 171,
+      "sectionId": "ch-07-s09",
+      "titleJa": "ふくしゅう 7-3",
+      "kind": "review",
+      "kanji": []
+    }
+  ]
+}

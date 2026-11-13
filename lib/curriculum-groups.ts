@@ -26,6 +26,9 @@ const LESSON_TITLE_PT: Record<string, string> = {
   "6-1 けんきゅう": "Pesquisa",
   "6-2 コミュニケーション": "Comunicação",
   "6-3 ラーメンや": "Restaurante de lámen",
+  "7-1 きせつ": "Estações do ano",
+  "7-2 てんき": "Tempo (clima)",
+  "7-3 りょこう": "Viagem",
 };
 
 export interface BookLesson {
